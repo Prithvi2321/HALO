@@ -1,0 +1,27 @@
+{
+  "candidate_id": "CAND-SC-2022-2022_10_465_536",
+  "source_id": "SRC_SC_REGISTRY",
+  "court": "SUPREME_COURT_OF_INDIA",
+  "bench": "",
+  "case_title": "THE STATE OF MAHARASHTRA v. 63 MOONS TECHNOLOGIES LTD.",
+  "case_number": "",
+  "decision_date": null,
+  "citations": [
+    "[2022] 10 S.C.R. 465",
+    "2022 INSC 465"
+  ],
+  "coram": [
+    "D.Y. CHANDRACHUD"
+  ],
+  "discovery_terms": [
+    "company"
+  ],
+  "topic_tags": [
+    "General Statutory Interpretation"
+  ],
+  "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2022/english/2022_10_465_536_EN.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.69,
+  "selection_status": "SELECTED"
+}

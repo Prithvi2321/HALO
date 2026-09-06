@@ -1,0 +1,27 @@
+{
+  "candidate_id": "CAND-SC-2013-2013_10_279_283",
+  "source_id": "SRC_SC_REGISTRY",
+  "court": "SUPREME_COURT_OF_INDIA",
+  "bench": "",
+  "case_title": "BHARAT SANCHAR NIGAM LTD. v. S.K. BHATNAGAR & ORS.",
+  "case_number": "",
+  "decision_date": null,
+  "citations": [
+    "[2013] 10 S.C.R. 279",
+    "2013 INSC 716"
+  ],
+  "coram": [
+    "T.S. THAKUR"
+  ],
+  "discovery_terms": [
+    "company"
+  ],
+  "topic_tags": [
+    "General Statutory Interpretation"
+  ],
+  "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2013/english/2013_10_279_283_EN.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.69,
+  "selection_status": "SELECTED"
+}

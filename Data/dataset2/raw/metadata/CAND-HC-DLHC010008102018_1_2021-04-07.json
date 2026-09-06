@@ -1,0 +1,25 @@
+{
+  "candidate_id": "CAND-HC-DLHC010008102018_1_2021-04-07",
+  "source_id": "SRC_HC_REGISTRY",
+  "court": "HIGH_COURT",
+  "bench": "Delhi High Court",
+  "case_title": "ITA/35/2019 of INTERNATIONAL TRACTORS LTD  v.  DY. COMMISSIONER OF INCOME TAX (LTD), & ANR",
+  "case_number": "",
+  "decision_date": "2020-01-01",
+  "citations": [],
+  "coram": [
+    "HON'BLE MR. JUSTICE RAJIV SHAKDHER,HON'BLE MR. JUSTICE TALWANT SINGH"
+  ],
+  "discovery_terms": [
+    "companies act",
+    "commercial"
+  ],
+  "topic_tags": [
+    "General Statutory Interpretation"
+  ],
+  "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010008102018_1_2021-04-07.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.5725,
+  "selection_status": "SELECTED"
+}

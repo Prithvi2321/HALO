@@ -1,0 +1,117 @@
+{
+  "judgment_id": "JUD-SC-2020-2020_10_375_392",
+  "total_pages": 18,
+  "total_characters": 41828,
+  "ocr_pages_count": 0,
+  "native_pages_count": 18,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 1876,
+      "word_count": 324,
+      "method": "native_pdf"
+    },
+    {
+      "page": 2,
+      "char_count": 2261,
+      "word_count": 399,
+      "method": "native_pdf"
+    },
+    {
+      "page": 3,
+      "char_count": 1625,
+      "word_count": 293,
+      "method": "native_pdf"
+    },
+    {
+      "page": 4,
+      "char_count": 2532,
+      "word_count": 406,
+      "method": "native_pdf"
+    },
+    {
+      "page": 5,
+      "char_count": 2491,
+      "word_count": 424,
+      "method": "native_pdf"
+    },
+    {
+      "page": 6,
+      "char_count": 2619,
+      "word_count": 452,
+      "method": "native_pdf"
+    },
+    {
+      "page": 7,
+      "char_count": 2622,
+      "word_count": 455,
+      "method": "native_pdf"
+    },
+    {
+      "page": 8,
+      "char_count": 2519,
+      "word_count": 420,
+      "method": "native_pdf"
+    },
+    {
+      "page": 9,
+      "char_count": 2569,
+      "word_count": 440,
+      "method": "native_pdf"
+    },
+    {
+      "page": 10,
+      "char_count": 2372,
+      "word_count": 396,
+      "method": "native_pdf"
+    },
+    {
+      "page": 11,
+      "char_count": 2805,
+      "word_count": 481,
+      "method": "native_pdf"
+    },
+    {
+      "page": 12,
+      "char_count": 2427,
+      "word_count": 413,
+      "method": "native_pdf"
+    },
+    {
+      "page": 13,
+      "char_count": 2754,
+      "word_count": 483,
+      "method": "native_pdf"
+    },
+    {
+      "page": 14,
+      "char_count": 2476,
+      "word_count": 442,
+      "method": "native_pdf"
+    },
+    {
+      "page": 15,
+      "char_count": 2279,
+      "word_count": 406,
+      "method": "native_pdf"
+    },
+    {
+      "page": 16,
+      "char_count": 2402,
+      "word_count": 434,
+      "method": "native_pdf"
+    },
+    {
+      "page": 17,
+      "char_count": 2486,
+      "word_count": 422,
+      "method": "native_pdf"
+    },
+    {
+      "page": 18,
+      "char_count": 679,
+      "word_count": 106,
+      "method": "native_pdf"
+    }
+  ]
+}

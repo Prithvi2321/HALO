@@ -1,0 +1,25 @@
+{
+  "candidate_id": "CAND-HC-DLHC010000512019_1_2022-11-02",
+  "source_id": "SRC_HC_REGISTRY",
+  "court": "HIGH_COURT",
+  "bench": "Delhi High Court",
+  "case_title": "ITA/133/2022 of THE PR. COMMISSIONER OF INCOME TAX -6  v.  MOET HENNESSY INDIA PVT. LTD.",
+  "case_number": "",
+  "decision_date": "2020-01-01",
+  "citations": [],
+  "coram": [
+    "HON'BLE MR. JUSTICE MANMOHAN,MANMEET PRITAM SINGH ARORA"
+  ],
+  "discovery_terms": [
+    "companies act",
+    "commercial"
+  ],
+  "topic_tags": [
+    "General Statutory Interpretation"
+  ],
+  "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2022/court=7_26/bench=dhcdb/DLHC010000512019_1_2022-11-02.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.5725,
+  "selection_status": "SELECTED"
+}

@@ -1,0 +1,51 @@
+{
+  "judgment_id": "JUD-SC-2019-2019_10_230_236",
+  "total_pages": 7,
+  "total_characters": 16779,
+  "ocr_pages_count": 0,
+  "native_pages_count": 7,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 2234,
+      "word_count": 378,
+      "method": "native_pdf"
+    },
+    {
+      "page": 2,
+      "char_count": 2382,
+      "word_count": 414,
+      "method": "native_pdf"
+    },
+    {
+      "page": 3,
+      "char_count": 2106,
+      "word_count": 350,
+      "method": "native_pdf"
+    },
+    {
+      "page": 4,
+      "char_count": 2709,
+      "word_count": 427,
+      "method": "native_pdf"
+    },
+    {
+      "page": 5,
+      "char_count": 2497,
+      "word_count": 403,
+      "method": "native_pdf"
+    },
+    {
+      "page": 6,
+      "char_count": 2441,
+      "word_count": 416,
+      "method": "native_pdf"
+    },
+    {
+      "page": 7,
+      "char_count": 2398,
+      "word_count": 400,
+      "method": "native_pdf"
+    }
+  ]
+}

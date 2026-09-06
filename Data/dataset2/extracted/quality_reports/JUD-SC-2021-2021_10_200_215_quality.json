@@ -1,0 +1,105 @@
+{
+  "judgment_id": "JUD-SC-2021-2021_10_200_215",
+  "total_pages": 16,
+  "total_characters": 33156,
+  "ocr_pages_count": 0,
+  "native_pages_count": 16,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 2132,
+      "word_count": 386,
+      "method": "native_pdf"
+    },
+    {
+      "page": 2,
+      "char_count": 2047,
+      "word_count": 368,
+      "method": "native_pdf"
+    },
+    {
+      "page": 3,
+      "char_count": 2424,
+      "word_count": 456,
+      "method": "native_pdf"
+    },
+    {
+      "page": 4,
+      "char_count": 1674,
+      "word_count": 296,
+      "method": "native_pdf"
+    },
+    {
+      "page": 5,
+      "char_count": 2332,
+      "word_count": 398,
+      "method": "native_pdf"
+    },
+    {
+      "page": 6,
+      "char_count": 2639,
+      "word_count": 473,
+      "method": "native_pdf"
+    },
+    {
+      "page": 7,
+      "char_count": 1671,
+      "word_count": 278,
+      "method": "native_pdf"
+    },
+    {
+      "page": 8,
+      "char_count": 2098,
+      "word_count": 368,
+      "method": "native_pdf"
+    },
+    {
+      "page": 9,
+      "char_count": 2196,
+      "word_count": 366,
+      "method": "native_pdf"
+    },
+    {
+      "page": 10,
+      "char_count": 2164,
+      "word_count": 378,
+      "method": "native_pdf"
+    },
+    {
+      "page": 11,
+      "char_count": 2465,
+      "word_count": 457,
+      "method": "native_pdf"
+    },
+    {
+      "page": 12,
+      "char_count": 2265,
+      "word_count": 413,
+      "method": "native_pdf"
+    },
+    {
+      "page": 13,
+      "char_count": 2619,
+      "word_count": 478,
+      "method": "native_pdf"
+    },
+    {
+      "page": 14,
+      "char_count": 2658,
+      "word_count": 480,
+      "method": "native_pdf"
+    },
+    {
+      "page": 15,
+      "char_count": 1398,
+      "word_count": 252,
+      "method": "native_pdf"
+    },
+    {
+      "page": 16,
+      "char_count": 344,
+      "word_count": 64,
+      "method": "native_pdf"
+    }
+  ]
+}

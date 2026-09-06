@@ -1,0 +1,87 @@
+{
+  "judgment_id": "JUD-HC-DLHC010015552020_1_2021-01-27",
+  "total_pages": 13,
+  "total_characters": 19812,
+  "ocr_pages_count": 0,
+  "native_pages_count": 13,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 927,
+      "word_count": 145,
+      "method": "native_pdf"
+    },
+    {
+      "page": 2,
+      "char_count": 1462,
+      "word_count": 240,
+      "method": "native_pdf"
+    },
+    {
+      "page": 3,
+      "char_count": 1564,
+      "word_count": 256,
+      "method": "native_pdf"
+    },
+    {
+      "page": 4,
+      "char_count": 1541,
+      "word_count": 261,
+      "method": "native_pdf"
+    },
+    {
+      "page": 5,
+      "char_count": 1549,
+      "word_count": 259,
+      "method": "native_pdf"
+    },
+    {
+      "page": 6,
+      "char_count": 1646,
+      "word_count": 280,
+      "method": "native_pdf"
+    },
+    {
+      "page": 7,
+      "char_count": 1638,
+      "word_count": 279,
+      "method": "native_pdf"
+    },
+    {
+      "page": 8,
+      "char_count": 1633,
+      "word_count": 271,
+      "method": "native_pdf"
+    },
+    {
+      "page": 9,
+      "char_count": 1551,
+      "word_count": 260,
+      "method": "native_pdf"
+    },
+    {
+      "page": 10,
+      "char_count": 1744,
+      "word_count": 279,
+      "method": "native_pdf"
+    },
+    {
+      "page": 11,
+      "char_count": 1692,
+      "word_count": 282,
+      "method": "native_pdf"
+    },
+    {
+      "page": 12,
+      "char_count": 1610,
+      "word_count": 263,
+      "method": "native_pdf"
+    },
+    {
+      "page": 13,
+      "char_count": 1231,
+      "word_count": 201,
+      "method": "native_pdf"
+    }
+  ]
+}

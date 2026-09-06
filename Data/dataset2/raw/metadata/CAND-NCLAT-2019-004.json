@@ -1,0 +1,31 @@
+{
+  "candidate_id": "CAND-NCLAT-2019-004",
+  "source_id": "SRC_NCLAT_REGISTRY",
+  "court": "NCLAT",
+  "bench": "Appellate Bench (New Delhi)",
+  "case_title": "Smruti Shreyans Shah v. The Lok Prakashan Ltd. & Ors.",
+  "case_number": "Company Appeal (AT) No. 65 of 2019",
+  "decision_date": "2019-09-05",
+  "citations": [
+    "[2019] 155 SCL 320 (NCLAT)"
+  ],
+  "coram": [
+    "Justice S.J. Mukhopadhaya",
+    "Bansi Lal Bhat"
+  ],
+  "discovery_terms": [
+    "company",
+    "section 241",
+    "section 242",
+    "oppression"
+  ],
+  "topic_tags": [
+    "Oppression & Mismanagement",
+    "Tribunal & Appellate Jurisdiction"
+  ],
+  "source_url": "https://nclat.nic.in/orders/2019/CA_AT_65_2019.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.7,
+  "selection_status": "SELECTED"
+}

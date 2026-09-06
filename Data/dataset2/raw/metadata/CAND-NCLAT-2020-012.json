@@ -1,0 +1,29 @@
+{
+  "candidate_id": "CAND-NCLAT-2020-012",
+  "source_id": "SRC_NCLAT_REGISTRY",
+  "court": "NCLAT",
+  "bench": "Appellate Bench (New Delhi)",
+  "case_title": "Registrar of Companies, West Bengal v. Suncity Dealcom Pvt. Ltd.",
+  "case_number": "Company Appeal (AT) No. 212 of 2019",
+  "decision_date": "2020-02-17",
+  "citations": [
+    "[2020] 158 SCL 90 (NCLAT)"
+  ],
+  "coram": [
+    "Justice S.J. Mukhopadhaya",
+    "Bansi Lal Bhat"
+  ],
+  "discovery_terms": [
+    "company",
+    "section 248",
+    "strike off"
+  ],
+  "topic_tags": [
+    "Tribunal & Appellate Jurisdiction"
+  ],
+  "source_url": "https://nclat.nic.in/orders/2020/CA_AT_212_2019.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.6125,
+  "selection_status": "SELECTED"
+}

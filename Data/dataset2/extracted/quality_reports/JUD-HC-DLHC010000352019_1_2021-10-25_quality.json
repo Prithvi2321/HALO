@@ -1,0 +1,21 @@
+{
+  "judgment_id": "JUD-HC-DLHC010000352019_1_2021-10-25",
+  "total_pages": 2,
+  "total_characters": 1960,
+  "ocr_pages_count": 0,
+  "native_pages_count": 2,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 1346,
+      "word_count": 209,
+      "method": "native_pdf"
+    },
+    {
+      "page": 2,
+      "char_count": 612,
+      "word_count": 87,
+      "method": "native_pdf"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "judgment_id": "JUD-SC-2013-2013_10_279_283",
+  "total_pages": 5,
+  "total_characters": 8609,
+  "ocr_pages_count": 0,
+  "native_pages_count": 5,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 1556,
+      "word_count": 261,
+      "method": "native_pdf"
+    },
+    {
+      "page": 2,
+      "char_count": 1720,
+      "word_count": 290,
+      "method": "native_pdf"
+    },
+    {
+      "page": 3,
+      "char_count": 1988,
+      "word_count": 320,
+      "method": "native_pdf"
+    },
+    {
+      "page": 4,
+      "char_count": 2261,
+      "word_count": 381,
+      "method": "native_pdf"
+    },
+    {
+      "page": 5,
+      "char_count": 1076,
+      "word_count": 180,
+      "method": "native_pdf"
+    }
+  ]
+}

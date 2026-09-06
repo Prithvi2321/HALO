@@ -1,0 +1,27 @@
+{
+  "candidate_id": "CAND-SC-2017-2017_10_199_207",
+  "source_id": "SRC_SC_REGISTRY",
+  "court": "SUPREME_COURT_OF_INDIA",
+  "bench": "",
+  "case_title": "INTERNATIONAL ASSET RECONSTRUCTION COMPANY OF A INDIA LTD v. THE OFFICIAL LIQUIDATOR OF ALDRICH PHARMACEUTICALS LTD. AND OTHERS",
+  "case_number": "",
+  "decision_date": null,
+  "citations": [
+    "[2017] 10 S.C.R. 199",
+    "2017 INSC 1046"
+  ],
+  "coram": [
+    "RANJAN GOGOI"
+  ],
+  "discovery_terms": [
+    "company"
+  ],
+  "topic_tags": [
+    "General Statutory Interpretation"
+  ],
+  "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2017/english/2017_10_199_207_EN.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.69,
+  "selection_status": "SELECTED"
+}

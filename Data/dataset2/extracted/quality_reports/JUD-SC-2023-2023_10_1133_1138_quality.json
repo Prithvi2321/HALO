@@ -1,0 +1,45 @@
+{
+  "judgment_id": "JUD-SC-2023-2023_10_1133_1138",
+  "total_pages": 6,
+  "total_characters": 12047,
+  "ocr_pages_count": 0,
+  "native_pages_count": 6,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 2166,
+      "word_count": 373,
+      "method": "native_pdf"
+    },
+    {
+      "page": 2,
+      "char_count": 2084,
+      "word_count": 352,
+      "method": "native_pdf"
+    },
+    {
+      "page": 3,
+      "char_count": 2446,
+      "word_count": 414,
+      "method": "native_pdf"
+    },
+    {
+      "page": 4,
+      "char_count": 2402,
+      "word_count": 406,
+      "method": "native_pdf"
+    },
+    {
+      "page": 5,
+      "char_count": 2476,
+      "word_count": 437,
+      "method": "native_pdf"
+    },
+    {
+      "page": 6,
+      "char_count": 463,
+      "word_count": 78,
+      "method": "native_pdf"
+    }
+  ]
+}

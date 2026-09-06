@@ -1,0 +1,21 @@
+{
+  "judgment_id": "JUD-HC-GJHC240000222021_2_2021-07-16",
+  "total_pages": 2,
+  "total_characters": 2264,
+  "ocr_pages_count": 0,
+  "native_pages_count": 2,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 1389,
+      "word_count": 200,
+      "method": "native_pdf"
+    },
+    {
+      "page": 2,
+      "char_count": 873,
+      "word_count": 150,
+      "method": "native_pdf"
+    }
+  ]
+}

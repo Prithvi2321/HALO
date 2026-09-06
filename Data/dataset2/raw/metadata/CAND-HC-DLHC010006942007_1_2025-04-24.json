@@ -1,0 +1,25 @@
+{
+  "candidate_id": "CAND-HC-DLHC010006942007_1_2025-04-24",
+  "source_id": "SRC_HC_REGISTRY",
+  "court": "HIGH_COURT",
+  "bench": "Delhi High Court",
+  "case_title": "ITA/615/2007 of PROAGRO SEED CO. PVT. LTD  v.  COMMISSIONER OF INCOME TAX",
+  "case_number": "",
+  "decision_date": "2020-01-01",
+  "citations": [],
+  "coram": [
+    "HON'BLE MR. JUSTICE MANMOHAN,HON'BLE MR. JUSTICE NAVIN CHAWLA"
+  ],
+  "discovery_terms": [
+    "companies act",
+    "commercial"
+  ],
+  "topic_tags": [
+    "General Statutory Interpretation"
+  ],
+  "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010006942007_1_2025-04-24.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.5725,
+  "selection_status": "SELECTED"
+}

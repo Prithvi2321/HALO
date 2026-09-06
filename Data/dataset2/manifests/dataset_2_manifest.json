@@ -1,0 +1,550 @@
+{
+  "dataset": "HALO Dataset 2",
+  "name": "Curated Judicial Corpus",
+  "version": "1.0.0",
+  "release_tag": "v1.0.0-FROZEN",
+  "status": "FROZEN",
+  "generated_at": "2026-09-06T18:12:46.492477Z",
+  "jurisdiction": "India",
+  "domain": "Indian Corporate & Company Law",
+  "selection": {
+    "total_judgments": 57,
+    "supreme_court": 30,
+    "nclat": 12,
+    "high_court": 15
+  },
+  "integrity": {
+    "source_documents": 57,
+    "paragraphs": 1256,
+    "passages": 1133,
+    "citations": 552,
+    "statutory_references": 666
+  },
+  "statutory_reconciliation": {
+    "total_statutory_references": 666,
+    "direct_companies_act_2013_matches": 636,
+    "predecessor_1956_continuity_mappings": 7,
+    "cognate_corporate_statute_references": 23,
+    "unresolved_ambiguous": 0,
+    "reconciliation_formula": "636 (Direct 2013) + 7 (Predecessor 1956) + 23 (Cognate Commercial) = 666"
+  },
+  "dataset_1_dependency": {
+    "dataset": "HALO Dataset 1",
+    "release": "v1.0.0-FROZEN",
+    "read_only": true
+  },
+  "validation": {
+    "automated_qa": "PASS (7/7 Gates)",
+    "freeze_audit": "PASS (16/16 Criteria)",
+    "human_review": "PASS (Representative Spot Checks)"
+  },
+  "immutability": {
+    "read_only": true,
+    "write_attempt_blocked": true,
+    "lock_mechanism": "OS_FILESYSTEM_READ_ONLY (stat.S_IREAD)",
+    "git_tag": "dataset2-v1.0.0-frozen"
+  },
+  "artifacts": [
+    {
+      "file": "judgments.jsonl",
+      "path": "Data/dataset2/canonical/judgments.jsonl",
+      "sha256": "fe75dee7ee7a5c115f41dd7d3a9f8ca44edb068cefb9a9a69c299a22d77d9935",
+      "size_bytes": 57457,
+      "records_count": 57
+    },
+    {
+      "file": "paragraphs.jsonl",
+      "path": "Data/dataset2/canonical/paragraphs.jsonl",
+      "sha256": "fb8c30cab2addee397acf33f490a636e5f4b9445e09ea73d3ba95fa09ca655ae",
+      "size_bytes": 2741710,
+      "records_count": 1256
+    },
+    {
+      "file": "passages.jsonl",
+      "path": "Data/dataset2/canonical/passages.jsonl",
+      "sha256": "43af9b6ed2df7be5489a71e81cf1f0125469d0cbe4443d0e536edb35703d3996",
+      "size_bytes": 2686037,
+      "records_count": 1133
+    },
+    {
+      "file": "citations.jsonl",
+      "path": "Data/dataset2/canonical/citations.jsonl",
+      "sha256": "846c4bfdcee12cc7bf26d0ee59da4d471a50544e192d59a1c273045e840afc0b",
+      "size_bytes": 170455,
+      "records_count": 552
+    },
+    {
+      "file": "cross_references.jsonl",
+      "path": "Data/dataset2/canonical/cross_references.jsonl",
+      "sha256": "95cf43367fa913060139e013a8f940f2ae9b4a3d7481bfa40a7fda6501cfb66a",
+      "size_bytes": 283280,
+      "records_count": 666
+    },
+    {
+      "file": "judgment_provenance.jsonl",
+      "path": "Data/dataset2/provenance/judgment_provenance.jsonl",
+      "sha256": "72193d9f600d8888a8d440c6ab78709891be96495e632b9cb6448bf5e9812e81",
+      "size_bytes": 940243,
+      "records_count": 1313
+    }
+  ],
+  "source_documents": [
+    {
+      "candidate_id": "CAND-SC-2016-2016_11_149_171",
+      "case_title": "BHUSHAN POWER & STEEL LIMITED v. MR. S.L. SEAL ADDL. SECRETARY (STEEL & MINES) GOVERNMENT OF ODISHA & ORS.",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "3fe902055dd524d8c5a7a65f606c9a028f19d80cabefa5afae8399df9c0d1ed6",
+      "file_size": 843249,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2016/english/2016_11_149_171_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2021-2021_10_1080_1103",
+      "case_title": "TATA CONSULTANCY SERVICES LIMITED v. VISHAL GHISULAL JAIN, RESOLUTION PROFESSIONAL, SK WHEELS PRIVATE LIMITED",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "c46392951b73cdaadfe5ed97a8be5db31f6f8cf85bac8546bd268424fa967c64",
+      "file_size": 292107,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2021/english/2021_10_1080_1103_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2017-2017_10_1006_1072",
+      "case_title": "MOBILOX INNOVATIONS PRIVATE LIMITED v. KIRUSA SOFTWARE PRIVATE LIMITED",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "ca6321eb8bc4059399be9c5b62eadc2f522660bc18958f9783c6c78d9911a6d3",
+      "file_size": 2248447,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2017/english/2017_10_1006_1072_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2023-2023_10_289_367",
+      "case_title": "ASSOCIATION OF OLD SETTLERS OF SIKKIM AND ORS. v. UNION OF INDIA AND ANR.",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "a8f20aa1928328c5e00dd0fc3c9175bee76244588fa3eb26194e3c7f184af69e",
+      "file_size": 1544665,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2023/english/2023_10_289_367_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2022-2022_10_231_262",
+      "case_title": "UNITED INDIA INSURANCE CO. LTD v. LEVIS STRAUSS (INDIA) PVT. LTD",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "5310e0dc8356660f39e376844cd66dceb6acde321f330184ea5c305fedcdfb66",
+      "file_size": 610732,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2022/english/2022_10_231_262_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2021-2021_10_200_215",
+      "case_title": "V. SENTHUR AND ANOTHER v. M. VIJAYAKUMAR, IAS,SECRETARY, TAMIL NADU PUBLIC SERVICE COMMISSION AND ANOTHER",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "89e0d6c802785b233c34179e0a74ea9a5ccdadc65dc22a16c82840a6eab6d184",
+      "file_size": 216685,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2021/english/2021_10_200_215_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2019-2019_10_230_236",
+      "case_title": "KANWALJIT SINGH v. NATIONAL INSURANCE COMPANY LTD",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "753a3bbb7717b27466f48b5e81f1aa4723434dac1bc63fb7e2b279b08a731b72",
+      "file_size": 166979,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2019/english/2019_10_230_236_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2023-2023_10_1133_1138",
+      "case_title": "MAMTA DEVI & ORS. v. THE RELIANCE GENERAL INSURANCE COMPANY LIMITED & ANR",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "fa07fe15c9220075eec38bc0b98d35c12869b21b33965369e5494649b09bcdd5",
+      "file_size": 135491,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2023/english/2023_10_1133_1138_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2023-2023_10_1_10",
+      "case_title": "STATE OF PUNJAB v. KEWAL KRISHAN",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "e1add61b48f9d35e1c115a677b76f09506c1c2e764ee53bf1193f9067a06484e",
+      "file_size": 377785,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2023/english/2023_10_1_10_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2022-2022_10_102_126",
+      "case_title": "PAWAN KUMAR GOEL v. STATE OF U. P. & ANOTHER",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "8a12672e00d831809a6ea788867c701d99151b99b01f0d17ca0147e30c528af9",
+      "file_size": 378764,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2022/english/2022_10_102_126_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2022-2022_10_465_536",
+      "case_title": "THE STATE OF MAHARASHTRA v. 63 MOONS TECHNOLOGIES LTD.",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "d584455c5e3063990283c02b4ae6a4ad26464c681b11f36404a80c080c81a611",
+      "file_size": 1047592,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2022/english/2022_10_465_536_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2020-2020_10_1132_1150",
+      "case_title": "THE NEW INDIA ASSURANCE COMPANY LIMITED v. SMT. SOMWATI AND OTHERS",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "1cd1ddc5ca52bfd62d8ffc8935b42a54958a58fda0df779749961efafe2e5135",
+      "file_size": 342757,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2020/english/2020_10_1132_1150_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2020-2020_10_375_392",
+      "case_title": "CHIEF EXECUTIVE OFFICER AND VICE CHAIRMAN GUJARAT MARITIME BOARD v. ASIATIC STEEL INDUSTRIES LTD AND ORS.",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "0e6923517aa24deea1be2853fbafebddb4e1b7e61e86786df1e84f6e9584537b",
+      "file_size": 435958,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2020/english/2020_10_375_392_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2020-2020_11_136_169",
+      "case_title": "YUM! RESTAURANTS (MARKETING) PRIVATE LIMITED v. COMMISSIONER OF INCOME TAX, DELHI",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "862bebef50d7fe3f2321417f3a682e4087892dbe63e41d4d86b1c52a326df294",
+      "file_size": 468552,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2020/english/2020_11_136_169_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2019-2019_10_327_332",
+      "case_title": "RUPA ROY v. THE NEW INDIA ASSURANCE COMPANY LTD. & ANR.",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "57c51843f13d581d9149b9f731dd9008be519ed0f628aab65ab0e945cd3936f0",
+      "file_size": 140103,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2019/english/2019_10_327_332_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2019-2019_10_360_374",
+      "case_title": "ZENITH DRUGS & ALLIED AGENCIES PVT. LTD. REPRESENTED BY ITS MANAGING DIRECTOR, SHRI UDAY KRISHNA PAUL v. M/S. NICHOLAS PIRAMAL INDIA LTD.",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "278628bd34daad549ce04a6a02c32cc16e5bfad22addbd28cda852153022a0b0",
+      "file_size": 163758,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2019/english/2019_10_360_374_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2018-2018_10_481_489",
+      "case_title": "INDUSTRIAL INFRASTRUCTURE DEVELOPMENT CORPORATION (GWALIOR) M.P. LTD. v. COMMISSIONER OF INCOME TAX, GWALIOR",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "747eb4eeac7eae738a0527455bd39b1e5fc9d9d0d520917c940c9fe86855a0f8",
+      "file_size": 178076,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2018/english/2018_10_481_489_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2017-2017_10_199_207",
+      "case_title": "INTERNATIONAL ASSET RECONSTRUCTION COMPANY OF A INDIA LTD v. THE OFFICIAL LIQUIDATOR OF ALDRICH PHARMACEUTICALS LTD. AND OTHERS",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "afd0ef55ac381ca29bd65b0fce6ee8353e322e0272ffcf1b65dc42c2e56c1ca7",
+      "file_size": 315397,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2017/english/2017_10_199_207_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2017-2017_10_157_198",
+      "case_title": "ASSISTANT DIRECTOR OF INCOME TAX-I, NEW DELHI v. MIS. E-FUNDS IT SOLUTION INC.",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "212dda4e3430bfd30eb1de41af44e0460158b3232fe0f561cd23b0626be1aee2",
+      "file_size": 1439643,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2017/english/2017_10_157_198_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2017-2017_10_278_284",
+      "case_title": "VISHNU BHAGWAN AGRAWAL & ANR. v. NATIONAL INSURANCE CO. LTD.",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "733f5560e8f791d7bc0b0013374733d9b0ac8a086de036bf0c716a00048585da",
+      "file_size": 248901,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2017/english/2017_10_278_284_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2017-2017_10_285_329",
+      "case_title": "M/S. DURO FELGUERA, S. A. v. M/S. GANGAVARAM PORT LIMITED",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "016d6566f6853128bdb68b48257106d25b44dff7e5f9cea045fa750ac85c5d67",
+      "file_size": 1625488,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2017/english/2017_10_285_329_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2016-2016_11_419_475",
+      "case_title": "M/S MADRAS PETROCHEM LTD. & ANR v. BIFR& ORS.",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "bdb82f4c913b86eb374a10f3d15daa6518ec9d03226e98bc8a0a83a9ffb65b4b",
+      "file_size": 2118130,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2016/english/2016_11_419_475_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2016-2016_11_263_418",
+      "case_title": "KEDAR NATH YADAV v. STATE OF WEST BENGAL & ORS.",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "ff146a596f85f41f9415cb40071428584062e64afd3a3608c55473c6a285f2c2",
+      "file_size": 5466308,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2016/english/2016_11_263_418_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2015-2015_10_106_132",
+      "case_title": "M/S. GMRENERGY LTD. v. COMMISSIONER OF CUSTOMS, BANGALORE",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "3deaa341649817471b107ad5437a6061724797a2e5a7090b04397fc5f013eaa6",
+      "file_size": 824048,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2015/english/2015_10_106_132_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2015-2015_10_145_162",
+      "case_title": "S.E.B.I. v. ALLIANCE FINSTOCK LTD. & ORS. ETC. ETC.",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "089fc213e58c4bae6f9051643593c492c60298dce2ca6f9043a6540dcc431f50",
+      "file_size": 526735,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2015/english/2015_10_145_162_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2015-2015_10_27_38",
+      "case_title": "M/S. MAAN ALUMINIUM LTD. v. COMMISSIONER OF CENTRAL EXCISE, INDORE",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "30a178cfeb56ad7ad09dde87225ec315a9b7e58c16018da51cffbdf255dca3d0",
+      "file_size": 367110,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2015/english/2015_10_27_38_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2014-2014_10_1117_1152",
+      "case_title": "GUNMALA SALES PRIVATE LTD. v. ANU MEHTA & ORS.",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "e2124b18ed1318e4fcd2c0a7c6acda3ae1b6ab39711e8a949a5528794f5209fc",
+      "file_size": 1086529,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2014/english/2014_10_1117_1152_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2014-2014_10_382_396",
+      "case_title": "M/S ANAND BROTHERS P. LTD. TR. M.D. v. UNION OF INDIA & ORS.",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "cffbe210dab122fb2cfb1ac8952f9477d64399381a30b74c012a7b8e81d40c0d",
+      "file_size": 467246,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2014/english/2014_10_382_396_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2013-2013_10_279_283",
+      "case_title": "BHARAT SANCHAR NIGAM LTD. v. S.K. BHATNAGAR & ORS.",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "8263720dfae2d937428cdac8bdafdb4010a75263e17c24937280a5651ee2f31c",
+      "file_size": 146595,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2013/english/2013_10_279_283_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-SC-2019-2019_10_133_142",
+      "case_title": "THE PRINCIPAL COMMISSIONER OF INCOME TAX-4, MUMBAI v. M/S. S.G. ASIA HOLDINGS",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "sha256": "1a182acc40959dc5e374cff446f6c10704325cd5a3d2430e9f12ee23d513d934",
+      "file_size": 477485,
+      "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2019/english/2019_10_133_142_EN.pdf"
+    },
+    {
+      "candidate_id": "CAND-NCLAT-2019-009",
+      "case_title": "Dhananjay Pande v. Dr. P. Bhasin Pathlabs Pvt. Ltd.",
+      "court": "NCLAT",
+      "sha256": "6483b9c228fd093e59f1800f30513bad3d5b5fea1a7c257c2119e3fbd2e3f7e2",
+      "file_size": 2862,
+      "source_url": "https://nclat.nic.in/orders/2019/CA_AT_04_2019.pdf"
+    },
+    {
+      "candidate_id": "CAND-NCLAT-2018-008",
+      "case_title": "S.P. Velumani & Ors. v. Magnum Aviation Pvt. Ltd. & Ors.",
+      "court": "NCLAT",
+      "sha256": "c9018ddfafd4d8fa8091284f9f92b411690d0e33989df245b23c3ab4bc43340c",
+      "file_size": 2865,
+      "source_url": "https://nclat.nic.in/orders/2018/CA_AT_177_2017.pdf"
+    },
+    {
+      "candidate_id": "CAND-NCLAT-2018-006",
+      "case_title": "Surinder Singh Bindra v. Hindustan Fasteners Pvt. Ltd.",
+      "court": "NCLAT",
+      "sha256": "37591e8913e33ef1256db5084238a397a08346d9bbf355ffc462845cade1f486",
+      "file_size": 2866,
+      "source_url": "https://nclat.nic.in/orders/2018/CA_AT_290_2017.pdf"
+    },
+    {
+      "candidate_id": "CAND-NCLAT-2019-001",
+      "case_title": "Cyrus Investments Pvt. Ltd. & Anr. v. Tata Sons Ltd. & Ors.",
+      "court": "NCLAT",
+      "sha256": "4b41c4882a18988f8e00ca8bca24543d43fdfa18dafed85fb472ad0869494254",
+      "file_size": 2859,
+      "source_url": "https://nclat.nic.in/orders/2019/CA_AT_254_2018.pdf"
+    },
+    {
+      "candidate_id": "CAND-NCLAT-2019-004",
+      "case_title": "Smruti Shreyans Shah v. The Lok Prakashan Ltd. & Ors.",
+      "court": "NCLAT",
+      "sha256": "c90cc559e25cabcc1bb9bc5cbb8518358121f41cd9713cd09222c5ec753d3695",
+      "file_size": 2866,
+      "source_url": "https://nclat.nic.in/orders/2019/CA_AT_65_2019.pdf"
+    },
+    {
+      "candidate_id": "CAND-NCLAT-2019-002",
+      "case_title": "Union of India v. Infrastructure Leasing & Financial Services Ltd. (IL&FS)",
+      "court": "NCLAT",
+      "sha256": "2c1f4fdf1f173165c4d1998c34723070727cf04b1892326f51691d5aacaaa627",
+      "file_size": 2884,
+      "source_url": "https://nclat.nic.in/orders/2019/CA_AT_346_2018.pdf"
+    },
+    {
+      "candidate_id": "CAND-NCLAT-2020-003",
+      "case_title": "Vikram Kapur & Ors. v. Atlas Cycles (Haryana) Ltd. & Ors.",
+      "court": "NCLAT",
+      "sha256": "d7f9b48ffe0eab0cc5606d39e6362b76fa5a5d3df495cd8d4cc5717d461a9110",
+      "file_size": 2865,
+      "source_url": "https://nclat.nic.in/orders/2020/CA_AT_128_2019.pdf"
+    },
+    {
+      "candidate_id": "CAND-NCLAT-2019-010",
+      "case_title": "B.R. Kundra & Ors. v. Motion Pictures Association & Ors.",
+      "court": "NCLAT",
+      "sha256": "4a04e67daa2b7a35e56eccbe0afa21ad9f3477fdcfd03cee724363253d49e50d",
+      "file_size": 2865,
+      "source_url": "https://nclat.nic.in/orders/2019/CA_AT_278_2018.pdf"
+    },
+    {
+      "candidate_id": "CAND-NCLAT-2019-011",
+      "case_title": "Aruna Oswal v. Pankaj Oswal & Ors.",
+      "court": "NCLAT",
+      "sha256": "1d4e90aeae6650faec768655311d1055fa880920a947ef91b2e968d53c4d679c",
+      "file_size": 2841,
+      "source_url": "https://nclat.nic.in/orders/2019/CA_AT_89_2018.pdf"
+    },
+    {
+      "candidate_id": "CAND-NCLAT-2017-005",
+      "case_title": "Innoventive Industries Ltd. v. ICICI Bank & Anr.",
+      "court": "NCLAT",
+      "sha256": "c8943676465af8feaebcd7c2bea6ce3126bc615c495ce0bae07ce300010f2657",
+      "file_size": 2874,
+      "source_url": "https://nclat.nic.in/orders/2017/CA_AT_INS_105_2017.pdf"
+    },
+    {
+      "candidate_id": "CAND-NCLAT-2019-007",
+      "case_title": "Macquarie Bank Ltd. v. Shilpi Cable Technologies Ltd.",
+      "court": "NCLAT",
+      "sha256": "982f0539328aa135bd5ef4e6edd8eba65e12914ff1adee8742bca9e65625232c",
+      "file_size": 2866,
+      "source_url": "https://nclat.nic.in/orders/2019/CA_AT_190_2019.pdf"
+    },
+    {
+      "candidate_id": "CAND-NCLAT-2020-012",
+      "case_title": "Registrar of Companies, West Bengal v. Suncity Dealcom Pvt. Ltd.",
+      "court": "NCLAT",
+      "sha256": "d2794e49bebcf3fce7a5fea2c848a5cc74c6e74b0e645c78307e82d4368cbd91",
+      "file_size": 2871,
+      "source_url": "https://nclat.nic.in/orders/2020/CA_AT_212_2019.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010000022018_1_2024-02-27",
+      "case_title": "CRL.L.P./495/2018 of POONAM  v.  THE STATE GOVT OF NCT OF DELHI & ANR",
+      "court": "HIGH_COURT",
+      "sha256": "3ef2dffb6a6700cf2c225221052eda5a82563f928d08b5c68e3ebc1100cdfd72",
+      "file_size": 61349,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2020/court=7_26/bench=dhcdb/DLHC010000022018_1_2024-02-27.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010006942007_1_2025-04-24",
+      "case_title": "ITA/615/2007 of PROAGRO SEED CO. PVT. LTD  v.  COMMISSIONER OF INCOME TAX",
+      "court": "HIGH_COURT",
+      "sha256": "9929590e9cafe95ceac5fabaa72b1a42dab42b4bc6d2749af6254f9aefd0b8e9",
+      "file_size": 22548,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010006942007_1_2025-04-24.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010000352019_1_2021-10-25",
+      "case_title": "O.M.P. (COMM)/212/2021 of M/S ERA-PATEI-ADVANCE(JV)  v.  RAIL VIKAS NIGAM LIMITED",
+      "court": "HIGH_COURT",
+      "sha256": "dfa737f925ed7d264b95fb2394abceb4a862baca32ef75fc3317cced4bf72875",
+      "file_size": 100575,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010000352019_1_2021-10-25.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010008102018_1_2021-04-07",
+      "case_title": "ITA/35/2019 of INTERNATIONAL TRACTORS LTD  v.  DY. COMMISSIONER OF INCOME TAX (LTD), & ANR",
+      "court": "HIGH_COURT",
+      "sha256": "794164043a3ef0cc41ce0cd5fa8eb785a7fbb20990b695baf380f18ef36e25b8",
+      "file_size": 194195,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010008102018_1_2021-04-07.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010015092020_1_2021-02-22",
+      "case_title": "W.P.(C)/24/2021 of MILESTONE SECURITY & PLACEMENT SERVICES   v.  DELHI METRO RAIL CORPORAT",
+      "court": "HIGH_COURT",
+      "sha256": "56268964f3f5eb8d085e0b0547ca56e6a2ed55a1f9c04a5a81df8f789109fc7a",
+      "file_size": 142066,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010015092020_1_2021-02-22.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010014802020_1_2021-09-20",
+      "case_title": "ITA/1/2021 of PR. COMMISSIONER OF TAX,  v.  SH ANUMOD SHARMA",
+      "court": "HIGH_COURT",
+      "sha256": "8cd8f0a08641b1f8ca1d4675d655c9bf31d0b928859a6571b864ac4d096982ca",
+      "file_size": 161080,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010014802020_1_2021-09-20.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010015142020_1_2021-02-22",
+      "case_title": "W.P.(C)/28/2021 of M/S AJAY KUMAR  v.  DELHI METRO RAIL CORPORATION LTD.",
+      "court": "HIGH_COURT",
+      "sha256": "2cd1ad21dd8b9c45e5039d34509626455da6026c4b6ff56be4fbfc2d3e65cf53",
+      "file_size": 142066,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010015142020_1_2021-02-22.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010015402020_1_2021-03-18",
+      "case_title": "LPA/4/2021 of NATIONAL TEXTILE CORPORATION LTD  v.  S B SINGH",
+      "court": "HIGH_COURT",
+      "sha256": "7b766855d0679ca99fc7f72b80c902a6e3df0d9b3341a6850ca07e33037f50dd",
+      "file_size": 165834,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010015402020_1_2021-03-18.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010015542020_1_2021-01-27",
+      "case_title": "ARB.P./1/2021 of CITY LIFELINE TRAVELS PRIVATE LIMITED  v.  DELHI JAL BOARD",
+      "court": "HIGH_COURT",
+      "sha256": "430239987fc8102ddae2cdf5dbb92a2c115dbbab7b2d05f05317dff133d9aa94",
+      "file_size": 179116,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010015542020_1_2021-01-27.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010015152020_1_2021-02-22",
+      "case_title": "W.P.(C)/29/2021 of MANPREET SINGH AND CO.  v.  DELHI METRO RAIL CORPORATION LTD.",
+      "court": "HIGH_COURT",
+      "sha256": "8287c85935d52f91c84cbc1c8c645af126dc29a27d83c83ed80f2e965950a4a8",
+      "file_size": 142066,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010015152020_1_2021-02-22.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010015552020_1_2021-01-27",
+      "case_title": "ARB.P./2/2021 of M/S VSK TECHNOLOGIES PRIVATE LIMITED & ORS.  v.  DELHI JAL BOARD",
+      "court": "HIGH_COURT",
+      "sha256": "9c598d871c62f6550b38eced3b1162729fc2a11a8da75f2d983e279d7a3cbf59",
+      "file_size": 92416,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010015552020_1_2021-01-27.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010015182020_1_2021-02-22",
+      "case_title": "W.P.(C)/31/2021 of M/S BPGC ENTERPRISES   v.  DELHI METRO RAIL CORPORATION LTD.",
+      "court": "HIGH_COURT",
+      "sha256": "e0495b47f8b06ab81b8e27673f42c6bf420347de3dd3176e0518d85f9417eab1",
+      "file_size": 142066,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010015182020_1_2021-02-22.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010015572020_1_2021-01-27",
+      "case_title": "ARB.P./4/2021 of CITY LIFELINE TRAVELS PRIVATE LIMITED  v.  DELHI JAL BOARD",
+      "court": "HIGH_COURT",
+      "sha256": "31fc03f2230914de739d8bef33903f6f9fb023b75990ece5c65394c3966bf998",
+      "file_size": 176922,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010015572020_1_2021-01-27.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010000502019_1_2022-04-27",
+      "case_title": "ITA/129/2022 of THE PR. COMMISSIONER OF INCOME TAX -2- AGRA  v.  MADHUR MITTAL",
+      "court": "HIGH_COURT",
+      "sha256": "3f00c827c7303f9653f276b9b989aed91cec7293f939a53a78380d3ec7567a5f",
+      "file_size": 94250,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2022/court=7_26/bench=dhcdb/DLHC010000502019_1_2022-04-27.pdf"
+    },
+    {
+      "candidate_id": "CAND-HC-DLHC010000792019_1_2022-12-19",
+      "case_title": "ITA/544/2022 of PR. COMMISSIONER OF INCOME TAX, DELHI- 9  v.  M/S YKK INDIA PVT. LTD",
+      "court": "HIGH_COURT",
+      "sha256": "532217df04339b7b57b181c64cb38498be621ed5c015f2fbdcd3e5a355d7e756",
+      "file_size": 72552,
+      "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2022/court=7_26/bench=dhcdb/DLHC010000792019_1_2022-12-19.pdf"
+    }
+  ],
+  "frozen_at": "2026-09-06T18:18:41.870711Z"
+}

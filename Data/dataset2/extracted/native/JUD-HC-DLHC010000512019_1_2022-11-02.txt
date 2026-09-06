@@ -1,0 +1,335 @@
+ITA 133/2022 & ITA Nos. 892/2019 Page 1 of 10
+$~ 5 & 32
+*IN THE HIGH COURT OF DELHI AT NEW DELHI
++ ITA 133/2022 & CM APPLs. 20326-27/2022
+THE PR. COMMISSIONER OF INCOME
+TAX -6 ..... Appellant
+Through: Mr. Ruchir Bhatia, Senior Standing
+Counsel for Revenue.
+versus
+MOET HENNESSY INDIA PVT. LTD. ..... Respondent
+Through: Mr. Sumit Mangal, Mr. Mayank
+Aggarwal & Ms. Radhika Sharma,
+Advocates.
++ ITA 892/2019 & CM APPL. 44787/2019
+THE PR. COMMISSIONER OF INCOME
+TAX -6 ..... Appellant
+Through: Mr. Sunil Agarwal, Sr. Standing
+Counsel for Revenue with Mr. Tushar
+Gupta, Jr. Standing Counsel & Mr.
+Utkarsh Tiwari, Advocates.
+versus
+MOET HENNESSY INDIA PVT. LTD. ..... Respondent
+Through: Mr. Sumit Mangal, Mr. Mayank
+Aggarwal & Ms. Radhika Sharma,
+Advocates.
+% Date of Decision: 02 nd November, 2022
+CORAM:
+HON'BLE MR. JUSTICE MANMOHAN
+HON'BLE MS. JUSTICE MANMEET PRITAM SINGH ARORA
+Digitally Signed By:PRAMOD
+KUMAR VATS
+Signing Date:18.11.2022
+21:25:03
+Signature Not Verified
+
+ITA 133/2022 & ITA Nos. 892/2019 Page 2 of 10
+J U D G M E N T
+MANMEET PRITAM SINGH ARORA, J (ORAL):
+CM APPLs. 20326-27/2022 in ITA 133/2022 (for condonation of delay in
+filing and re-filing the appeal)
+CM APPL. 44787/2019 in ITA 892/2019 (for condonation of delay in re-
+filing the appeal)
+Keeping in view the averments in the application, the delay in filing
+and re-filing the appeal is condoned.
+Accordingly, the present applications stand disposed of.
+ITA 133/2022
+ITA 892/2019
+1. The Appellant, Revenue, has impugned order dated 23 rd August, 2018,
+passed by the Income Tax Appellate Tribunal (‘ITAT’) in ITA No.
+1906/Del/2014 for the Assessment Year (‘AY’) 2009-10, in ITA No.
+892/2019.
+1.1. The Revenue, has impugned order dated 9th April, 2019, passed by the
+ITAT in ITA No. 85/Del/2015 for the AY 2010-11 in ITA No. 133/2022.
+2. The Assessee filed its Return of Income (‘ROI’) for AY 2009-10, on
+30th September, 2009, declaring loss of Rs. 8,70,19,143/-. The Assessee’s
+return was processed under Section 143(1) of the Income Tax Act, 1961
+(‘the Act’), and its case was selected for scrutiny assessment, wherein the
+Assessing Officer (‘AO’) observed that the Assessee Company had entered
+into international transactions with its Associated Enterprises (AEs). The
+AO consequently, made a reference to the Transfer Pricing Officer (‘TPO’ )
+Digitally Signed By:PRAMOD
+KUMAR VATS
+Signing Date:18.11.2022
+21:25:03
+Signature Not Verified
+
+ITA 133/2022 & ITA Nos. 892/2019 Page 3 of 10
+for determining the Arms’s Length Price (‘ALP’) of the international
+transactions under Section 92CA(3) of the Act.
+2.1. The TPO in its order dated 29th January, 2013, observed that the
+Assessee has incurred huge Advertising, Marketing and Promotion (‘AMP ’)
+expenditure with the objective of expanding the reach of the AE’s brand in
+India, who is the legal owner of the brand. The TPO then proceeded to apply
+the Bright Line Test (‘BLT’) method and made an adjustment of Rs.
+6,64,70,841/- on account of AMP expenditure incurred by the Assessee, and
+held it to be an international transaction. Pursuant to the aforesaid, theAO
+passed its draft assessment order under Section 144C of the Act.
+2.2. Being aggrieved by the aforesaid adjustment made by the TPO on
+account of AMP expenditure, the Assessee filed its objection before the
+Dispute Resolution Panel (‘DRP’). The DRP vide its order dated 26th
+December, 2013, disposed of the Assessee’s objection and confirmed the
+adjustment made by the TPO on account of AMP expenditure, by relying on
+the decision rendered by the special bench of the ITAT inLG Electronics
+India Pvt. Ltd. v. ACIT, (2013) 140 ITD 41 (Del).
+2.3. Pursuant, to the DRP directions, the AO passed its final assessment
+order dated 29th January, 2014, under Section 143(3) read with 144C(1) of
+the Act, determining the total loss at Rs. 2,05,48,300/- after making an
+adjustment of Rs. 6,64,70,841/- on account of AMP expenditure incurred by
+the Assessee.
+2.4. Being aggrieved by the aforesaid, the Assessee preferred an appeal
+before the ITAT, wherein the ITAT vide its order dated 23rd August, 2018,
+allowed the Assessee’s appeal and deleted the ALP adjustment of Rs.
+Digitally Signed By:PRAMOD
+KUMAR VATS
+Signing Date:18.11.2022
+21:25:03
+Signature Not Verified
+
+ITA 133/2022 & ITA Nos. 892/2019 Page 4 of 10
+6,64,70,841/- made on account of AMP expenditure incurred by the
+Assessee. The ITAT concluded that there is no material on the record to
+suggest there was ‘an arrangement, understanding or action in concert’
+between the Assessee and its AE, with respect to the expenditure incurred by
+the Assessee and was of the opinion that the said expenditure was in nature
+of bonafide business expenditure in furtherance of its legitimate business
+interest. The ITAT further held that there was no legally sustainable basis or
+material brought on record for the TPO to arrive at the conclusion that there
+was an international transaction, other than the fact that the TPO has applied
+BLT method to reach the aforesaid conclusion. Further, the ITAT held th at
+since the BLT method has already been negatived by this Court in Sony
+Ericsson Mobile Communications India (P.) Ltd. v. Commissioner of
+Income Tax – III, (2015) 374 ITR 118 (Del),there is no reason to remit the
+matter back to the TPO, as prayed for by the Revenue.
+3. The facts giving rise to the controversy in the AY 2010-11 are similar
+to that of AY 2009-10 with respect to the ALP adjustment of AMP
+expenditure. The ITAT in AY 2010-11, held that the issue of absence of
+international transaction already stands decided in favour of the Assessee by
+its predecessor bench in AY 2009-10. The ITAT relied on the decision of
+this Court inSony Ericsson (Supra) and Maruti Suzuki vs. CIT, [2016] 381
+ITR 117, to hold that the Revenue has failed to discharge the onus to prove
+the existence of an international transaction between the Assessee and its AE
+and held that there doesn’t exist any cogent material to treat the AMP
+expenditure as international transaction. ITAT vide its impugned order
+dated 9th April, 2019, allowed the appeal filed by the Assessee and deleted
+Digitally Signed By:PRAMOD
+KUMAR VATS
+Signing Date:18.11.2022
+21:25:03
+Signature Not Verified
+
+ITA 133/2022 & ITA Nos. 892/2019 Page 5 of 10
+the adjustment of Rs. 712,19,145/- made on account of AMP expenditure
+incurred by the Assessee.
+4. The learned senior standing counsel for the Revenue states that the
+ITAT erred in holding that the AMP expenses is not an international
+transaction and in doing so it ignored the nature and purpose of such
+expenses which are meant to create intangible asset for its AE in India. He
+states that the ITAT erred in holding that the AMP expenses incurred by the
+Assessee is not a separate international transaction.
+5. He states that ITAT failed to appreciate that in the case ofSony
+Ericsson (Supra) this Court has held that there exists an international
+transaction between the assessee therein, who was a ‘distributor’, and i ts
+AE. He states that the facts of this case are similar since the Assesee h erein
+as well is a ‘distributor’ for its AE.
+6. He states that the ITAT erred in not following the decision of this
+Court in the case ofSony Ericsson (Supra) with respect to remand to the
+TPO for fresh determination of the ALP.
+7. He further states that since the Respondent, Assessee, is admittedly
+not the ‘manufacturer’ of the goods and is merely a ‘distributor’ for its A E,
+the judgements in the case of Bausch & Lomb Eyecare Pvt. Ltd. vs.
+Additional Commissioner of Income Tax, [2016] 381 ITR 227 and Maruti
+Suzuki (Supra), cannot be relied upon. He states that since in the case of
+Maruti Suzuki (Supra) and Bausch & Lomb (Supra), the Assessee therein
+was a manufacturer as well as the seller of the goods and it was in these
+specific facts that the Court held that the expenditure incurred by the
+Assessee therein for advertisement and promotion was for its own benefit.
+Digitally Signed By:PRAMOD
+KUMAR VATS
+Signing Date:18.11.2022
+21:25:03
+Signature Not Verified
+
+ITA 133/2022 & ITA Nos. 892/2019 Page 6 of 10
+8. We have heard the learned counsel for the parties. It is admitted on
+record that the contention of the Revenue that there exists an international
+transaction between the Assessee and its AE, is not based on any agreement
+executed between the said parties. The sole basis for making this adjustment
+was a presumption drawn by the TPO that huge AMP expenditure was
+incurred by the Assessee to expand the reach of its AE’s brand in India. The
+relevant finding of the TPO in its order for AY 2009-10 read as under:
+“4.1 It is seen that the assessee has incurred an extremely high
+level of advertising and market promotion (AMP) expenditure. In
+such cases there is a possibility that the objective of the heightened
+level of AMP expenditure is to expand the reach of the AE's brand
+in India. The AE is the legal owner of the brand. Therefore the
+beneficiary of the efforts of the assessee is the AE as the brand
+value increases significantly given the efforts of the assessee. The
+assessee is thereby creating marketing intangible in favour of the
+AE…”
+(Emphasis Supplied)
+It is evident from the aforesaid that the TPO has determined the
+existence of an international transaction on a matter of a presumption, which
+runs counter to the decision of this Court inMaruti Suzuki (supra).
+9. The ITAT while allowing the Assessee’s appeal for AY 2009-10 has
+after considering the material on record held that there was no international
+transaction between the Assessee and its AE. The relevant findings of the
+ITAT are as under: -
+“9. On a careful consideration of all these factors, including the
+inconsistency in the approach of the AO/TPO with respect to the
+AMP expenditure being in the nature of an international
+Digitally Signed By:PRAMOD
+KUMAR VATS
+Signing Date:18.11.2022
+21:25:03
+Signature Not Verified
+
+ITA 133/2022 & ITA Nos. 892/2019 Page 7 of 10
+transaction as expenditure incurred on behalf of the assessee,
+including the quantum and nature of expenditure and including lack
+of any material to suggest that there was "an arrangement,
+understanding or action in concert" with respect of the expenditure
+incurred by the assessee and including the fact that, in our
+considered view, the expenditure incurred by the assessee was in
+nature of bonafide business expenditure in furtherance of its
+legitimate business interests, we are of the considered view that
+there is no legally sustainable basis for the TPO coming to the
+conclusion that there was an international transaction, under
+section 92B, on the facts of this case. It was only on the basis of
+bright line test that the impugned ALP adjustment was made but
+that approach has already been negatived by Hon'ble Courts above.
+We see no reasons to remit the matter to the file of the TPO, as is
+prayed for by the learned Departmental Representative. A remand
+to the assessment stage cannot be a matter of routine; it has to be
+so done only when there is anything in the facts and circumstances
+to so warrant or justify. In any case, there are direct judicial
+precedents from Hon'ble jurisdictional High Court which clearly
+suggest that the matter regarding existence of international
+transaction under section 92B, as far as possible, should be decided
+at the level of Tribunal itself…
+xxx xxx xxx
+10. In the present case, no new facts have emerged and all the facts
+brought to record, during the course of the assessment proceedings,
+do not indicate legally sustainable basis for coming to the
+conclusion that there was an internal transaction in respect of AMP
+expenses incurred by the assessee. We are, therefore, of the
+considered view that the plea of the assessee, on the peculiar facts
+of this case, does indeed deserve to be upheld that there is no
+material on record to hold that there was an international
+transactions, in terms of the provisions of Section 92B, nor any
+material has been brought on record to even remotely suggest so
+and, therefore, that there is no good reason to remit the matter to
+the assessment stage for building a case afresh. Respectfully
+following the binding judicial precedents, we delete the impugned
+Digitally Signed By:PRAMOD
+KUMAR VATS
+Signing Date:18.11.2022
+21:25:03
+Signature Not Verified
+
+ITA 133/2022 & ITA Nos. 892/2019 Page 8 of 10
+ALP adjustment which was made solely on the basis of bright line
+test. The plea of the learned counsel was indeed well taken and
+merits acceptance. The impugned ALP adjustment of Rs
+6,64,70,841, accordingly, stands deleted.”
+10. The Revenue has not brought on record any material to assail the
+aforesaid finding of the ITAT as regards the absence of any international
+transaction.
+11. In similar facts, the Court inMaruti Suzuki (supra) set aside the order
+of the TPO/AO, which had determined the AMP expenditure as an
+international transaction, without any evidence on record and only on the
+basis of BLT. The relevant findings of this Court are as under:
+“ 65. The transfer pricing adjustment is not expected to be made by
+deducing from the difference between the ‘excessive’ AMP
+expenditure incurred by the Assessee and the AMP expenditure of a
+comparable entity that an international transaction exists and then
+proceed to make the adjustment of the difference in order to
+determine the value of such AMP expenditure incurred for the AE.
+And, yet, that is what appears to have been done by the Revenue in
+the present case. It first arrived at the ‘bright line’ by comparing
+the AMP expenses incurred by MSIL with the average percentage
+of the AMP expenses incurred by the comparable entities. Since on
+applying the BLT, the AMP spend of MSIL was found ‘excessive’
+the Revenue deduced the existence of an international transaction.
+It then added back the excess expenditure as the transfer pricing
+‘adjustment’. This runs counter to legal position explained in CIT v.
+EKL Appliances Ltd. (2012) 345 ITR 241 (Del), which required a
+TPO “to examine the ‘international transaction’ as he actually
+finds the same.” In other words the very existence of an
+international transaction cannot be a matter for inference or
+surmise.
+66.As already noticed, the decision in Sony Ericsson has done
+away with the BLT as means for determining the ALP of an
+Digitally Signed By:PRAMOD
+KUMAR VATS
+Signing Date:18.11.2022
+21:25:03
+Signature Not Verified
+
+ITA 133/2022 & ITA Nos. 892/2019 Page 9 of 10
+international transaction involving AMP expenses.…”
+(Emphasis Supplied)
+12. We are unable to agree with the contention of the learned counsel for
+the Revenue that in the facts of the present appeal(s), the matter should be
+remanded to TPO in terms ofSony Ericsson (Supra). He states that in the
+said decision this Court held that there exists an international transaction
+between the Assessee therein, who was a ‘distributor’, and its AE. We are
+unable to accept the said contention of the learned counsel for the Revenue
+that since the Assessee herein is a ‘distributor’ for its AE, the corollaryof
+this fact is that there exists an international transaction with respect to AMP
+expenditure, incurred by the Assessee. In the case ofSony Ericsson (Supra),
+the finding of this Court that the Assessee(s) therein may have an
+international transaction with their AE(s) for AMP expenditure was based
+on the terms of the agreement between the Assessee(s) and their AE(s) in the
+said case. The relevant paragraph of the judgment read as follows:
+“52 . The contention that AMP expenses are not international
+transactions has to be rejected. There seems to be an incongruity in
+the submission of the assessee on the said aspect for the simple
+reason that in most cases the assessed have submitted that the
+international transactions between them and the AE, resident
+abroad included the cost/value of the AMP expenses, which the
+assessee had incurred in India. In other words, when the assessed
+raise the aforesaid argument, they accept that the declared price of
+the international transaction included the said element or functio n
+of AMP expenses, for which they stand duly compensated in their
+margins or the arm's length price as computed.”
+(Emphasis Supplied)
+Digitally Signed By:PRAMOD
+KUMAR VATS
+Signing Date:18.11.2022
+21:25:03
+Signature Not Verified
+
+ITA 133/2022 & ITA Nos. 892/2019 Page 10 of 10
+The aforesaid finding of the Court is not premised on the status of the
+assessee(s) being that of a distributor.
+13. We are also unable to agree with submission of the learned counsel
+for the Revenue that in the judgment ofMaruti Suzuki (Supra) and Bausch
+& Lomb (Supra), the findings of this Court with respect to absence of
+international transaction emanated from the fact that the assessee(s) therei n
+were a manufacturer in addition to being a seller.
+14. The issue with respect to deletion of transfer pricing adjustment on
+account of AMP expenses, determined on BLT method, by the ITAT is
+squarely covered by the decisions of this Court in the case ofMaruti Suzuki
+(Supra) and Bausch & Lomb (Supra). We are, therefore, not inclined to
+frame any substantial question of law on this issue. The facts and law ha ve
+been correctly assessed by the ITAT and we therefore, do not find any
+merits in the appeal and the accordingly, the same are dismissed.
+MANMEET PRITAM SINGH ARORA, J
+MANMOHAN, J
+NOVEMBER 02, 2022/hp
+Digitally Signed By:PRAMOD
+KUMAR VATS
+Signing Date:18.11.2022
+21:25:03
+Signature Not Verified

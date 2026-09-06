@@ -1,0 +1,15 @@
+{
+  "judgment_id": "JUD-HC-DLHC010006942007_1_2025-04-24",
+  "total_pages": 1,
+  "total_characters": 781,
+  "ocr_pages_count": 0,
+  "native_pages_count": 1,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 781,
+      "word_count": 121,
+      "method": "native_pdf"
+    }
+  ]
+}

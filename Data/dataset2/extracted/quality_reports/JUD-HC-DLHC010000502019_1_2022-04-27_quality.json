@@ -1,0 +1,51 @@
+{
+  "judgment_id": "JUD-HC-DLHC010000502019_1_2022-04-27",
+  "total_pages": 7,
+  "total_characters": 12328,
+  "ocr_pages_count": 0,
+  "native_pages_count": 7,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 1232,
+      "word_count": 199,
+      "method": "native_pdf"
+    },
+    {
+      "page": 2,
+      "char_count": 1815,
+      "word_count": 295,
+      "method": "native_pdf"
+    },
+    {
+      "page": 3,
+      "char_count": 1819,
+      "word_count": 302,
+      "method": "native_pdf"
+    },
+    {
+      "page": 4,
+      "char_count": 1699,
+      "word_count": 284,
+      "method": "native_pdf"
+    },
+    {
+      "page": 5,
+      "char_count": 2368,
+      "word_count": 399,
+      "method": "native_pdf"
+    },
+    {
+      "page": 6,
+      "char_count": 2627,
+      "word_count": 449,
+      "method": "native_pdf"
+    },
+    {
+      "page": 7,
+      "char_count": 756,
+      "word_count": 131,
+      "method": "native_pdf"
+    }
+  ]
+}

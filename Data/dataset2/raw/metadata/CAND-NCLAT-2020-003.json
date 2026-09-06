@@ -1,0 +1,31 @@
+{
+  "candidate_id": "CAND-NCLAT-2020-003",
+  "source_id": "SRC_NCLAT_REGISTRY",
+  "court": "NCLAT",
+  "bench": "Appellate Bench (New Delhi)",
+  "case_title": "Vikram Kapur & Ors. v. Atlas Cycles (Haryana) Ltd. & Ors.",
+  "case_number": "Company Appeal (AT) No. 128 of 2019",
+  "decision_date": "2020-09-24",
+  "citations": [
+    "[2020] 223 Comp Cas 41 (NCLAT)"
+  ],
+  "coram": [
+    "Justice S.J. Mukhopadhaya",
+    "Bansi Lal Bhat"
+  ],
+  "discovery_terms": [
+    "company",
+    "section 241",
+    "section 244",
+    "oppression"
+  ],
+  "topic_tags": [
+    "Oppression & Mismanagement",
+    "Tribunal & Appellate Jurisdiction"
+  ],
+  "source_url": "https://nclat.nic.in/orders/2020/CA_AT_128_2019.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.675,
+  "selection_status": "SELECTED"
+}

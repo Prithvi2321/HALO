@@ -1,0 +1,27 @@
+{
+  "audit_name": "HALO_DATASET_2_AUTOMATED_QA_AUDIT",
+  "overall_result": "ALL_GATES_PASSED",
+  "all_gates_passed": true,
+  "gate_results": {
+    "gate_1_source_hashes": "PASS",
+    "gate_2_syntax_validity": "PASS",
+    "gate_3_structural_integrity": "PASS",
+    "gate_4_passage_provenance": "PASS",
+    "gate_5_statutory_linkage": "PASS",
+    "gate_6_citation_integrity": "PASS",
+    "gate_7_extraction_telemetry": "PASS"
+  },
+  "summary": {
+    "judgments": 57,
+    "paragraphs": 1256,
+    "passages": 1133,
+    "citations": 552,
+    "cross_references": 666,
+    "statutory_reconciliation": {
+      "direct_2013": 636,
+      "predecessor_1956": 7,
+      "cognate_commercial": 23,
+      "total": 666
+    }
+  }
+}

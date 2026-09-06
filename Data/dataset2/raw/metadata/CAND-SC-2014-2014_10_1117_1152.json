@@ -1,0 +1,27 @@
+{
+  "candidate_id": "CAND-SC-2014-2014_10_1117_1152",
+  "source_id": "SRC_SC_REGISTRY",
+  "court": "SUPREME_COURT_OF_INDIA",
+  "bench": "",
+  "case_title": "GUNMALA SALES PRIVATE LTD. v. ANU MEHTA & ORS.",
+  "case_number": "",
+  "decision_date": null,
+  "citations": [
+    "[2014] 10 S.C.R. 1117",
+    "2014 INSC 736"
+  ],
+  "coram": [
+    "RANJANA PRAKASH DESAI"
+  ],
+  "discovery_terms": [
+    "company"
+  ],
+  "topic_tags": [
+    "General Statutory Interpretation"
+  ],
+  "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2014/english/2014_10_1117_1152_EN.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.69,
+  "selection_status": "SELECTED"
+}

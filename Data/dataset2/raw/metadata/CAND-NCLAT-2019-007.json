@@ -1,0 +1,30 @@
+{
+  "candidate_id": "CAND-NCLAT-2019-007",
+  "source_id": "SRC_NCLAT_REGISTRY",
+  "court": "NCLAT",
+  "bench": "Appellate Bench (New Delhi)",
+  "case_title": "Macquarie Bank Ltd. v. Shilpi Cable Technologies Ltd.",
+  "case_number": "Company Appeal (AT) No. 190 of 2019",
+  "decision_date": "2019-01-30",
+  "citations": [
+    "[2019] 151 SCL 22 (NCLAT)"
+  ],
+  "coram": [
+    "Justice S.J. Mukhopadhaya",
+    "Bansi Lal Bhat"
+  ],
+  "discovery_terms": [
+    "companies act",
+    "company",
+    "corporate"
+  ],
+  "topic_tags": [
+    "Tribunal & Appellate Jurisdiction",
+    "General Statutory Interpretation"
+  ],
+  "source_url": "https://nclat.nic.in/orders/2019/CA_AT_190_2019.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.65,
+  "selection_status": "SELECTED"
+}

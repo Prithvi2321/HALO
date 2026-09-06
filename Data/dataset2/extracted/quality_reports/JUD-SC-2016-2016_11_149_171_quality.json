@@ -1,0 +1,147 @@
+{
+  "judgment_id": "JUD-SC-2016-2016_11_149_171",
+  "total_pages": 23,
+  "total_characters": 56425,
+  "ocr_pages_count": 0,
+  "native_pages_count": 23,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 2036,
+      "word_count": 331,
+      "method": "native_pdf"
+    },
+    {
+      "page": 2,
+      "char_count": 2476,
+      "word_count": 394,
+      "method": "native_pdf"
+    },
+    {
+      "page": 3,
+      "char_count": 2356,
+      "word_count": 380,
+      "method": "native_pdf"
+    },
+    {
+      "page": 4,
+      "char_count": 2403,
+      "word_count": 384,
+      "method": "native_pdf"
+    },
+    {
+      "page": 5,
+      "char_count": 2490,
+      "word_count": 402,
+      "method": "native_pdf"
+    },
+    {
+      "page": 6,
+      "char_count": 2092,
+      "word_count": 381,
+      "method": "native_pdf"
+    },
+    {
+      "page": 7,
+      "char_count": 2622,
+      "word_count": 436,
+      "method": "native_pdf"
+    },
+    {
+      "page": 8,
+      "char_count": 2485,
+      "word_count": 421,
+      "method": "native_pdf"
+    },
+    {
+      "page": 9,
+      "char_count": 2629,
+      "word_count": 450,
+      "method": "native_pdf"
+    },
+    {
+      "page": 10,
+      "char_count": 2455,
+      "word_count": 400,
+      "method": "native_pdf"
+    },
+    {
+      "page": 11,
+      "char_count": 2628,
+      "word_count": 431,
+      "method": "native_pdf"
+    },
+    {
+      "page": 12,
+      "char_count": 2328,
+      "word_count": 392,
+      "method": "native_pdf"
+    },
+    {
+      "page": 13,
+      "char_count": 2417,
+      "word_count": 386,
+      "method": "native_pdf"
+    },
+    {
+      "page": 14,
+      "char_count": 2048,
+      "word_count": 335,
+      "method": "native_pdf"
+    },
+    {
+      "page": 15,
+      "char_count": 2653,
+      "word_count": 450,
+      "method": "native_pdf"
+    },
+    {
+      "page": 16,
+      "char_count": 2788,
+      "word_count": 461,
+      "method": "native_pdf"
+    },
+    {
+      "page": 17,
+      "char_count": 2717,
+      "word_count": 462,
+      "method": "native_pdf"
+    },
+    {
+      "page": 18,
+      "char_count": 2577,
+      "word_count": 414,
+      "method": "native_pdf"
+    },
+    {
+      "page": 19,
+      "char_count": 2799,
+      "word_count": 444,
+      "method": "native_pdf"
+    },
+    {
+      "page": 20,
+      "char_count": 2546,
+      "word_count": 428,
+      "method": "native_pdf"
+    },
+    {
+      "page": 21,
+      "char_count": 2592,
+      "word_count": 452,
+      "method": "native_pdf"
+    },
+    {
+      "page": 22,
+      "char_count": 2557,
+      "word_count": 423,
+      "method": "native_pdf"
+    },
+    {
+      "page": 23,
+      "char_count": 1687,
+      "word_count": 294,
+      "method": "native_pdf"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-09-06T22:45:00Z",
+  "sources": [
+    {
+      "source_id": "SRC_SC_REGISTRY",
+      "name": "Supreme Court of India Official SCR Open Repository",
+      "court": "SUPREME_COURT_OF_INDIA",
+      "source_authority": "OFFICIAL",
+      "source_type": "court_repository",
+      "base_url": "https://indian-supreme-court-judgments.s3.amazonaws.com",
+      "metadata_method": "http_s3_json",
+      "metadata_prefix": "metadata/json/year={year}/",
+      "document_method": "http_s3_pdf",
+      "document_prefix": "data/pdf/year={year}/english/",
+      "document_suffix": "_EN.pdf",
+      "licensing": "CC-BY-4.0",
+      "rate_limit_rps": 5,
+      "enabled": true,
+      "notes": "Verified open access to official Supreme Court Reports (SCR) digital decisions."
+    },
+    {
+      "source_id": "SRC_HC_REGISTRY",
+      "name": "Indian High Courts eCourts Open Repository",
+      "court": "HIGH_COURT",
+      "source_authority": "OFFICIAL",
+      "source_type": "court_repository",
+      "base_url": "https://indian-high-court-judgments.s3.amazonaws.com",
+      "metadata_method": "http_s3_json",
+      "metadata_prefix": "metadata/json/year={year}/court={court_code}/",
+      "document_method": "http_s3_pdf",
+      "document_prefix": "data/pdf/year={year}/court={court_code}/",
+      "licensing": "CC-BY-4.0",
+      "target_courts": [
+        {"name": "Delhi High Court", "code": "7~26"},
+        {"name": "Bombay High Court", "code": "27~1"},
+        {"name": "Gujarat High Court", "code": "24~17"},
+        {"name": "Karnataka High Court", "code": "29~3"}
+      ],
+      "rate_limit_rps": 5,
+      "enabled": true,
+      "notes": "Covers high-frequency corporate litigation jurisdictions."
+    },
+    {
+      "source_id": "SRC_NCLAT_REGISTRY",
+      "name": "National Company Law Appellate Tribunal Official Gazette & Archive",
+      "court": "NCLAT",
+      "source_authority": "OFFICIAL",
+      "source_type": "tribunal_repository",
+      "base_url": "https://nclat.nic.in",
+      "metadata_method": "tribunal_portal_index",
+      "document_method": "direct_order_pdf",
+      "licensing": "Public Record / Government Gazette",
+      "rate_limit_rps": 2,
+      "enabled": true,
+      "notes": "Specialized corporate and insolvency appellate forum."
+    },
+    {
+      "source_id": "SRC_LOCAL_RESERVOIR",
+      "name": "HALO Local Verified Corporate Law Reservoir",
+      "court": "ALL",
+      "source_authority": "SECONDARY",
+      "source_type": "local_cache",
+      "base_path": "Data/dataset2/raw/local_reservoir",
+      "metadata_method": "local_json",
+      "document_method": "local_file",
+      "licensing": "HALO Curated",
+      "enabled": true,
+      "notes": "Deterministic local fallback ensuring complete offline build reproducibility."
+    }
+  ]
+}

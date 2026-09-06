@@ -1,0 +1,504 @@
+ITA 35/2019 Page 1 of 13 
+ 
+$~7 
+* IN THE HIGH COURT OF DELHI AT NEW DELHI 
+% Decision delivered on: 07.04.2021
+ 
++ ITA 35/2019 
+ 
+INTERNATIONAL TRACTORS LTD .....Appellant 
+ Through : Mr. Satyen Sethi, Adv. 
+ versus 
+ DY. COMMISSIONER OF INCOME TAX (LTU) & ANR. 
+ .....Respondents 
+Through : Mr. Ajit Sharma, Sr. Standing 
+Counsel. 
+ CORAM: 
+ HON'BLE MR. JUSTICE RAJIV SHAKDHER 
+ HON'BLE MR. JUSTICE TALWANT SINGH 
+ 
+ RAJIV SHAKDHER, J.
+ (ORAL): 
+ 
+1. With the consent of the learned counsel for the parties, the appeal is 
+taken up for the final hearing. 
+2. Admit. 
+3. The following substantial questions of law are framed for 
+consideration by this Court: 
+(i) Whether in the facts and circumstances of the case and law, the 
+Income Tax Appellate Tribunal [in short 'Tribunal'] misdirected itself in 
+setting aside the order of the Commissioner of Income Tax (Appeals ) [in 
+short "CIT(A)"] granting deduction, under Section 80JJAA of the A ct and 
+qua prior period expenses? 
+(ii) Whether the Tribunal erred in law in remanding the assessee's claims 
+to the Assessing Officer (in short "AO") for verification and sa tisfaction 
+although that exercise had been carried out by CIT(A) as mandated under 
+Digitally Signed
+By:VIPIN KUMAR RAI
+Signing Date:22.04.2021
+09:35:56
+Signature Not Verified
+
+ITA 35/2019 Page 2 of 13 
+ 
+the Act? 
+Preface:
+ 
+4. This is an appeal directed against the order of the Tribun al dated 
+23.07.2018 passed in ITA No.5756/Del/2013 concerning the ass essment 
+year [in short ‘AY’] 2007-2008. 
+5. Pithily put, the assessee is aggrieved by the impugned order passed by 
+the Tribunal, for the reason, that the Tribunal has remanded the matter to the 
+AO to verify the details of the claims placed by the assess ee before the 
+CIT(A) and allow the same, subject to satisfaction. The direction of remand 
+issued by the Tribunal is accompanied with a further direction t hat, before 
+the AO reaches any conclusion, he shall give the assessee an opportunity 
+hearing and only thereafter, decide the issue, as per the facts obtaining in the 
+case and, in accordance with the law. 
+Backdrop:
+ 
+6. Before we proceed further, what is required to be noticed is the 
+following broad facts: 
+6.1 The assessee claims that he is engaged in the business of 
+manufacturing and assembling tractors and tractor components. 
+6.2 On 30.10.2007, the assessee filed the return qua AY 2007-2008 
+wherein it declared its taxable income as Rs.147,83,25,740/-. Co ncededly, 
+the assessee while filing its return of income had failed to cla im the 
+deduction both under Section 80JJAA of the Act and qua prior period 
+expenses. Insofar as the deduction under Section 80JJAA of the Ac t was 
+concerned, the amount was pegged at Rs.1,07,33,164/- whereas insofar as 
+deduction qua prior period expenses was involved, the amount was 
+quantified at Rs.51,21,024. These deductions were claimed by t he assessee 
+Digitally Signed
+By:VIPIN KUMAR RAI
+Signing Date:22.04.2021
+09:35:56
+Signature Not Verified
+
+ITA 35/2019 Page 3 of 13 
+ 
+before the AO by way of a statement/communication dated 14.12.2 009 filed 
+with him. This statement, admittedly, was accompanied by a Ch artered 
+Accountant's report in the prescribed form [i.e., Form 10DA]. Fur thermore, 
+the details concerning prior period expenses were also provided b y the 
+assessee. 
+6.3 The AO, however, declined to entertain the two deductions claimed 
+by the assessee, i.e., under Section 80JJA of the Act and vis-à-vis prior 
+period expenses. The AO, thus, assessed the assessee's taxable income at 
+Rs.148,24,34,100/- vide assessment order dated 29.12.2009. The ass essee, 
+being aggrieved, lodged an appeal with the CIT(A) on 27.01.2010. 
+6.4. The CIT(A) vide order dated 30.08.2013 allowed the appeal of the 
+assessee. This time revenue was aggrieved and thus, went up in appeal to 
+the Tribunal against the order of the CIT(A). The Tribunal vide the 
+impugned order, as noted above, remanded the matter to the AO. 
+Pertinently, the Tribunal, while remaining the matter, has observed in 
+paragraph 17 of the impugned order that the CIT(A) was right in l aw in 
+entertaining the fresh claims made by the assessee, in respect of the 
+aforesaid deductions, i.e., claim under Section 80JJAA of the Act and the 
+claim concerning prior period expenses. 
+Submissions of Counsel:
+ 
+7. Mr. Satyen Sethi, who appears on behalf of the assessee, has, broad ly, 
+advanced the following submissions: 
+7.1. That the CIT(A) has, in effect, exercised powers under Section 250(4) 
+of the Act. In other words, according to Mr. Sethi, the CIT (A) was well 
+within his powers to make further inquiry into the matter, and since, such 
+inquiry had been made and the two claims in issue had been allowed, there 
+Digitally Signed
+By:VIPIN KUMAR RAI
+Signing Date:22.04.2021
+09:35:56
+Signature Not Verified
+
+ITA 35/2019 Page 4 of 13 
+ 
+was no necessity of remanding the matter to the AO for carrying out a fresh 
+inquiry. 
+7.2. The observation of the Tribunal that the AO had not been given an 
+opportunity, to respond to the evidence considered by the CIT (A), was 
+unnecessary in the facts of the case, as it was the CIT(A) who had calle d for 
+the information concerning the fresh claims made by the assessee, and 
+therefore, the question of giving an opportunity to the AO did not arise 
+7.3. In other words, the contention was that Rule 46A of the I ncome Tax 
+Rules, 1962 [in short 'the Rules'] had no applicability in the instant case. In 
+sum, the argument was that it was not the assessee who had pro duced the 
+additional evidence in support of its claim but it was the CIT (A) who had 
+directed the production of material, and therefore, the procedure pr escribed 
+under Rule 46A of the Rules was not required to be adhered to. This apart, 
+Mr. Sethi also relied upon sub-rule 4 of Rule 46A to contend that the said 
+sub-rule is an exception to the procedure prescribed under sub-rules 1 to 3 of 
+the said rule and that the said sub-rule empowered the CIT(A), to direct 
+production of evidence, i.e., documents and witnesses, etc., f or disposal of 
+the appeal. 
+7.4. In support of his submission that the provision of Section 250(4) of 
+the Act is distinct from the provisions contained in sub-ru les 1 to 3 of Rule 
+46A of the Rules, Mr. Sethi placed reliance on the judgment of th e Bombay 
+High Court rendered in Smt. Prabhavati S. Shah v. CIT, [1998] 231 ITR 1 
+(Bombay) as also the judgment of the Orissa High Court rendered in B.L. 
+Choudhury v. CIT, [1976] 105 ITR 371 (Orissa). 
+8. On the other hand, Mr. Ajit Sharma, who appears on behalf of the 
+revenue, relied upon the order of the Tribunal as well as that of the AO. Mr. 
+Digitally Signed
+By:VIPIN KUMAR RAI
+Signing Date:22.04.2021
+09:35:56
+Signature Not Verified
+
+ITA 35/2019 Page 5 of 13 
+ 
+Sharma contended that sub-section 2 of Section 80JJAA of the Ac t, as it 
+stood before its amendment via Finance Act, 2016 w.e.f. 01.04.2017 (clause 
+b of sub-section 2 of section 80JJAA), mandated that no deduction could be 
+claimed in respect of employment of new employees unless the assessee 
+furnished, along with the return of income, the report of the acco untant. 
+Therefore, the contention advanced was that, since the return had b een filed 
+without the report of the accountant, the Tribunal had, rightly , remanded the 
+matter to the AO for carrying out the necessary inquiry as to wheth er or not 
+the claim under Section 80JJAA was viable. Likewise, in respect of the 
+claim of deduction qua prior period expenses, Mr. Sharma said all that the 
+Tribunal had done was, to direct the verification of the claim, in line with 
+the evidence produced by the assessee before the CIT(A). 
+Reasons and Analysis: 
+ 
+9. We have heard the learned counsel for the parties and perused th e 
+record. As indicated in the opening, what is not in dispute are the following 
+facts: 
+(i) The assessee had not made the claims, under Section 80JJA of the Act 
+and qua prior period expenses, in the original return. 
+(ii). The assessee did not move the AO with a revised return fo r claiming 
+deductions under Section 80JJAA of the Act and for prior period expenses. 
+(iii) The assessee for the first time made these claims before the AO by 
+way of a statement/communication dated 14.12.2009. The said 
+communication was, concededly, accompanied by the auditor's report 
+prepared in the prescribed form and also contained details of the prior period 
+expenses. 
+(iv) The AO while framing the assessment declined to entertain these 
+Digitally Signed
+By:VIPIN KUMAR RAI
+Signing Date:22.04.2021
+09:35:56
+Signature Not Verified
+
+ITA 35/2019 Page 6 of 13 
+ 
+claims on the ground that they did not either form part of th e original return 
+or the revised return. In support of his approach, the AO has placed reliance 
+on the judgment of the Supreme Court rendered in Goetze (India) Ltd v. 
+CIT, (2006) 284 ITR 323 (SC). 
+(v) However, the CIT(A) ruled that the fresh claims made by the assess ee 
+could be entertained, and in this context, relied upon the ju dgments of 
+various Courts and Tribunals. 
+(vi) The CIT(A) thereafter, examined the evidence placed on record by the 
+assessee concerning both the claims, i.e., deductions claimed under Section 
+80JJAA of the Act and for prior period expenses. The discussion concerning 
+these two claims are set out in paragraphs 6.7.2 and 6.7.3 of th e CIT(A)'s 
+order. 
+(vi) The Tribunal via the impugned order, while sustaining the view taken 
+by the CIT(A) that a fresh claim could be entertained by it, has remanded the 
+matter to the AO, as indicated above, for a fresh verification in respect of 
+both the claims. 
+10. Given the foregoing, what is required to be noticed is that under 
+Section 80JJAA of the Act, the assessee claimed a deduction am ounting to 
+Rs.1,07,33,164/- while in respect of the prior period claim, the as sessee 
+claimed a deduction amounting to Rs.51,21,024/-. The CIT(A), how ever, 
+allowed the deduction qua prior period expenses, only to the extent of 
+Rs.25,40,305/-. The remaining amount was disallowed largely on the 
+ground that expenses had been incurred to the extent of Rs.2 4,78,391/- 
+without deduction of withholding tax. There were also certain expenses of a 
+cumulative value of Rs.1,02,328/- which were disallowed, for the reason 
+that they did not concern the period in issue, i.e., AY 2007-2008. 
+Digitally Signed
+By:VIPIN KUMAR RAI
+Signing Date:22.04.2021
+09:35:56
+Signature Not Verified
+
+ITA 35/2019 Page 7 of 13 
+ 
+11. Therefore, it would be relevant, for the moment, to extract her eafter, 
+what is it, that was put before the AO along with the 
+statement/communication dated 14.12.2009: 
+“1. Claim of deduction under section 80JJAA of Rs.l,07,33,l64/ - 
+- this deduction is claimed on account of employment given to new 
+workmen. The claim is duly supported with the report issued in 
+Form 10DA read with Rule 19AB and duly certified by the 
+chartered accountant. A copy of the report issued under sectio n 
+80JJAA is also enclosed herewith for your ready reference and 
+perusal. 
+ 
+2. Claim of expenditure of Rs.5l,21,024/- - These expenditures 
+are accounted for in the books of account of the subsequ ent FY 
+2008-09 (AY 2007-08). A list of all these expenditures, called as 
+prior period expenses, is enclosed herewith. However all these 
+expenditure relate to FY 2006-07 i.e. AY 2007-08. 
+ 
+3. Disallowance of expenditure uls 40(a)(ia) of Rs.24,78,391/- 
+Out of the total prior period expenses of Rs.5121024/- as stated 
+above, expenditures aggregating to Rs.2478391/- were eligible for 
+deduction of tax at source. But no tax was deducted at sou rce in 
+AY 2007-08. As such these expenditure of Rs.24,78,391/- were 
+disallowed under section 40(a)(ia) on account of non deduc tion of 
+tax at source.” 
+ 
+11.1. The AO, while framing the assessment, simply, declined to look a t the 
+material placed before him and in this context made the following 
+observations: 
+“8. Rejection of claim of Rs.1,07,33,164/- under section 80JJAA 
+& Prior Period Exp. of Rs.51,21,024/-. 
+ 
+8.0 During the course of hearing proceedings on 14.12,200 9, 
+the assessee through its AR has submitted a statement o f revised 
+taxable income. Herein, the assessee has claimed deduction under 
+section 80JJAA of Rs,1,07,33,164/- and prior period exp of 
+Digitally Signed
+By:VIPIN KUMAR RAI
+Signing Date:22.04.2021
+09:35:56
+Signature Not Verified
+
+ITA 35/2019 Page 8 of 13 
+ 
+Rs.51,21,024/-. 
+ 
+8.1 The claim of the assessee is not acceptable. Section 139(5) 
+of the Act, provides that if any person, having furnishe d a return 
+under sub-section (1), or in pursuance of a notice is issu ed under 
+sub-section (1) of section 142, discovers any omission or any 
+wrong statement therein, he may furnish a revised return at any 
+time before the expiry of one year from the end of the relevan t 
+assessment year or before the completion of the assess ment, 
+whichever is earlier. 
+ 
+8.2 In this case, the assessee had the option to submit revise 
+return incorporating it's claimed by 31.3.2009. Therefore, its 
+claim submitted vide letter dated 14.12.2009 is not tenable. 
+Moreover, in view of the decision of Supreme Court in the case of 
+Goetze (India) Ltd. 284 ITR 323, no claim can be entertained by 
+the Assessing Officer without having revised return filed by the 
+assessee. 
+ 
+8.3 Moreover, the assessee has also not substantiated with 
+documentary evidence that it is eligible for deduction und er 
+section 80JJAA and liability of Rs.51,21,024/- was incurred in this 
+assessment year. Thus, on merit also the claim of the ass essee 
+fails. 
+ 
+8.4 In view of the above discussion, claim made by the assessee 
+for deduction under section 80JJAA and prior period expens es is 
+rejected. The assessee has also not been able to substantiate the 
+claim of prior period expenditure. Therefore, claim of prior period 
+expenditure is also fails on merit.” 
+ 
+11.2. On the other hand, the CIT(A), as noticed above, after entertaining the 
+two new claims, examined the same in great detail as is evident from the 
+findings of fact returned in paragraphs 6.7.2 and 6.7.3. of the order o f 
+CIT(A). For the sake of convenience, the same are extracted hereafter: 
+“6.7.2 Regarding the claim under section 80JJAA, the 
+Digitally Signed
+By:VIPIN KUMAR RAI
+Signing Date:22.04.2021
+09:35:56
+Signature Not Verified
+
+ITA 35/2019 Page 9 of 13 
+ 
+appellant filed before me, a copy of the audit report in prescribed 
+form no. 1ODA, which was duly certified by Chartered 
+Accountant. According to the same, the appellant had employed 
+new regular workmen numbering 543 over and above the 
+existing employees numbering 1262. The additional wages pa id 
+to the regular workmen by the appellant amounted to 
+Rs.3,54,57,213/-. The appellant had claimed 30% of the same in 
+the current year as per section 80JJAA amounting to Rs. 
+l,07,33,164/-. Before me, the Ld. Counsel also furnished details 
+of each such new regular workmen along with their respective 
+dates of joining service, period of service during the current 
+year, respective bank accounts in which remuneration was paid 
+and had thereby given breakup of the allowable additional wages 
+paid during the year. On examination of the same, I hold that 
+the claim by the appellant under section 8JJAA was correct, 
+accordingly, the same is being allowed. 
+ 
+6.7.3 Regarding the other claim made before me relating to 
+certain expenses classified on the 'prior period expenses' 
+amounting to Rs.51,21,024/-, I was informed that these expens es 
+were not claimed in the current year as till finalization of return, 
+their details were not available. These were later claimed in [ 
+the] subsequent year but added back in that year being 'prior 
+period expenses' for that year. However, in terms of accounting 
+norms, these pertained to the current year. I observe that out of 
+the same, an amount of Rs.24,78,391/- was not allowable, as no 
+TDS was deducted thereon and hence the claim for same was 
+already withdrawn by the appellant under section 40(a)(ia). 
+Regarding the balance amount of Rs.26,42,633/-, the appellant 
+was asked to furnish the details in respect of each item 
+embedded in it and to justify as to why liability in respect of the 
+same may be held to have crystallized during the current year. 
+On examination of [the] appellant's contention, I find that the 
+above expenses were booked in the next financial year as part of 
+an amount of Rs.75,45,049/- under the head 'prior period 
+expenses, which were added back to the taxable income in that 
+year. A copy of the statement of income for assessment year 
+2008-09 was furnished before me in this regard, which shows 
+Digitally Signed
+By:VIPIN KUMAR RAI
+Signing Date:22.04.2021
+09:35:56
+Signature Not Verified
+
+ITA 35/2019 Page 10 of 13 
+ 
+that the contention of the appellant is correct. Out of the 
+aforesaid amount of Rs.75,45,049/-, the appellant had made 
+[the] impugned claim of Rs.51 ,21,024/- in the current year b y 
+holding that the same pertained to the current year. On careful 
+examination of the details furnished by the appellant, I find that 
+majority of the expenses embedded in the amount of 
+Rs.26,42,633/- were in the nature of travel expenses, etc which 
+were based on the claim in respect of current year made by the 
+employees in subsequent years. Since the appellant was not in 
+receipt of the vouchers raised by the employees at the time of 
+filling of return of income, while the same pertained to the 
+current year, the claim of Rs.4,92,825/- in respect of the same, is 
+accordingly allowed. However, certain bills such as bill for car 
+MP3Player dated 30.06.2007 of Rs.3,600/-, cost of mobile p hone 
+purchased on 16.08.2007 of Rs.l2,000/- and an amount of 
+Rs.75,274/- in respect of cost consumption claimed by various 
+clients of the appellant by raising invoices on 31.08.2007 
+amounting to Rs.75,274/- cannot be considered to be related to 
+the current year. Further, Membership Fee and Subscription 
+(advance) aggregating to Rs.ll,454/- on different dates on 
+04.07.2007, 14.11.2007 and 19.03.2008 also does not perta in to 
+the current year, being advance in nature. Subject to the above, 
+the appellant's claim in respect of expenses, which were not 
+claimed during the current year while filing the return of income 
+(but were shown as "prior period expense" in the computation 
+of income of [the] assessment year 2008-09) amounting to 
+Rs.25,40,305/- (Rs.26,42,633 1,02,328) is held as allowable in the 
+current year." 
+ [Emphasis is ours] 
+12. A perusal of the aforementioned extract would show th at the CIT(A) 
+insofar as the deduction claimed under Section 80JJAA was concer ned, not 
+only had before him the chartered accountant's report in the prescribed form, 
+i.e., Form 10DA but also examined the details concerning the new regular 
+workmen, numbering 543, produced before him. In this context, the CIT(A) 
+examined the details concerning the dates when the said workmen h ad 
+Digitally Signed
+By:VIPIN KUMAR RAI
+Signing Date:22.04.2021
+09:35:56
+Signature Not Verified
+
+ITA 35/2019 Page 11 of 13 
+ 
+joined the services, the period, during which they had worked, relat able to 
+the AY in issue, as also the details concerning the bank accou nts in which 
+remuneration was remitted. 
+13. Based on the aforesaid material, the CIT(A) concluded that the 
+deduction under Section 80JJAA was correctly claimed by the assessee. 
+13.1. Likewise, insofar as prior period expenses were concerned, as noticed 
+above, out of a total amount of Rs.51,21,024/- claimed by the asses see, a 
+sum of Rs.24,78,391/- was not allowed, for the reason, that withh olding tax 
+had not been deducted by the assessee. 
+13.2. It is pertinent to note that the assessee had disclosed the same in its 
+statement/communication dated 14.12.2009 placed before the AO. Th e 
+other amounts, which did not concern the period in issue, amo unting to a 
+cumulative value of Rs.1,02,328/- was also disallowed. 
+14. Therefore, to our minds, once the Tribunal accepted the view taken by 
+the CIT(A) that it could entertain fresh claims; a view which t he CIT(A) has 
+expressed in paragraph 6.6.2 of its order, all that the Tribunal w as required 
+to examine was: as to whether the CIT(A) had, scrupulously, verif ied the 
+material placed before it before allowing deductions claimed by the 
+assessee. The Tribunal, however, instead of examining this aspect of the 
+matter, observed, and in our view, incorrectly, that because an oppor tunity 
+was not given to the AO to examine the material, therefore, the matt er 
+needed to be remanded to the AO for a fresh verification. 
+15. In our view, unless the Tribunal would have reached to a conclusion 
+and expressed its clear view, in that respect, as to what was wro ng or 
+missing in the examination made by the CIT(A), a remand was not cal led 
+for. We agree with Mr. Seth's contention that the CIT(A) in the exercise of 
+Digitally Signed
+By:VIPIN KUMAR RAI
+Signing Date:22.04.2021
+09:35:56
+Signature Not Verified
+
+ITA 35/2019 Page 12 of 13 
+ 
+its powers under Section 250(4) of the Act was entitled to seek production of 
+documents and/or material to satisfy himself as to whether or not the 
+deductions claimed were sustainable/viable in law. This wa s, however, a 
+case where the details were placed before the AO, who declined to ent ertain 
+the claims only on the ground that they did not form part of assessee's 
+original return and that the assessee had not made a course correcti on by 
+filing a revised return. 
+15.1. This view was based, as noticed above, on the judgment of the 
+Supreme Court rendered in Goetze (India) Ltd. (Supra). The CIT(A), 
+squarely, dealt with this and concluded, that a fresh claim co uld be 
+entertained. Therefore, the Tribunal, as noticed above, has accepted this 
+view of the CIT(A) and the revenue has not come up in appeal before us 
+assailing this conclusion of the Tribunal. 
+16. In any event, we are of the view that, if a claim is otherwise 
+sustainable in law, then the appellate authorities are empowered to entertain 
+the same. This view finds reflection in a judgment of the coordi nate bench 
+of this Court dated 28.11.2011, passed in ITA No.1233/2011, titled CIT vs. 
+Aspentech India Pvt. Ltd. The relevant observations made by the coordinate 
+bench of this court, which are apposite, are extracted hereafter: 
+“5. The ITAT has agreed the reasoning given by the CIT(Appeals) 
+and has relied upon the decision of this Court in CIT Vs. J ai 
+Parabolic Springs Ltd. (2008) 306 ITR 42 (Del.). In the said case 
+Delhi High Court has referred to the powers of the appel late 
+forum and the decisions of the Supreme Court in National 
+Thermal Power Co. Ltd. Vs. Commissioner of Income Tax (1998) 
+229 ITR 383 (SC), Gedore Tools Pvt. Ltd. Vs. Commissioner of 
+Income Tax (1999) 238 ITR 268, Jute Corporation of India Ltd. 
+Vs. Commissioner of Income Tax (1991) 187 ITR 688 (SC) and 
+held that the appellate forum could have entertained and decided 
+Digitally Signed
+By:VIPIN KUMAR RAI
+Signing Date:22.04.2021
+09:35:56
+Signature Not Verified
+
+ITA 35/2019 Page 13 of 13 
+ 
+the said aspect. The decision in the case of Goetze (Ind ia) Ltd. 
+(supra) is distinguishable. In the said case the assessee had filed 
+the return of income for the Assessment Year 1995-96 on 
+30.11.1995. Thereafter, on 12.01.1998, the assessee wrote a letter 
+to the Assessing Officer and made a new claim for a deduc tion, 
+which was rejected by the Assessing Officer as there is n o 
+provision to amend the return. The Supreme Court further 
+clarified that the issue raised in Goetze (India) Ltd. (supra) was 
+limited to the power of assessing authority and did n ot impinge on 
+the power of the tribunal as was in the case of Nation al Thermal 
+Power Ltd. (supra). In the present case also the appellate for um 
+had entertained the claim made by the respondent-assessee and 
+allowed the same. There is no dispute that the claim/deduct ion 
+towards the expense is otherwise correct and allowable.” 
+ 
+Conclusion:
+ 
+17. Therefore, in our view, the judgment of the Tribunal deserves to be 
+set aside. The fresh claims made by the assessee, as allowed b y the CIT(A), 
+will have to be sustained. It is ordered accordingly. 
+18. The questions of law are answered in the favour of the assessee and 
+against the revenue. 
+19. The appeal is disposed of in the aforesaid terms. The pending 
+application shall stand closed too. 
+ 
+ 
+ 
+ RAJIV SHAKDHER, J 
+ 
+ 
+ 
+ TALWANT SINGH, J 
+APRIL 7, 2021/aj 
+ Click here to check corrigendum, if any
+ 
+Digitally Signed
+By:VIPIN KUMAR RAI
+Signing Date:22.04.2021
+09:35:56
+Signature Not Verified

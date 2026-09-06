@@ -1,0 +1,15 @@
+{
+  "judgment_id": "JUD-NCLAT-2019-011",
+  "total_pages": 1,
+  "total_characters": 1664,
+  "ocr_pages_count": 0,
+  "native_pages_count": 1,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 1664,
+      "word_count": 274,
+      "method": "native_pdf"
+    }
+  ]
+}

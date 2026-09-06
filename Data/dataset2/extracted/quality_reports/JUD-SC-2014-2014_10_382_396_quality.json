@@ -1,0 +1,99 @@
+{
+  "judgment_id": "JUD-SC-2014-2014_10_382_396",
+  "total_pages": 15,
+  "total_characters": 29620,
+  "ocr_pages_count": 0,
+  "native_pages_count": 15,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 1499,
+      "word_count": 258,
+      "method": "native_pdf"
+    },
+    {
+      "page": 2,
+      "char_count": 1877,
+      "word_count": 320,
+      "method": "native_pdf"
+    },
+    {
+      "page": 3,
+      "char_count": 1932,
+      "word_count": 327,
+      "method": "native_pdf"
+    },
+    {
+      "page": 4,
+      "char_count": 2145,
+      "word_count": 373,
+      "method": "native_pdf"
+    },
+    {
+      "page": 5,
+      "char_count": 2071,
+      "word_count": 349,
+      "method": "native_pdf"
+    },
+    {
+      "page": 6,
+      "char_count": 2051,
+      "word_count": 324,
+      "method": "native_pdf"
+    },
+    {
+      "page": 7,
+      "char_count": 2177,
+      "word_count": 350,
+      "method": "native_pdf"
+    },
+    {
+      "page": 8,
+      "char_count": 2205,
+      "word_count": 382,
+      "method": "native_pdf"
+    },
+    {
+      "page": 9,
+      "char_count": 1900,
+      "word_count": 340,
+      "method": "native_pdf"
+    },
+    {
+      "page": 10,
+      "char_count": 1533,
+      "word_count": 258,
+      "method": "native_pdf"
+    },
+    {
+      "page": 11,
+      "char_count": 1927,
+      "word_count": 346,
+      "method": "native_pdf"
+    },
+    {
+      "page": 12,
+      "char_count": 2241,
+      "word_count": 393,
+      "method": "native_pdf"
+    },
+    {
+      "page": 13,
+      "char_count": 2121,
+      "word_count": 365,
+      "method": "native_pdf"
+    },
+    {
+      "page": 14,
+      "char_count": 2038,
+      "word_count": 343,
+      "method": "native_pdf"
+    },
+    {
+      "page": 15,
+      "char_count": 1875,
+      "word_count": 304,
+      "method": "native_pdf"
+    }
+  ]
+}

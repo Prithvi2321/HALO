@@ -1,0 +1,29 @@
+{
+  "candidate_id": "CAND-SC-2021-2021_10_1080_1103",
+  "source_id": "SRC_SC_REGISTRY",
+  "court": "SUPREME_COURT_OF_INDIA",
+  "bench": "",
+  "case_title": "TATA CONSULTANCY SERVICES LIMITED v. VISHAL GHISULAL JAIN, RESOLUTION PROFESSIONAL, SK WHEELS PRIVATE LIMITED",
+  "case_number": "",
+  "decision_date": null,
+  "citations": [
+    "[2021] 10 S.C.R. 1080",
+    "2021 INSC 780"
+  ],
+  "coram": [
+    "D.Y. CHANDRACHUD"
+  ],
+  "discovery_terms": [
+    "corporate",
+    "nclt"
+  ],
+  "topic_tags": [
+    "Shareholder Rights & Class Actions",
+    "Tribunal & Appellate Jurisdiction"
+  ],
+  "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2021/english/2021_10_1080_1103_EN.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.72,
+  "selection_status": "SELECTED"
+}

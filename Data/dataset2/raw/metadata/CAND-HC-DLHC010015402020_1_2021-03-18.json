@@ -1,0 +1,23 @@
+{
+  "candidate_id": "CAND-HC-DLHC010015402020_1_2021-03-18",
+  "source_id": "SRC_HC_REGISTRY",
+  "court": "HIGH_COURT",
+  "bench": "Delhi High Court",
+  "case_title": "LPA/4/2021 of NATIONAL TEXTILE CORPORATION LTD  v.  S B SINGH",
+  "case_number": "",
+  "decision_date": "2020-01-01",
+  "citations": [],
+  "coram": [],
+  "discovery_terms": [
+    "companies act",
+    "commercial"
+  ],
+  "topic_tags": [
+    "General Statutory Interpretation"
+  ],
+  "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010015402020_1_2021-03-18.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.5725,
+  "selection_status": "SELECTED"
+}

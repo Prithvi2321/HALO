@@ -1,0 +1,15 @@
+{
+  "total_candidates_processed": 2,
+  "unique_count": 1,
+  "duplicates_rejected": 1,
+  "log": [
+    {
+      "action": "REJECT_DUPLICATE",
+      "duplicate_candidate_id": "CAND-02",
+      "existing_candidate_id": "CAND-01",
+      "reason": "Exact legal citation match: '2020insc100' (Original: CAND-01)",
+      "case_title": "Alpha Limited versus Beta Limited",
+      "case_number": "C.A. No. 100 of 2020"
+    }
+  ]
+}

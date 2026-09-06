@@ -1,0 +1,51 @@
+{
+  "judgment_id": "JUD-SC-2017-2017_10_278_284",
+  "total_pages": 7,
+  "total_characters": 16898,
+  "ocr_pages_count": 0,
+  "native_pages_count": 7,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 2247,
+      "word_count": 395,
+      "method": "native_pdf"
+    },
+    {
+      "page": 2,
+      "char_count": 2323,
+      "word_count": 420,
+      "method": "native_pdf"
+    },
+    {
+      "page": 3,
+      "char_count": 2207,
+      "word_count": 380,
+      "method": "native_pdf"
+    },
+    {
+      "page": 4,
+      "char_count": 2618,
+      "word_count": 451,
+      "method": "native_pdf"
+    },
+    {
+      "page": 5,
+      "char_count": 2637,
+      "word_count": 465,
+      "method": "native_pdf"
+    },
+    {
+      "page": 6,
+      "char_count": 2735,
+      "word_count": 488,
+      "method": "native_pdf"
+    },
+    {
+      "page": 7,
+      "char_count": 2119,
+      "word_count": 373,
+      "method": "native_pdf"
+    }
+  ]
+}

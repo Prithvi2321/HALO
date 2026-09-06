@@ -1,0 +1,32 @@
+{
+  "candidate_id": "CAND-NCLAT-2018-006",
+  "source_id": "SRC_NCLAT_REGISTRY",
+  "court": "NCLAT",
+  "bench": "Appellate Bench (New Delhi)",
+  "case_title": "Surinder Singh Bindra v. Hindustan Fasteners Pvt. Ltd.",
+  "case_number": "Company Appeal (AT) No. 290 of 2017",
+  "decision_date": "2018-02-23",
+  "citations": [
+    "[2018] 147 SCL 18 (NCLAT)"
+  ],
+  "coram": [
+    "Justice S.J. Mukhopadhaya",
+    "Bansi Lal Bhat"
+  ],
+  "discovery_terms": [
+    "company",
+    "section 241",
+    "oppression",
+    "mismanagement"
+  ],
+  "topic_tags": [
+    "Oppression & Mismanagement",
+    "Shareholder Rights & Class Actions",
+    "Tribunal & Appellate Jurisdiction"
+  ],
+  "source_url": "https://nclat.nic.in/orders/2018/CA_AT_290_2017.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.705,
+  "selection_status": "SELECTED"
+}

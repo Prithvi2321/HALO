@@ -1,0 +1,27 @@
+{
+  "candidate_id": "CAND-SC-2016-2016_11_263_418",
+  "source_id": "SRC_SC_REGISTRY",
+  "court": "SUPREME_COURT_OF_INDIA",
+  "bench": "",
+  "case_title": "KEDAR NATH YADAV v. STATE OF WEST BENGAL & ORS.",
+  "case_number": "",
+  "decision_date": null,
+  "citations": [
+    "[2016] 11 S.C.R. 263",
+    "2016 INSC 639"
+  ],
+  "coram": [
+    "V. GOPALA GOWDA"
+  ],
+  "discovery_terms": [
+    "company"
+  ],
+  "topic_tags": [
+    "General Statutory Interpretation"
+  ],
+  "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2016/english/2016_11_263_418_EN.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.69,
+  "selection_status": "SELECTED"
+}

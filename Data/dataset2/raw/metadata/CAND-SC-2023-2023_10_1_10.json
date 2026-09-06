@@ -1,0 +1,28 @@
+{
+  "candidate_id": "CAND-SC-2023-2023_10_1_10",
+  "source_id": "SRC_SC_REGISTRY",
+  "court": "SUPREME_COURT_OF_INDIA",
+  "bench": "",
+  "case_title": "STATE OF PUNJAB v. KEWAL KRISHAN",
+  "case_number": "",
+  "decision_date": null,
+  "citations": [
+    "[2023] 10 S.C.R. 1",
+    "2023 INSC 583"
+  ],
+  "coram": [
+    "B.V. NAGARATHNA",
+    "MANOJ MISRA"
+  ],
+  "discovery_terms": [
+    "company"
+  ],
+  "topic_tags": [
+    "General Statutory Interpretation"
+  ],
+  "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2023/english/2023_10_1_10_EN.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.69,
+  "selection_status": "SELECTED"
+}

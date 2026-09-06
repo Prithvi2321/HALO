@@ -1,0 +1,33 @@
+{
+  "judgment_id": "JUD-HC-DLHC010000792019_1_2022-12-19",
+  "total_pages": 4,
+  "total_characters": 4786,
+  "ocr_pages_count": 0,
+  "native_pages_count": 4,
+  "page_breakdown": [
+    {
+      "page": 1,
+      "char_count": 1124,
+      "word_count": 171,
+      "method": "native_pdf"
+    },
+    {
+      "page": 2,
+      "char_count": 1409,
+      "word_count": 207,
+      "method": "native_pdf"
+    },
+    {
+      "page": 3,
+      "char_count": 1909,
+      "word_count": 317,
+      "method": "native_pdf"
+    },
+    {
+      "page": 4,
+      "char_count": 338,
+      "word_count": 46,
+      "method": "native_pdf"
+    }
+  ]
+}

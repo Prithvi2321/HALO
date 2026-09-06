@@ -1,0 +1,30 @@
+{
+  "candidate_id": "CAND-NCLAT-2017-005",
+  "source_id": "SRC_NCLAT_REGISTRY",
+  "court": "NCLAT",
+  "bench": "Appellate Bench (New Delhi)",
+  "case_title": "Innoventive Industries Ltd. v. ICICI Bank & Anr.",
+  "case_number": "Company Appeal (AT) (Insolvency) No. 105 of 2017",
+  "decision_date": "2017-08-11",
+  "citations": [
+    "[2017] 143 SCL 625 (NCLAT)"
+  ],
+  "coram": [
+    "Justice S.J. Mukhopadhaya",
+    "Bansi Lal Bhat"
+  ],
+  "discovery_terms": [
+    "companies act",
+    "company",
+    "corporate"
+  ],
+  "topic_tags": [
+    "Tribunal & Appellate Jurisdiction",
+    "General Statutory Interpretation"
+  ],
+  "source_url": "https://nclat.nic.in/orders/2017/CA_AT_INS_105_2017.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.65,
+  "selection_status": "SELECTED"
+}

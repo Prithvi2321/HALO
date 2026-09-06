@@ -1,0 +1,25 @@
+{
+  "candidate_id": "CAND-HC-DLHC010015542020_1_2021-01-27",
+  "source_id": "SRC_HC_REGISTRY",
+  "court": "HIGH_COURT",
+  "bench": "Delhi High Court",
+  "case_title": "ARB.P./1/2021 of CITY LIFELINE TRAVELS PRIVATE LIMITED  v.  DELHI JAL BOARD",
+  "case_number": "",
+  "decision_date": "2020-01-01",
+  "citations": [],
+  "coram": [
+    "HON'BLE MR. JUSTICE VIBHU BAKHRU"
+  ],
+  "discovery_terms": [
+    "companies act",
+    "commercial"
+  ],
+  "topic_tags": [
+    "General Statutory Interpretation"
+  ],
+  "source_url": "https://indian-high-court-judgments.s3.amazonaws.com/data/pdf/year=2021/court=7_26/bench=dhcdb/DLHC010015542020_1_2021-01-27.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.5725,
+  "selection_status": "SELECTED"
+}

@@ -1,0 +1,27 @@
+{
+  "candidate_id": "CAND-SC-2017-2017_10_285_329",
+  "source_id": "SRC_SC_REGISTRY",
+  "court": "SUPREME_COURT_OF_INDIA",
+  "bench": "",
+  "case_title": "M/S. DURO FELGUERA, S. A. v. M/S. GANGAVARAM PORT LIMITED",
+  "case_number": "",
+  "decision_date": null,
+  "citations": [
+    "[2017] 10 S.C.R. 285",
+    "2017 INSC 1026"
+  ],
+  "coram": [
+    "KURIAN JOSEPH"
+  ],
+  "discovery_terms": [
+    "company"
+  ],
+  "topic_tags": [
+    "General Statutory Interpretation"
+  ],
+  "source_url": "https://indian-supreme-court-judgments.s3.amazonaws.com/data/pdf/year=2017/english/2017_10_285_329_EN.pdf",
+  "source_authority": "OFFICIAL",
+  "lifecycle_state": "DOCUMENT_ACQUIRED",
+  "relevance_score": 0.69,
+  "selection_status": "SELECTED"
+}
