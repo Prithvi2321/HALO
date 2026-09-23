@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-15T14:57:13.586305+00:00",
+  "status": "PASS",
+  "checks": {
+    "source_integrity": "PASS",
+    "syntax_and_files": "PASS",
+    "structural_hierarchy": "PASS",
+    "passages_and_provenance": "PASS",
+    "amendments_and_versions": "PASS",
+    "cross_references": "PASS",
+    "definitions": "PASS"
+  },
+  "errors": [],
+  "warnings": [],
+  "statistics": {
+    "source_documents": 3,
+    "total_pages": 410,
+    "total_chapters": 29,
+    "total_sections": 504,
+    "total_subsections": 1443,
+    "total_clauses": 860,
+    "total_provisos": 809,
+    "total_explanations": 130,
+    "total_schedules": 7,
+    "total_passages": 1640,
+    "total_amendments": 87,
+    "total_definitions": 84,
+    "total_cross_references": 668,
+    "total_versions": 3
+  }
+}

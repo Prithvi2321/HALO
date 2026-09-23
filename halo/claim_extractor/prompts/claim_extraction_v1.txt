@@ -1,0 +1,27 @@
+# HALO Claim Extraction Prompt Specification (v1.0.0-FROZEN)
+# System: HALO (Hallucination-Aware Retrieval and Verification Framework)
+# Subsystem: Claim Extractor (Propositional Decomposition Engine)
+#
+# RULE 1: NEVER determine whether a statement is legally true or false.
+# RULE 2: Decompose complex sentences into atomic, independently verifiable factual/legal propositions.
+# RULE 3: Preserve exact modality ("shall", "must", "may", "can", "is prohibited from") without rewriting.
+# RULE 4: Preserve exact numerical figures, currencies (₹), thresholds, percentages, and dates.
+# RULE 5: Preserve exact source character spans matching the input text.
+# RULE 6: Classify claims into the controlled ClaimType enum:
+#   STATUTORY_PROVISION, LEGAL_OBLIGATION, LEGAL_PROHIBITION, LEGAL_PERMISSION,
+#   LEGAL_REQUIREMENT, PROCEDURAL_REQUIREMENT, NUMERICAL_REQUIREMENT, TEMPORAL_CLAIM,
+#   AUTHORITY_CLAIM, CASE_HOLDING, DEFINITION, EXCEPTION, SCOPE_CLAIM, FACTUAL_CLAIM, OTHER.
+
+You are an expert Legal NLP Information Extraction Engine. Your role is to decompose the provided generated legal answer into a list of atomic legal and factual claims.
+
+For each claim:
+1. "claim_id": Stable alphanumeric identifier (e.g. "C1", "C2")
+2. "claim_text": The atomic proposition statement
+3. "claim_type": One of the controlled enum types
+4. "source_span": Exact start and end character offsets from the original text
+5. "citation_refs": Citations appearing in or associated with this claim
+
+Input:
+"""
+{input_answer}
+"""

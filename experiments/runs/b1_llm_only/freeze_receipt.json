@@ -1,0 +1,46 @@
+{
+  "system_id": "B1_LLM",
+  "system_name": "Baseline 1 — LLM-Only",
+  "status": "FROZEN",
+  "frozen_timestamp_utc": "2026-09-13T13:21:47.702849+00:00",
+  "protocol_version": "v1.0",
+  "dataset3_version": "v1.0.0-FROZEN",
+  "evaluation_summary": {
+    "dev_queries": 64,
+    "test_queries": 168,
+    "total_queries": 232,
+    "execution_failures": 0,
+    "integrity_audit": "PASS",
+    "protocol_invariants": "PASS"
+  },
+  "cryptographic_manifest": {
+    "dev_run_output": {
+      "path": "experiments\\runs\\b1_llm_only\\dev_run_output.jsonl",
+      "sha256": "521dd97a640ae103e52faee33ad5d4449e00e7afc93e6feb75674d15502bd872"
+    },
+    "test_run_output": {
+      "path": "experiments\\runs\\b1_llm_only\\test_run_output.jsonl",
+      "sha256": "07902ea3cb4e3f0db2547014fe02c15cb31ecdf9d4c2dce2dea2fa111fde5b85"
+    },
+    "b1_config": {
+      "path": "experiments\\configs\\b1_llm_config.json",
+      "sha256": "7a7305dcc56e78ac15ab9f563a76145e043186ab80bff11b47472e6e27bc3714"
+    },
+    "b1_metrics_json": {
+      "path": "experiments\\metrics\\b1_metrics.json",
+      "sha256": "44ee4c7facca18293e5dbc3335106682e37682aeb8d5baa3ccdaf6d96d822b31"
+    },
+    "b1_metrics_report": {
+      "path": "experiments\\metrics\\b1_metrics_report.md",
+      "sha256": "5b670eabcd4bc5a29d2a73c11e8c2b0180658721cbd492ed730b10feac0711f7"
+    },
+    "dataset3_manifest": {
+      "path": "data\\dataset3\\manifests\\dataset3_manifest.json",
+      "sha256": "c5dad2f1e5b3979a78fb8bc42f0b4811e94c0ebb5e7297fcd8f5ec10bd3462c6"
+    },
+    "experiment_protocol": {
+      "path": "experiments\\protocol\\halo_experiment_protocol_v1_0.md",
+      "sha256": "9721d0d172336bd52b0c157bd54c321d9844c4f5ebe2d0e96dc6c36ef3e2fecd"
+    }
+  }
+}

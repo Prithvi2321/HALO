@@ -1,0 +1,17 @@
+{
+  "system_id": "B2_DENSE_RAG",
+  "current_split": "test",
+  "status": "COMPLETED",
+  "last_saved_utc": "2026-09-14T15:53:06.304878+00:00",
+  "split_progress": {
+    "total_queries": 168,
+    "completed_queries": 168,
+    "remaining_queries": 0,
+    "last_processed_query_id": "D3_GROUND_000100"
+  },
+  "output_files": {
+    "dev": "experiments\\runs\\b2_dense_rag\\dev_run_output.jsonl",
+    "test": "experiments\\runs\\b2_dense_rag\\test_run_output.jsonl"
+  },
+  "resume_command": "python -m scripts.experiments.baseline_2_runner test --resume"
+}

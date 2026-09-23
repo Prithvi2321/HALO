@@ -1,0 +1,1243 @@
+{
+  "system_id": "B5_HYBRID_CROSS_ENCODER",
+  "benchmark_partition": "TEST Split (Retrieval Families: D3-A, D3-B, D3-C)",
+  "total_retrieval_queries": 68,
+  "reranker_rank_shift_metrics": {
+    "total_candidate_pairs_scored": 590,
+    "mean_absolute_rank_shift": 2.071,
+    "promoted_candidates": 225,
+    "demoted_candidates": 232,
+    "unchanged_candidates": 133
+  },
+  "target_passage_dynamics": {
+    "gold_passages_promoted": 16,
+    "gold_passages_demoted": 7,
+    "gold_passages_unchanged": 30
+  },
+  "d3_c_hard_negative_dynamics": {
+    "total_d3c_queries": 12,
+    "hn_demoted_out_of_top5": 0,
+    "hn_promoted_into_top5": 2,
+    "hn_remained_in_top5": 6,
+    "hn_remained_out_of_top5": 4
+  },
+  "query_level_transitions": {
+    "fixes_count": 2,
+    "breaks_count": 1,
+    "both_succeed_count": 45,
+    "both_fail_count": 20,
+    "fixes_rate": 0.0294,
+    "breaks_rate": 0.0147,
+    "both_succeed_rate": 0.6618,
+    "both_fail_rate": 0.2941
+  },
+  "fixes": [
+    {
+      "query_id": "D3_RET_000042",
+      "family": "D3-A",
+      "query": "What does Section 122 of the Companies Act, 2013 prescribe regarding applicability of this chapter to one person company?",
+      "gold_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_122_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_122_SUB_2"
+      ],
+      "b4_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_133",
+        "PAS_ACT_COMPANIES_2013_SEC_122_SUB_4",
+        "PAS_ACT_COMPANIES_2013_SEC_2_SUB_62",
+        "PAS_ACT_COMPANIES_2013_SEC_3_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_446B"
+      ],
+      "b5_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_133",
+        "PAS_ACT_COMPANIES_2013_SEC_122_SUB_4",
+        "PAS_ACT_COMPANIES_2013_SEC_2_SUB_62",
+        "PAS_ACT_COMPANIES_2013_SEC_446B",
+        "PAS_ACT_COMPANIES_2013_SEC_122_SUB_2"
+      ]
+    },
+    {
+      "query_id": "D3_RET_000327",
+      "family": "D3-B",
+      "query": "Under Indian company law jurisprudence, what are the overarching statutory mandates and compliance mechanisms regarding declaration of dividend?",
+      "gold_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_123_SUB_1"
+      ],
+      "b4_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_124_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_123_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_127",
+        "PAS_ACT_COMPANIES_2013_SEC_124_SUB_6",
+        "PAS_ACT_COMPANIES_2013_SEC_24_SUB_1"
+      ],
+      "b5_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_123_SUB_1",
+        "PAS-JUD-NCLAT-2019-011-P001",
+        "PAS_ACT_COMPANIES_2013_SEC_123_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_127",
+        "PAS_ACT_COMPANIES_2013_SEC_24_SUB_1"
+      ]
+    }
+  ],
+  "breaks": [
+    {
+      "query_id": "D3_RET_000271",
+      "family": "D3-B",
+      "query": "In the judicial dispute involving M/S ANAND BROTHERS P. LTD. TR. M.D., how did the bench rule on principles of general statutory interpretation?",
+      "gold_ids": [
+        "PAS-JUD-SC-2014-2014_10_382_396-P001"
+      ],
+      "b4_top5": [
+        "PAS-JUD-SC-2014-2014_10_382_396-P004",
+        "PAS-JUD-SC-2014-2014_10_382_396-P014",
+        "PAS-JUD-SC-2014-2014_10_382_396-P006",
+        "PAS-JUD-SC-2014-2014_10_382_396-P001",
+        "PAS-JUD-SC-2014-2014_10_382_396-P008"
+      ],
+      "b5_top5": [
+        "PAS-JUD-SC-2014-2014_10_382_396-P004",
+        "PAS-JUD-SC-2014-2014_10_382_396-P012",
+        "PAS-JUD-SC-2014-2014_10_382_396-P014",
+        "PAS-JUD-SC-2014-2014_10_382_396-P006",
+        "PAS-JUD-SC-2014-2014_10_382_396-P008"
+      ]
+    }
+  ],
+  "d3c_case_studies": [
+    {
+      "query_id": "D3_RET_000333",
+      "query": "What special resolution and central government approval is required to remove a statutory auditor prior to the expiration of their five-year tenure?",
+      "gold_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_140_SUB_1"
+      ],
+      "hard_negative_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_139_SUB_1"
+      ],
+      "b4_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_139_SUB_5",
+        "PAS_ACT_COMPANIES_2013_SEC_139_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_140_SUB_4",
+        "PAS_ACT_COMPANIES_2013_SEC_217_SUB_9",
+        "PAS_ACT_COMPANIES_2013_SEC_140_SUB_1"
+      ],
+      "b5_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_169_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_139_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_140_SUB_4",
+        "PAS_ACT_COMPANIES_2013_SEC_217_SUB_9",
+        "PAS_ACT_COMPANIES_2013_SEC_140_SUB_1"
+      ],
+      "b4_retrieved_hn": false,
+      "b5_retrieved_hn": false,
+      "b5_candidates": [
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_140_SUB_1",
+          "original_rrf_rank": 1,
+          "cross_encoder_rank": 1,
+          "cross_encoder_score": 6.05075,
+          "is_gold": true,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_140_SUB_4",
+          "original_rrf_rank": 3,
+          "cross_encoder_rank": 2,
+          "cross_encoder_score": 2.29079,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_139_SUB_2",
+          "original_rrf_rank": 2,
+          "cross_encoder_rank": 3,
+          "cross_encoder_score": 0.25533,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_217_SUB_9",
+          "original_rrf_rank": 5,
+          "cross_encoder_rank": 4,
+          "cross_encoder_score": -0.48458,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_169_SUB_2",
+          "original_rrf_rank": 7,
+          "cross_encoder_rank": 5,
+          "cross_encoder_score": -2.27584,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_140_SUB_5",
+          "original_rrf_rank": 6,
+          "cross_encoder_rank": 6,
+          "cross_encoder_score": -2.3451,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_139_SUB_5",
+          "original_rrf_rank": 4,
+          "cross_encoder_rank": 7,
+          "cross_encoder_score": -2.94594,
+          "is_gold": false,
+          "is_hn": false
+        }
+      ]
+    },
+    {
+      "query_id": "D3_RET_000340",
+      "query": "Which provision under Chapter II specifically regulates members severally liable in certain cases rather than memorandum?",
+      "gold_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_3A"
+      ],
+      "hard_negative_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_4_SUB_1"
+      ],
+      "b4_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_378H_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_339_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_4_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_378",
+        "PAS_ACT_COMPANIES_2013_SEC_3A"
+      ],
+      "b5_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_378H_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_378T_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_245_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_4_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_3A"
+      ],
+      "b4_retrieved_hn": true,
+      "b5_retrieved_hn": true,
+      "b5_candidates": [
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_3A",
+          "original_rrf_rank": 1,
+          "cross_encoder_rank": 1,
+          "cross_encoder_score": 2.01535,
+          "is_gold": true,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_245_SUB_1",
+          "original_rrf_rank": 9,
+          "cross_encoder_rank": 2,
+          "cross_encoder_score": -0.48745,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_4_SUB_1",
+          "original_rrf_rank": 3,
+          "cross_encoder_rank": 3,
+          "cross_encoder_score": -0.81304,
+          "is_gold": false,
+          "is_hn": true
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_378H_SUB_1",
+          "original_rrf_rank": 5,
+          "cross_encoder_rank": 4,
+          "cross_encoder_score": -0.97741,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_378T_SUB_1",
+          "original_rrf_rank": 7,
+          "cross_encoder_rank": 5,
+          "cross_encoder_score": -2.16098,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS-JUD-SC-2022-2022_10_102_126-P021",
+          "original_rrf_rank": 6,
+          "cross_encoder_rank": 6,
+          "cross_encoder_score": -2.9949,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS-JUD-SC-2022-2022_10_102_126-P012",
+          "original_rrf_rank": 8,
+          "cross_encoder_rank": 7,
+          "cross_encoder_score": -3.29411,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_339_SUB_2",
+          "original_rrf_rank": 4,
+          "cross_encoder_rank": 8,
+          "cross_encoder_score": -4.9073,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_378",
+          "original_rrf_rank": 2,
+          "cross_encoder_rank": 9,
+          "cross_encoder_score": -6.17005,
+          "is_gold": false,
+          "is_hn": false
+        }
+      ]
+    },
+    {
+      "query_id": "D3_RET_000343",
+      "query": "Which provision under Chapter II specifically regulates act to override memorandum, articles, etc rather than incorporation of company?",
+      "gold_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_6"
+      ],
+      "hard_negative_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_7_SUB_1"
+      ],
+      "b4_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_242_SUB_5",
+        "PAS_ACT_COMPANIES_2013_SEC_6",
+        "PAS_ACT_COMPANIES_2013_SEC_8_SUB_4",
+        "PAS_ACT_COMPANIES_2013_SEC_18_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_371_SUB_5"
+      ],
+      "b5_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_242_SUB_5",
+        "PAS_ACT_COMPANIES_2013_SEC_6",
+        "PAS_ACT_COMPANIES_2013_SEC_8_SUB_4",
+        "PAS_ACT_COMPANIES_2013_SEC_18_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_371_SUB_5"
+      ],
+      "b4_retrieved_hn": false,
+      "b5_retrieved_hn": false,
+      "b5_candidates": [
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_6",
+          "original_rrf_rank": 1,
+          "cross_encoder_rank": 1,
+          "cross_encoder_score": 5.10574,
+          "is_gold": true,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_18_SUB_1",
+          "original_rrf_rank": 2,
+          "cross_encoder_rank": 2,
+          "cross_encoder_score": 3.07485,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_371_SUB_5",
+          "original_rrf_rank": 5,
+          "cross_encoder_rank": 3,
+          "cross_encoder_score": 3.07439,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_8_SUB_4",
+          "original_rrf_rank": 3,
+          "cross_encoder_rank": 4,
+          "cross_encoder_score": 2.75423,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_242_SUB_5",
+          "original_rrf_rank": 4,
+          "cross_encoder_rank": 5,
+          "cross_encoder_score": 2.64171,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS-JUD-SC-2016-2016_11_419_475-P026",
+          "original_rrf_rank": 7,
+          "cross_encoder_rank": 6,
+          "cross_encoder_score": 0.00996,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_9",
+          "original_rrf_rank": 8,
+          "cross_encoder_rank": 7,
+          "cross_encoder_score": -1.00294,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_245_SUB_1",
+          "original_rrf_rank": 6,
+          "cross_encoder_rank": 8,
+          "cross_encoder_score": -1.5564,
+          "is_gold": false,
+          "is_hn": false
+        }
+      ]
+    },
+    {
+      "query_id": "D3_RET_000344",
+      "query": "Which provision under Chapter II specifically regulates incorporation of company rather than formation of companies with charitable objects, etc?",
+      "gold_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_7_SUB_1"
+      ],
+      "hard_negative_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_8_SUB_1"
+      ],
+      "b4_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_181",
+        "PAS-JUD-SC-2016-2016_11_419_475-P004",
+        "PAS_ACT_COMPANIES_2013_SEC_378",
+        "PAS_ACT_COMPANIES_2013_SEC_378C_SUB_5",
+        "PAS_ACT_COMPANIES_2013_SEC_439_SUB_4"
+      ],
+      "b5_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_2_SUB_95",
+        "PAS_ACT_COMPANIES_2013_SEC_378",
+        "PAS_ACT_COMPANIES_2013_SEC_378C_SUB_5",
+        "PAS_ACT_COMPANIES_2013_SEC_439_SUB_4",
+        "PAS_ACT_COMPANIES_2013_SEC_18_SUB_2"
+      ],
+      "b4_retrieved_hn": false,
+      "b5_retrieved_hn": false,
+      "b5_candidates": [
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_18_SUB_2",
+          "original_rrf_rank": 7,
+          "cross_encoder_rank": 1,
+          "cross_encoder_score": 0.32595,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_SUB_95",
+          "original_rrf_rank": 8,
+          "cross_encoder_rank": 2,
+          "cross_encoder_score": -0.07072,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_378C_SUB_5",
+          "original_rrf_rank": 4,
+          "cross_encoder_rank": 3,
+          "cross_encoder_score": -2.25228,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_439_SUB_4",
+          "original_rrf_rank": 2,
+          "cross_encoder_rank": 4,
+          "cross_encoder_score": -2.31116,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_378",
+          "original_rrf_rank": 3,
+          "cross_encoder_rank": 5,
+          "cross_encoder_score": -2.4705,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS-JUD-SC-2016-2016_11_419_475-P004",
+          "original_rrf_rank": 5,
+          "cross_encoder_rank": 6,
+          "cross_encoder_score": -3.30712,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_378Z-I_SUB_3",
+          "original_rrf_rank": 10,
+          "cross_encoder_rank": 7,
+          "cross_encoder_score": -3.5881,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_181",
+          "original_rrf_rank": 1,
+          "cross_encoder_rank": 8,
+          "cross_encoder_score": -3.66994,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A",
+          "original_rrf_rank": 6,
+          "cross_encoder_rank": 9,
+          "cross_encoder_score": -5.78095,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_102_SUB_2",
+          "original_rrf_rank": 9,
+          "cross_encoder_rank": 10,
+          "cross_encoder_score": -7.67392,
+          "is_gold": false,
+          "is_hn": false
+        }
+      ]
+    },
+    {
+      "query_id": "D3_RET_000354",
+      "query": "Which provision under Chapter II specifically regulates rectification of name of company rather than copies of memorandum, articles, etc., to be given to members?",
+      "gold_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_16_SUB_1"
+      ],
+      "hard_negative_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_17_SUB_1"
+      ],
+      "b4_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_7_SUB_7",
+        "PAS_ACT_COMPANIES_2013_SEC_13_SUB_6",
+        "PAS_ACT_COMPANIES_2013_SEC_4_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_285_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_6"
+      ],
+      "b5_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_7_SUB_7",
+        "PAS_ACT_COMPANIES_2013_SEC_16_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_13_SUB_6",
+        "PAS_ACT_COMPANIES_2013_SEC_4_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_6"
+      ],
+      "b4_retrieved_hn": false,
+      "b5_retrieved_hn": false,
+      "b5_candidates": [
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_7_SUB_7",
+          "original_rrf_rank": 4,
+          "cross_encoder_rank": 1,
+          "cross_encoder_score": 1.46541,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_13_SUB_6",
+          "original_rrf_rank": 5,
+          "cross_encoder_rank": 2,
+          "cross_encoder_score": 1.28742,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_6",
+          "original_rrf_rank": 2,
+          "cross_encoder_rank": 3,
+          "cross_encoder_score": 0.72379,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_4_SUB_1",
+          "original_rrf_rank": 1,
+          "cross_encoder_rank": 4,
+          "cross_encoder_score": -0.04178,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_16_SUB_2",
+          "original_rrf_rank": 7,
+          "cross_encoder_rank": 5,
+          "cross_encoder_score": -0.07207,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_120",
+          "original_rrf_rank": 10,
+          "cross_encoder_rank": 6,
+          "cross_encoder_score": -1.29726,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_245_SUB_1",
+          "original_rrf_rank": 6,
+          "cross_encoder_rank": 7,
+          "cross_encoder_score": -1.42489,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_285_SUB_1",
+          "original_rrf_rank": 3,
+          "cross_encoder_rank": 8,
+          "cross_encoder_score": -1.53916,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_111_SUB_1",
+          "original_rrf_rank": 9,
+          "cross_encoder_rank": 9,
+          "cross_encoder_score": -3.03565,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_SUB_55",
+          "original_rrf_rank": 8,
+          "cross_encoder_rank": 10,
+          "cross_encoder_score": -3.50665,
+          "is_gold": false,
+          "is_hn": false
+        }
+      ]
+    },
+    {
+      "query_id": "D3_RET_000363",
+      "query": "Which provision under Chapter III specifically regulates matters to be stated in prospectus rather than variation in terms of contract or objects in prospectus?",
+      "gold_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_26_SUB_1"
+      ],
+      "hard_negative_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_27_SUB_1"
+      ],
+      "b4_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_26_SUB_3",
+        "PAS_ACT_COMPANIES_2013_SEC_32_SUB_3",
+        "PAS_ACT_COMPANIES_2013_SEC_22_SUB_3",
+        "PAS_ACT_COMPANIES_2013_SEC_27_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_25_SUB_3"
+      ],
+      "b5_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_26_SUB_3",
+        "PAS_ACT_COMPANIES_2013_SEC_27_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_34",
+        "PAS_ACT_COMPANIES_2013_SEC_24_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_25_SUB_3"
+      ],
+      "b4_retrieved_hn": true,
+      "b5_retrieved_hn": true,
+      "b5_candidates": [
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_25_SUB_3",
+          "original_rrf_rank": 1,
+          "cross_encoder_rank": 1,
+          "cross_encoder_score": 3.85273,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_27_SUB_1",
+          "original_rrf_rank": 2,
+          "cross_encoder_rank": 2,
+          "cross_encoder_score": 3.78253,
+          "is_gold": false,
+          "is_hn": true
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_26_SUB_3",
+          "original_rrf_rank": 3,
+          "cross_encoder_rank": 3,
+          "cross_encoder_score": 1.91022,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_24_SUB_1",
+          "original_rrf_rank": 7,
+          "cross_encoder_rank": 4,
+          "cross_encoder_score": 1.67124,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_34",
+          "original_rrf_rank": 8,
+          "cross_encoder_rank": 5,
+          "cross_encoder_score": 1.25955,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_32_SUB_3",
+          "original_rrf_rank": 4,
+          "cross_encoder_rank": 6,
+          "cross_encoder_score": 0.66169,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_22_SUB_3",
+          "original_rrf_rank": 5,
+          "cross_encoder_rank": 7,
+          "cross_encoder_score": -0.66208,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_25_SUB_1",
+          "original_rrf_rank": 6,
+          "cross_encoder_rank": 8,
+          "cross_encoder_score": -0.88199,
+          "is_gold": false,
+          "is_hn": false
+        }
+      ]
+    },
+    {
+      "query_id": "D3_RET_000380",
+      "query": "Which provision under Chapter IV specifically regulates nature of shares or debentures rather than numbering of shares?",
+      "gold_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_44"
+      ],
+      "hard_negative_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_45"
+      ],
+      "b4_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_71_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_44",
+        "PAS_ACT_COMPANIES_2013_SEC_26_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_24_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_45"
+      ],
+      "b5_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_42_SUB_11",
+        "PAS_ACT_COMPANIES_2013_SEC_71_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_44",
+        "PAS_ACT_COMPANIES_2013_SEC_24_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_45"
+      ],
+      "b4_retrieved_hn": true,
+      "b5_retrieved_hn": true,
+      "b5_candidates": [
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_44",
+          "original_rrf_rank": 1,
+          "cross_encoder_rank": 1,
+          "cross_encoder_score": 3.00585,
+          "is_gold": true,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_42_SUB_11",
+          "original_rrf_rank": 7,
+          "cross_encoder_rank": 2,
+          "cross_encoder_score": 2.3167,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_24_SUB_1",
+          "original_rrf_rank": 2,
+          "cross_encoder_rank": 3,
+          "cross_encoder_score": 0.81484,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_45",
+          "original_rrf_rank": 3,
+          "cross_encoder_rank": 4,
+          "cross_encoder_score": 0.0094,
+          "is_gold": false,
+          "is_hn": true
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_71_SUB_1",
+          "original_rrf_rank": 4,
+          "cross_encoder_rank": 5,
+          "cross_encoder_score": -0.23162,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_26_SUB_2",
+          "original_rrf_rank": 5,
+          "cross_encoder_rank": 6,
+          "cross_encoder_score": -0.9586,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_52_SUB_2",
+          "original_rrf_rank": 8,
+          "cross_encoder_rank": 7,
+          "cross_encoder_score": -3.89996,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_371_SUB_4",
+          "original_rrf_rank": 6,
+          "cross_encoder_rank": 8,
+          "cross_encoder_score": -4.51853,
+          "is_gold": false,
+          "is_hn": false
+        }
+      ]
+    },
+    {
+      "query_id": "D3_RET_000381",
+      "query": "Which provision under Chapter IV specifically regulates numbering of shares rather than certificate of shares?",
+      "gold_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_45"
+      ],
+      "hard_negative_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_46_SUB_1"
+      ],
+      "b4_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_46_SUB_5",
+        "PAS_ACT_COMPANIES_2013_SEC_371_SUB_4",
+        "PAS_ACT_COMPANIES_2013_SEC_387_SUB_4",
+        "PAS_ACT_COMPANIES_2013_SEC_24_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_45"
+      ],
+      "b5_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_46_SUB_5",
+        "PAS_ACT_COMPANIES_2013_SEC_24_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_45",
+        "PAS_ACT_COMPANIES_2013_SEC_23_SUB_4",
+        "PAS_ACT_COMPANIES_2013_SEC_46_SUB_1"
+      ],
+      "b4_retrieved_hn": false,
+      "b5_retrieved_hn": true,
+      "b5_candidates": [
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_24_SUB_1",
+          "original_rrf_rank": 1,
+          "cross_encoder_rank": 1,
+          "cross_encoder_score": 1.34899,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_45",
+          "original_rrf_rank": 2,
+          "cross_encoder_rank": 2,
+          "cross_encoder_score": 0.96712,
+          "is_gold": true,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_46_SUB_1",
+          "original_rrf_rank": 8,
+          "cross_encoder_rank": 3,
+          "cross_encoder_score": -0.97951,
+          "is_gold": false,
+          "is_hn": true
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_46_SUB_5",
+          "original_rrf_rank": 4,
+          "cross_encoder_rank": 4,
+          "cross_encoder_score": -1.64197,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_23_SUB_4",
+          "original_rrf_rank": 7,
+          "cross_encoder_rank": 5,
+          "cross_encoder_score": -2.1907,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_46_SUB_2",
+          "original_rrf_rank": 6,
+          "cross_encoder_rank": 6,
+          "cross_encoder_score": -2.39342,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_371_SUB_4",
+          "original_rrf_rank": 3,
+          "cross_encoder_rank": 7,
+          "cross_encoder_score": -3.66398,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_387_SUB_4",
+          "original_rrf_rank": 5,
+          "cross_encoder_rank": 8,
+          "cross_encoder_score": -10.02846,
+          "is_gold": false,
+          "is_hn": false
+        }
+      ]
+    },
+    {
+      "query_id": "D3_RET_000383",
+      "query": "Which provision under Chapter IV specifically regulates voting rights rather than variation of shareholders’ rights?",
+      "gold_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_47_SUB_1"
+      ],
+      "hard_negative_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_48_SUB_1"
+      ],
+      "b4_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_47_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_378D",
+        "PAS_ACT_COMPANIES_2013_SEC_378F_SUB_3",
+        "PAS_ACT_COMPANIES_2013_SEC_48_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_47_SUB_1"
+      ],
+      "b5_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_47_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_378F_SUB_3",
+        "PAS_ACT_COMPANIES_2013_SEC_48_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_59_SUB_3",
+        "PAS_ACT_COMPANIES_2013_SEC_47_SUB_1"
+      ],
+      "b4_retrieved_hn": true,
+      "b5_retrieved_hn": true,
+      "b5_candidates": [
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_59_SUB_3",
+          "original_rrf_rank": 6,
+          "cross_encoder_rank": 1,
+          "cross_encoder_score": 2.36086,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_47_SUB_1",
+          "original_rrf_rank": 4,
+          "cross_encoder_rank": 2,
+          "cross_encoder_score": 0.33468,
+          "is_gold": true,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_48_SUB_1",
+          "original_rrf_rank": 1,
+          "cross_encoder_rank": 3,
+          "cross_encoder_score": -0.02604,
+          "is_gold": false,
+          "is_hn": true
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_47_SUB_2",
+          "original_rrf_rank": 2,
+          "cross_encoder_rank": 4,
+          "cross_encoder_score": -0.56351,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_378F_SUB_3",
+          "original_rrf_rank": 5,
+          "cross_encoder_rank": 5,
+          "cross_encoder_score": -3.27708,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_SUB_27",
+          "original_rrf_rank": 7,
+          "cross_encoder_rank": 6,
+          "cross_encoder_score": -3.87783,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_378D",
+          "original_rrf_rank": 3,
+          "cross_encoder_rank": 7,
+          "cross_encoder_score": -4.5556,
+          "is_gold": false,
+          "is_hn": false
+        }
+      ]
+    },
+    {
+      "query_id": "D3_RET_000386",
+      "query": "Which provision under Chapter IV specifically regulates company to accept unpaid share capital, although not called up rather than payment of dividend in proportion to amount paid-up?",
+      "gold_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_50_SUB_1"
+      ],
+      "hard_negative_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_51"
+      ],
+      "b4_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_51",
+        "PAS_ACT_COMPANIES_2013_SEC_47_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_50_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_123_SUB_5",
+        "PAS_ACT_COMPANIES_2013_SEC_371_SUB_4"
+      ],
+      "b5_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_51",
+        "PAS_ACT_COMPANIES_2013_SEC_124_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_50_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_123_SUB_5",
+        "PAS_ACT_COMPANIES_2013_SEC_371_SUB_4"
+      ],
+      "b4_retrieved_hn": true,
+      "b5_retrieved_hn": true,
+      "b5_candidates": [
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_123_SUB_5",
+          "original_rrf_rank": 1,
+          "cross_encoder_rank": 1,
+          "cross_encoder_score": 2.28259,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_50_SUB_1",
+          "original_rrf_rank": 5,
+          "cross_encoder_rank": 2,
+          "cross_encoder_score": 1.75224,
+          "is_gold": true,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_124_SUB_1",
+          "original_rrf_rank": 6,
+          "cross_encoder_rank": 3,
+          "cross_encoder_score": 0.47832,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_371_SUB_4",
+          "original_rrf_rank": 2,
+          "cross_encoder_rank": 4,
+          "cross_encoder_score": 0.30702,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_51",
+          "original_rrf_rank": 3,
+          "cross_encoder_rank": 5,
+          "cross_encoder_score": -0.07473,
+          "is_gold": false,
+          "is_hn": true
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_47_SUB_2",
+          "original_rrf_rank": 4,
+          "cross_encoder_rank": 6,
+          "cross_encoder_score": -1.3923,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_61_SUB_1",
+          "original_rrf_rank": 9,
+          "cross_encoder_rank": 7,
+          "cross_encoder_score": -2.38467,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_55_SUB_3",
+          "original_rrf_rank": 8,
+          "cross_encoder_rank": 8,
+          "cross_encoder_score": -2.43927,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_64_SUB_1",
+          "original_rrf_rank": 7,
+          "cross_encoder_rank": 9,
+          "cross_encoder_score": -2.96941,
+          "is_gold": false,
+          "is_hn": false
+        }
+      ]
+    },
+    {
+      "query_id": "D3_RET_000389",
+      "query": "Which provision under Chapter IV specifically regulates prohibition on issue of shares at discount rather than issues of sweat equity shares?",
+      "gold_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_53_SUB_1"
+      ],
+      "hard_negative_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_54_SUB_1"
+      ],
+      "b4_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_54_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_2_SUB_88",
+        "PAS_ACT_COMPANIES_2013_SEC_54_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_68_SUB_8",
+        "PAS_ACT_COMPANIES_2013_SEC_53_SUB_1"
+      ],
+      "b5_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_54_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_53_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_54_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_53_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_2_SUB_88"
+      ],
+      "b4_retrieved_hn": true,
+      "b5_retrieved_hn": true,
+      "b5_candidates": [
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_54_SUB_2",
+          "original_rrf_rank": 5,
+          "cross_encoder_rank": 1,
+          "cross_encoder_score": 2.69265,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_54_SUB_1",
+          "original_rrf_rank": 2,
+          "cross_encoder_rank": 2,
+          "cross_encoder_score": 2.22132,
+          "is_gold": false,
+          "is_hn": true
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_53_SUB_1",
+          "original_rrf_rank": 4,
+          "cross_encoder_rank": 3,
+          "cross_encoder_score": 1.8849,
+          "is_gold": true,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_SUB_88",
+          "original_rrf_rank": 1,
+          "cross_encoder_rank": 4,
+          "cross_encoder_score": 0.41917,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_53_SUB_2",
+          "original_rrf_rank": 7,
+          "cross_encoder_rank": 5,
+          "cross_encoder_score": 0.20949,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_68_SUB_8",
+          "original_rrf_rank": 3,
+          "cross_encoder_rank": 6,
+          "cross_encoder_score": 0.06171,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_52_SUB_3",
+          "original_rrf_rank": 6,
+          "cross_encoder_rank": 7,
+          "cross_encoder_score": -2.41947,
+          "is_gold": false,
+          "is_hn": false
+        }
+      ]
+    },
+    {
+      "query_id": "D3_RET_000415",
+      "query": "Which provision under Chapter VI specifically regulates date of notice of charge rather than register of charges to be kept by registrar?",
+      "gold_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_80"
+      ],
+      "hard_negative_ids": [
+        "PAS_ACT_COMPANIES_2013_SEC_81_SUB_1"
+      ],
+      "b4_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_80",
+        "PAS_ACT_COMPANIES_2013_SEC_77_SUB_1",
+        "PAS_ACT_COMPANIES_2013_SEC_82_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_78",
+        "PAS_ACT_COMPANIES_2013_SEC_84_SUB_1"
+      ],
+      "b5_top5": [
+        "PAS_ACT_COMPANIES_2013_SEC_80",
+        "PAS_ACT_COMPANIES_2013_SEC_83_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_82_SUB_2",
+        "PAS_ACT_COMPANIES_2013_SEC_78",
+        "PAS_ACT_COMPANIES_2013_SEC_81_SUB_1"
+      ],
+      "b4_retrieved_hn": false,
+      "b5_retrieved_hn": true,
+      "b5_candidates": [
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_82_SUB_2",
+          "original_rrf_rank": 1,
+          "cross_encoder_rank": 1,
+          "cross_encoder_score": 4.45562,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_80",
+          "original_rrf_rank": 2,
+          "cross_encoder_rank": 2,
+          "cross_encoder_score": 4.03759,
+          "is_gold": true,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_81_SUB_1",
+          "original_rrf_rank": 8,
+          "cross_encoder_rank": 3,
+          "cross_encoder_score": 3.96243,
+          "is_gold": false,
+          "is_hn": true
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_83_SUB_2",
+          "original_rrf_rank": 9,
+          "cross_encoder_rank": 4,
+          "cross_encoder_score": 3.5741,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_78",
+          "original_rrf_rank": 5,
+          "cross_encoder_rank": 5,
+          "cross_encoder_score": 3.39668,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_85_SUB_1",
+          "original_rrf_rank": 6,
+          "cross_encoder_rank": 6,
+          "cross_encoder_score": 2.2244,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_87",
+          "original_rrf_rank": 7,
+          "cross_encoder_rank": 7,
+          "cross_encoder_score": 0.77508,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_77_SUB_1",
+          "original_rrf_rank": 3,
+          "cross_encoder_rank": 8,
+          "cross_encoder_score": 0.24168,
+          "is_gold": false,
+          "is_hn": false
+        },
+        {
+          "passage_id": "PAS_ACT_COMPANIES_2013_SEC_84_SUB_1",
+          "original_rrf_rank": 4,
+          "cross_encoder_rank": 9,
+          "cross_encoder_score": -0.24711,
+          "is_gold": false,
+          "is_hn": false
+        }
+      ]
+    }
+  ]
+}

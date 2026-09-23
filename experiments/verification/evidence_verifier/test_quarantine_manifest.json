@@ -1,0 +1,11 @@
+{
+  "benchmark_version": "1.0.0",
+  "split": "test",
+  "test_case_count": 28,
+  "benchmark_hash": "1bdcea5524d17d94a1ee271ac5545e9bb50c0d4cd93d27e6dfba4d238d6b3ac0",
+  "status": "QUARANTINED",
+  "quarantine_policy": "NO_ACCESS_DURING_DEVELOPMENT_OR_CALIBRATION",
+  "created_at": "2026-09-19T10:52:00Z",
+  "evaluation_allowed": false,
+  "notes": "Quarantined test split for final held-out verification after configuration freeze."
+}

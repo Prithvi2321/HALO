@@ -1,0 +1,46 @@
+{
+  "document_metadata": {
+    "document_id": "DOC_COMP_ACT_2013",
+    "title": "The Companies Act, 2013",
+    "act_number": "18 of 2013",
+    "jurisdiction": "CENTRAL"
+  },
+  "structure": {
+    "parts": [
+      {
+        "part_number": "I",
+        "chapters": [
+          {
+            "chapter_number": "II",
+            "sections": [
+              {
+                "section_id": "SEC_4_1C",
+                "section_number": "4(1)(c)",
+                "section_title": "Memorandum - Objects Clause",
+                "passage_id": "PAS_COMP_ACT_2013_SEC_4_1C",
+                "subsections": [
+                  {
+                    "text": "The memorandum of a company shall state the objects for which the company is proposed to be incorporated and any matter considered necessary in furtherance thereof."
+                  }
+                ],
+                "provisos": []
+              },
+              {
+                "section_id": "SEC_12_1",
+                "section_number": "12(1)",
+                "section_title": "Registered Office of Company",
+                "passage_id": "PAS_COMP_ACT_2013_SEC_12_1",
+                "subsections": [
+                  {
+                    "text": "A company shall, within thirty days of its incorporation and at all times thereafter, have a registered office capable of receiving and acknowledging all communications and notices."
+                  }
+                ],
+                "provisos": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "system_id": "B2_DENSE_RAG",
+  "status": "INDEX_BUILT_AND_VERIFIED",
+  "timestamp_utc": "2026-09-13T15:53:36.438031+00:00",
+  "passage_count": 2773,
+  "files": {
+    "index_pt": {
+      "path": "experiments\\indices\\dense\\index.pt",
+      "sha256": "3cda2350db5011b074c5f31872bfe0d05f122d7f0936de6139f48187f2f87313"
+    },
+    "index_npy": {
+      "path": "experiments\\indices\\dense\\index.npy",
+      "sha256": "8557450dc4a7f111f655aea9eae09c5c95ec301731d2264a528470e9526c10bd"
+    },
+    "metadata_jsonl": {
+      "path": "experiments\\indices\\dense\\metadata.jsonl",
+      "sha256": "02155209f447dca55ee985ffdfd19497b7828606f66cc3a838832b0e206de14c"
+    },
+    "index_manifest_json": {
+      "path": "experiments\\indices\\dense\\index_manifest.json",
+      "sha256": "cf790c239a9e2d4b1c2b2b9006e4c6fae885311d96a8f26d96997759d59364e6"
+    }
+  }
+}

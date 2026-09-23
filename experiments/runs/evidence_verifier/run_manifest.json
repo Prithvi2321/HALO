@@ -1,0 +1,32 @@
+{
+  "subsystem": "evidence_verifier",
+  "verifier_version": "1.0.0",
+  "schema_version": "1.0.0",
+  "input_file": "experiments\\runs\\citation_verifier\\dev_verified_citations.jsonl",
+  "output_file": "experiments\\runs\\evidence_verifier\\dev_verified_evidence.jsonl",
+  "config_hash": "8f0440fe25a984309d238c8fe688f4e1cabb6ef3c00ef3dd105da81dfb073b27",
+  "master_output_hash": "4b33ded6744fbbb63212a8fda03f958920ffbca6ddc449ad79350c81cda86d29",
+  "records_processed": 64,
+  "total_claims": 526,
+  "verdict_distribution": {
+    "SUPPORTED": 90,
+    "CONTRADICTED": 153,
+    "PARTIALLY_SUPPORTED": 0,
+    "NEUTRAL": 203,
+    "CONFLICTED": 42,
+    "UNRESOLVED": 38
+  },
+  "elapsed_seconds": 848.89,
+  "throughput_claims_per_sec": 0.62,
+  "timestamp": "2026-09-22T07:18:13.653200+00:00",
+  "model_provenance": {
+    "name": "cross-encoder/nli-deberta-v3-base",
+    "revision": "6c749ce3425cd33b46d187e45b92bbf96ee12ec7",
+    "model_hash": "935791fe232ccdacfb4653f4032f82331a0e3765d0acf0cfa1071576fb920118",
+    "tokenizer_hash": "935791fe232ccdacfb4653f4032f82331a0e3765d0acf0cfa1071576fb920118",
+    "torch_version": "2.9.0+cpu",
+    "transformers_version": "4.57.3",
+    "device": "cpu",
+    "dtype": "torch.float32"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "total_artifacts_compared": 10,
+  "matches_count": 10,
+  "discrepancies_count": 0,
+  "discrepancies": [],
+  "comparisons": [
+    {
+      "file": "companies_act_2013.json",
+      "build1_sha256": "bbbc8b28e1e9c518f1a7365b724d9161b838229e23017a309625ee1b17a4eafb",
+      "build2_sha256": "bbbc8b28e1e9c518f1a7365b724d9161b838229e23017a309625ee1b17a4eafb",
+      "build1_size": 7507912,
+      "build2_size": 7507912,
+      "deterministic": true
+    },
+    {
+      "file": "companies_act_2013_passages.jsonl",
+      "build1_sha256": "3642bf8c19d890c6c61b314dfadaf030b48aae2373bef437e9173c94f2ccd19a",
+      "build2_sha256": "3642bf8c19d890c6c61b314dfadaf030b48aae2373bef437e9173c94f2ccd19a",
+      "build1_size": 4392100,
+      "build2_size": 4392100,
+      "deterministic": true
+    },
+    {
+      "file": "companies_act_2013_versions.json",
+      "build1_sha256": "46c12dca0069b608ba9774ea2a8daef82d5289d8bfe40f0c4b3df8816cefccff",
+      "build2_sha256": "46c12dca0069b608ba9774ea2a8daef82d5289d8bfe40f0c4b3df8816cefccff",
+      "build1_size": 21120841,
+      "build2_size": 21120841,
+      "deterministic": true
+    },
+    {
+      "file": "companies_act_2013_amendments.json",
+      "build1_sha256": "e9157ef759ca327cc403a7bf91765de3363c8570eeb7bb963857e8d10f016472",
+      "build2_sha256": "e9157ef759ca327cc403a7bf91765de3363c8570eeb7bb963857e8d10f016472",
+      "build1_size": 107339,
+      "build2_size": 107339,
+      "deterministic": true
+    },
+    {
+      "file": "companies_act_2013_provenance.json",
+      "build1_sha256": "cf27e26b299237145fe3ab377c7d3d4954ae4029d56ee3cacaeda4175e490aab",
+      "build2_sha256": "cf27e26b299237145fe3ab377c7d3d4954ae4029d56ee3cacaeda4175e490aab",
+      "build1_size": 465450,
+      "build2_size": 465450,
+      "deterministic": true
+    },
+    {
+      "file": "companies_act_2013_cross_references.json",
+      "build1_sha256": "d3534ce796056f40114429f17f16820d151c9ea556ea5159821797352ce8159e",
+      "build2_sha256": "d3534ce796056f40114429f17f16820d151c9ea556ea5159821797352ce8159e",
+      "build1_size": 205468,
+      "build2_size": 205468,
+      "deterministic": true
+    },
+    {
+      "file": "companies_act_2013_definitions.json",
+      "build1_sha256": "61c367132a83a095ad6d25350c9d65d0f173ac5d9cc361ca2cbcc2726a5af08a",
+      "build2_sha256": "61c367132a83a095ad6d25350c9d65d0f173ac5d9cc361ca2cbcc2726a5af08a",
+      "build1_size": 29089,
+      "build2_size": 29089,
+      "deterministic": true
+    },
+    {
+      "file": "companies_act_2013_validation_report.json",
+      "build1_sha256": "1a687e517629cd591c6364f4a9d536a6d341ab023cf36e807dd1bb1bda140fb9",
+      "build2_sha256": "1a687e517629cd591c6364f4a9d536a6d341ab023cf36e807dd1bb1bda140fb9",
+      "build1_size": 760,
+      "build2_size": 760,
+      "deterministic": true
+    },
+    {
+      "file": "freeze_manifest.json",
+      "build1_sha256": "813eccc901f5fa0d5b0dd9517f13ab9d327859a4b155fadf4b31e47f100d46aa",
+      "build2_sha256": "813eccc901f5fa0d5b0dd9517f13ab9d327859a4b155fadf4b31e47f100d46aa",
+      "build1_size": 1556,
+      "build2_size": 1556,
+      "deterministic": true
+    },
+    {
+      "file": "dataset_1_manifest.json",
+      "build1_sha256": "0419b47b9a0095069c6339cabe7054ac6994d1d17155f774eddbc0638487d398",
+      "build2_sha256": "0419b47b9a0095069c6339cabe7054ac6994d1d17155f774eddbc0638487d398",
+      "build1_size": 3950,
+      "build2_size": 3950,
+      "deterministic": true
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "subsystem": "evidence_verifier",
+  "benchmark_version": "1.0.0",
+  "evaluation_timestamp": "2026-09-22T11:11:54.419718+00:00",
+  "config_hash": "8f0440fe25a984309d238c8fe688f4e1cabb6ef3c00ef3dd105da81dfb073b27",
+  "thresholds": {
+    "entailment_min": 0.7,
+    "contradiction_min": 0.65,
+    "contradiction_max_for_entailment": 0.1,
+    "entailment_max_for_contradiction": 0.1
+  },
+  "test_metrics": {
+    "total_cases": 28,
+    "accuracy": 0.5714,
+    "macro_precision": 0.9444,
+    "macro_recall": 0.5602,
+    "macro_f1": 0.6984,
+    "safety_metrics": {
+      "UFAR": 0.05,
+      "SFRR": 0.375,
+      "UR": 0.0,
+      "CFNR": 0.4444
+    },
+    "per_class": {
+      "SUPPORTED": {
+        "precision": 0.8333,
+        "recall": 0.625,
+        "f1": 0.7143,
+        "support": 8
+      },
+      "CONTRADICTED": {
+        "precision": 1.0,
+        "recall": 0.5556,
+        "f1": 0.7143,
+        "support": 18
+      },
+      "PARTIALLY_SUPPORTED": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667,
+        "support": 2
+      },
+      "NEUTRAL": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "CONFLICTED": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "UNRESOLVED": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      }
+    },
+    "per_category": {
+      "adversarial_cases": {
+        "total": 3,
+        "correct": 1,
+        "accuracy": 0.3333,
+        "detection_rate": 0.3333
+      },
+      "authority_verification": {
+        "total": 3,
+        "correct": 1,
+        "accuracy": 0.3333,
+        "detection_rate": 0.3333
+      },
+      "citation_existence": {
+        "total": 3,
+        "correct": 3,
+        "accuracy": 1.0,
+        "detection_rate": 1.0
+      },
+      "citation_metadata": {
+        "total": 2,
+        "correct": 1,
+        "accuracy": 0.5,
+        "detection_rate": 0.5
+      },
+      "compound_claim": {
+        "total": 2,
+        "correct": 1,
+        "accuracy": 0.5,
+        "detection_rate": 0.5
+      },
+      "conflict_detection": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "detection_rate": 0.0
+      },
+      "modality_mutation": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0,
+        "detection_rate": 1.0
+      },
+      "numerical_mutation": {
+        "total": 5,
+        "correct": 2,
+        "accuracy": 0.4,
+        "detection_rate": 0.4
+      },
+      "passage_support": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0,
+        "detection_rate": 1.0
+      },
+      "temporal_verification": {
+        "total": 5,
+        "correct": 3,
+        "accuracy": 0.6,
+        "detection_rate": 0.6
+      }
+    },
+    "confusion_matrix_6x6": {
+      "SUPPORTED": {
+        "SUPPORTED": 5,
+        "CONTRADICTED": 0,
+        "PARTIALLY_SUPPORTED": 0,
+        "NEUTRAL": 3,
+        "CONFLICTED": 0,
+        "UNRESOLVED": 0
+      },
+      "CONTRADICTED": {
+        "SUPPORTED": 1,
+        "CONTRADICTED": 10,
+        "PARTIALLY_SUPPORTED": 0,
+        "NEUTRAL": 7,
+        "CONFLICTED": 0,
+        "UNRESOLVED": 0
+      },
+      "PARTIALLY_SUPPORTED": {
+        "SUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "PARTIALLY_SUPPORTED": 1,
+        "NEUTRAL": 1,
+        "CONFLICTED": 0,
+        "UNRESOLVED": 0
+      },
+      "NEUTRAL": {
+        "SUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "PARTIALLY_SUPPORTED": 0,
+        "NEUTRAL": 0,
+        "CONFLICTED": 0,
+        "UNRESOLVED": 0
+      },
+      "CONFLICTED": {
+        "SUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "PARTIALLY_SUPPORTED": 0,
+        "NEUTRAL": 0,
+        "CONFLICTED": 0,
+        "UNRESOLVED": 0
+      },
+      "UNRESOLVED": {
+        "SUPPORTED": 0,
+        "CONTRADICTED": 0,
+        "PARTIALLY_SUPPORTED": 0,
+        "NEUTRAL": 0,
+        "CONFLICTED": 0,
+        "UNRESOLVED": 0
+      }
+    },
+    "latency_ms": {
+      "mean": 463.04,
+      "p50": 422.43,
+      "p95": 844.93,
+      "p99": 1125.69
+    },
+    "throughput_cases_per_sec": 2.16
+  },
+  "quarantine_verified": true,
+  "test_case_count": 28,
+  "test_dataset_hash": "1bdcea5524d17d94a1ee271ac5545e9bb50c0d4cd93d27e6dfba4d238d6b3ac0"
+}

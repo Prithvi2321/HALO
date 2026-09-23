@@ -1,0 +1,62 @@
+{
+  "B5_Reranker_Alone": {
+    "total_queries": 17,
+    "flawed_queries": 12,
+    "false_acceptances": 12,
+    "correctly_rejected": 0,
+    "correctly_accepted": 5,
+    "unsupported_false_acceptance_rate_pct": 100.0,
+    "fail_closed_recall_pct": 0.0,
+    "overall_verified_accuracy_pct": 29.41
+  },
+  "B5_plus_ClaimExtractor": {
+    "total_queries": 17,
+    "flawed_queries": 12,
+    "false_acceptances": 12,
+    "correctly_rejected": 0,
+    "correctly_accepted": 5,
+    "unsupported_false_acceptance_rate_pct": 100.0,
+    "fail_closed_recall_pct": 0.0,
+    "overall_verified_accuracy_pct": 29.41
+  },
+  "B5_plus_CitationVerifier": {
+    "total_queries": 17,
+    "flawed_queries": 12,
+    "false_acceptances": 11,
+    "correctly_rejected": 1,
+    "correctly_accepted": 5,
+    "unsupported_false_acceptance_rate_pct": 91.67,
+    "fail_closed_recall_pct": 8.33,
+    "overall_verified_accuracy_pct": 35.29
+  },
+  "B5_plus_TemporalVerifier": {
+    "total_queries": 17,
+    "flawed_queries": 12,
+    "false_acceptances": 8,
+    "correctly_rejected": 4,
+    "correctly_accepted": 5,
+    "unsupported_false_acceptance_rate_pct": 66.67,
+    "fail_closed_recall_pct": 33.33,
+    "overall_verified_accuracy_pct": 52.94
+  },
+  "B5_plus_FailClosedGovernor": {
+    "total_queries": 17,
+    "flawed_queries": 12,
+    "false_acceptances": 12,
+    "correctly_rejected": 0,
+    "correctly_accepted": 5,
+    "unsupported_false_acceptance_rate_pct": 100.0,
+    "fail_closed_recall_pct": 0.0,
+    "overall_verified_accuracy_pct": 29.41
+  },
+  "Full_HALO_Production_System": {
+    "total_queries": 17,
+    "flawed_queries": 12,
+    "false_acceptances": 0,
+    "correctly_rejected": 12,
+    "correctly_accepted": 5,
+    "unsupported_false_acceptance_rate_pct": 0.0,
+    "fail_closed_recall_pct": 100.0,
+    "overall_verified_accuracy_pct": 100.0
+  }
+}

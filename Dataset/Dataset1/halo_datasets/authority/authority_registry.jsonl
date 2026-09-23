@@ -1,0 +1,2 @@
+{"authority_id": "AUTH_SC_INDIA", "source_type": "JUDICIAL", "authority_level": "SUPREME_COURT", "jurisdiction": "India", "organization": "Supreme Court of India", "source_reliability": "AUTHORITATIVE", "precedential_weight": 100, "official": true}
+{"authority_id": "AUTH_PARLIAMENT_INDIA", "source_type": "STATUTORY", "authority_level": "PARLIAMENT", "jurisdiction": "India", "organization": "Parliament of India", "source_reliability": "AUTHORITATIVE", "precedential_weight": 100, "official": true}

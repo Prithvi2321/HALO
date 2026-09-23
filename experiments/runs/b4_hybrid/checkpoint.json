@@ -1,0 +1,17 @@
+{
+  "system_id": "B4_HYBRID_RRF",
+  "current_split": "test",
+  "status": "SPLIT_COMPLETED",
+  "last_saved_utc": "2026-09-15T20:36:54.231791+00:00",
+  "split_progress": {
+    "total_queries": 168,
+    "completed_queries": 168,
+    "remaining_queries": 0,
+    "last_processed_query_id": "D3_GROUND_000100"
+  },
+  "output_files": {
+    "dev": "C:\\HALO\\experiments\\runs\\b4_hybrid\\dev_run_output.jsonl",
+    "test": "C:\\HALO\\experiments\\runs\\b4_hybrid\\test_run_output.jsonl"
+  },
+  "resume_command": "python -m scripts.experiments.baseline_4_runner test --resume"
+}

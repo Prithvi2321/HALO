@@ -1,0 +1,146 @@
+{
+  "benchmark_id": "HALO_EXPANDED_VERIFICATION_BENCHMARK",
+  "benchmark_name": "HALO Expanded Legal Verification Benchmark Suite",
+  "protocol_version": "v1.0-FROZEN",
+  "created_at_utc": "2026-09-17T12:49:24.555074+00:00",
+  "total_unique_cases": 180,
+  "splits": {
+    "policy": "PASSAGE_FAMILY_DISJOINT",
+    "train": {
+      "count": 125,
+      "percentage": 69.44,
+      "path": "splits/train.jsonl",
+      "sha256": "460a0cca63f8e674783b21b49df25e905d853ef70f04904384a1c21f6903c2cf"
+    },
+    "dev": {
+      "count": 27,
+      "percentage": 15.0,
+      "path": "splits/dev.jsonl",
+      "sha256": "05b92949d21c40915bb30dc9d6066a57033472b5f11f55c2afc4a9d6e7d0d60b"
+    },
+    "test": {
+      "count": 28,
+      "percentage": 15.56,
+      "path": "splits/test.jsonl",
+      "sha256": "1bdcea5524d17d94a1ee271ac5545e9bb50c0d4cd93d27e6dfba4d238d6b3ac0"
+    }
+  },
+  "class_distribution": {
+    "SUPPORTED": 41,
+    "CONTRADICTED": 88,
+    "PARTIALLY_SUPPORTED": 21,
+    "FLAGGED": 15,
+    "FABRICATED_CITATION": 14,
+    "UNSUPPORTED": 1
+  },
+  "difficulty_distribution": {
+    "easy": 46,
+    "medium": 52,
+    "hard": 82
+  },
+  "source_corpora_receipts": {
+    "dataset_1_passages": {
+      "path": "data/dataset_1/final/companies_act_2013_passages.jsonl",
+      "sha256": "37c5ced49fc3925342a7eebfc84eb2988f863166b60c0a8cf527aefae0e8c27c",
+      "verified": true
+    },
+    "dataset_2_passages": {
+      "path": "data/dataset2/canonical/passages.jsonl",
+      "sha256": "43af9b6ed2df7be5489a71e81cf1f0125469d0cbe4443d0e536edb35703d3996",
+      "verified": true
+    },
+    "dataset_2_judgments": {
+      "path": "data/dataset2/canonical/judgments.jsonl",
+      "sha256": "fe75dee7ee7a5c115f41dd7d3a9f8ca44edb068cefb9a9a69c299a22d77d9935",
+      "verified": true
+    }
+  },
+  "categories": {
+    "citation_existence": {
+      "count": 24,
+      "path": "citation_verification/citation_existence.jsonl",
+      "sha256": "46b298e366834455b104671739245246cabfd900a09d51d9fcbdea772c426e53"
+    },
+    "citation_metadata": {
+      "count": 22,
+      "path": "citation_verification/citation_metadata.jsonl",
+      "sha256": "cd7364392c51be0f78b5e40e8974b9c6636353387b518df86f2f2d2e840d04ea"
+    },
+    "citation_verification_unified": {
+      "count": 46,
+      "path": "citation_verification/citation_verification.jsonl",
+      "sha256": "a4e02be2decfb7420b889385361eceb82c0944a7a450d9c96fc8e893f2ef98b3"
+    },
+    "passage_support": {
+      "count": 24,
+      "path": "passage_verification/passage_verification.jsonl",
+      "sha256": "a2252f7837542fe503c20aaee502703fc90e2b5d6d9cfe016b1ad55737351602"
+    },
+    "numerical_mutations": {
+      "count": 24,
+      "path": "passage_verification/numerical_mutations.jsonl",
+      "sha256": "4619964a0d59506f6847178af6a044efea4eb52bc22bfe5cedf31d479d925dca"
+    },
+    "modality_mutations": {
+      "count": 16,
+      "path": "passage_verification/modality_mutations.jsonl",
+      "sha256": "0251b9b9b276b3191e809762a9b8aacbe9b88fe1b2954e5c0a060e048ce1e454"
+    },
+    "compound_claims": {
+      "count": 16,
+      "path": "claim_evidence/compound_claims.jsonl",
+      "sha256": "69abe9f3b599ad58957f6fe65cc4e1f295854ca3b5c6a3656299c6d825a09b35"
+    },
+    "temporal_verification": {
+      "count": 18,
+      "path": "temporal/temporal_verification.jsonl",
+      "sha256": "71b9945dde630966abfea00d98f2b16c2e1752a6292d83e457a6e6fa784f42b3"
+    },
+    "authority_verification": {
+      "count": 10,
+      "path": "authority/authority_verification.jsonl",
+      "sha256": "dca36718d8a0b21aff9247ecebf5d7496ada83a7cb97b37faf22f0345c13442e"
+    },
+    "conflict_detection": {
+      "count": 8,
+      "path": "conflict/conflict_cases.jsonl",
+      "sha256": "41930156b9bb78124c72cfc60bea3ff583cd0d5ebd82558854e8c2336580a01f"
+    },
+    "adversarial_cases": {
+      "count": 10,
+      "path": "adversarial/adversarial_cases.jsonl",
+      "sha256": "817192180b8f22f566ef67d0ec50da053abb8e9331481be5199f7cf0b441d54e"
+    },
+    "fail_closed_cases": {
+      "count": 8,
+      "path": "fail_closed/fail_closed_cases.jsonl",
+      "sha256": "edb328fdabe229460aadf38e69f14c309b69b74ebc4f2bcf5ffa757945bb160b"
+    }
+  },
+  "qa_audit": {
+    "gates_evaluated": 18,
+    "gates_passed": 18,
+    "status": "ALL_18_GATES_PASSED"
+  },
+  "file_digests": {
+    "adversarial/adversarial_cases.jsonl": "817192180b8f22f566ef67d0ec50da053abb8e9331481be5199f7cf0b441d54e",
+    "authority/authority_verification.jsonl": "dca36718d8a0b21aff9247ecebf5d7496ada83a7cb97b37faf22f0345c13442e",
+    "benchmark_plan.json": "244bcf5f78b4a3035608e6bcbeec2fc13e180ec63752e8307359a8f4c6990973",
+    "citation_verification/citation_existence.jsonl": "46b298e366834455b104671739245246cabfd900a09d51d9fcbdea772c426e53",
+    "citation_verification/citation_metadata.jsonl": "cd7364392c51be0f78b5e40e8974b9c6636353387b518df86f2f2d2e840d04ea",
+    "citation_verification/citation_verification.jsonl": "a4e02be2decfb7420b889385361eceb82c0944a7a450d9c96fc8e893f2ef98b3",
+    "claim_evidence/claim_evidence.jsonl": "c01502b463ac5a03d11af3d5e76bb8cab9ce76eb3492d5b4509e758a52049582",
+    "claim_evidence/compound_claims.jsonl": "69abe9f3b599ad58957f6fe65cc4e1f295854ca3b5c6a3656299c6d825a09b35",
+    "conflict/conflict_cases.jsonl": "41930156b9bb78124c72cfc60bea3ff583cd0d5ebd82558854e8c2336580a01f",
+    "fail_closed/fail_closed_cases.jsonl": "edb328fdabe229460aadf38e69f14c309b69b74ebc4f2bcf5ffa757945bb160b",
+    "manifests/hash_specification.json": "b42fcfb124d56323fb91d3327824536b6a515198e1d3fb4f533f8d5ba7ac5237",
+    "passage_verification/modality_mutations.jsonl": "0251b9b9b276b3191e809762a9b8aacbe9b88fe1b2954e5c0a060e048ce1e454",
+    "passage_verification/numerical_mutations.jsonl": "4619964a0d59506f6847178af6a044efea4eb52bc22bfe5cedf31d479d925dca",
+    "passage_verification/passage_verification.jsonl": "a2252f7837542fe503c20aaee502703fc90e2b5d6d9cfe016b1ad55737351602",
+    "splits/dev.jsonl": "05b92949d21c40915bb30dc9d6066a57033472b5f11f55c2afc4a9d6e7d0d60b",
+    "splits/split_manifest.json": "c8596cde118b0b9ced176e2f82f38d3f54ff410d275442e0c288c1667f27c6a9",
+    "splits/test.jsonl": "1bdcea5524d17d94a1ee271ac5545e9bb50c0d4cd93d27e6dfba4d238d6b3ac0",
+    "splits/train.jsonl": "460a0cca63f8e674783b21b49df25e905d853ef70f04904384a1c21f6903c2cf",
+    "temporal/temporal_verification.jsonl": "71b9945dde630966abfea00d98f2b16c2e1752a6292d83e457a6e6fa784f42b3"
+  }
+}

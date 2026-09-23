@@ -1,0 +1,11 @@
+{
+  "dataset": "HALO Dataset 3",
+  "status": "FROZEN",
+  "version": "v1.0.0-FROZEN",
+  "freeze_timestamp_utc": "2026-09-12T15:52:56.368904+00:00",
+  "master_root_hash_sha256": "df75c2b2567139a368797dd00375bf4b69b6d4cd9263e87bfa4c9715a0d9ce4f",
+  "total_benchmark_records": 1032,
+  "qa_gates_passed": 10,
+  "data_leakage": "ZERO (0 items)",
+  "read_only_enforced": true
+}

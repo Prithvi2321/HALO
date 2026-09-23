@@ -1,0 +1,34 @@
+{
+  "audit_name": "HALO_DATASET_1_FINAL_INDEPENDENT_FREEZE_AUDIT",
+  "verdict": "READY_TO_FREEZE",
+  "all_checks_passed": true,
+  "results": {
+    "check_1_pdf_hashes": "PASS",
+    "check_2_act_json_hash": "PASS",
+    "check_3_passages_hash": "PASS",
+    "check_4_passage_reconciliation": "PASS",
+    "check_5_passage_section_integrity": "PASS",
+    "check_6_section_act_integrity": "PASS",
+    "check_7_amendment_targets": "PASS",
+    "check_8_omitted_sections": "PASS",
+    "check_9_inserted_sections": "PASS",
+    "check_10_temporal_dates_distinct": "PASS",
+    "check_11_dual_text_separation": "PASS",
+    "check_12_complex_structures": "PASS",
+    "check_13_historical_versions": "PASS",
+    "check_14_no_synthetic_data": "PASS",
+    "check_15_directory_isolation": "PASS",
+    "check_16_readonly_enforcement": "PASS"
+  },
+  "passage_reconciliation": {
+    "candidate_release_passages": 1691,
+    "final_verified_passages": 1640,
+    "breakdown": {
+      "section_level_passages": 190,
+      "subsection_level_passages": 1443,
+      "schedule_level_passages": 7
+    },
+    "variance": 51,
+    "reconciliation_rationale": "Earlier candidate build contained 1,496 subsections and 188 section passages (total 1,691). Audit identified 42 duplicate subsection IDs and 11 false-positive subsection fragments caused by regex matching internal statutory citations ('under sub-section (4)'). Constraining subsection detection to line/sentence boundaries eliminated all 53 false fragments (1,496 - 53 = 1,443 valid subsections) and restored 2 standalone sections (188 + 2 = 190 section passages). Result: exactly 1,443 + 190 + 7 = 1,640 clean, retrievable legal passages with 0 duplicates."
+  }
+}

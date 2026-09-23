@@ -1,0 +1,758 @@
+[
+  {
+    "term": "abridged prospectus",
+    "source_section": "2(1)",
+    "clause_number": "1",
+    "definition": "(1) “abridged prospectus” means a memorandum containing such salient features of a prospectus as",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_1",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "accounting standards",
+    "source_section": "2(2)",
+    "clause_number": "2",
+    "definition": "(2) “accounting standards” means the standards of accounting or any addendum thereto for",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_2",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "Appellate Tribunal",
+    "source_section": "2(4)",
+    "clause_number": "4",
+    "definition": "(4) “Appellate Tribunal” means the National Company Law Appellate Tribunal constituted under",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_4",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "articles",
+    "source_section": "2(5)",
+    "clause_number": "5",
+    "definition": "(5) “articles” means the articles of association of a company as originally framed or as altered from",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_5",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "auditing standards",
+    "source_section": "2(7)",
+    "clause_number": "7",
+    "definition": "(7) “auditing standards” means the standards of auditing or any addendum thereto for companies or",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_7",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "banking company",
+    "source_section": "2(9)",
+    "clause_number": "9",
+    "definition": "(9) “banking company” means a banking company as defined in clause (c) of section 5 of the Banking",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_9",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "books of account",
+    "source_section": "2(13)",
+    "clause_number": "13",
+    "definition": "(13) “books of account” includes records maintained in respect of—",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_13",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "called-up capital",
+    "source_section": "2(15)",
+    "clause_number": "15",
+    "definition": "(15) “called-up capital” means such part of the capital, which has been called for payment;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_15",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "charge",
+    "source_section": "2(16)",
+    "clause_number": "16",
+    "definition": "(16) “charge” means an interest or lien created on the property or assets of a company or any of its",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_16",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "chartered accountant",
+    "source_section": "2(17)",
+    "clause_number": "17",
+    "definition": "(17) “chartered accountant” means a chartered accountant as defined in clause (b) of sub-section (1)",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_17",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "Chief Executive Officer",
+    "source_section": "2(18)",
+    "clause_number": "18",
+    "definition": "(18) “Chief Executive Officer” means an officer of a company, who has been designated as such by",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_18",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "Chief Financial Officer",
+    "source_section": "2(19)",
+    "clause_number": "19",
+    "definition": "(19) “Chief Financial Officer” means a person appointed as the Chief Financial Officer of a company;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_19",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "company",
+    "source_section": "2(20)",
+    "clause_number": "20",
+    "definition": "(20) “company” means a company incorporated under this Act or under any previous company law;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_20",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "company limited by guarantee",
+    "source_section": "2(21)",
+    "clause_number": "21",
+    "definition": "(21) “company limited by guarantee” means a company having the liability of its members limited",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_21",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "company limited by shares",
+    "source_section": "2(22)",
+    "clause_number": "22",
+    "definition": "(22) “company limited by shares” means a company having the liability of its members limited by",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_22",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "company secretary in practice",
+    "source_section": "2(25)",
+    "clause_number": "25",
+    "definition": "(25) “company secretary in practice” means a company secretary who is deemed to be in practice",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_25",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "contributory",
+    "source_section": "2(26)",
+    "clause_number": "26",
+    "definition": "(26) “contributory” means a person liable to contribute towards the assets of the company in the",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_26",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "court",
+    "source_section": "2(29)",
+    "clause_number": "29",
+    "definition": "(29) “court” means—",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_29",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "debenture",
+    "source_section": "2(30)",
+    "clause_number": "30",
+    "definition": "(30) “debenture” includes debenture stock, bonds or any other instrument of a company evidencing a",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_30",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "deposit",
+    "source_section": "2(31)",
+    "clause_number": "31",
+    "definition": "(31) “deposit” includes any receipt of money by way of deposit or loan or in any other form by a",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_31",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "depository",
+    "source_section": "2(32)",
+    "clause_number": "32",
+    "definition": "(32) “depository” means a depository as defined in clause (e) of sub-section (1) of section 2 of the",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_32",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "derivative",
+    "source_section": "2(33)",
+    "clause_number": "33",
+    "definition": "(33) “derivative” means the derivative as defined in clause (ac) of section 2 of the Securities",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_33",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "director",
+    "source_section": "2(34)",
+    "clause_number": "34",
+    "definition": "(34) “director” means a director appointed to the Board of a company;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_34",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "dividend",
+    "source_section": "2(35)",
+    "clause_number": "35",
+    "definition": "(35) “dividend” includes any interim dividend;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_35",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "document",
+    "source_section": "2(36)",
+    "clause_number": "36",
+    "definition": "(36) “document” includes summons, notice, requisition, order, declaration, form and register,",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_36",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "employees’ stock option",
+    "source_section": "2(37)",
+    "clause_number": "37",
+    "definition": "(37) “employees’ stock option” means the option given to the directors, officers or employees of a",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_37",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "expert",
+    "source_section": "2(38)",
+    "clause_number": "38",
+    "definition": "(38) “expert” includes an engineer, a valuer, a chartered accountant, a company secretary, a cost",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_38",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "financial institution",
+    "source_section": "2(39)",
+    "clause_number": "39",
+    "definition": "(39) “financial institution” includes a scheduled bank, and any other financial institution defined or",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_39",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "foreign company",
+    "source_section": "2(42)",
+    "clause_number": "42",
+    "definition": "(42) “foreign company” means any company or body corporate incorporated outside India which—",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_42",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "free reserves",
+    "source_section": "2(43)",
+    "clause_number": "43",
+    "definition": "(43) “free reserves” means such reserves which, as per the latest audited balance sheet of a company,",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_43",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "Global Depository Receipt",
+    "source_section": "2(44)",
+    "clause_number": "44",
+    "definition": "(44) “Global Depository Receipt” means any instrument in the form of a depository receipt, by",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_44",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "Government company",
+    "source_section": "2(45)",
+    "clause_number": "45",
+    "definition": "(45) “Government company” means any company in which not less than fifty-one per cent. of the",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_45",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "independent director",
+    "source_section": "2(47)",
+    "clause_number": "47",
+    "definition": "(47) “independent director” means an independent director referred to in sub-section (6) of section",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_47",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "Indian Depository Receipt",
+    "source_section": "2(48)",
+    "clause_number": "48",
+    "definition": "(48) “Indian Depository Receipt” means any instrument in the form of a depository receipt created",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_48",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "issued capital",
+    "source_section": "2(50)",
+    "clause_number": "50",
+    "definition": "(50) “issued capital” means such capital as the company issues from time to time for subscription;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_50",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "listed company",
+    "source_section": "2(52)",
+    "clause_number": "52",
+    "definition": "(52) “listed company” means a company which has any of its securities listed on any recognised",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_52",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "manager",
+    "source_section": "2(53)",
+    "clause_number": "53",
+    "definition": "(53) “manager” means an individual who, subject to the superintendence, control and direction of",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_53",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "managing director",
+    "source_section": "2(54)",
+    "clause_number": "54",
+    "definition": "(54) “managing director” means a director who, by virtue of the articles of a company or an",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_54",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "memorandum",
+    "source_section": "2(56)",
+    "clause_number": "56",
+    "definition": "(56) “memorandum” means the memorandum of association of a company as originally framed or",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_56",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "net worth",
+    "source_section": "2(57)",
+    "clause_number": "57",
+    "definition": "(57) “net worth” means the aggregate value of the paid-up share capital and all reserves created out",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_57",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "notification",
+    "source_section": "2(58)",
+    "clause_number": "58",
+    "definition": "(58) “notification” means a notification published in the Official Gazette and the expression “notify”",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_58",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "officer",
+    "source_section": "2(59)",
+    "clause_number": "59",
+    "definition": "(59) “officer” includes any director, manager or key managerial personnel or any person in",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_59",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "Official Liquidator",
+    "source_section": "2(61)",
+    "clause_number": "61",
+    "definition": "(61) “Official Liquidator” means an Official Liquidator appointed under sub-section (1) of",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_61",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "One Person Company",
+    "source_section": "2(62)",
+    "clause_number": "62",
+    "definition": "(62) “One Person Company” means a company which has only one person as a member;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_62",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "ordinary or special resolution",
+    "source_section": "2(63)",
+    "clause_number": "63",
+    "definition": "(63) “ordinary or special resolution” means an ordinary resolution, or as the case may be, special",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_63",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "postal ballot",
+    "source_section": "2(65)",
+    "clause_number": "65",
+    "definition": "(65) “postal ballot” means voting by post or through any electronic mode;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_65",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "prescribed",
+    "source_section": "2(66)",
+    "clause_number": "66",
+    "definition": "(66) “prescribed” means prescribed by rules made under this Act;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_66",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "previous company law",
+    "source_section": "2(67)",
+    "clause_number": "67",
+    "definition": "(67) “previous company law” means any of the laws specified below:—",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_67",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "private company",
+    "source_section": "2(68)",
+    "clause_number": "68",
+    "definition": "(68) “private company” means a company having a minimum paid-up share capital 1*** as may be",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_68",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "promoter",
+    "source_section": "2(69)",
+    "clause_number": "69",
+    "definition": "(69) “promoter” means a person—",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_69",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "prospectus",
+    "source_section": "2(70)",
+    "clause_number": "70",
+    "definition": "(70) “prospectus” means any document described or issued as a prospectus and includes a red herring",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_70",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "public company",
+    "source_section": "2(71)",
+    "clause_number": "71",
+    "definition": "(71) “public company” means a company which—",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_71",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "public financial institution",
+    "source_section": "2(72)",
+    "clause_number": "72",
+    "definition": "(72) “public financial institution” means—",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_72",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "recognised stock exchange",
+    "source_section": "2(73)",
+    "clause_number": "73",
+    "definition": "(73) “recognised stock exchange” means a recognised stock exchange as defined in clause (f) of",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_73",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "register of companies",
+    "source_section": "2(74)",
+    "clause_number": "74",
+    "definition": "(74) “register of companies” means the register of companies maintained by the Registrar on paper",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_74",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "Registrar",
+    "source_section": "2(75)",
+    "clause_number": "75",
+    "definition": "(75) “Registrar” means a Registrar, an Additional Registrar, a Joint Registrar, a Deputy Registrar or",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_75",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "remuneration",
+    "source_section": "2(78)",
+    "clause_number": "78",
+    "definition": "(78) “remuneration” means any money or its equivalent given or passed to any person for services",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_78",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "Schedule",
+    "source_section": "2(79)",
+    "clause_number": "79",
+    "definition": "(79) “Schedule” means a Schedule annexed to this Act;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_79",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "scheduled bank",
+    "source_section": "2(80)",
+    "clause_number": "80",
+    "definition": "(80) “scheduled bank” means the scheduled bank as defined in clause (e) of section 2 of the Reserve",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_80",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "securities",
+    "source_section": "2(81)",
+    "clause_number": "81",
+    "definition": "(81) “securities” means the securities as defined in clause (h) of section 2 of the Securities Contracts",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_81",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "Securities and Exchange Board",
+    "source_section": "2(82)",
+    "clause_number": "82",
+    "definition": "(82) “Securities and Exchange Board” means the Securities and Exchange Board of India established",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_82",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "Serious Fraud Investigation Office",
+    "source_section": "2(83)",
+    "clause_number": "83",
+    "definition": "(83) “Serious Fraud Investigation Office” means the office referred to in section 211;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_83",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "share",
+    "source_section": "2(84)",
+    "clause_number": "84",
+    "definition": "(84) “share” means a share in the share capital of a company and includes stock;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_84",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "small company",
+    "source_section": "2(85)",
+    "clause_number": "85",
+    "definition": "(85) “small company” means a company, other than a public company,—",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_85",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "subscribed capital",
+    "source_section": "2(86)",
+    "clause_number": "86",
+    "definition": "(86) “subscribed capital” means such part of the capital which is for the time being subscribed by the",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_86",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "sweat equity shares",
+    "source_section": "2(88)",
+    "clause_number": "88",
+    "definition": "(88) “sweat equity shares” means such equity shares as are issued by a company to its directors or",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_88",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "Tribunal",
+    "source_section": "2(90)",
+    "clause_number": "90",
+    "definition": "(90) “Tribunal” means the National Company Law Tribunal constituted under section 408;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_90",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "unlimited company",
+    "source_section": "2(92)",
+    "clause_number": "92",
+    "definition": "(92) “unlimited company” means a company not having any limit on the liability of its members;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_92",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "voting right",
+    "source_section": "2(93)",
+    "clause_number": "93",
+    "definition": "(93) “voting right” means the right of a member of a company to vote in any meeting of the company",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_93",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "whole-time director",
+    "source_section": "2(94)",
+    "clause_number": "94",
+    "definition": "(94) “whole-time director” includes a director in the whole-time employment of the company;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_2_CLAUSE_94",
+    "valid_from": "2013-08-29",
+    "valid_to": null
+  },
+  {
+    "term": "active Member",
+    "source_section": "378A(a)",
+    "clause_number": "a",
+    "definition": "(a) “active Member” means a Member who fulfils the quantum and period of patronage of the",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A_CLAUSE_A",
+    "valid_from": "2020-09-28",
+    "valid_to": null
+  },
+  {
+    "term": "Chief Executive",
+    "source_section": "378A(b)",
+    "clause_number": "b",
+    "definition": "(b) “Chief Executive” means an individual appointed as such under sub-section (1) of section",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A_CLAUSE_B",
+    "valid_from": "2020-09-28",
+    "valid_to": null
+  },
+  {
+    "term": "inter-State co-operative society",
+    "source_section": "378A(c)",
+    "clause_number": "c",
+    "definition": "(c) “inter-State co-operative society” means a multi-State co-operative society as defined in clause",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A_CLAUSE_C",
+    "valid_from": "2020-09-28",
+    "valid_to": null
+  },
+  {
+    "term": "limited return",
+    "source_section": "378A(d)",
+    "clause_number": "d",
+    "definition": "(d) “limited return” means the maximum dividend as may be specified by the articles;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A_CLAUSE_D",
+    "valid_from": "2020-09-28",
+    "valid_to": null
+  },
+  {
+    "term": "Member",
+    "source_section": "378A(e)",
+    "clause_number": "e",
+    "definition": "(e) “Member” means a person or Producer Institution (whether incorporated or not) admitted as a",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A_CLAUSE_E",
+    "valid_from": "2020-09-28",
+    "valid_to": null
+  },
+  {
+    "term": "mutual assistance principles",
+    "source_section": "378A(f)",
+    "clause_number": "f",
+    "definition": "(f) “mutual assistance principles” means the principles set out in sub-section (2) of section 378G;",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A_CLAUSE_F",
+    "valid_from": "2020-09-28",
+    "valid_to": null
+  },
+  {
+    "term": "officer",
+    "source_section": "378A(g)",
+    "clause_number": "g",
+    "definition": "(g) “officer” includes any director or Chief Executive or Secretary or any person in accordance",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A_CLAUSE_G",
+    "valid_from": "2020-09-28",
+    "valid_to": null
+  },
+  {
+    "term": "patronage",
+    "source_section": "378A(h)",
+    "clause_number": "h",
+    "definition": "(h) “patronage” means the use of services offered by the Producer Company to its Members by",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A_CLAUSE_H",
+    "valid_from": "2020-09-28",
+    "valid_to": null
+  },
+  {
+    "term": "patronage bonus",
+    "source_section": "378A(i)",
+    "clause_number": "i",
+    "definition": "(i) “patronage bonus” means payments made by a Producer Company out of its surplus income to",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A_CLAUSE_I",
+    "valid_from": "2020-09-28",
+    "valid_to": null
+  },
+  {
+    "term": "primary produce",
+    "source_section": "378A(j)",
+    "clause_number": "j",
+    "definition": "(j) “primary produce” means —",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A_CLAUSE_J",
+    "valid_from": "2020-09-28",
+    "valid_to": null
+  },
+  {
+    "term": "producer",
+    "source_section": "378A(k)",
+    "clause_number": "k",
+    "definition": "(k) “producer” means any person engaged in any activity connected with or relatable to any primary",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A_CLAUSE_K",
+    "valid_from": "2020-09-28",
+    "valid_to": null
+  },
+  {
+    "term": "Producer Company",
+    "source_section": "378A(l)",
+    "clause_number": "l",
+    "definition": "(l) “Producer Company” means a body corporate having objects or activities specified in section",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A_CLAUSE_L",
+    "valid_from": "2020-09-28",
+    "valid_to": null
+  },
+  {
+    "term": "Producer Institution",
+    "source_section": "378A(m)",
+    "clause_number": "m",
+    "definition": "(m) “Producer Institution” means a Producer Company or any other institution having only",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A_CLAUSE_M",
+    "valid_from": "2020-09-28",
+    "valid_to": null
+  },
+  {
+    "term": "withheld price",
+    "source_section": "378A(n)",
+    "clause_number": "n",
+    "definition": "(n) “withheld price” means part of the price due and payable for goods supplied by any Member to",
+    "definition_passage_id": "PAS_ACT_COMPANIES_2013_SEC_378A_CLAUSE_N",
+    "valid_from": "2020-09-28",
+    "valid_to": null
+  }
+]

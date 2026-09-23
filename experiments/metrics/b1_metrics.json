@@ -1,0 +1,390 @@
+{
+  "system_id": "B1_LLM",
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "configuration": {
+    "system_id": "B1_LLM",
+    "system_name": "Baseline 1 — LLM-Only",
+    "version": "v1.0",
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "top_k": 1,
+    "max_tokens": 512,
+    "seed": 42,
+    "retrieval_enabled": false,
+    "reranking_enabled": false,
+    "verification_enabled": false,
+    "fail_closed_enabled": false,
+    "dataset3_indexing": false,
+    "prompt_template": {
+      "system_prompt": "You are an authoritative Indian Legal Research Assistant specializing in the Companies Act, 2013 and Indian corporate jurisprudence. Answer the inquiry factually, accurately, and with precise statutory and judicial citations. If the provided context is insufficient or the proposition is unsupported, state so explicitly.",
+      "context_prefix": null,
+      "user_format": "{query}"
+    }
+  },
+  "protocol_version": "v1.0",
+  "dataset3_version": "v1.0.0-FROZEN",
+  "dev_count": 64,
+  "test_count": 168,
+  "total_count": 232,
+  "failures": 0,
+  "metrics": {
+    "overall": {
+      "total_evaluated_queries": 232,
+      "dev_queries": 64,
+      "test_queries": 168,
+      "successful_queries": 232,
+      "failure_rate": 0.0,
+      "average_latency_ms": 26058.48,
+      "median_latency_ms": 27218.56,
+      "p95_latency_ms": 34292.35,
+      "p99_latency_ms": 65257.86,
+      "test_average_latency_ms": 25919.11,
+      "test_median_latency_ms": 27261.34,
+      "test_p95_latency_ms": 28177.76,
+      "test_p99_latency_ms": 29263.41,
+      "average_output_chars": 2093.58,
+      "average_output_words": 324.86,
+      "estimated_output_tokens": 422
+    },
+    "test_family_summary": [
+      {
+        "family": "D3-A",
+        "n": 39,
+        "applicable_metric_name": "Target Authority Cited",
+        "accuracy_or_score": 64.1,
+        "hallucination_rate": "N/A (Prompt includes Section)",
+        "unsupported_claims": "0.0%",
+        "avg_latency_ms": 25615.7,
+        "retrieval_recall_k": "NOT_APPLICABLE (No Retrieval)"
+      },
+      {
+        "family": "D3-B",
+        "n": 17,
+        "applicable_metric_name": "Target Provision Identification",
+        "accuracy_or_score": 23.53,
+        "hallucination_rate": 76.47,
+        "unsupported_claims": 76.47,
+        "avg_latency_ms": 24910.2,
+        "retrieval_recall_k": "NOT_APPLICABLE (No Retrieval)"
+      },
+      {
+        "family": "D3-C",
+        "n": 12,
+        "applicable_metric_name": "Disambiguation Target Selection",
+        "accuracy_or_score": 41.67,
+        "hallucination_rate": 8.33,
+        "unsupported_claims": 33.33,
+        "avg_latency_ms": 22327.4,
+        "retrieval_recall_k": "NOT_APPLICABLE (No Retrieval)"
+      },
+      {
+        "family": "D3-D",
+        "n": 100,
+        "applicable_metric_name": "Atomic Fact Point Recall (AFPR)",
+        "accuracy_or_score": 57.67,
+        "hallucination_rate": 7.0,
+        "unsupported_claims": 7.0,
+        "avg_latency_ms": 26640.0,
+        "retrieval_recall_k": "NOT_APPLICABLE (No Retrieval)"
+      }
+    ]
+  },
+  "integrity_checks": {
+    "step1_completeness": {
+      "status": "PASS",
+      "dev_count": 64,
+      "test_count": 168,
+      "total_count": 232,
+      "failures": 0,
+      "errors": []
+    },
+    "step2_invariants": {
+      "status": "PASS",
+      "evaluated_records": 232,
+      "violations_count": 0,
+      "violations": []
+    }
+  },
+  "overall_execution": {
+    "latency_stats_ms": {
+      "dev": {
+        "mean": 26424.3,
+        "median": 24628.57,
+        "std": 20153.64,
+        "p95": 64958.83,
+        "p99": 73657.9,
+        "min": 1632.7,
+        "max": 73657.9
+      },
+      "test": {
+        "mean": 25919.11,
+        "median": 27261.34,
+        "std": 4942.67,
+        "p95": 28177.76,
+        "p99": 29263.41,
+        "min": 1502.85,
+        "max": 29400.04
+      },
+      "combined": {
+        "mean": 26058.48,
+        "median": 27218.56,
+        "std": 11335.17,
+        "p95": 34292.35,
+        "p99": 65257.86,
+        "min": 1502.85,
+        "max": 73657.9
+      }
+    },
+    "length_stats": {
+      "dev": {
+        "chars": {
+          "mean": 2487.56,
+          "median": 2059.0,
+          "std": 1886.03,
+          "p95": 6556,
+          "p99": 8094,
+          "min": 22,
+          "max": 8094
+        },
+        "words": {
+          "mean": 387.8,
+          "median": 321.5,
+          "std": 298.75,
+          "p95": 992,
+          "p99": 1249,
+          "min": 1,
+          "max": 1249
+        }
+      },
+      "test": {
+        "chars": {
+          "mean": 2093.58,
+          "median": 2129.0,
+          "std": 230.02,
+          "p95": 2354,
+          "p99": 2475,
+          "min": 881,
+          "max": 2510
+        },
+        "words": {
+          "mean": 324.86,
+          "median": 332.0,
+          "std": 37.82,
+          "p95": 367,
+          "p99": 385,
+          "min": 111,
+          "max": 386
+        }
+      },
+      "combined": {
+        "chars": {
+          "mean": 2202.26,
+          "median": 2122.5,
+          "std": 1019.57,
+          "p95": 4188,
+          "p99": 6711,
+          "min": 22,
+          "max": 8094
+        },
+        "words": {
+          "mean": 342.22,
+          "median": 331.5,
+          "std": 161.77,
+          "p95": 673,
+          "p99": 1077,
+          "min": 1,
+          "max": 1249
+        }
+      }
+    }
+  },
+  "family_metrics": {
+    "test": [
+      {
+        "family": "D3-A",
+        "n": 39,
+        "applicable_metric_name": "Target Authority Cited",
+        "accuracy_or_score": 64.1,
+        "hallucination_rate": "N/A (Prompt includes Section)",
+        "unsupported_claims": "0.0%",
+        "avg_latency_ms": 25615.7,
+        "retrieval_recall_k": "NOT_APPLICABLE (No Retrieval)"
+      },
+      {
+        "family": "D3-B",
+        "n": 17,
+        "applicable_metric_name": "Target Provision Identification",
+        "accuracy_or_score": 23.53,
+        "hallucination_rate": 76.47,
+        "unsupported_claims": 76.47,
+        "avg_latency_ms": 24910.2,
+        "retrieval_recall_k": "NOT_APPLICABLE (No Retrieval)"
+      },
+      {
+        "family": "D3-C",
+        "n": 12,
+        "applicable_metric_name": "Disambiguation Target Selection",
+        "accuracy_or_score": 41.67,
+        "hallucination_rate": 8.33,
+        "unsupported_claims": 33.33,
+        "avg_latency_ms": 22327.4,
+        "retrieval_recall_k": "NOT_APPLICABLE (No Retrieval)"
+      },
+      {
+        "family": "D3-D",
+        "n": 100,
+        "applicable_metric_name": "Atomic Fact Point Recall (AFPR)",
+        "accuracy_or_score": 57.67,
+        "hallucination_rate": 7.0,
+        "unsupported_claims": 7.0,
+        "avg_latency_ms": 26640.0,
+        "retrieval_recall_k": "NOT_APPLICABLE (No Retrieval)"
+      }
+    ],
+    "dev": [
+      {
+        "family": "D3-A",
+        "n": 35,
+        "avg_latency_ms": 27095.3,
+        "retrieval_metrics": "NOT_APPLICABLE (No Retrieval)"
+      },
+      {
+        "family": "D3-B",
+        "n": 15,
+        "avg_latency_ms": 29047.3,
+        "retrieval_metrics": "NOT_APPLICABLE (No Retrieval)"
+      },
+      {
+        "family": "D3-C",
+        "n": 14,
+        "avg_latency_ms": 21936.6,
+        "retrieval_metrics": "NOT_APPLICABLE (No Retrieval)"
+      }
+    ],
+    "details": {
+      "d3_a": {
+        "n": 39,
+        "target_provision_cite_rate": 0.641,
+        "retrieval_recall_at_5": "NOT_APPLICABLE",
+        "retrieval_recall_at_10": "NOT_APPLICABLE",
+        "mrr": "NOT_APPLICABLE"
+      },
+      "d3_b": {
+        "n": 17,
+        "target_provision_identification_rate": 0.2353,
+        "retrieval_recall_at_5": "NOT_APPLICABLE",
+        "retrieval_recall_at_10": "NOT_APPLICABLE"
+      },
+      "d3_c": {
+        "n": 12,
+        "target_selection_accuracy": 0.4167,
+        "distractor_confusion_rate": 0.0833,
+        "distractor_mention_rate": 0.3333,
+        "retrieval_hnfar": "NOT_APPLICABLE"
+      },
+      "d3_d": {
+        "n": 100,
+        "atomic_fact_point_recall_mean": 0.5767,
+        "atomic_fact_point_recall_std": 0.2347,
+        "atomic_fact_point_recall_ci95": [
+          0.5307,
+          0.6227
+        ],
+        "acceptable_answer_point_coverage": 0.5681,
+        "complete_answer_rate": 0.2,
+        "unsupported_claim_rate": 0.07,
+        "hallucination_rate": 0.07
+      }
+    }
+  },
+  "error_analysis": {
+    "Incorrect legal fact": {
+      "count": 14,
+      "percentage": 8.33,
+      "representative_query_ids": [
+        "D3_RET_000340",
+        "D3_RET_000343",
+        "D3_RET_000354",
+        "D3_RET_000380",
+        "D3_RET_000381"
+      ]
+    },
+    "Unsupported claim": {
+      "count": 7,
+      "percentage": 4.17,
+      "representative_query_ids": [
+        "D3_GROUND_000005",
+        "D3_GROUND_000006",
+        "D3_GROUND_000033",
+        "D3_GROUND_000047",
+        "D3_GROUND_000062"
+      ]
+    },
+    "Hallucinated provision": {
+      "count": 0,
+      "percentage": 0.0,
+      "representative_query_ids": []
+    },
+    "Hallucinated authority": {
+      "count": 0,
+      "percentage": 0.0,
+      "representative_query_ids": []
+    },
+    "Wrong section": {
+      "count": 14,
+      "percentage": 8.33,
+      "representative_query_ids": [
+        "D3_RET_000239",
+        "D3_RET_000244",
+        "D3_RET_000246",
+        "D3_RET_000255",
+        "D3_RET_000257"
+      ]
+    },
+    "Wrong interpretation": {
+      "count": 3,
+      "percentage": 1.79,
+      "representative_query_ids": [
+        "D3_RET_000333",
+        "D3_RET_000344",
+        "D3_RET_000389"
+      ]
+    },
+    "Incomplete answer": {
+      "count": 79,
+      "percentage": 47.02,
+      "representative_query_ids": [
+        "D3_RET_000031",
+        "D3_RET_000047",
+        "D3_RET_000100",
+        "D3_RET_000102",
+        "D3_RET_000141"
+      ]
+    },
+    "Ambiguous answer": {
+      "count": 0,
+      "percentage": 0.0,
+      "representative_query_ids": []
+    },
+    "Correct answer": {
+      "count": 51,
+      "percentage": 30.36,
+      "representative_query_ids": [
+        "D3_RET_000012",
+        "D3_RET_000013",
+        "D3_RET_000030",
+        "D3_RET_000042",
+        "D3_RET_000043"
+      ]
+    },
+    "Other": {
+      "count": 0,
+      "percentage": 0.0,
+      "representative_query_ids": []
+    }
+  },
+  "timestamp": "2026-09-13T13:21:47.646626+00:00"
+}

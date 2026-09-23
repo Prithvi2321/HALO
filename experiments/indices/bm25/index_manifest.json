@@ -1,0 +1,35 @@
+{
+  "index_type": "sparse_bm25",
+  "algorithm": "BM25Okapi",
+  "k1": 1.5,
+  "b": 0.75,
+  "epsilon": 0.25,
+  "passage_count": 2773,
+  "creation_timestamp_utc": "2026-09-14T16:51:57.590195+00:00",
+  "tokenizer": {
+    "pattern": "\\b[A-Za-z]+(?:'[A-Za-z]+)?\\b|\\b\\d+(?:[A-Za-z0-9_\\(\\)\\.\\-/]*[A-Za-z0-9_\\)]|\\b)",
+    "protected_stopwords": [
+      "may",
+      "must",
+      "no",
+      "not",
+      "omitted",
+      "proviso",
+      "shall",
+      "substituted",
+      "without"
+    ]
+  },
+  "corpus_sources": {
+    "dataset1": {
+      "file": "data/dataset_1/final/companies_act_2013_passages.jsonl",
+      "sha256": "37c5ced49fc3925342a7eebfc84eb2988f863166b60c0a8cf527aefae0e8c27c",
+      "passages": 1640
+    },
+    "dataset2": {
+      "file": "data/dataset2/canonical/passages.jsonl",
+      "sha256": "43af9b6ed2df7be5489a71e81cf1f0125469d0cbe4443d0e536edb35703d3996",
+      "passages": 1133
+    }
+  }
+}

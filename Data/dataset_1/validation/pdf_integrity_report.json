@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "documents": [
+    {
+      "document_id": "ACT_COMPANIES_2013",
+      "file_name": "companies_act_2013_original.pdf",
+      "pdf_valid": true,
+      "page_count": 370,
+      "expected_page_count": 370,
+      "has_embedded_text": true,
+      "requires_ocr": false,
+      "sha256": "0b915c8ea8927674b988584a9c8572fcaa526ad6d89a02b4234797087946b4d6",
+      "warnings": []
+    },
+    {
+      "document_id": "ACT_COMPANIES_AMEND_2015",
+      "file_name": "amendment_2015.pdf",
+      "pdf_valid": true,
+      "page_count": 5,
+      "expected_page_count": 5,
+      "has_embedded_text": true,
+      "requires_ocr": false,
+      "sha256": "f0f1ff814a6f4fff582e3e542f3de46f0d25a06de39e5cd11aee187fd32e6f24",
+      "warnings": []
+    },
+    {
+      "document_id": "ACT_COMPANIES_AMEND_2020",
+      "file_name": "amendment_2020.pdf",
+      "pdf_valid": true,
+      "page_count": 35,
+      "expected_page_count": 35,
+      "has_embedded_text": true,
+      "requires_ocr": false,
+      "sha256": "3ed9c6c3d312350d164fc257c040e46b148a8133b1fa54f7f666826a3bc410bb",
+      "warnings": []
+    }
+  ]
+}

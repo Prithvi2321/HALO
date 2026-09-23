@@ -1,0 +1,12 @@
+{
+  "benchmark_version": "1.0.0",
+  "total_records": 180,
+  "train_count": 125,
+  "dev_count": 27,
+  "test_count": 28,
+  "train_pct": 69.44,
+  "dev_pct": 15.0,
+  "test_pct": 15.56,
+  "split_policy": "PASSAGE_FAMILY_DISJOINT",
+  "leakage_audit": "PASSED (Zero passage overlap across train and test)"
+}

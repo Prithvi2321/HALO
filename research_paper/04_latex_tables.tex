@@ -1,0 +1,195 @@
+% ==============================================================================
+% HALO RESEARCH PAPER: LATEX TABLES & BENCHMARK FORMATS
+% Compatible with standard ACL / EMNLP / ICAIL / IEEE / ACM conference templates.
+% Required packages in preamble: \usepackage{booktabs}, \usepackage{multirow}, \usepackage{makecell}
+% ==============================================================================
+
+% ------------------------------------------------------------------------------
+% TABLE 1: Dual-Corpus and Multi-Pillar Benchmark Dataset Geometry
+% ------------------------------------------------------------------------------
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{llrrrl}
+\toprule
+\textbf{Corpus / Partition} & \textbf{Primary Source} & \textbf{Units} & \textbf{Passages} & \textbf{Tokens (Avg)} & \textbf{Key Linguistic / Legal Focus} \\
+\midrule
+\multicolumn{6}{l}{\textit{\textbf{Unified Retrieval Corpus ($\mathcal{C}_{\text{retrieval}}$: 2,773 Total Passages)}}} \\
+Dataset 1: Statutory Corpus & Companies Act, 2013 (Amended) & 504 Sec & 1,640 & 142.6 & Codified sections, provisos, explanations \\
+Dataset 2: Judicial Corpus  & Supreme Court / NCLAT Judgments & 57 Cases & 1,133 & 218.4 & Ratios, citations, precedents, statutory cross-refs \\
+\midrule
+\multicolumn{6}{l}{\textit{\textbf{Multi-Pillar Benchmark Suite ($\mathcal{Q}_{\text{D3}}$: Evaluated Split $N = 232$)}}} \\
+Family D3-A & Direct Statutory Retrieval & 11 (Dev) & 39 (Test) & 24.8 & Explicit section lookups, numerical thresholds \\
+Family D3-B & Semantic Concept Retrieval & 11 (Dev) & 17 (Test) & 21.2 & Paraphrased conceptual queries without section nos. \\
+Family D3-C & Disambiguation / Distractors & 8 (Dev)  & 12 (Test) & 28.5 & Adversarial hard-negative distractor provisions \\
+Family D3-D & Grounded Legal Answering & 34 (Dev) & 100 (Test) & 31.4 & Multi-point factual compliance answer synthesis \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{HALO Corpus and Benchmark Suite Geometry.} Retrieval corpus comprises 2,773 canonical primary legal passages with zero synthetic text. Benchmark partitions enforce legal-unit disjoint splits and zero overlap with index passages.}
+\label{tab:corpus_geometry}
+\end{table*}
+
+\vspace{1em}
+
+% ------------------------------------------------------------------------------
+% TABLE 2: Main Controlled Comparative Ablation (B1 vs. B2 vs. B3 vs. B4 vs. B5)
+% ------------------------------------------------------------------------------
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{llcccccp{4.2cm}}
+\toprule
+\textbf{Benchmark Pillar} & \textbf{Evaluation Metric} & \textbf{Baseline 1} & \textbf{Baseline 2} & \textbf{Baseline 3} & \textbf{Baseline 4} & \textbf{Baseline 5} & \textbf{Empirical Analysis \& Architectural Takeaway} \\
+& & \textit{(LLM-Only)} & \textit{(Dense RAG)} & \textit{(Sparse BM25)} & \textit{(Hybrid RRF)} & \textit{(CE Rerank)} & \\
+\midrule
+\multirow{3}{*}{\textbf{Family D3-A}} & Recall@5 (\%) & --- & 61.54 & 48.72 & 58.97 & \textbf{62.82} & \multirow{3}{4.2cm}{\textbf{New Peak Recall}: Cross-encoder reranking lifts D3-A Recall@5 to 62.82\% (+3.85\% over B4) and matches peak hit rate (79.49\%).} \\
+\textit{Statutory Lookup} & Hit Rate@5 (\%) & 64.10$^\dagger$ & \textbf{79.49} & 61.54 & 76.92 & \textbf{79.49} & \\
+($N = 39$) & MRR & --- & \textbf{0.6667} & 0.5513 & 0.6363 & 0.6483 & \\
+\midrule
+\multirow{3}{*}{\textbf{Family D3-B}} & Recall@5 (\%) & --- & \textbf{41.18} & 29.41 & \textbf{41.18} & \textbf{41.18} & \multirow{3}{4.2cm}{\textbf{Semantic Ceiling Preserved}: Cross-encoder perfectly preserves dual-channel semantic reach with zero degradation on paraphrases.} \\
+\textit{Semantic Concepts} & Hit Rate@5 (\%) & 23.53 & \textbf{41.18} & 29.41 & \textbf{41.18} & \textbf{41.18} & \\
+($N = 17$) & MRR & --- & \textbf{0.2794} & 0.2500 & 0.2706 & 0.2706 & \\
+\midrule
+\multirow{3}{*}{\textbf{Family D3-C}} & Positive Hit@5 (\%) & 41.67 & \textbf{75.00} & 0.00 & \textbf{75.00} & \textbf{75.00} & \multirow{3}{4.2cm}{\textbf{Distractor Trap Collapses}: Cross-attention eliminates lexical traps; HNFAR plunges from 50.00\% to \textbf{8.33\%} (-41.67\%).} \\
+\textit{Hard Negatives} & Distractor Ret Rate (\%) & --- & 50.00 & \textbf{41.67} & 50.00 & 66.67 & \\
+($N = 12$) & HNFAR (Fall-into-Trap) (\%) & --- & \textbf{8.33} & 41.67 & 50.00 & \textbf{8.33} & \\
+\midrule
+\multirow{3}{*}{\textbf{Family D3-D}} & AFPR (Fact Recall) (\%) & 57.67 & 56.17 & 60.17 & 60.42 & \textbf{63.00} & \multirow{3}{4.2cm}{\textbf{Reranking Wins Grounding}: Top-tier precision lifts AFPR to 63.00\% and Complete Rate to 26.00\%; residual 17\% hallucination motivates HALO verifiers.} \\
+\textit{Grounded Answering} & Complete Answer Rate (\%) & 20.00 & 23.00 & 22.00 & 22.00 & \textbf{26.00} & \\
+($N = 100$) & Hallucination Rate (\%) & \textbf{7.00} & 12.00 & 16.00 & 15.00 & 17.00 & \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{5-Way Controlled Comparative Ablation Results on Dataset 3 TEST Split ($N = 168$).} Evaluated under HALO Experiment Protocol v1.0. All experiments utilize frozen foundational LLM \texttt{qwen/qwen3.8-27b} at temperature 0.0. $^\dagger$Baseline 1 hit rate reflects generation containing relevant section number from parametric weights without external statutory verification.}
+\label{tab:comparative_ablation}
+\end{table*}
+
+\vspace{1em}
+
+% ------------------------------------------------------------------------------
+% TABLE 3: Latency, Complexity, and Computational Efficiency Profiles
+% ------------------------------------------------------------------------------
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Architecture} & \textbf{Retrieval Algorithm} & \textbf{Mean Ret. (ms)} & \textbf{P95 Ret. (ms)} & \textbf{Relative Overhead} \\
+\midrule
+Baseline 1 & None ($K=0$) & 0.00 & 0.00 & --- \\
+Baseline 2 & Dense Bi-Encoder (\texttt{BGE-Large}) & 367.12 & 412.00 & $1.00\times$ \\
+Baseline 3 & Sparse Lexical (\texttt{BM25Okapi}) & \textbf{20.09} & \textbf{38.40} & $0.05\times$ (18x faster) \\
+Baseline 4 & Hybrid RRF (\texttt{Dense} + \texttt{BM25}, $k=60$) & 279.49 & 608.94 & $0.76\times$ \\
+Baseline 5 & Hybrid + Cross-Encoder (\texttt{MiniLM}) & 1053.85 & 2418.18 & $2.87\times$ \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Retrieval Latency and Efficiency Across Baselines.} Evaluated over 2,773 indexed passages. Cross-encoder scoring adds 693.7 ms on CPU over candidate pool ($\le 10$ passages).}
+\label{tab:latency_profile}
+\end{table}
+
+\vspace{1em}
+
+% ------------------------------------------------------------------------------
+% TABLE 4: 4-Quadrant Evidence Complementarity Breakdown (Dense vs. BM25)
+% ------------------------------------------------------------------------------
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llccl}
+\toprule
+\textbf{Quadrant} & \textbf{Retriever Condition} & \textbf{Queries ($N=68$)} & \textbf{Percentage} & \textbf{Jurisprudential Interpretation} \\
+\midrule
+Quadrant 1 & Dense \checkmark\ / BM25 $\times$ & 15 & 22.06\% & Dense semantic bi-encoder recovers paraphrased legal concepts. \\
+Quadrant 2 & BM25 \checkmark\ / Dense $\times$ & 2  & 2.94\%  & Sparse lexical matcher captures rare statutory tokens. \\
+Quadrant 3 & Both Agree (\checkmark\ / \checkmark) & 32 & 47.06\% & Dual-channel consensus; elevated to Rank 1 via maximal RRF score. \\
+Quadrant 4 & Both Miss ($\times$ / $\times$) & 19 & 27.94\% & Multi-hop cross-statute inquiries requiring graph reasoning. \\
+\midrule
+\textbf{Union Ceiling} & Either Channel \checkmark & \textbf{49} & \textbf{72.06\%} & Theoretical reach of combining dual representations. \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Evidence Complementarity and Candidate Overlap on TEST Retrieval Partition ($N=68$).} Average Jaccard similarity across Top-5 candidate sets is $0.1682$ (mean overlap: $1.32 / 5$ passages), validating that dense and sparse models navigate orthogonal legal subspaces.}
+\label{tab:complementarity}
+\end{table}
+
+\vspace{1em}
+
+% ------------------------------------------------------------------------------
+% TABLE 5: Cross-Encoder Reranker Rank Shift & Distractor Diagnostics (B4 vs. B5)
+% ------------------------------------------------------------------------------
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lccl}
+\toprule
+\textbf{Diagnostic Dimension} & \textbf{Value / Count} & \textbf{Rate (\%)} & \textbf{Information Retrieval Meaning} \\
+\midrule
+Total Candidate Pairs Scored & 590 & 100.0\% & All candidates in $\mathcal{U}_K(q)$ evaluated across retrieval queries \\
+Mean Absolute Rank Shift & 2.071 pos & --- & Average position displacement after cross-attention scoring \\
+Promoted Candidates & 225 & 38.14\% & Candidates elevated above their unweighted RRF position \\
+Demoted Candidates & 232 & 39.32\% & Distractors and weak matches suppressed down the ranking \\
+Unchanged Candidates & 133 & 22.54\% & Exact agreement between RRF rank and Cross-Encoder score \\
+\midrule
+4-Way Query Transition (B4 $\to$ B5) & & & \\
+--- Dual Agreement (Both Succeed) & 45 & 66.18\% & Robust statutory queries preserved in Top-5 \\
+--- Dual Miss (Both Fail) & 20 & 29.41\% & Highly complex multi-hop queries requiring graph expansion \\
+--- Fixes (B4 Miss $\to$ B5 Hit) & 2 & 2.94\% & Distractors demoted, elevating gold passage into Top-5 \\
+--- Breaks (B4 Hit $\to$ B5 Miss) & 1 & 1.47\% & Borderline statutory proviso displaced \\
+\midrule
+Family D3-C Distractor Fallback (HNFAR) & 1 / 12 & \textbf{8.33\%} & Slashing distractor acceptance rate from 50.0\% (B4) down to 8.33\% \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Cross-Encoder Reranker Rank Shift Diagnostics on TEST Retrieval Queries ($N=68$).} Evaluates \texttt{cross-encoder/ms-marco-MiniLM-L-6-v2} over the frozen dual-retrieval candidate pool $\mathcal{U}_K(q)$.}
+\label{tab:reranker_diagnostics}
+\end{table}
+
+\vspace{1em}
+
+% ------------------------------------------------------------------------------
+% TABLE 6: Subsystem Activation Matrix and 6-Way Verification Ablation Performance
+% ------------------------------------------------------------------------------
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{lccccc|cccc}
+\toprule
+\multirow{2}{*}{\textbf{Verification Configuration}} & \multicolumn{5}{c|}{\textbf{Subsystem Component Activation Matrix}} & \multicolumn{4}{c}{\textbf{Empirical Safety Performance (\%)}} \\
+& \textbf{Claim} & \textbf{Citation} & \textbf{Evidence} & \textbf{Temporal} & \textbf{Governor} & \textbf{UFAR} $\downarrow$ & \textbf{FC Recall} $\uparrow$ & \textbf{AFAR} $\downarrow$ & \textbf{Accuracy} $\uparrow$ \\
+\midrule
+1. Baseline 5 (Hybrid + CE alone)      & $\times$     & $\times$        & $\times$        & $\times$        & $\times$      & 100.00 &   0.00 & 100.00 & 29.41 \\
+2. B5 + Claim Extractor (Atomicity)    & \checkmark   & $\times$        & $\times$        & $\times$        & $\times$      & 100.00 &   0.00 & 100.00 & 29.41 \\
+3. B5 + Citation Verifier (3-Tier)     & $\times$     & \checkmark      & $\times$        & $\times$        & $\times$      &  91.67 &   8.33 &  75.00 & 35.29 \\
+4. B5 + Temporal Verifier (Amends)     & $\times$     & $\times$        & $\times$        & \checkmark      & $\times$      &  66.67 &  33.33 &  75.00 & 52.94 \\
+5. B5 + Fail-Closed Governor alone     & $\times$     & $\times$        & $\times$        & $\times$        & \checkmark    & 100.00 &   0.00 & 100.00 & 29.41 \\
+\midrule
+\textbf{6. Full Authoritative HALO}    & \checkmark   & \checkmark      & \checkmark      & \checkmark      & \checkmark    & \textbf{0.00} & \textbf{100.00} & \textbf{0.00} & \textbf{100.00} \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Subsystem Component Activation Matrix and 6-Way Verification Ablation Performance.} Evaluated on the controlled diagnostic verification benchmark ($N=17$) and adversarial attack suite ($N=4$) under Protocol v1.0-FROZEN. Note: The benchmark is intentionally constructed as a controlled diagnostic benchmark and is not statistically representative of the full legal domain. UFAR: Unsupported-Claim False Acceptance Rate. FC Recall: Fail-Closed Recall on Flawed Queries. AFAR: Adversarial False Acceptance Rate.}
+\label{tab:halo_verification_ablation}
+\end{table*}
+
+\vspace{1em}
+
+% ------------------------------------------------------------------------------
+% TABLE 7: Cryptographic Provenance, Traceability, and Auditability Dimensions
+% ------------------------------------------------------------------------------
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lccl}
+\toprule
+\textbf{Auditability Dimension} & \textbf{Coverage} & \textbf{Protocol Standard} & \textbf{Verification / Cryptographic Artifact} \\
+\midrule
+Per-Query Audit UUID & 100.0\% & UUIDv4 & Unique prefix \texttt{AUD-YYYYMMDD-<uuid>} per query \\
+Cryptographic Seal & 100.0\% & SHA-256 & Master Digest: \texttt{e758c13b3d1a9f84550a5acf35b97f41...} \\
+Subsystem Code Manifest & 100.0\% (10/10) & SHA-256 & All 10 verification source files hashed \\
+Corpus Immutability & 100.0\% (8/8) & SHA-256 & Datasets 1, 2, 3 and Baselines 1--5 strictly frozen \\
+Immutable Audit Storage & 100.0\% & Append-Only JSONL & \texttt{experiments/runs/halo/audit\_store.jsonl} \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Cryptographic Provenance and Auditability Dimensions.} Independent from performance metrics, ensuring regulatory auditability and full traceability for every generated legal conclusion.}
+\label{tab:auditability_dimensions}
+\end{table}
+
+
+
+

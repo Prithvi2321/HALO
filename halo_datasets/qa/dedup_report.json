@@ -1,0 +1,11 @@
+{
+  "gate": "G7_G8_DEDUPLICATION",
+  "passed": true,
+  "total_candidates": 180,
+  "unique_ids_count": 180,
+  "duplicate_ids": [],
+  "duplicates_removed": 0,
+  "unique_cases": 180,
+  "near_duplicates_flagged": 0,
+  "details": []
+}

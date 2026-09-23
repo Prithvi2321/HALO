@@ -1,0 +1,14 @@
+{
+  "train_sections": 135,
+  "dev_sections": 29,
+  "test_sections": 30,
+  "train_judgments": 41,
+  "dev_judgments": 7,
+  "test_judgments": 9,
+  "train_passages": 264,
+  "dev_passages": 56,
+  "test_passages": 58,
+  "section_leakage_detected": 0,
+  "judgment_leakage_detected": 0,
+  "passage_leakage_detected": 0
+}

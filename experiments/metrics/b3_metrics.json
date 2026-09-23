@@ -1,0 +1,267 @@
+{
+  "system_id": "B3_SPARSE_BM25",
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "configuration": {
+    "system_id": "B3_SPARSE_BM25",
+    "system_name": "Baseline 3 — Sparse BM25 RAG",
+    "version": "v1.0",
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "top_k": 1,
+    "max_tokens": 512,
+    "seed": 42,
+    "retrieval": {
+      "enabled": true,
+      "method": "bm25",
+      "top_k": 5,
+      "bm25_algorithm": "BM25Okapi",
+      "k1": 1.5,
+      "b": 0.75,
+      "epsilon": 0.25,
+      "tokenizer_regex": "\\b[A-Za-z]+(?:'[A-Za-z]+)?\\b|\\b\\d+(?:[A-Za-z0-9_\\(\\)\\.\\-/]*[A-Za-z0-9_\\)]|\\b)",
+      "protected_stopwords": [
+        "shall",
+        "must",
+        "may",
+        "not",
+        "no",
+        "without",
+        "proviso",
+        "omitted",
+        "substituted"
+      ]
+    },
+    "dense_retrieval_enabled": false,
+    "reranking_enabled": false,
+    "verification_enabled": false,
+    "fail_closed_enabled": false,
+    "dataset3_indexing": false,
+    "prompt_template": {
+      "system_prompt": "You are an authoritative Indian Legal Research Assistant specializing in the Companies Act, 2013 and Indian corporate jurisprudence. Answer the inquiry factually, accurately, and with precise statutory and judicial citations using the authoritative legal evidence provided below. If the provided context is insufficient or the proposition is unsupported, state so explicitly.",
+      "context_header": "AUTHORITATIVE LEGAL EVIDENCE",
+      "context_footer": "END AUTHORITATIVE LEGAL EVIDENCE"
+    }
+  },
+  "protocol_version": "v1.0",
+  "dataset3_version": "v1.0.0-FROZEN",
+  "dev_count": 64,
+  "test_count": 168,
+  "total_count": 232,
+  "failures": 0,
+  "metrics": {
+    "overall": {
+      "total_evaluated_queries": 232,
+      "retrieval_latency_ms": {
+        "mean": 20.09,
+        "median": 17.94,
+        "std": 8.8,
+        "p95": 37.74,
+        "p99": 49.58,
+        "min": 6.81,
+        "max": 60.88
+      },
+      "generation_latency_ms": {
+        "mean": 29919.77,
+        "median": 19586.38,
+        "std": 95821.65,
+        "p95": 33607.05,
+        "p99": 592052.84,
+        "min": 1404.69,
+        "max": 1192950.45
+      },
+      "total_latency_ms": {
+        "mean": 29939.86,
+        "median": 19601.08,
+        "std": 95821.92,
+        "p95": 33630.03,
+        "p99": 592084.75,
+        "min": 1431.81,
+        "max": 1192972.15
+      },
+      "output_length": {
+        "chars": {
+          "mean": 1912.53,
+          "median": 2096.5,
+          "std": 463.37,
+          "p95": 2426,
+          "p99": 2529,
+          "min": 683,
+          "max": 2538
+        },
+        "words": {
+          "mean": 283.4,
+          "median": 307.5,
+          "std": 71.33,
+          "p95": 363,
+          "p99": 374,
+          "min": 95,
+          "max": 383
+        }
+      }
+    },
+    "retrieval_summary_test": {
+      "total_retrieval_queries": 68,
+      "macro_recall_at_5": 0.3529,
+      "macro_hit_rate_at_5": 0.4265,
+      "macro_mrr": 0.3787,
+      "average_retrieval_latency_ms": 20.09,
+      "p95_retrieval_latency_ms": 37.74
+    },
+    "test_family_summary": [
+      {
+        "family": "D3-A",
+        "n": 39,
+        "applicable_metric_name": "Recall@5 / MRR",
+        "recall_at_5": 48.72,
+        "hit_rate_at_5": 61.54,
+        "mrr": 0.5513
+      },
+      {
+        "family": "D3-B",
+        "n": 17,
+        "applicable_metric_name": "Semantic Recall@5 / MRR",
+        "recall_at_5": 29.41,
+        "hit_rate_at_5": 29.41,
+        "mrr": 0.25
+      },
+      {
+        "family": "D3-C",
+        "n": 12,
+        "applicable_metric_name": "Positive Hit@5 / HNFAR",
+        "recall_at_5": 0.0,
+        "hit_rate_at_5": 0.0,
+        "mrr": 0.0,
+        "hn_retrieval_rate": 41.67,
+        "hnfar": 41.67
+      },
+      {
+        "family": "D3-D",
+        "n": 100,
+        "applicable_metric_name": "Atomic Fact Point Recall (AFPR)",
+        "afpr": 60.17,
+        "point_coverage": 97.0,
+        "complete_rate": 22.0,
+        "hallucination_rate": 16.0
+      }
+    ],
+    "b1_vs_b2_vs_b3_comparison": {
+      "d3_a": {
+        "b1_recall_at_5": "NOT_APPLICABLE",
+        "b2_recall_at_5": "61.54%",
+        "b3_recall_at_5": "48.72%",
+        "b1_hit_rate_at_5": "92.31%",
+        "b2_hit_rate_at_5": "79.49%",
+        "b3_hit_rate_at_5": "61.54%",
+        "b1_mrr": "NOT_APPLICABLE",
+        "b2_mrr": 0.6667,
+        "b3_mrr": 0.5513
+      },
+      "d3_b": {
+        "b1_recall_at_5": "NOT_APPLICABLE",
+        "b2_recall_at_5": "41.18%",
+        "b3_recall_at_5": "29.41%",
+        "b1_identification": "23.53%",
+        "b2_hit_rate_at_5": "41.18%",
+        "b3_hit_rate_at_5": "29.41%",
+        "b1_mrr": "NOT_APPLICABLE",
+        "b2_mrr": 0.2794,
+        "b3_mrr": 0.25
+      },
+      "d3_c": {
+        "b1_selection_accuracy": "41.67%",
+        "b2_positive_retrieval": "75.0%",
+        "b3_positive_retrieval": "0.0%",
+        "b1_hnfar": "NOT_APPLICABLE",
+        "b2_hnfar": "8.33%",
+        "b3_hnfar": "41.67%",
+        "b2_hn_ret_rate": "50.0%",
+        "b3_hn_ret_rate": "41.67%"
+      },
+      "d3_d": {
+        "b1_afpr": "57.67%",
+        "b2_afpr": "56.17%",
+        "b3_afpr": "60.17%",
+        "b1_coverage": "56.81%",
+        "b2_coverage": "57.75%",
+        "b3_coverage": "97.0%",
+        "b1_complete_rate": "20.0%",
+        "b2_complete_rate": "23.0%",
+        "b3_complete_rate": "22.0%",
+        "b1_hallucination_rate": "7.0%",
+        "b2_hallucination_rate": "12.0%",
+        "b3_hallucination_rate": "16.0%"
+      }
+    }
+  },
+  "family_metrics": {
+    "test": [
+      {
+        "family": "D3-A",
+        "n": 39,
+        "applicable_metric_name": "Recall@5 / MRR",
+        "recall_at_5": 48.72,
+        "hit_rate_at_5": 61.54,
+        "mrr": 0.5513
+      },
+      {
+        "family": "D3-B",
+        "n": 17,
+        "applicable_metric_name": "Semantic Recall@5 / MRR",
+        "recall_at_5": 29.41,
+        "hit_rate_at_5": 29.41,
+        "mrr": 0.25
+      },
+      {
+        "family": "D3-C",
+        "n": 12,
+        "applicable_metric_name": "Positive Hit@5 / HNFAR",
+        "recall_at_5": 0.0,
+        "hit_rate_at_5": 0.0,
+        "mrr": 0.0,
+        "hn_retrieval_rate": 41.67,
+        "hnfar": 41.67
+      },
+      {
+        "family": "D3-D",
+        "n": 100,
+        "applicable_metric_name": "Atomic Fact Point Recall (AFPR)",
+        "afpr": 60.17,
+        "point_coverage": 97.0,
+        "complete_rate": 22.0,
+        "hallucination_rate": 16.0
+      }
+    ],
+    "details": {
+      "d3_a": {
+        "n": 39,
+        "recall_at_5": 0.4872,
+        "hit_rate_at_5": 0.6154,
+        "mrr": 0.5513
+      },
+      "d3_b": {
+        "n": 17,
+        "recall_at_5": 0.2941,
+        "hit_rate_at_5": 0.2941,
+        "mrr": 0.25
+      },
+      "d3_c": {
+        "n": 12,
+        "pos_recall_at_5": 0.0,
+        "mrr": 0.0,
+        "hn_ret_rate": 0.4167,
+        "hnfar": 0.4167
+      },
+      "d3_d": {
+        "n": 100,
+        "afpr": 0.6017,
+        "point_coverage": 0.97,
+        "complete_rate": 0.22,
+        "hallucination_rate": 0.16
+      }
+    }
+  },
+  "timestamp": "2026-09-15T14:52:46.640956+00:00"
+}

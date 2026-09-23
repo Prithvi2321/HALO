@@ -1,0 +1,138 @@
+{
+  "timestamp_utc": "2026-09-17T12:49:24.536305+00:00",
+  "protocol": "v1.0-FROZEN",
+  "benchmark_file": "halo_datasets/claim_evidence/claim_evidence.jsonl",
+  "total_records": 180,
+  "gates_evaluated": 18,
+  "gates_passed": 18,
+  "gates_failed": 0,
+  "all_passed": true,
+  "gates": [
+    {
+      "id": "G1",
+      "name": "Total Record Count",
+      "condition": "Total cases >= 100 and == 180",
+      "passed": true,
+      "details": "180 records verified (Target: 180)"
+    },
+    {
+      "id": "G2",
+      "name": "Schema Conformance",
+      "condition": "16 required fields present in 100% of records",
+      "passed": true,
+      "details": "180/180 records conformant, 0 missing fields"
+    },
+    {
+      "id": "G3",
+      "name": "Expected Status Enum",
+      "condition": "Valid 6-class status values",
+      "passed": true,
+      "details": "6 distinct status classes verified"
+    },
+    {
+      "id": "G4",
+      "name": "Verification Tier Enum",
+      "condition": "Valid tier categories",
+      "passed": true,
+      "details": "All 6 verification tiers verified"
+    },
+    {
+      "id": "G5",
+      "name": "Source Corpora Integrity",
+      "condition": "D1 & D2 SHA-256 match frozen baseline receipts",
+      "passed": true,
+      "details": "Dataset 1 & Dataset 2 SHA-256 digests 100% verified"
+    },
+    {
+      "id": "G6",
+      "name": "Passage Provenance Tracing",
+      "condition": "100% grounded passage IDs exist in D1 or D2",
+      "passed": true,
+      "details": "160 grounded passages verified, 0 untraceable"
+    },
+    {
+      "id": "G7",
+      "name": "Record ID Uniqueness",
+      "condition": "Zero duplicate IDs",
+      "passed": true,
+      "details": "180 unique IDs verified, 0 duplicates"
+    },
+    {
+      "id": "G8",
+      "name": "Claim Text Deduplication",
+      "condition": "Zero exact duplicate claim strings",
+      "passed": true,
+      "details": "180 unique claim strings verified"
+    },
+    {
+      "id": "G9",
+      "name": "Split Disjointness & Zero Leakage",
+      "condition": "0 source passage overlap across Train/Dev/Test",
+      "passed": true,
+      "details": "Train: 125, Dev: 27, Test: 28 (Zero passage overlap)"
+    },
+    {
+      "id": "G10",
+      "name": "Class Distribution Coverage",
+      "condition": "All 6 target classes represented; distribution documented",
+      "passed": true,
+      "details": "All 6 classes represented (imbalance documented: CONTRADICTED=88, SUPPORTED=41)"
+    },
+    {
+      "id": "G11",
+      "name": "Category Distribution Coverage",
+      "condition": "All 11 benchmark categories represented",
+      "passed": true,
+      "details": "11/11 categories active (including compound_claims)"
+    },
+    {
+      "id": "G12",
+      "name": "Difficulty Distribution Balance",
+      "condition": "Easy, Medium, Hard represented",
+      "passed": true,
+      "details": "Easy: 46, Medium: 52, Hard: 82"
+    },
+    {
+      "id": "G13",
+      "name": "Adversarial Attack Suite Alignment",
+      "condition": "All adversarial cases specify attack_type and REJECT",
+      "passed": true,
+      "details": "10 adversarial cases verified"
+    },
+    {
+      "id": "G14",
+      "name": "Temporal Amendment Provenance",
+      "condition": "All temporal cases specify valid status and amendment logic",
+      "passed": true,
+      "details": "18 temporal cases verified"
+    },
+    {
+      "id": "G15",
+      "name": "Content Hash Determinism",
+      "condition": "100% content_hash match canonical SHA-256 byte-for-byte",
+      "passed": true,
+      "details": "180/180 hash matches verified, 0 mismatches"
+    },
+    {
+      "id": "G16",
+      "name": "Dataset 3 Contamination Audit",
+      "condition": "0 overlap with Dataset 3 canonical benchmark queries",
+      "passed": true,
+      "details": "Audited against 1032 D3 queries: 0 overlaps"
+    },
+    {
+      "id": "G17",
+      "name": "Baseline 1-5 Contamination Audit",
+      "condition": "0 overlap with B1-B5 evaluation queries",
+      "passed": true,
+      "details": "Audited against 232 baseline queries: 0 overlaps"
+    },
+    {
+      "id": "G18",
+      "name": "Fail-Closed Expected-Behavior Integrity",
+      "condition": "Flawed/OOD queries map to NONE with expected REJECT/QUALIFY behavior",
+      "passed": true,
+      "details": "8 fail-closed cases verified with explicit expected refusal behavior"
+    }
+  ]
+}

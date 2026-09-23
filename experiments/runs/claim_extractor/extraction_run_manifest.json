@@ -1,0 +1,13 @@
+{
+  "run_id": "EXP_CLAIM_EXTRACTOR_B5_DEV_20260918_v1.0",
+  "source_file": "experiments/runs/b5_reranker/dev_run_output.jsonl",
+  "output_file": "experiments/runs/claim_extractor/dev_extracted_claims.jsonl",
+  "sha256": "2c0621da98d67cf9ccf84eeec3ed734b128d9c5879cccce5bc92fdc6f9432ede",
+  "total_records": 64,
+  "total_claims": 664,
+  "average_claims_per_answer": 10.38,
+  "total_citations": 556,
+  "span_integrity": "100% BYTE-FOR-BYTE EXACT",
+  "average_latency_ms": 2.15,
+  "status": "VERIFIED"
+}

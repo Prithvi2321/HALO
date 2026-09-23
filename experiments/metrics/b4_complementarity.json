@@ -1,0 +1,401 @@
+{
+  "analysis_type": "Dense_vs_BM25_Complementarity",
+  "total_queries_evaluated": 68,
+  "retrieval_families": [
+    "D3-A",
+    "D3-B",
+    "D3-C"
+  ],
+  "overlap_metrics": {
+    "average_jaccard_similarity": 0.1682,
+    "average_candidate_overlap_count_top5": 1.32,
+    "overlap_distribution": {
+      "0_passages": 12,
+      "1_passages": 33,
+      "2_passages": 13,
+      "3_passages": 9,
+      "4_passages": 1,
+      "5_passages": 0
+    }
+  },
+  "complementarity_breakdown": {
+    "dense_only_success_count": 15,
+    "dense_only_success_rate": 0.2206,
+    "bm25_only_success_count": 2,
+    "bm25_only_success_rate": 0.0294,
+    "both_success_count": 32,
+    "both_success_rate": 0.4706,
+    "neither_success_count": 19,
+    "neither_success_rate": 0.2794,
+    "theoretical_union_hit_rate": 0.7206
+  },
+  "representative_case_studies": {
+    "dense_only": [
+      {
+        "query_id": "D3_RET_000012",
+        "benchmark_family": "D3-A",
+        "query": "What does Section 105 of the Companies Act, 2013 prescribe regarding proxies?",
+        "gold_passages": [
+          "PAS_ACT_COMPANIES_2013_SEC_105_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_105_SUB_1"
+        ],
+        "dense_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_105_SUB_5",
+          "PAS_ACT_COMPANIES_2013_SEC_105_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_105_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_366_SUB_2",
+          "PAS-JUD-NCLAT-2019-007-P001"
+        ],
+        "bm25_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_133",
+          "PAS-JUD-NCLAT-2017-005-P001",
+          "PAS_ACT_COMPANIES_2013_SEC_139_SUB_4",
+          "PAS_ACT_COMPANIES_2013_SEC_366_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_149_SUB_4"
+        ],
+        "fused_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_366_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_105_SUB_5",
+          "PAS_ACT_COMPANIES_2013_SEC_133",
+          "PAS-JUD-NCLAT-2017-005-P001",
+          "PAS_ACT_COMPANIES_2013_SEC_105_SUB_1"
+        ],
+        "dense_hit": true,
+        "bm25_hit": false,
+        "fused_hit": true
+      },
+      {
+        "query_id": "D3_RET_000042",
+        "benchmark_family": "D3-A",
+        "query": "What does Section 122 of the Companies Act, 2013 prescribe regarding applicability of this chapter to one person company?",
+        "gold_passages": [
+          "PAS_ACT_COMPANIES_2013_SEC_122_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_122_SUB_1"
+        ],
+        "dense_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_3_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_2_SUB_62",
+          "PAS_ACT_COMPANIES_2013_SEC_122_SUB_4",
+          "PAS_ACT_COMPANIES_2013_SEC_122_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_446B"
+        ],
+        "bm25_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_133",
+          "PAS_ACT_COMPANIES_2013_SEC_446B",
+          "PAS_ACT_COMPANIES_2013_SEC_139_SUB_4",
+          "PAS_ACT_COMPANIES_2013_SEC_149_SUB_4",
+          "PAS_ACT_COMPANIES_2013_SEC_127"
+        ],
+        "fused_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_446B",
+          "PAS_ACT_COMPANIES_2013_SEC_133",
+          "PAS_ACT_COMPANIES_2013_SEC_3_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_2_SUB_62",
+          "PAS_ACT_COMPANIES_2013_SEC_122_SUB_4"
+        ],
+        "dense_hit": true,
+        "bm25_hit": false,
+        "fused_hit": false
+      },
+      {
+        "query_id": "D3_RET_000084",
+        "benchmark_family": "D3-A",
+        "query": "What does Section 149 of the Companies Act, 2013 prescribe regarding company to have board of directors?",
+        "gold_passages": [
+          "PAS_ACT_COMPANIES_2013_SEC_149_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_149_SUB_1"
+        ],
+        "dense_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_134_SUB_3",
+          "PAS_ACT_COMPANIES_2013_SEC_179_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_150_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_149_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_173_SUB_1"
+        ],
+        "bm25_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_150_SUB_4",
+          "PAS_ACT_COMPANIES_2013_SEC_133",
+          "PAS_ACT_COMPANIES_2013_SEC_149_SUB_4",
+          "PAS_ACT_COMPANIES_2013_SEC_134_SUB_3",
+          "PAS_ACT_COMPANIES_2013_SEC_135_SUB_1"
+        ],
+        "fused_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_134_SUB_3",
+          "PAS_ACT_COMPANIES_2013_SEC_150_SUB_4",
+          "PAS_ACT_COMPANIES_2013_SEC_133",
+          "PAS_ACT_COMPANIES_2013_SEC_179_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_149_SUB_4"
+        ],
+        "dense_hit": true,
+        "bm25_hit": false,
+        "fused_hit": false
+      }
+    ],
+    "bm25_only": [
+      {
+        "query_id": "D3_RET_000202",
+        "benchmark_family": "D3-A",
+        "query": "What was held by the Supreme Court Of India in S.E.B.I. v. ALLIANCE FINSTOCK LTD. & ORS. ETC. ETC. regarding general statutory interpretation?",
+        "gold_passages": [
+          "PAS-JUD-SC-2015-2015_10_145_162-P001",
+          "PAS-JUD-SC-2015-2015_10_145_162-P002"
+        ],
+        "dense_top5": [
+          "PAS-JUD-SC-2015-2015_10_145_162-P015",
+          "PAS-JUD-SC-2015-2015_10_145_162-P005",
+          "PAS-JUD-SC-2015-2015_10_145_162-P011",
+          "PAS-JUD-SC-2015-2015_10_145_162-P013",
+          "PAS-JUD-SC-2015-2015_10_145_162-P003"
+        ],
+        "bm25_top5": [
+          "PAS-JUD-SC-2015-2015_10_145_162-P001",
+          "PAS-JUD-SC-2016-2016_11_419_475-P006",
+          "PAS-JUD-SC-2015-2015_10_145_162-P015",
+          "PAS-JUD-SC-2015-2015_10_145_162-P009",
+          "PAS-JUD-SC-2020-2020_10_1132_1150-P014"
+        ],
+        "fused_top5": [
+          "PAS-JUD-SC-2015-2015_10_145_162-P015",
+          "PAS-JUD-SC-2015-2015_10_145_162-P001",
+          "PAS-JUD-SC-2015-2015_10_145_162-P005",
+          "PAS-JUD-SC-2016-2016_11_419_475-P006",
+          "PAS-JUD-SC-2015-2015_10_145_162-P011"
+        ],
+        "dense_hit": false,
+        "bm25_hit": true,
+        "fused_hit": true
+      },
+      {
+        "query_id": "D3_RET_000327",
+        "benchmark_family": "D3-B",
+        "query": "Under Indian company law jurisprudence, what are the overarching statutory mandates and compliance mechanisms regarding declaration of dividend?",
+        "gold_passages": [
+          "PAS_ACT_COMPANIES_2013_SEC_123_SUB_1"
+        ],
+        "dense_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_24_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_127",
+          "PAS_ACT_COMPANIES_2013_SEC_124_SUB_6",
+          "PAS-JUD-SC-2022-2022_10_102_126-P016",
+          "PAS-JUD-SC-2022-2022_10_102_126-P019"
+        ],
+        "bm25_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_127",
+          "PAS_ACT_COMPANIES_2013_SEC_124_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_123_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_123_SUB_1",
+          "PAS-JUD-NCLAT-2019-011-P001"
+        ],
+        "fused_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_127",
+          "PAS_ACT_COMPANIES_2013_SEC_24_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_124_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_123_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_124_SUB_6"
+        ],
+        "dense_hit": false,
+        "bm25_hit": true,
+        "fused_hit": false
+      }
+    ],
+    "both_succeed": [
+      {
+        "query_id": "D3_RET_000030",
+        "benchmark_family": "D3-A",
+        "query": "What does Section 116 of the Companies Act, 2013 prescribe regarding resolutions passed at adjourned meeting?",
+        "gold_passages": [
+          "PAS_ACT_COMPANIES_2013_SEC_116"
+        ],
+        "dense_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_116",
+          "PAS_ACT_COMPANIES_2013_SEC_122_SUB_3",
+          "PAS_ACT_COMPANIES_2013_SEC_122_SUB_4",
+          "PAS_ACT_COMPANIES_2013_SEC_175_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_115"
+        ],
+        "bm25_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_116",
+          "PAS_ACT_COMPANIES_2013_SEC_133",
+          "PAS_ACT_COMPANIES_2013_SEC_117_SUB_3",
+          "PAS_ACT_COMPANIES_2013_SEC_118_SUB_8",
+          "PAS_ACT_COMPANIES_2013_SEC_152_SUB_7"
+        ],
+        "fused_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_116",
+          "PAS_ACT_COMPANIES_2013_SEC_122_SUB_3",
+          "PAS_ACT_COMPANIES_2013_SEC_133",
+          "PAS_ACT_COMPANIES_2013_SEC_117_SUB_3",
+          "PAS_ACT_COMPANIES_2013_SEC_122_SUB_4"
+        ],
+        "dense_hit": true,
+        "bm25_hit": true,
+        "fused_hit": true
+      },
+      {
+        "query_id": "D3_RET_000031",
+        "benchmark_family": "D3-A",
+        "query": "Under the Companies Act, 2013, what are the statutory obligations and legal requirements concerning resolutions passed at adjourned meeting?",
+        "gold_passages": [
+          "PAS_ACT_COMPANIES_2013_SEC_116"
+        ],
+        "dense_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_116",
+          "PAS_ACT_COMPANIES_2013_SEC_117_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_103_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_175_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_122_SUB_3"
+        ],
+        "bm25_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_116",
+          "PAS-JUD-NCLAT-2020-012-P001",
+          "PAS-JUD-NCLAT-2019-011-P001",
+          "PAS-JUD-NCLAT-2017-005-P001",
+          "PAS-JUD-NCLAT-2018-006-P001"
+        ],
+        "fused_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_116",
+          "PAS-JUD-NCLAT-2020-012-P001",
+          "PAS_ACT_COMPANIES_2013_SEC_117_SUB_1",
+          "PAS-JUD-NCLAT-2019-011-P001",
+          "PAS_ACT_COMPANIES_2013_SEC_103_SUB_2"
+        ],
+        "dense_hit": true,
+        "bm25_hit": true,
+        "fused_hit": true
+      },
+      {
+        "query_id": "D3_RET_000043",
+        "benchmark_family": "D3-A",
+        "query": "What does Section 123 of the Companies Act, 2013 prescribe regarding declaration of dividend?",
+        "gold_passages": [
+          "PAS_ACT_COMPANIES_2013_SEC_123_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_123_SUB_1"
+        ],
+        "dense_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_123_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_124_SUB_6",
+          "PAS_ACT_COMPANIES_2013_SEC_24_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_26_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_127"
+        ],
+        "bm25_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_127",
+          "PAS_ACT_COMPANIES_2013_SEC_133",
+          "PAS_ACT_COMPANIES_2013_SEC_126",
+          "PAS_ACT_COMPANIES_2013_SEC_123_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_123_SUB_1"
+        ],
+        "fused_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_123_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_127",
+          "PAS_ACT_COMPANIES_2013_SEC_124_SUB_6",
+          "PAS_ACT_COMPANIES_2013_SEC_133",
+          "PAS_ACT_COMPANIES_2013_SEC_126"
+        ],
+        "dense_hit": true,
+        "bm25_hit": true,
+        "fused_hit": true
+      }
+    ],
+    "both_fail": [
+      {
+        "query_id": "D3_RET_000013",
+        "benchmark_family": "D3-A",
+        "query": "What does Section 106 of the Companies Act, 2013 prescribe regarding restriction on voting rights?",
+        "gold_passages": [
+          "PAS_ACT_COMPANIES_2013_SEC_106_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_106_SUB_1"
+        ],
+        "dense_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_105_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_378D",
+          "PAS_ACT_COMPANIES_2013_SEC_90_SUB_8",
+          "PAS-JUD-NCLAT-2019-004-P001",
+          "PAS_ACT_COMPANIES_2013_SEC_47_SUB_2"
+        ],
+        "bm25_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_133",
+          "PAS_ACT_COMPANIES_2013_SEC_108",
+          "PAS_ACT_COMPANIES_2013_SEC_59_SUB_3",
+          "PAS_ACT_COMPANIES_2013_SEC_378D",
+          "PAS_ACT_COMPANIES_2013_SEC_50_SUB_2"
+        ],
+        "fused_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_378D",
+          "PAS_ACT_COMPANIES_2013_SEC_105_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_133",
+          "PAS_ACT_COMPANIES_2013_SEC_108",
+          "PAS_ACT_COMPANIES_2013_SEC_59_SUB_3"
+        ],
+        "dense_hit": false,
+        "bm25_hit": false,
+        "fused_hit": false
+      },
+      {
+        "query_id": "D3_RET_000068",
+        "benchmark_family": "D3-A",
+        "query": "Under the Companies Act, 2013, what are the statutory obligations and legal requirements concerning removal, resignation of auditor and giving of special notice?",
+        "gold_passages": [
+          "PAS_ACT_COMPANIES_2013_SEC_140_SUB_1"
+        ],
+        "dense_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_140_SUB_4",
+          "PAS_ACT_COMPANIES_2013_SEC_115",
+          "PAS_ACT_COMPANIES_2013_SEC_248_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_140_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_139_SUB_2"
+        ],
+        "bm25_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_168_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_140_SUB_2",
+          "PAS-JUD-SC-2016-2016_11_419_475-P005",
+          "PAS-JUD-SC-2016-2016_11_419_475-P047",
+          "PAS-JUD-NCLAT-2020-012-P001"
+        ],
+        "fused_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_140_SUB_2",
+          "PAS_ACT_COMPANIES_2013_SEC_140_SUB_4",
+          "PAS_ACT_COMPANIES_2013_SEC_168_SUB_1",
+          "PAS_ACT_COMPANIES_2013_SEC_115",
+          "PAS-JUD-SC-2016-2016_11_419_475-P005"
+        ],
+        "dense_hit": false,
+        "bm25_hit": false,
+        "fused_hit": false
+      },
+      {
+        "query_id": "D3_RET_000085",
+        "benchmark_family": "D3-A",
+        "query": "Under the Companies Act, 2013, what are the statutory obligations and legal requirements concerning company to have board of directors?",
+        "gold_passages": [
+          "PAS_ACT_COMPANIES_2013_SEC_149_SUB_1"
+        ],
+        "dense_top5": [
+          "PAS_ACT_COMPANIES_2013_SEC_149_SUB_2",
+          "PAS-JUD-SC-2022-2022_10_102_126-P024",
+          "PAS_ACT_COMPANIES_2013_SEC_179_SUB_1",
+          "PAS-JUD-SC-2022-2022_10_102_126-P003",
+          "PAS_ACT_COMPANIES_2013_SEC_286"
+        ],
+        "bm25_top5": [
+          "PAS-JUD-NCLAT-2020-012-P001",
+          "PAS-JUD-NCLAT-2019-011-P001",
+          "PAS-JUD-NCLAT-2017-005-P001",
+          "PAS-JUD-NCLAT-2018-006-P001",
+          "PAS-JUD-NCLAT-2019-004-P001"
+        ],
+        "fused_top5": [
+          "PAS-JUD-NCLAT-2020-012-P001",
+          "PAS_ACT_COMPANIES_2013_SEC_149_SUB_2",
+          "PAS-JUD-NCLAT-2019-011-P001",
+          "PAS-JUD-SC-2022-2022_10_102_126-P024",
+          "PAS-JUD-NCLAT-2017-005-P001"
+        ],
+        "dense_hit": false,
+        "bm25_hit": false,
+        "fused_hit": false
+      }
+    ]
+  },
+  "timestamp_utc": "2026-09-15T20:39:16.382956+00:00"
+}

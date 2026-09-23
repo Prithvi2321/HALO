@@ -1,7 +1,7 @@
 {
   "audit_name": "HALO_DATASET_2_FINAL_FREEZE_AUDIT",
-  "lifecycle_state": "READY_TO_FREEZE",
-  "verdict": "READY_TO_FREEZE",
+  "lifecycle_state": "FROZEN",
+  "verdict": "FROZEN",
   "all_checks_passed": true,
   "verification_statement": "100% of defined automated integrity checks passed; human legal spot-checks completed according to the corpus QA protocol.",
   "results": {
@@ -20,7 +20,7 @@
     "check_13_forum_diversity": "PASS",
     "check_14_extraction_telemetry": "PASS",
     "check_15_dataset_1_immutability": "PASS",
-    "check_16_readonly_enforcement": "READY_FOR_FREEZE_OPERATION"
+    "check_16_readonly_enforcement": "PASS"
   },
   "metrics": {
     "total_judgments": 57,

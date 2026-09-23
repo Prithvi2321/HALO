@@ -1,0 +1,60 @@
+{
+  "system_id": "HALO_PRODUCTION_VERIFICATION_SYSTEM",
+  "protocol": "v1.0-FROZEN",
+  "status": "OFFICIALLY_AUDITED_AND_CRYPTOGRAPHICALLY_FROZEN",
+  "freeze_timestamp": "2026-09-16T19:15:39.590787+00:00",
+  "subsystem_source_hashes": {
+    "halo/claim_extractor/extractor.py": "40dfdb078713a69fca7d3958c6aa2fb270e28faae502b9af008e69eb6a83d09a",
+    "halo/citation_verifier/verifier.py": "a5ea1aa719cc18684540ad493c690a3acfb92e2118608b950af5123714980573",
+    "halo/evidence_verifier/verifier.py": "11e884dcdfc10e6558976a5b1bdb5bcc710a73d54437f05e280ab915fed06da2",
+    "halo/temporal_verifier/verifier.py": "f580f8340543d4b03de067ca24d80c4879ab10e307625c170bc1296cedaf5ef2",
+    "halo/conflict_detector/detector.py": "c1b9b4e988592515413e58e3c957b37940ffba9f3fc4929cec5aecb4d02c3843",
+    "halo/confidence/engine.py": "1ed6f26dfe4a04aa79116bff989715350abfd3b6bbd594bfe1471fc6fd37b24d",
+    "halo/governor/governor.py": "51d00f465b120792ccd9fffde700d285d9b1062ecc9947ab852ecc5af30c8d25",
+    "halo/audit/logger.py": "832c52296688d039ca7e77750e094026b8db3766a9feb809fcfd931a01b90644",
+    "halo/pipeline.py": "a93fb360ecf16de2d49b6672cb7d9603d298ea3cba47a6f26fa9472757c57c9b",
+    "halo/api/app.py": "9b6143940075958c79de9830437373957578264cbb13db683c592253ff929c31"
+  },
+  "verification_dataset_hashes": {
+    "halo_datasets/citation_verification/citation_verification.jsonl": "0309031851c111b1ef210f4ce8f3e0cb5b80bbb7dba3f6d459faa6ba8b7d6b72",
+    "halo_datasets/passage_verification/passage_verification.jsonl": "9e92d474a1291749f8a671c9504fe21746ceb0116c7c695bba9788219cc35eea",
+    "halo_datasets/temporal/temporal_verification.jsonl": "50514c7e50c13e8c6af69bfb2269042209440c85ef1889f7fa550bb7e03d5d01",
+    "halo_datasets/fail_closed/fail_closed_cases.jsonl": "676b0319c8223aa9912f86dac5a799cdcba893e71150b170b0ed1a6dd8ba909a",
+    "halo_datasets/adversarial/adversarial_cases.jsonl": "59d0d6b94f1e48b05ac084aa22d185bbf53843c5ad950cf523c9ed21b982c6a5",
+    "halo_datasets/claim_evidence/claim_evidence.jsonl": "c7e87ebf615bd00b4bb48ac6ab6dc27a65f45378ceb5dd4bea827c73f91332cb",
+    "halo_datasets/authority/authority_registry.jsonl": "8e0fe75c5e2951ee0e4070f65872b74fcdbe08bdacf6f42ea5e9bd2d3cfa5bed",
+    "halo_datasets/classification/query_classification.jsonl": "7ee920703d5faa6a55178d0b98f29a1239be7c9e21e6852a8d39e21beb38ae5f"
+  },
+  "underlying_frozen_baseline_receipt_hashes": {
+    "dataset_1_passages": "37c5ced49fc3925342a7eebfc84eb2988f863166b60c0a8cf527aefae0e8c27c",
+    "dataset_2_passages": "43af9b6ed2df7be5489a71e81cf1f0125469d0cbe4443d0e536edb35703d3996",
+    "dataset_3_canonical": "431a27d8fbc569255ae53fe209b869c6ae0b0bc8090b750500be0176ea54afc4",
+    "b1_freeze_receipt": "a2cd8c159739a6ce20276d49fb602079b5b67154c36ceb0887a873a0d6da575d",
+    "b2_freeze_receipt": "bc666c8ed1b6f0ce9e5d3abe2910c99cc9694b37a83a815c5bd4c2b6d4a0961f",
+    "b3_freeze_receipt": "dfe92e62e3fdb34501c62a5748117420d15d0e84232760ae9bf2fdeea636ffb0",
+    "b4_freeze_receipt": "d8ec36f8d1e8c91c116cfa71d20ad7d8af5bdc19629a449fe623101c90b2024a",
+    "b5_freeze_receipt": "d49f57d538ce0f37881bd550c686acce1dba5058dc2d5693e4df75a6a6142ab8"
+  },
+  "authoritative_metrics": {
+    "unsupported_claim_false_acceptance_rate_pct": 0.0,
+    "fail_closed_recall_pct": 100.0,
+    "overall_verified_accuracy_pct": 100.0,
+    "adversarial_false_acceptance_rate_pct": 0.0,
+    "total_adversarial_neutralized": 4
+  },
+  "gates_passed": [
+    "GATE_01_ZERO_BASELINE_CONTAMINATION",
+    "GATE_02_SEPARATE_BENCHMARK_NAMESPACE",
+    "GATE_03_CLAIM_ATOMICITY_ENFORCED",
+    "GATE_04_3_TIER_CITATION_VERIFICATION",
+    "GATE_05_PASSAGE_LEVEL_NLI_VERIFIED",
+    "GATE_06_CHRONOLOGICAL_AMENDMENT_AWARENESS",
+    "GATE_07_DOXTRINAL_CONFLICT_DETECTION",
+    "GATE_08_ZERO_LLM_SELF_CONFIDENCE",
+    "GATE_09_FAIL_CLOSED_QUARANTINE_ENFORCED",
+    "GATE_10_CRYPTOGRAPHIC_AUDIT_TRACEABILITY",
+    "GATE_11_ZERO_PERCENT_UNSUPPORTED_ACCEPTANCE",
+    "GATE_12_ZERO_PERCENT_ADVERSARIAL_LEAKAGE"
+  ],
+  "receipt_sha256": "e758c13b3d1a9f84550a5acf35b97f41548ab89b75c22ec61842d85dffb1f4ef"
+}

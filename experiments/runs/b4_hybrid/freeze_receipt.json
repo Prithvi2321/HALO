@@ -1,0 +1,91 @@
+{
+  "system_id": "B4_HYBRID_RRF",
+  "system_name": "Baseline 4 \u2014 Hybrid RAG (Dense + BM25 via Reciprocal Rank Fusion, k=60)",
+  "protocol_version": "v1.0-FROZEN",
+  "freeze_status": "FROZEN_VALIDATED",
+  "frozen_timestamp_utc": "2026-09-15T20:48:30.819783+00:00",
+  "total_queries_executed": 232,
+  "dev_queries": 64,
+  "test_queries": 168,
+  "failures": 0,
+  "retrieval_configuration": {
+    "dense": {
+      "model": "BAAI/bge-large-en-v1.5",
+      "dim": 1024,
+      "norm": "L2",
+      "top_k": 5
+    },
+    "sparse": {
+      "algorithm": "BM25Okapi",
+      "k1": 1.5,
+      "b": 0.75,
+      "epsilon": 0.25,
+      "tokenizer": "legal_aware_regex_v1",
+      "top_k": 5
+    },
+    "fusion": {
+      "method": "RRF",
+      "k": 60,
+      "top_k": 5,
+      "tie_breaker": "passage_id_ascending"
+    }
+  },
+  "disallowed_modules_disabled": true,
+  "upstream_invariance_verified": true,
+  "artifact_hashes": {
+    "config": {
+      "path": "experiments\\configs\\b4_hybrid_config.json",
+      "sha256": "12b122a33cfb918adca090befc05d0f29402f42d53da468a6b112f188fbc9b1d"
+    },
+    "dev_run_output": {
+      "path": "experiments\\runs\\b4_hybrid\\dev_run_output.jsonl",
+      "sha256": "3750ff7696c841fc2a7633cddc6726890ea48b3efda6365ba4ee4ab4ea090d3e",
+      "record_count": 64
+    },
+    "test_run_output": {
+      "path": "experiments\\runs\\b4_hybrid\\test_run_output.jsonl",
+      "sha256": "3bc6241ccaa25cab2bfe8e93a39912d9cfd185cf37382b6bc3736f6d95355bf0",
+      "record_count": 168
+    },
+    "metrics_json": {
+      "path": "experiments\\metrics\\b4_metrics.json",
+      "sha256": "34b16c690fea6dd435f140dfa71046f4816d97f60a2aaee365abb82fa9b466b2"
+    },
+    "metrics_report": {
+      "path": "experiments\\metrics\\b4_metrics_report.md",
+      "sha256": "4ee0c0d7d422bad38fde255fc0676ccefe25ac9818c77890cef3ea75220ecfc3"
+    },
+    "complementarity_json": {
+      "path": "experiments\\metrics\\b4_complementarity.json",
+      "sha256": "c5fc7d7422466f4ae6468396cbcc4a81a52af78dda818150f8f6b477a43457f0"
+    },
+    "complementarity_report": {
+      "path": "experiments\\metrics\\b4_complementarity_analysis.md",
+      "sha256": "a833f1473dffbe3b254f3af7fd176a53969579707c86b1d2f1399d327e18efab"
+    },
+    "runner_script": {
+      "path": "scripts/experiments/baseline_4_runner.py",
+      "sha256": "449e1a621d50373a46eece61abc2dc2fc72c8cc9e67cb73f3e22f0dea668429c"
+    },
+    "evaluator_script": {
+      "path": "scripts/experiments/evaluate_b4.py",
+      "sha256": "1ef7d250862a15a10b7764add26e232438f65f8e073bc4dd1b74efd5c33860e4"
+    },
+    "complementarity_script": {
+      "path": "scripts/experiments/analyze_b4_complementarity.py",
+      "sha256": "9797b427daa2a4443545d3cba7f1f541f1830740853cd2f3ed325623f9c707e2"
+    },
+    "test_suite": {
+      "path": "tests/test_baseline_4.py",
+      "sha256": "dcf61c4ada6725acf6bb02088395dc12b3b77dd5e07453573626afe071bcf689"
+    },
+    "dense_index": {
+      "path": "experiments\\indices\\dense\\index.pt",
+      "sha256": "3cda2350db5011b074c5f31872bfe0d05f122d7f0936de6139f48187f2f87313"
+    },
+    "bm25_index": {
+      "path": "experiments\\indices\\bm25\\index\\bm25_model.pkl",
+      "sha256": "3cf78cd79d3071c94fbe5f8e46df76514dbbe3bca0e1705117c1b73a1507d507"
+    }
+  }
+}

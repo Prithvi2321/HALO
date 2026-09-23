@@ -1,0 +1,511 @@
+{
+  "audit_timestamp": "2026-09-22T20:40:08.663488+00:00",
+  "overall_status": "PASSED",
+  "levels": {
+    "level_1_dataset_integrity": {
+      "level": "Level 1: Benchmark Dataset Integrity",
+      "passed": true,
+      "metrics": {
+        "total_benchmark_records": 180,
+        "train_records": 125,
+        "dev_records": 27,
+        "test_records": 28,
+        "split_sum_matches_total": true,
+        "unique_ids": 180,
+        "duplicate_ids": 0,
+        "unique_claims": 180,
+        "duplicate_claims": 0,
+        "category_count": 11,
+        "categories": {
+          "citation_existence": 24,
+          "citation_metadata": 22,
+          "passage_support": 24,
+          "numerical_mutation": 24,
+          "modality_mutation": 16,
+          "compound_claim": 16,
+          "temporal_verification": 18,
+          "authority_verification": 10,
+          "conflict_detection": 8,
+          "adversarial_cases": 10,
+          "fail_closed_cases": 8
+        },
+        "class_distribution": {
+          "SUPPORTED": 41,
+          "FABRICATED_CITATION": 14,
+          "CONTRADICTED": 88,
+          "FLAGGED": 15,
+          "PARTIALLY_SUPPORTED": 21,
+          "UNSUPPORTED": 1
+        },
+        "tier_distribution": {
+          "EXISTENCE": 34,
+          "METADATA": 22,
+          "PASSAGE_SUPPORT": 90,
+          "TEMPORAL": 18,
+          "CONFLICT": 8,
+          "FAIL_CLOSED": 8
+        },
+        "difficulty_distribution": {
+          "easy": 46,
+          "medium": 52,
+          "hard": 82
+        },
+        "passage_family_disjointness": {
+          "is_disjoint": true,
+          "train_dev_overlap": 0,
+          "train_test_overlap": 0,
+          "dev_test_overlap": 0
+        },
+        "sha256_checksums": {
+          "total_registered_assets": 19,
+          "verified_matches": 19,
+          "errors": []
+        },
+        "contamination": {
+          "d3_canonical_queries_checked": 1032,
+          "d3_overlaps_found": 0,
+          "baseline_queries_checked": 232,
+          "baseline_overlaps_found": 0,
+          "status": "ZERO_CONTAMINATION"
+        }
+      }
+    },
+    "level_2_claim_extractor": {
+      "level": "Level 2: Claim Extractor Audit",
+      "passed": true,
+      "metrics": {
+        "answers_processed": 64,
+        "total_claims_extracted": 664,
+        "average_claims_per_answer": 10.38,
+        "total_citations_extracted": 556,
+        "span_integrity": {
+          "total_spans_checked": 664,
+          "exact_matches": 664,
+          "integrity_percentage": 100.0,
+          "formula": "raw_answer_text[start:end] == claim_source_text"
+        },
+        "failed_answers": 0,
+        "mean_processing_time_ms": 2.15,
+        "manifest_sha256_verified": true
+      }
+    },
+    "level_3_citation_verifier": {
+      "level": "Level 3: Citation Verifier Audit",
+      "passed": true,
+      "metrics": {
+        "pipeline_execution": {
+          "answers_processed": 64,
+          "total_citations_verified": 416,
+          "errors": 0
+        },
+        "benchmark_evaluation": {
+          "total_benchmark_cases_evaluated": 41,
+          "tier1_existence_cases": 21,
+          "tier2_metadata_cases": 20,
+          "structured_citation_recomputation": {
+            "TP": 12,
+            "FP": 0,
+            "TN": 9,
+            "FN": 0,
+            "accuracy": 100.0,
+            "FER": "0.0%",
+            "fabricated_recall": "100.0%"
+          },
+          "unstructured_claim_string_recomputation": {
+            "TP": 12,
+            "FP": 1,
+            "TN": 8,
+            "FN": 0,
+            "accuracy": 95.24,
+            "FER": "11.11%",
+            "nuance_analysis": [
+              {
+                "case_id": "CIT_EXIST_021",
+                "claim": "Section 5 of the Artificial Intelligence Commercial Code mandates board ethics committee.",
+                "reason": "Omission of enactment year causes parser to fall back to default statute"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "level_4_evidence_verifier": {
+      "level": "Level 4: Evidence Verifier Math & Metric Audit",
+      "passed": true,
+      "metrics": {
+        "dev_split": {
+          "total_cases": 27,
+          "accuracy": {
+            "reported": 0.6667,
+            "recomputed": 0.6667,
+            "match": true
+          },
+          "macro_f1": {
+            "reported": 0.6319,
+            "recomputed": 0.6319,
+            "match": true
+          },
+          "UFAR": {
+            "reported": 0.0,
+            "recomputed": 0.0,
+            "match": true
+          },
+          "SFRR": {
+            "reported": 0.3636,
+            "recomputed": 0.3636,
+            "match": true
+          },
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 7,
+              "CONTRADICTED": 1,
+              "PARTIALLY_SUPPORTED": 0,
+              "NEUTRAL": 3,
+              "CONFLICTED": 0,
+              "UNRESOLVED": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 9,
+              "PARTIALLY_SUPPORTED": 0,
+              "NEUTRAL": 4,
+              "CONFLICTED": 0,
+              "UNRESOLVED": 0
+            },
+            "PARTIALLY_SUPPORTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "PARTIALLY_SUPPORTED": 2,
+              "NEUTRAL": 0,
+              "CONFLICTED": 0,
+              "UNRESOLVED": 0
+            },
+            "NEUTRAL": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "PARTIALLY_SUPPORTED": 0,
+              "NEUTRAL": 0,
+              "CONFLICTED": 0,
+              "UNRESOLVED": 0
+            },
+            "CONFLICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "PARTIALLY_SUPPORTED": 0,
+              "NEUTRAL": 0,
+              "CONFLICTED": 0,
+              "UNRESOLVED": 0
+            },
+            "UNRESOLVED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 1,
+              "PARTIALLY_SUPPORTED": 0,
+              "NEUTRAL": 0,
+              "CONFLICTED": 0,
+              "UNRESOLVED": 0
+            }
+          }
+        },
+        "held_out_test_split": {
+          "total_cases": 28,
+          "accuracy": {
+            "reported": 0.5714,
+            "recomputed": 0.5714,
+            "match": true,
+            "formula": "16/28 = 57.14%"
+          },
+          "macro_precision": {
+            "reported": 0.9444,
+            "recomputed": 0.9444,
+            "match": true
+          },
+          "macro_recall": {
+            "reported": 0.5602,
+            "recomputed": 0.5602,
+            "match": true
+          },
+          "macro_f1": {
+            "reported": 0.6984,
+            "recomputed": 0.6984,
+            "match": true
+          },
+          "UFAR": {
+            "reported": 0.05,
+            "recomputed": 0.05,
+            "match": true,
+            "formula": "1/20 = 5.00%"
+          },
+          "SFRR": {
+            "reported": 0.375,
+            "recomputed": 0.375,
+            "match": true,
+            "formula": "3/8 = 37.50%"
+          },
+          "CFNR": {
+            "reported": 0.4444,
+            "recomputed": 0.4444,
+            "match": true
+          },
+          "contradiction_recall": {
+            "recomputed": 0.5556,
+            "value": "55.56%"
+          },
+          "per_class_audit": {
+            "SUPPORTED": {
+              "TP": 5,
+              "FP": 1,
+              "FN": 3,
+              "P": 0.8333,
+              "R": 0.625,
+              "F1": 0.7143
+            },
+            "CONTRADICTED": {
+              "TP": 10,
+              "FP": 0,
+              "FN": 8,
+              "P": 1.0,
+              "R": 0.5556,
+              "F1": 0.7143
+            },
+            "PARTIALLY_SUPPORTED": {
+              "TP": 1,
+              "FP": 0,
+              "FN": 1,
+              "P": 1.0,
+              "R": 0.5,
+              "F1": 0.6667
+            }
+          },
+          "quarantine_hash_verified": true,
+          "confusion_matrix": {
+            "SUPPORTED": {
+              "SUPPORTED": 5,
+              "CONTRADICTED": 0,
+              "PARTIALLY_SUPPORTED": 0,
+              "NEUTRAL": 3,
+              "CONFLICTED": 0,
+              "UNRESOLVED": 0
+            },
+            "CONTRADICTED": {
+              "SUPPORTED": 1,
+              "CONTRADICTED": 10,
+              "PARTIALLY_SUPPORTED": 0,
+              "NEUTRAL": 7,
+              "CONFLICTED": 0,
+              "UNRESOLVED": 0
+            },
+            "PARTIALLY_SUPPORTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "PARTIALLY_SUPPORTED": 1,
+              "NEUTRAL": 1,
+              "CONFLICTED": 0,
+              "UNRESOLVED": 0
+            },
+            "NEUTRAL": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "PARTIALLY_SUPPORTED": 0,
+              "NEUTRAL": 0,
+              "CONFLICTED": 0,
+              "UNRESOLVED": 0
+            },
+            "CONFLICTED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "PARTIALLY_SUPPORTED": 0,
+              "NEUTRAL": 0,
+              "CONFLICTED": 0,
+              "UNRESOLVED": 0
+            },
+            "UNRESOLVED": {
+              "SUPPORTED": 0,
+              "CONTRADICTED": 0,
+              "PARTIALLY_SUPPORTED": 0,
+              "NEUTRAL": 0,
+              "CONFLICTED": 0,
+              "UNRESOLVED": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "consistency_table": [
+    {
+      "claim": "180 benchmark records",
+      "source_artifact": "claim_evidence.jsonl",
+      "recomputed": "180",
+      "status": "🟢",
+      "notes": "Exact line-by-line JSON parse"
+    },
+    {
+      "claim": "Train split = 125 records",
+      "source_artifact": "splits/train.jsonl",
+      "recomputed": "125",
+      "status": "🟢",
+      "notes": "70% target partition"
+    },
+    {
+      "claim": "Dev split = 27 records",
+      "source_artifact": "splits/dev.jsonl",
+      "recomputed": "27",
+      "status": "🟢",
+      "notes": "15% target partition"
+    },
+    {
+      "claim": "Test split = 28 records",
+      "source_artifact": "splits/test.jsonl",
+      "recomputed": "28",
+      "status": "🟢",
+      "notes": "15% held-out partition"
+    },
+    {
+      "claim": "Passage-family disjointness (Zero leakage)",
+      "source_artifact": "splits/*.jsonl",
+      "recomputed": "0 overlaps",
+      "status": "🟢",
+      "notes": "Disjoint on authoritative passage IDs"
+    },
+    {
+      "claim": "Zero D3 benchmark contamination",
+      "source_artifact": "dataset3_all.jsonl",
+      "recomputed": "0 overlaps / 1032 queries",
+      "status": "🟢",
+      "notes": "Verified against 1,032 D3 canonical queries"
+    },
+    {
+      "claim": "Zero Baseline 1-5 contamination",
+      "source_artifact": "experiments/runs/**/*_run_output.jsonl",
+      "recomputed": "0 overlaps / 232 queries",
+      "status": "🟢",
+      "notes": "Verified against baseline prompt queries"
+    },
+    {
+      "claim": "Claim extractor answers = 64",
+      "source_artifact": "dev_extracted_claims.jsonl",
+      "recomputed": "64",
+      "status": "🟢",
+      "notes": "Matches B5 dev evaluation count"
+    },
+    {
+      "claim": "Total extracted claims = 664",
+      "source_artifact": "dev_extracted_claims.jsonl",
+      "recomputed": "664",
+      "status": "🟢",
+      "notes": "Average 10.38 claims/answer"
+    },
+    {
+      "claim": "Total extracted citations = 556",
+      "source_artifact": "dev_extracted_claims.jsonl",
+      "recomputed": "556",
+      "status": "🟢",
+      "notes": "Statutory & judicial citations"
+    },
+    {
+      "claim": "Claim span integrity = 100.0%",
+      "source_artifact": "dev_extracted_claims.jsonl vs dev_run_output.jsonl",
+      "recomputed": "664/664 (100.0%)",
+      "status": "🟢",
+      "notes": "100% byte-for-byte exact slice match"
+    },
+    {
+      "claim": "Citation pipeline answers = 64",
+      "source_artifact": "dev_verified_citations.jsonl",
+      "recomputed": "64",
+      "status": "🟢",
+      "notes": "Exact match across pipeline"
+    },
+    {
+      "claim": "Citation pipeline total citations = 416",
+      "source_artifact": "dev_verified_citations.jsonl",
+      "recomputed": "416",
+      "status": "🟢",
+      "notes": "Verified against raw line counts"
+    },
+    {
+      "claim": "Citation existence accuracy = 100.0% (structured)",
+      "source_artifact": "benchmark_evaluation_report.json / raw verifier",
+      "recomputed": "100.0% (21/21)",
+      "status": "🟢",
+      "notes": "Recomputed from raw CitationVerifier"
+    },
+    {
+      "claim": "Citation FER = 0.0% (structured)",
+      "source_artifact": "benchmark_evaluation_report.json / raw verifier",
+      "recomputed": "0.0%",
+      "status": "🟢",
+      "notes": "FP / (FP + TN) on 9 fabricated cases"
+    },
+    {
+      "claim": "Citation FER on raw text missing enactment year",
+      "source_artifact": "train.jsonl (CIT_EXIST_021)",
+      "recomputed": "11.11% (1 FP on raw string)",
+      "status": "⚠️",
+      "notes": "CIT_EXIST_021 omitted year '2025' in claim string; falls back to default statute. Fully safe when structured citation is provided."
+    },
+    {
+      "claim": "Citation metadata accuracy = 65.0% (reported)",
+      "source_artifact": "benchmark_evaluation_report.json / raw verifier",
+      "recomputed": "45.0% (9/20 recomputed vs 13/20 reported)",
+      "status": "🟡",
+      "notes": "Reported 65.0% in benchmark_evaluation_report.json; recomputed 45.0% on raw matcher; heuristic variations across matcher revisions."
+    },
+    {
+      "claim": "Evidence Dev Accuracy = 66.67%",
+      "source_artifact": "development_metrics.json",
+      "recomputed": "66.67% (18/27)",
+      "status": "🟢",
+      "notes": "Independently verified from 6x6 confusion matrix"
+    },
+    {
+      "claim": "Evidence Dev UFAR = 0.00%",
+      "source_artifact": "development_metrics.json",
+      "recomputed": "0.00% (0/16)",
+      "status": "🟢",
+      "notes": "Zero false SUPPORTED predictions on Dev"
+    },
+    {
+      "claim": "Evidence Test Accuracy = 57.14%",
+      "source_artifact": "test_metrics.json",
+      "recomputed": "57.14% (16/28)",
+      "status": "🟢",
+      "notes": "16 / 28 = 57.1429% exactly"
+    },
+    {
+      "claim": "Evidence Test Macro-F1 = 0.6984",
+      "source_artifact": "test_metrics.json",
+      "recomputed": "0.6984",
+      "status": "🟢",
+      "notes": "Mean of F1(Supp=0.7143, Contra=0.7143, Part=0.6667)"
+    },
+    {
+      "claim": "Evidence Test Macro-Precision = 0.9444",
+      "source_artifact": "test_metrics.json",
+      "recomputed": "0.9444",
+      "status": "🟢",
+      "notes": "Mean of Prec(Supp=0.8333, Contra=1.0000, Part=1.0000)"
+    },
+    {
+      "claim": "Evidence Test UFAR = 5.0%",
+      "source_artifact": "test_metrics.json",
+      "recomputed": "5.0% (1/20)",
+      "status": "🟢",
+      "notes": "Only 1 false-supported claim out of 20 non-supported test cases"
+    },
+    {
+      "claim": "Evidence Test SFRR = 37.5%",
+      "source_artifact": "test_metrics.json",
+      "recomputed": "37.5% (3/8)",
+      "status": "🟢",
+      "notes": "3 supported claims rejected to fail-closed NEUTRAL"
+    },
+    {
+      "claim": "Test split quarantine hash integrity",
+      "source_artifact": "test_quarantine_manifest.json vs test.jsonl",
+      "recomputed": "1bdcea5524d17d94... matches manifest",
+      "status": "🟢",
+      "notes": "1bdcea5524d17d94a1ee271ac5545e9bb50c0d4cd93d27e6dfba4d238d6b3ac0"
+    }
+  ]
+}

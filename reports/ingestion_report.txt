@@ -1,0 +1,25 @@
+COMPANIES ACT 2013 INGESTION REPORT
+
+Source documents:  3
+Pages processed:   410
+OCR pages:         0
+Sections detected: 504
+Schedules:         7
+Subsections:       1443
+Clauses:           96
+Amendments:        87
+Amendments applied:87
+
+Validation:
+PDF integrity       PASS
+Text extraction     PASS
+Structure           PASS
+Provenance          PASS
+Temporal            PASS
+Amendment           PASS
+Consolidation       PASS
+
+Human review:
+HIGH                 0
+MEDIUM               0
+LOW                  0

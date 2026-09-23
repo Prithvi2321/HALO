@@ -1,0 +1,12 @@
+{
+  "gate": "G5_G6_CONTAMINATION_AUDIT",
+  "passed": true,
+  "total_benchmark_records_checked": 180,
+  "d3_canonical_queries_indexed": 1032,
+  "baseline_evaluation_queries_indexed": 232,
+  "d3_overlap_count": 0,
+  "d3_overlaps": [],
+  "baseline_overlap_count": 0,
+  "baseline_overlaps": [],
+  "contamination_status": "ZERO_CONTAMINATION"
+}

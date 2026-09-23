@@ -1,0 +1,2 @@
+{"test_id": "D10_FAIL_001", "query": "What is the penalty under Section 999 of the Companies Act, 2013?", "expected_behavior": "FAIL_CLOSED", "reason": "Section 999 does not exist in the Companies Act, 2013.", "available_evidence_ids": [], "synthetic": true}
+{"test_id": "D10_FAIL_002", "query": "Quote the Supreme Court ruling from 2029 regarding Quantum AI Corporate Governance.", "expected_behavior": "FAIL_CLOSED", "reason": "Out of scope / non-existent case law.", "available_evidence_ids": [], "synthetic": true}

@@ -1,0 +1,41 @@
+{
+  "benchmark_summary": {
+    "splits_evaluated": [
+      "train",
+      "dev"
+    ],
+    "held_out_test_quarantined": 28,
+    "total_benchmark_cases_evaluated": 41,
+    "mean_verification_latency_ms": 0.212
+  },
+  "tier1_existence_metrics": {
+    "total_existence_cases": 21,
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1_score": 100.0,
+    "confusion_matrix": {
+      "tp_existing_accepted": 12,
+      "fp_fabricated_accepted": 0,
+      "tn_fabricated_rejected": 9,
+      "fn_existing_rejected": 0
+    },
+    "safety_metrics": {
+      "false_existence_rate_fer": "0.0%",
+      "fabricated_citation_recall": "100.0%",
+      "fabricated_cases_total": 9,
+      "fabricated_cases_detected": 9
+    }
+  },
+  "tier2_metadata_metrics": {
+    "total_metadata_cases": 20,
+    "accuracy": 65.0,
+    "conflict_detection_rate": "65.0%",
+    "confusion_matrix": {
+      "tp_valid_meta_accepted": 0,
+      "fp_mutated_meta_accepted": 7,
+      "tn_mutated_meta_rejected": 13,
+      "fn_valid_meta_rejected": 0
+    }
+  }
+}

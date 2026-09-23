@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "total_provisions_compared": 504,
+  "matched_provisions": 504,
+  "mismatches": 0,
+  "consolidation_confidence": 0.99,
+  "comparisons_sample": [
+    {
+      "section_number": "1",
+      "section_id": "ACT_COMPANIES_2013_SEC_1",
+      "status": "MATCH",
+      "amendments_applied": 0,
+      "reason": "Text verified against official publication."
+    },
+    {
+      "section_number": "2",
+      "section_id": "ACT_COMPANIES_2013_SEC_2",
+      "status": "AMENDED_VERIFIED",
+      "amendments_applied": 7,
+      "reason": "Incorporated 7 statutory amendments: ['The Explanation subs. by Act 1 of 2018, s. 2 (w.e.f. 7-5-2018).', 'The Proviso ins. by s. 2, ibid. (w.e.f. 9-2-2018).', 'Subs. by s. 2, ibid., for sub-clause (v) (w.e.f. 9-2-2018).', 'The Proviso ins. by Act 29 of 2020, s. 2 (w.e.f. 22-1-2021).', 'The word “and” omitted by s. 2, ibid. (w.e.f. 9-2-2018).', 'ACT_COMPANIES_AMEND_2015_SEC_2', 'ACT_COMPANIES_AMEND_2020_SEC_2']"
+    },
+    {
+      "section_number": "3",
+      "section_id": "ACT_COMPANIES_2013_SEC_3",
+      "status": "MATCH",
+      "amendments_applied": 0,
+      "reason": "Text verified against official publication."
+    },
+    {
+      "section_number": "3A",
+      "section_id": "ACT_COMPANIES_2013_SEC_3A",
+      "status": "AMENDED_VERIFIED",
+      "amendments_applied": 1,
+      "reason": "Incorporated 1 statutory amendments: ['Subs. by Act 1 of 2018, s. 2, for clause (91) (w.e.f. 9-2-2018).']"
+    },
+    {
+      "section_number": "4",
+      "section_id": "ACT_COMPANIES_2013_SEC_4",
+      "status": "AMENDED_VERIFIED",
+      "amendments_applied": 1,
+      "reason": "Incorporated 1 statutory amendments: ['Subs. by Act 1 of 2018, s. 2, for clause (91) (w.e.f. 9-2-2018).']"
+    },
+    {
+      "section_number": "5",
+      "section_id": "ACT_COMPANIES_2013_SEC_5",
+      "status": "MATCH",
+      "amendments_applied": 0,
+      "reason": "Text verified against official publication."
+    },
+    {
+      "section_number": "6",
+      "section_id": "ACT_COMPANIES_2013_SEC_6",
+      "status": "MATCH",
+      "amendments_applied": 0,
+      "reason": "Text verified against official publication."
+    },
+    {
+      "section_number": "7",
+      "section_id": "ACT_COMPANIES_2013_SEC_7",
+      "status": "AMENDED_VERIFIED",
+      "amendments_applied": 1,
+      "reason": "Incorporated 1 statutory amendments: ['Subs. by Act 1 of 2018, s. 4, for clause (i) (w.e.f. 26-1-2018).']"
+    },
+    {
+      "section_number": "8",
+      "section_id": "ACT_COMPANIES_2013_SEC_8",
+      "status": "AMENDED_VERIFIED",
+      "amendments_applied": 4,
+      "reason": "Incorporated 4 statutory amendments: ['Subs. by Act 1 of 2018, s. 5, for “an affidavit” (w.e.f. 27-7-2018).', 'Subs. by Act 29 of 2020, s. 3, for “twenty-five lakh rupees, or with both” (w.e.f. 21-12-2020).', 'The words “with imprisonment for a term which may extend to three years or” omitted by Act 29 of 2020, s. 3 (w.e.f. 21-12-', 'ACT_COMPANIES_AMEND_2020_SEC_3']"
+    },
+    {
+      "section_number": "9",
+      "section_id": "ACT_COMPANIES_2013_SEC_9",
+      "status": "AMENDED_VERIFIED",
+      "amendments_applied": 2,
+      "reason": "Incorporated 2 statutory amendments: ['Subs. by Act 31 of 2016, s. 255 and the Eleventh Schedule, for “the Rehabilitation and Insolvency Fund formed under section', 'ACT_COMPANIES_AMEND_2015_SEC_3']"
+    },
+    {
+      "section_number": "10",
+      "section_id": "ACT_COMPANIES_2013_SEC_10",
+      "status": "MATCH",
+      "amendments_applied": 0,
+      "reason": "Text verified against official publication."
+    },
+    {
+      "section_number": "10A",
+      "section_id": "ACT_COMPANIES_2013_SEC_10A",
+      "status": "AMENDED_VERIFIED",
+      "amendments_applied": 1,
+      "reason": "Incorporated 1 statutory amendments: ['The words “with imprisonment for a term which may extend to three years or” omitted by Act 29 of 2020, s. 3 (w.e.f. 21-12-']"
+    },
+    {
+      "section_number": "11",
+      "section_id": "ACT_COMPANIES_2013_SEC_11",
+      "status": "AMENDED_VERIFIED",
+      "amendments_applied": 1,
+      "reason": "Incorporated 1 statutory amendments: ['ACT_COMPANIES_AMEND_2015_SEC_4']"
+    },
+    {
+      "section_number": "12",
+      "section_id": "ACT_COMPANIES_2013_SEC_12",
+      "status": "AMENDED_VERIFIED",
+      "amendments_applied": 5,
+      "reason": "Incorporated 5 statutory amendments: ['Subs. by Act 29 of 2020, s. 3, for “twenty-five lakh rupees, or with both” (w.e.f. 21-12-2020).', 'Subs. by Act 21 of 2015, s. 5, for clause (b) (w.e.f. 29-5-2015).', 'Subs. by Act 31 of 2016, s. 255 and the Eleventh Schedule, for “the Rehabilitation and Insolvency Fund formed under section', 'The words “with imprisonment for a term which may extend to three years or” omitted by Act 29 of 2020, s. 3 (w.e.f. 21-12-', 'ACT_COMPANIES_AMEND_2015_SEC_5']"
+    },
+    {
+      "section_number": "13",
+      "section_id": "ACT_COMPANIES_2013_SEC_13",
+      "status": "MATCH",
+      "amendments_applied": 0,
+      "reason": "Text verified against official publication."
+    }
+  ]
+}

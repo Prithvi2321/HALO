@@ -1,0 +1,872 @@
+[
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_2",
+    "target_section": "ACT_COMPANIES_2013_SEC_2",
+    "operation": "OMIT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_2",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "76e8af9030bd3e44cb72d176bfe08a91269a1afb52e469351f40a5a1cdf4f60e",
+    "new_hash": "bb7735a019975bcd5bbd01493fa108afb8ec1ababd8253c7f3575331f17fc6b8"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_3",
+    "target_section": "ACT_COMPANIES_2013_SEC_9",
+    "operation": "OMIT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_3",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "48c60faba45ae5904393413fe41cd5ec998efb58bcb1326f6d0eb162a6a450f8",
+    "new_hash": "82185e49dcd0b8ac055e453a6b9a88460d68013e8c92e30b1cd973c9bdb72236"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_4",
+    "target_section": "ACT_COMPANIES_2013_SEC_11",
+    "operation": "OMIT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_4",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "7accad601bce084133731d5740cbaacf96aab0f791d3936b076be798d716d79a",
+    "new_hash": "d9b1cb2c006b02e531ee404d73e3655f08caf86918a80473203bb152f7f649a8"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_5",
+    "target_section": "ACT_COMPANIES_2013_SEC_12",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_5",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "44d9172f65ab9f401b099f9f5a1713eeebeea62d251f8e60ed854bb3c974e5b6",
+    "new_hash": "f8df34a20a9922008f48a1cdd7a85978fa254f85b60f5ea23b4adf8b77f7966e"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_6",
+    "target_section": "ACT_COMPANIES_2013_SEC_22",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_6",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "fa78dceb3b9e4f6daa670647ae267a2009834a9376d9ce5b993db6b6698f3608",
+    "new_hash": "dd3ddb14f3d2b1df3e7b9c62512bf96d084dfd25b5bbb607b455ebdd930b1be6"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_7",
+    "target_section": "ACT_COMPANIES_2013_SEC_46",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_7",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "8a14379593be9505dbdbb37919aca691d3a869dbc61f58848b0fb500ffa0ba11",
+    "new_hash": "433a600664eaca3a6cab786a395a091f416a5cf2f49c7064c4ae016ad08fab90"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_8",
+    "target_section": "ACT_COMPANIES_2013_SEC_76",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_8",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "f3ec0cdfd0b23851597a5e2e811ab26a5b6c88d20fb1decebf545594be7755f4",
+    "new_hash": "8fae5f0cba9fb7ad6d3f56005f40d08664907c8a93184ecc34993dd23a5cd512"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_9",
+    "target_section": "ACT_COMPANIES_2013_SEC_117",
+    "operation": "OMIT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_9",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "9c9861f4866233b7faa0780112009310a8650ffc4166cc0a890138b2771bce79",
+    "new_hash": "bdf0b273fa743336225cdc7c375d4143f49a5f9f23018081dc6a96da8f0b5aef"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_10",
+    "target_section": "ACT_COMPANIES_2013_SEC_123",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_10",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "dd009431ee9efc72b1d8e4135dcebdfabd1c2bf86d4dc0b4d17efe0a85d94eb5",
+    "new_hash": "2ad4958d74eaad9dcad03f527ca242fec1860a31d358575c5a03e284e1791849"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_11",
+    "target_section": "ACT_COMPANIES_2013_SEC_124",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_11",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "592a008fedd78a92a3ce528778954eb1868b49b4ddc4dee11c557972ee557522",
+    "new_hash": "ae4f31667b7e28804dd5137e16de8e49d6fccdd075667010112b91586d95bf17"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_12",
+    "target_section": "ACT_COMPANIES_2013_SEC_134",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_12",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "81898ae41ec9f8cce2c65c29acbe3d648246e103c89578f5a4015952b7ad3a32",
+    "new_hash": "81f785a4d6b378cc9036990f5177ea19e55e1765c6f0a2aedce454465b751075"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_13",
+    "target_section": "ACT_COMPANIES_2013_SEC_143",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_13",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "06710aa00b93db60c12ea20d397d3b2e4f4639db6fc9bc4b4075ca3adb99071c",
+    "new_hash": "0a1257470b69f0fd63c11befd9feda5723d9e2e431daaa36355ee1257b2af57d"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_14",
+    "target_section": "ACT_COMPANIES_2013_SEC_177",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_14",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "8099efea7a3d1947348b39a0942741f83db10c7e672af94dd1a79083c8da6a7c",
+    "new_hash": "8259441b23e745d533325621e031a214953ea25db54f3cdd705192cf6b3bee8a"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_15",
+    "target_section": "ACT_COMPANIES_2013_SEC_185",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_15",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "c1917e5c5b04c70d946171ac6b0f8d5706bb1d6c2c940bb6f217ae011fed2090",
+    "new_hash": "5e3839d826f344dd45bcfd77e6e665ea92e632cf6aa58d12e1137da718b30d98"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_16",
+    "target_section": "ACT_COMPANIES_2013_SEC_188",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_16",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "f4ad217546afd2ca2d8997d21ca17dac3636430529d16bc4a5392faac0ea600d",
+    "new_hash": "d613ce9aeb72bf1b2e42e0010a8d5412df2e03212c625c29a9d3b43750a1e355"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_17",
+    "target_section": "ACT_COMPANIES_2013_SEC_212",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_17",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "d05a5179f2764c92a081edf2b999f8d17809a8fa09edaf3a017349b307c7bfd0",
+    "new_hash": "8b76f1114f23aa3ab1b259ebecb0921df25fccd5fff77d10d331f39444409517"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_18",
+    "target_section": "ACT_COMPANIES_2013_SEC_223",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_18",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "4edfe665d4a32d60240662122a4f74333b378bbb6d1b68ea31c4b3e448bc7440",
+    "new_hash": "980c08630d2220dd3cf4f730f4fe13279d55e0bb7522946974c2a0fe9846c98f"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_19",
+    "target_section": "ACT_COMPANIES_2013_SEC_248",
+    "operation": "OMIT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_19",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "e6f84376d4f0a22675c36286a1714def7ecdaf7d82fcf1f0d00e84fab424846a",
+    "new_hash": "fdd42c7e804a848c7a32315cf2bcb9385dad79e6bb50e1dab9a917f6335c412f"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_20",
+    "target_section": "ACT_COMPANIES_2013_SEC_419",
+    "operation": "OMIT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_20",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "203a9197bb0f3788cb17dec007f5b2d93685d9c6df191ce5f55c5758745ee014",
+    "new_hash": "ad36dda28c7ce7f17cf47217bce40fc4631f5cd66a5745e8be96bd539cece3c6"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_21",
+    "target_section": "ACT_COMPANIES_2013_SEC_435",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_21",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "6f7595bf9337fac464d6b8774f6e9b7e1be29cad0d6f71753cd880afe81f3561",
+    "new_hash": "ec7bf0f73f4428e69f71febd481f6e761f216eed2a6b4c59f91071dad869a12f"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_22",
+    "target_section": "ACT_COMPANIES_2013_SEC_436",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_22",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "b77b1a74b4c83a8c57011621cb9d285f33bd0249abf069df07e3c1e9b3f691d4",
+    "new_hash": "1b3ebd942af38957edd808294673adaae70400c6f442f38acbcae59e70fbd877"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2015_SEC_23",
+    "target_section": "ACT_COMPANIES_2013_SEC_462",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2015_SEC_23",
+    "effective_date": "2015-05-29",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "2a6d6d434f65a100a9f5f35b62ce783681f82c5542cb675ca5970b73e8fe88f5",
+    "new_hash": "20d2daa4282e908c7f5a6c5ba33d03fd644e3b549bc78aef1d40c557d942bf27"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_2",
+    "target_section": "ACT_COMPANIES_2013_SEC_2",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_2",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "bb7735a019975bcd5bbd01493fa108afb8ec1ababd8253c7f3575331f17fc6b8",
+    "new_hash": "a177f71194050ba93c5693f6d385715eb17bf49e0a725ea7c54ceededafcc802"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_3",
+    "target_section": "ACT_COMPANIES_2013_SEC_8",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_3",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "f03da8cf1f7f57ba2b15473b878bf2359550899973614a7ebc0c30855ac7b87c",
+    "new_hash": "14e6574e5410da515f1bc86f253b5f0059112a7f8d21ec6e80a7cae3afcaa6ea"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_4",
+    "target_section": "ACT_COMPANIES_2013_SEC_16",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_4",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "13970d8eaa0169442bc32a8d3f408ffcd63fd42b4834456cbafdf23a24dcfc7d",
+    "new_hash": "9bfdfb0a7bf092ded37915af2410356c12833779a95d858d8001cca17fd8c11a"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_5",
+    "target_section": "ACT_COMPANIES_2013_SEC_23",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_5",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "305c69ee749016eb4ee040c8ea6911c95291a346017242e5737b9c822f2f2036",
+    "new_hash": "fdc94ca7cf135f9918436b572da59ac44a4e3ebdba500d288ffc6a26713ccef9"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_6",
+    "target_section": "ACT_COMPANIES_2013_SEC_26",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_6",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "62a3264505aea353da667b28a7969ab252f4532a2e480d090228998f544276b7",
+    "new_hash": "3a55d8f05a1d76253c4618022e2a4bd8e9f400ba9bf23172a7295f4531cdcd6b"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_7",
+    "target_section": "ACT_COMPANIES_2013_SEC_40",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_7",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "a578888383e2b1fdd44dfe608f0f8b2832c0d10e7a6b428183d46f2952cf46a5",
+    "new_hash": "4677eecb3f4b4861d9a42d225708e0452306d4e4f3009bfbe6fd9d7e225bafb2"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_8",
+    "target_section": "ACT_COMPANIES_2013_SEC_48",
+    "operation": "OMIT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_8",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "9cb84968bf5df610ea03980fa409c63fa6c9ecc29f6321f0026aae7439b2cd35",
+    "new_hash": "67a2ec22d53946b5b15f10087195032f8e9981922a76be0f64904758c4e49c31"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_9",
+    "target_section": "ACT_COMPANIES_2013_SEC_56",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_9",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "f67a62e0d77070c80225dc0bd9fb7030ad4e277f53ff848743483bf5b89f57c6",
+    "new_hash": "1039b8d6c21ef5f703dffedd353eba642dfd12f0900eeb2631606d757b2bfd95"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_10",
+    "target_section": "ACT_COMPANIES_2013_SEC_59",
+    "operation": "OMIT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_10",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "cab60a227a332b7369bbea21ad01af8175d9bc9f0f73507c739230afc42f06ee",
+    "new_hash": "62b2fa38a18154d8efd7c6d35d2660e2995b2be60851a87068ecafcf686321f8"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_11",
+    "target_section": "ACT_COMPANIES_2013_SEC_62",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_11",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "e1092f73619070aa743b4d18163303854415acbcedb38781e61743a83dae7ec3",
+    "new_hash": "f2b41a252960555de9d9138aba0b346e2a459cd32a609b4751b43e1ab2348a14"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_12",
+    "target_section": "ACT_COMPANIES_2013_SEC_64",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_12",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "8d2eb8b8ac0194e6ceb1dcee4fa7d6e60a6ab74090f36c72bad364bead26b97e",
+    "new_hash": "2f7b416f7d93659a3354311f6645f1c5b23ef9a366627133bc707981017b4222"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_13",
+    "target_section": "ACT_COMPANIES_2013_SEC_66",
+    "operation": "OMIT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_13",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "7440f50f7f1b85707f963eb5257a23c316ce75f11d5ad8e7351d1cd56c589309",
+    "new_hash": "22a91abd5203ff30ad011162e7a49c731d33a96ca97f92bb9432064949d0b67a"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_14",
+    "target_section": "ACT_COMPANIES_2013_SEC_68",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_14",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "41c1a697928048c9b3c1d94e0921fe0125572e2deb5aebff18386f5482e8f220",
+    "new_hash": "97baaf128f3ad49fadf32998d6d41b12dff3ec62157396b3e0190181bbaa58f6"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_15",
+    "target_section": "ACT_COMPANIES_2013_SEC_71",
+    "operation": "OMIT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_15",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "c4f8e25384b887ca2b9232bff319f616ad7f96c760f9099aecb39cd859d0c36a",
+    "new_hash": "af78522342aa478a6df4e91404fc99a530c4e31ccf05227a91bcfdfe765be88e"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_16",
+    "target_section": "ACT_COMPANIES_2013_SEC_86",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_16",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "84a2d816cc7deb7d3b03a8ff6b673fbd7fef6252750caf03a9e1a1f5192a6a30",
+    "new_hash": "9a66ea0325575716e2295a09de9f74c0ee660e9068761cd54dafcae0b5ed9cd0"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_17",
+    "target_section": "ACT_COMPANIES_2013_SEC_88",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_17",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "f489e816a33818ec6796a3622ab0fa0c780ce5f9284a557b0aa489b97bc5c0ad",
+    "new_hash": "2d08ff208f121508a256d96f530cdff766e709b91941a39bb5e5c4bb97e66e70"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_18",
+    "target_section": "ACT_COMPANIES_2013_SEC_89",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_18",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "e1c2b61af382a3220c01523ebf24237ef9a6a86bf88fa7ba3945201be47f582e",
+    "new_hash": "bedfee876f245c2b43fc8584919c54e2c844e06c37024980363bb64943f6c2c8"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_19",
+    "target_section": "ACT_COMPANIES_2013_SEC_90",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_19",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "83d7fdac1eb38e10b87378fad677226aa69d7783e828d252d18cba9d0f8d899f",
+    "new_hash": "144e26a086e22b43ff0643cbcec50a28d7d73eea8c175ace518124b8b228d6c0"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_20",
+    "target_section": "ACT_COMPANIES_2013_SEC_92",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_20",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "16fe3b6124d2b7680e0b4a2f7d628518931e620338ca55e64ba1ad80d982206f",
+    "new_hash": "472899485a4489339a712b913dbcc61bf2364df6ce89fccd6aa4c57c63924c6c"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_21",
+    "target_section": "ACT_COMPANIES_2013_SEC_105",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_21",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "e57e89cb4553b4964b36a4419e08c741a4a0abfc3114ed21f45ea59f1a581601",
+    "new_hash": "97a4fddcec93b867978b185dd140c68a0adf6c12ff59d558f8e1837b94532edf"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_22",
+    "target_section": "ACT_COMPANIES_2013_SEC_117",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_22",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "bdf0b273fa743336225cdc7c375d4143f49a5f9f23018081dc6a96da8f0b5aef",
+    "new_hash": "ef21070d9b019e9f3ad6454f26867c0999a29956af58e87ee61f46520fe2b880"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_23",
+    "target_section": "ACT_COMPANIES_2013_SEC_124",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_23",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "ae4f31667b7e28804dd5137e16de8e49d6fccdd075667010112b91586d95bf17",
+    "new_hash": "82fcd63f4fba4a617627768811c035cf697264def1b59f833b8b2476c08b968c"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_24",
+    "target_section": "ACT_COMPANIES_2013_SEC_128",
+    "operation": "OMIT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_24",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "cc02643dc27c68a038b1e860706673851af1de7818f59e65f8b29735d781c1c9",
+    "new_hash": "5748a4246a096f1cbc9043229757bdf0e5079a94a0c887c98a98d72d7ac80e0a"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_25",
+    "target_section": "ACT_COMPANIES_2013_SEC_129",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_25",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "562c767004ef232376a8d8c5f3275d2656a8a482dbe535d5deb36cb57365ad30",
+    "new_hash": "1a94f0a6b8d82b6d831e49c8de9defd870d29ba25278a706043fae899d36b7dd"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_26",
+    "target_section": "ACT_COMPANIES_2013_SEC_134",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_26",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "81f785a4d6b378cc9036990f5177ea19e55e1765c6f0a2aedce454465b751075",
+    "new_hash": "a49ba08c655f36f020bbe6ef62389497e66953d9c38d661970e13c8946d16d1e"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_27",
+    "target_section": "ACT_COMPANIES_2013_SEC_135",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_27",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "77e3be6a3e10b4b8958364642e6e58320cb43aec6a4231d81ce7fb66982517e2",
+    "new_hash": "7420971592887b27ad8a22ba3fd4aa2579414e63566087aa56811521445dbf6f"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_28",
+    "target_section": "ACT_COMPANIES_2013_SEC_137",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_28",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "ad96f5328af3d3c512e808e147cb104cb22af5bc15ee76e10c0e8a9dd84cf50e",
+    "new_hash": "76223ac26ec8465e6d5f092ba4233674ee3a6f1297fb9a2d2f47c0126a14ab04"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_29",
+    "target_section": "ACT_COMPANIES_2013_SEC_140",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_29",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "b191c65e9aa1a13d9aa37981e4e800aba3adc4ad570ce0abf41c27421d0ab16f",
+    "new_hash": "c4bc66f6ebdcd01a6944862098b5663413766cea07939dd73e9ca74699a0c37a"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_30",
+    "target_section": "ACT_COMPANIES_2013_SEC_143",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_30",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "0a1257470b69f0fd63c11befd9feda5723d9e2e431daaa36355ee1257b2af57d",
+    "new_hash": "5382203a1ce265d2135559e43a829c20413181d6ce1bfcc3e76a6be0910e9db2"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_31",
+    "target_section": "ACT_COMPANIES_2013_SEC_147",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_31",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "359290f3015ee2d9e2460b7467a20d26dc7b4eb6abef5e195c8d17b5cf0a5917",
+    "new_hash": "97f420570333c0f4ec01e837efbc271055eaec3eb4f2ab1cf10937f41710102e"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_32",
+    "target_section": "ACT_COMPANIES_2013_SEC_149",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_32",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "430e3ce261028dfceb7b0c51eb01d766b4a03d264ac0c7dde7227e2858bba285",
+    "new_hash": "513a5a3e34c8c679f421f4ea2381841b453385c0e6a6f617912f774342fa356b"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_33",
+    "target_section": "ACT_COMPANIES_2013_SEC_165",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_33",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "8c84048bfa47231cf2a634c8d6e894eb301da8e4640d6c1630d1593bfddbd880",
+    "new_hash": "c4b754649985a02a1c9de3313e9ad08660bab5cd2d4526a4c0187b9753a32ec4"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_34",
+    "target_section": "ACT_COMPANIES_2013_SEC_167",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_34",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "62bc49e054384721af1bcc11ed0e775965323aeccb39ea469341133d1e41c437",
+    "new_hash": "ab3da2d2614ffd5c9577a089444038a0528d55fe2b94cd0da33d08be53bb3d17"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_35",
+    "target_section": "ACT_COMPANIES_2013_SEC_172",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_35",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "eca67763215d7eb42d4ffec45ec8b73d70e1d5b72431a36a291801d40845c898",
+    "new_hash": "ee59a9d81089e09b612b1719d5b26be674f29d025a16fb5b98a074a1d51dbc5b"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_36",
+    "target_section": "ACT_COMPANIES_2013_SEC_178",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_36",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "d36a87c7d70dc2fe552f325bfabf1dcdc0f055becb83839b9f125e4588271b03",
+    "new_hash": "e15b775178489301951aea5a0432178b3435c8949dc80d388060d9f130d77934"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_37",
+    "target_section": "ACT_COMPANIES_2013_SEC_184",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_37",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "0059ee7de5d2eea432bdf619f02e6d02e2a34b2f8ccf0de1374149ace16af112",
+    "new_hash": "6f73f9f986be18a21aa47dd00fac392156b5ae69062f8f42dfcdc099872d738d"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_38",
+    "target_section": "ACT_COMPANIES_2013_SEC_187",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_38",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "3e7374f09f4a8176c73d6d41b73e58814ea054b18161479c4dfaaeb2e7f00a6a",
+    "new_hash": "240a9cae88af268ddf2d4d1932952fd8e8274c0342c2e85ca073ae956d495e6c"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_39",
+    "target_section": "ACT_COMPANIES_2013_SEC_188",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_39",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "d613ce9aeb72bf1b2e42e0010a8d5412df2e03212c625c29a9d3b43750a1e355",
+    "new_hash": "b74d7832dd24f7a6f6ffc76c1fce1823d2b22b07ff4b34d1e81408a02c4f058a"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_40",
+    "target_section": "ACT_COMPANIES_2013_SEC_197",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_40",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "b4333ec84bbc2d2de799fea4274c1c3b663216451bcd7fb6c62573d93a565fb8",
+    "new_hash": "4585e48334af13808c1cc3f242408474781f33cf1dcee464e9264e9f7ca9aaba"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_41",
+    "target_section": "ACT_COMPANIES_2013_SEC_204",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_41",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "2a49fbbaeff30994e40f613f40663b143447ea1382fb748f10c07a8035c7d203",
+    "new_hash": "30a894fde31925ec08754366c678e3d2e666d693cc26876e19a299cd7e7db068"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_42",
+    "target_section": "ACT_COMPANIES_2013_SEC_232",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_42",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "69a906cb8edb3dd5c94ef5953d2ce77b8f15515d9b4ce5497576275b85f69594",
+    "new_hash": "14e66cc937cd0351e73890af6ef78c9667581b333c09142fb8faf30444227a90"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_43",
+    "target_section": "ACT_COMPANIES_2013_SEC_242",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_43",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "714be18bba5558e1fcebcd86ac7a26df4b1dcb0910103397bfc2607e77720f5e",
+    "new_hash": "817a88bd8f3278c4eec4b8582edc8fc620bb6ab02c0eab71646ef15b1fd0c29f"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_44",
+    "target_section": "ACT_COMPANIES_2013_SEC_243",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_44",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "4eb78ca3dca659e14a50f4ab89e873771583dcca1b90b807c04182c543996845",
+    "new_hash": "ebc896d5d24d099ec077b997e3b4a93becb09ee3164f548a9616302edecb0be6"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_45",
+    "target_section": "ACT_COMPANIES_2013_SEC_247",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_45",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "25aaca77926e4d52578e556d9ca1f72afd93db02362acd66875c52a3c5aff303",
+    "new_hash": "b2e311404f69fac8729dd4b4050aa2ce639861d24e8b3ebc74b47adde643f5de"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_46",
+    "target_section": "ACT_COMPANIES_2013_SEC_284",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_46",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "b7fcb676c008a6ca01a30de2ead878616e772e8200f325882b778a9cf9068c73",
+    "new_hash": "eccb1c898808de4e8a6ffcb0a5412bead0ebe95e9b0c4d5edd09a6b4cf22c75b"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_47",
+    "target_section": "ACT_COMPANIES_2013_SEC_302",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_47",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "4df90b77a9dbd15b9ee7e93f53839a250d5a7e00b6ce406b8e2344b8b766a17c",
+    "new_hash": "97910af61984d8af3f32f4cdd6ce8d31cce977f658c451e144ce65b6b9f0c17c"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_48",
+    "target_section": "ACT_COMPANIES_2013_SEC_342",
+    "operation": "OMIT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_48",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "78cd1848d4459c9b360b1605f44b1d3d1ef63ded66b808e6b35c825ad27f72a1",
+    "new_hash": "6fa6e5ded8af40befd7aa7fea6b7516a65d987d5c3176809d2e4efe328c1f3df"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_49",
+    "target_section": "ACT_COMPANIES_2013_SEC_347",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_49",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "6afef4d1b94cba231f694a92af9ef4c31197dabdacd32e712843da9f3c73721e",
+    "new_hash": "80b42fc0f9ee2f1b033354a68dd1a27943c07572452e60f290df5f36d03119a6"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_50",
+    "target_section": "ACT_COMPANIES_2013_SEC_348",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_50",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "4e61c2c92b46fae495eddf23d7d87c356040a84183a014e519d92e2c00a6ca39",
+    "new_hash": "a2d98c782e2a8c993f7063af26aad7eaf967900e81a28e8dcd9aed2516ae46ee"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_51",
+    "target_section": "ACT_COMPANIES_2013_SEC_356",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_51",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "857c1203323ae2e2b07ec7970f9418d5604d14d6c27eb19d901dc47475b067a7",
+    "new_hash": "5001e8c1472a912c6aae573341b42eb0441911c8f7aa4fc0cb0da4191fbfb992"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_52",
+    "target_section": "ACT_COMPANIES_2013_SEC_378",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_52",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "78b789ee2f8e72d6b347988385c0c1b670403206aa550abbaba007411eb74a0a",
+    "new_hash": "6a25af58496b3f98ee98759534de6366ffc539142a06b6c6aa6251a5294d333a"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_53",
+    "target_section": "ACT_COMPANIES_2013_SEC_379",
+    "operation": "OMIT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_53",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "d3f07d8e5b0158dc801f3133c0762f632d49c020edbe8ef89b2b6367b6cc9bef",
+    "new_hash": "de7abe4ad79e50d3b8b021773895ae46d3cc273435c7b4ccc7f6eff9f48dd93a"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_54",
+    "target_section": "ACT_COMPANIES_2013_SEC_392",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_54",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "2b92c097a43ce128e270b0101c45d63f05b8e71521d80288a8baa21797713e63",
+    "new_hash": "9a8f435e9651858a829a5bfae3a8584b0bf8917016aae98c889a34f25bc4cb6e"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_55",
+    "target_section": "ACT_COMPANIES_2013_SEC_393",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_55",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "3ec2102ce3d747454b508fec75553fbaf3d16fb71af07d798b0ee45e0734b943",
+    "new_hash": "73d8062b74778addf6cab27e1363658e53292d6a441fb9919add8601f18ba32d"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_56",
+    "target_section": "ACT_COMPANIES_2013_SEC_403",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_56",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "b8150817a23117910bd6910ee3daf884d30dd754f69b2711a1928ad7465b9867",
+    "new_hash": "f8ddfd0519116658a222d8354f37deceb330ca284c2acdb15d441a6469a4b485"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_57",
+    "target_section": "ACT_COMPANIES_2013_SEC_405",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_57",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "d1b08507e06e3193fc45b878785648d2d5a4177ec0e30c65a0cd8d05ac0f7c46",
+    "new_hash": "9de863bac45f453c358021640bf8077c922a8c1daf4535a304ea52145bb4e4af"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_58",
+    "target_section": "ACT_COMPANIES_2013_SEC_410",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_58",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "7da29b39418dcd864fa3feb3b85fce59bc67e0d20c78ccba88e28c4f8c43e386",
+    "new_hash": "5d4c5bc442f1987425fab04c8aa13b3d4a77705dfa47a1000c0d820982bca993"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_59",
+    "target_section": "ACT_COMPANIES_2013_SEC_418",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_59",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "9747e9a46df94ab4a101abfebc5580a019aaf316ca5e74469d6e828b5f57ab69",
+    "new_hash": "eeeaf8fe477fb2c87b6062b935b0c4112e07ac16a0efafd1a7efd751a6e3e180"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_60",
+    "target_section": "ACT_COMPANIES_2013_SEC_435",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_60",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "ec7bf0f73f4428e69f71febd481f6e761f216eed2a6b4c59f91071dad869a12f",
+    "new_hash": "c98b05fe10d6a89512dec7deba6d41a628c1af1073e1edbacfb2a4f06e41aa24"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_61",
+    "target_section": "ACT_COMPANIES_2013_SEC_441",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_61",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "a71ab9022d2d56146a7896e2733d87e45a6a187075c893138d47439be6ddb687",
+    "new_hash": "b03d8e6c29a68c11ceea8ad465882077aca3d1a5271da18940944510d98ca669"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_62",
+    "target_section": "ACT_COMPANIES_2013_SEC_446B",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_62",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "0a7474ccc3816ea2ecd986b9409c3320f76d147fd00559170d58c213f7c18281",
+    "new_hash": "4e7ee2c85fa122ed9ec71e8e2be980f3514176a440baa13e44d5ebdeab443f24"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_63",
+    "target_section": "ACT_COMPANIES_2013_SEC_450",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_63",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "cbe700ec991bf5879ecd0d11a911848aa30d7eff4149f3113c88632533d7f1b2",
+    "new_hash": "3047fdf6575acbf075bfa69ff08c7181c3f475d1b00602002a5ce5efff3e6671"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_64",
+    "target_section": "ACT_COMPANIES_2013_SEC_452",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_64",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "5cb42e23beb9b20a7fc05947d5a6ef2fdb4766b90fd8a84532be2baf99e92700",
+    "new_hash": "f97c7dacd2036ba6908cf86a53730495d2a9bee846d64acc371a7803fb5cc771"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_65",
+    "target_section": "ACT_COMPANIES_2013_SEC_454",
+    "operation": "INSERT",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_65",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "eb96181c065445ef630b36801f47285ed45d3515fe711f7b24030b01cc044601",
+    "new_hash": "fd4f1e1fc5de14fae3c737262381990b2a09b0a66cd9439603fde8cb0b85df79"
+  },
+  {
+    "transformation_id": "TRANS_ACT_COMPANIES_AMEND_2020_SEC_66",
+    "target_section": "ACT_COMPANIES_2013_SEC_465",
+    "operation": "SUBSTITUTE",
+    "amendment_id": "ACT_COMPANIES_AMEND_2020_SEC_66",
+    "effective_date": "2020-12-21",
+    "applied_at": "2026-09-05T15:29:36.169944+00:00",
+    "previous_hash": "f6cf4a7cd1ff55c0b81e2ac09be0f78415d087d81ddfe9645af811d3d1636446",
+    "new_hash": "fe3bd7e149565df74fd528b146fd2a17de44f383eb4d15d5adc30328859e62b7"
+  }
+]

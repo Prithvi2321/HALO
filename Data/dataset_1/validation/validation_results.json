@@ -1,0 +1,26 @@
+{
+  "overall_status": "PASS",
+  "dataset_version": "1.0.0",
+  "checks": {
+    "structural_id_uniqueness": "PASS",
+    "structural_hierarchy": "PASS",
+    "structural_section_count": "PASS",
+    "structural_schedule_count": "PASS",
+    "provenance_source_document": "PASS",
+    "provenance_page_ranges": "PASS",
+    "provenance_content_hashes": "PASS",
+    "temporal_version_count": "PASS",
+    "temporal_ordering": "PASS",
+    "amendment_operations": "PASS",
+    "amendment_targets_valid": "PASS",
+    "consolidation_validation": "PASS"
+  },
+  "metrics": {
+    "source_documents": 3,
+    "total_sections": 504,
+    "total_chapters": 29,
+    "total_schedules": 7,
+    "total_amendments_extracted": 87,
+    "versions_maintained": 3
+  }
+}

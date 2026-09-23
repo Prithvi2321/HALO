@@ -1,0 +1,48 @@
+{
+  "gate": "G10_G11_G12_COVERAGE_AND_DISTRIBUTION",
+  "passed": true,
+  "total_records": 180,
+  "class_distribution": {
+    "SUPPORTED": 41,
+    "FABRICATED_CITATION": 14,
+    "CONTRADICTED": 88,
+    "FLAGGED": 15,
+    "PARTIALLY_SUPPORTED": 21,
+    "UNSUPPORTED": 1
+  },
+  "category_distribution": {
+    "citation_existence": 24,
+    "citation_metadata": 22,
+    "passage_support": 24,
+    "numerical_mutation": 24,
+    "modality_mutation": 16,
+    "compound_claim": 16,
+    "temporal_verification": 18,
+    "authority_verification": 10,
+    "conflict_detection": 8,
+    "adversarial_cases": 10,
+    "fail_closed_cases": 8
+  },
+  "difficulty_distribution": {
+    "easy": 46,
+    "medium": 52,
+    "hard": 82
+  },
+  "source_dataset_distribution": {
+    "D1": 155,
+    "D2": 25
+  },
+  "unique_source_passages_covered": 46,
+  "top_sources": {
+    "Companies Act, 2013": 107,
+    "Companies Act, 2013 (Amended)": 18,
+    "Supreme Court of India": 16,
+    "Adversarial Attack Suite": 10,
+    "Statutory/Judicial Conflict": 8,
+    "FABRICATED": 4,
+    "NONEXISTENT_AUTHORITY": 3,
+    "NONEXISTENT_PROVISION": 3,
+    "OUT_OF_DOMAIN": 3,
+    "Parliament of India": 1
+  }
+}

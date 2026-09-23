@@ -1,0 +1,13 @@
+{
+  "specification_name": "HALO Canonical Content Hash Specification",
+  "version": "1.0.0",
+  "algorithm": "SHA-256",
+  "canonicalization_rules": [
+    "Select deterministic payload fields: id, query, generated_claim, citation, expected_status, authoritative_passage_id, evidence_passage, verification_tier, difficulty, source, source_dataset, case_type, mutation_type, mutation_details, expected_behavior, explanation",
+    "Sort dictionary keys alphabetically recursively using json.dumps(payload, sort_keys=True, ensure_ascii=False)",
+    "Encode normalized UTF-8 string into bytes",
+    "Compute hashlib.sha256(bytes).hexdigest() as lowercase hexadecimal string",
+    "Assign resulting 64-character string to content_hash field"
+  ],
+  "excluded_fields": ["content_hash", "created_at", "run_id"]
+}

@@ -1,0 +1,16 @@
+{
+  "index_type": "sparse_bm25",
+  "status": "BUILT_AND_VERIFIED",
+  "build_timestamp_utc": "2026-09-14T16:51:57.591288+00:00",
+  "passage_count": 2773,
+  "hashes": {
+    "bm25_model_pkl": "3cf78cd79d3071c94fbe5f8e46df76514dbbe3bca0e1705117c1b73a1507d507",
+    "metadata_jsonl": "02155209f447dca55ee985ffdfd19497b7828606f66cc3a838832b0e206de14c",
+    "index_manifest_json": "9f214ad5fb44be2482c89aa6cc1884670fb9ae511e39ab8e5dcc62584c8e77d9"
+  },
+  "validation": {
+    "dataset1_sha256": "37c5ced49fc3925342a7eebfc84eb2988f863166b60c0a8cf527aefae0e8c27c",
+    "dataset2_sha256": "43af9b6ed2df7be5489a71e81cf1f0125469d0cbe4443d0e536edb35703d3996",
+    "dataset3_leakage_detected": false
+  }
+}

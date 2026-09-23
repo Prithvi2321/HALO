@@ -1,0 +1,628 @@
+{
+  "audit_timestamp": "2026-09-05T15:16:14.517306+00:00",
+  "status": "CANDIDATE-FROZEN / PENDING FINAL QA",
+  "scores": {},
+  "findings": {
+    "source_integrity": {
+      "status": "PASS",
+      "total_documents": 3,
+      "documents": [
+        {
+          "document_id": "ACT_COMPANIES_2013",
+          "file_name": "companies_act_2013_original.pdf",
+          "path": "data/dataset_1\\source\\companies_act\\TCA1.pdf",
+          "declared_sha256": "0b915c8ea8927674b988584a9c8572fcaa526ad6d89a02b4234797087946b4d6",
+          "actual_sha256": "0b915c8ea8927674b988584a9c8572fcaa526ad6d89a02b4234797087946b4d6",
+          "file_size_bytes": 5070430,
+          "page_count": 370,
+          "hash_verified": true,
+          "immutable": true
+        },
+        {
+          "document_id": "ACT_COMPANIES_AMEND_2015",
+          "file_name": "amendment_2015.pdf",
+          "path": "data/dataset_1\\source\\companies_act\\TCA2015.pdf",
+          "declared_sha256": "f0f1ff814a6f4fff582e3e542f3de46f0d25a06de39e5cd11aee187fd32e6f24",
+          "actual_sha256": "f0f1ff814a6f4fff582e3e542f3de46f0d25a06de39e5cd11aee187fd32e6f24",
+          "file_size_bytes": 112762,
+          "page_count": 5,
+          "hash_verified": true,
+          "immutable": true
+        },
+        {
+          "document_id": "ACT_COMPANIES_AMEND_2020",
+          "file_name": "amendment_2020.pdf",
+          "path": "data/dataset_1\\source\\companies_act\\TCA2020.pdf",
+          "declared_sha256": "3ed9c6c3d312350d164fc257c040e46b148a8133b1fa54f7f666826a3bc410bb",
+          "actual_sha256": "3ed9c6c3d312350d164fc257c040e46b148a8133b1fa54f7f666826a3bc410bb",
+          "file_size_bytes": 417037,
+          "page_count": 35,
+          "hash_verified": true,
+          "immutable": true
+        }
+      ]
+    },
+    "pdf_extraction": {
+      "status": "PASS",
+      "total_pages": 410,
+      "empty_pages": 0,
+      "ocr_fallback_pages": 0,
+      "sequential_page_integrity": {
+        "ACT_COMPANIES_2013": true,
+        "ACT_COMPANIES_AMEND_2015": true,
+        "ACT_COMPANIES_AMEND_2020": true
+      }
+    },
+    "section_detection": {
+      "status": "PASS",
+      "total_detected_sections": 504,
+      "unique_section_numbers": 504,
+      "duplicates": [],
+      "missing_special_sections": []
+    },
+    "legal_hierarchy": {
+      "status": "PASS",
+      "subsections_count": 1496,
+      "clauses_count": 1500,
+      "provisos_count": 814,
+      "explanations_count": 130
+    },
+    "dual_text_fidelity": {
+      "status": "PASS",
+      "sections_with_editorial_markers": 268,
+      "leaked_marker_brackets": 0
+    },
+    "footnotes_and_markers": {
+      "status": "PASS",
+      "total_cataloged_footnotes": 555,
+      "footnotes_with_commencement_date": 466,
+      "total_editorial_markers_mapped": 443
+    },
+    "amendment_operations": {
+      "status": "PASS",
+      "total_amendments": 87,
+      "operations_breakdown": {
+        "OMIT": 13,
+        "SUBSTITUTE": 59,
+        "INSERT": 15
+      },
+      "missing_target_sections": []
+    },
+    "temporal_lifecycle": {
+      "status": "PASS",
+      "enforcement_breakdown": {
+        "IN_FORCE": 452,
+        "AMENDED": 9,
+        "OMITTED": 43
+      },
+      "invalid_date_order_count": 0
+    },
+    "omitted_provisions": {
+      "status": "PASS",
+      "total_omitted": 43,
+      "omitted_numbers": [
+        "11",
+        "93",
+        "194",
+        "195",
+        "253",
+        "254",
+        "255",
+        "256",
+        "257",
+        "258",
+        "259",
+        "260",
+        "261",
+        "262",
+        "263",
+        "264",
+        "265",
+        "266",
+        "267",
+        "268",
+        "269",
+        "289",
+        "304",
+        "305",
+        "306",
+        "307",
+        "308",
+        "309",
+        "310",
+        "311",
+        "312",
+        "313",
+        "314",
+        "315",
+        "316",
+        "317",
+        "318",
+        "319",
+        "320",
+        "321",
+        "322",
+        "323",
+        "325"
+      ],
+      "section_267_verified": true
+    },
+    "schedules": {
+      "status": "PASS",
+      "total_schedules": 7,
+      "missing_schedules": [],
+      "schedules": [
+        {
+          "schedule_number": "I",
+          "title": "MEMORANDUM AND ARTICLES OF ASSOCIATION",
+          "pages": "253-275",
+          "tables_count": 4,
+          "parts_count": 0,
+          "content_hash": "93aa632c24254deb76db6283a50f1c558459c9133209bd56493803b53a2b3d7c"
+        },
+        {
+          "schedule_number": "II",
+          "title": "USEFUL LIVES TO COMPUTE DEPRECIATION",
+          "pages": "276-282",
+          "tables_count": 0,
+          "parts_count": 0,
+          "content_hash": "b86dff918c29ca3e97c27b21e7209b5792d7d8ad7b256248603f68ef9143fff7"
+        },
+        {
+          "schedule_number": "III",
+          "title": "GENERAL INSTRUCTIONS FOR PREPARATION OF BALANCE SHEET AND STATEMENT OF PROFIT AND LOSS",
+          "pages": "283-357",
+          "tables_count": 0,
+          "parts_count": 8,
+          "content_hash": "15f41837ad420bb48662a1bc3e7e6004f5e172be06ae2865a4da6962f809e67c"
+        },
+        {
+          "schedule_number": "IV",
+          "title": "CODE FOR INDEPENDENT DIRECTORS",
+          "pages": "358-360",
+          "tables_count": 0,
+          "parts_count": 0,
+          "content_hash": "00f7dd3c32d927a51db99a6cc280a09c815a6ef1824ba712502ef8f68311d3c0"
+        },
+        {
+          "schedule_number": "V",
+          "title": "CONDITIONS FOR APPOINTMENT OF MANAGING OR WHOLE-TIME DIRECTOR OR MANAGER",
+          "pages": "361-366",
+          "tables_count": 0,
+          "parts_count": 3,
+          "content_hash": "76d1afe2f075ee69f68a89a31bfb194394d3bc735bd9dcde0b94b6caa420d817"
+        },
+        {
+          "schedule_number": "VI",
+          "title": "INFRASTRUCTURAL PROJECTS AND LOANS",
+          "pages": "367-368",
+          "tables_count": 0,
+          "parts_count": 0,
+          "content_hash": "566b1a235c9a44db24d005f70901548c11d6062308f07429f7ea372ba9eb448c"
+        },
+        {
+          "schedule_number": "VII",
+          "title": "ACTIVITIES RELATING TO CORPORATE SOCIAL RESPONSIBILITY",
+          "pages": "369-370",
+          "tables_count": 0,
+          "parts_count": 0,
+          "content_hash": "5d23685c89373d217785b3bda7dfac4b51bb5c9cb4cdc6f068f0e713d7f350a5"
+        }
+      ]
+    },
+    "numeric_integrity": {
+      "status": "PASS",
+      "anomalies": []
+    },
+    "legal_punctuation": {
+      "status": "PASS",
+      "conditionality_counts": {
+        "provided_that": 321,
+        "notwithstanding": 100,
+        "subject_to": 170,
+        "unless": 125
+      }
+    },
+    "cross_references": {
+      "status": "PASS",
+      "total_references": 668,
+      "resolved_count": 518,
+      "unresolved_count": 150
+    },
+    "definitions": {
+      "status": "PASS",
+      "total_definitions": 84,
+      "sample_terms": [
+        "abridged prospectus",
+        "accounting standards",
+        "Appellate Tribunal",
+        "articles",
+        "auditing standards",
+        "banking company",
+        "books of account",
+        "called-up capital",
+        "charge",
+        "chartered accountant"
+      ]
+    },
+    "provenance": {
+      "status": "PASS",
+      "total_records": 504
+    },
+    "passages": {
+      "status": "PASS",
+      "total_passages": 1691
+    }
+  },
+  "golden_sections": {
+    "status": "PASS",
+    "sections": {
+      "12": {
+        "section_number": "12",
+        "heading": "Registered office of company",
+        "source_pages": "p.33-p.34",
+        "enforcement_status": "IN_FORCE",
+        "effective_from": "2020-12-21",
+        "editorial_markers_count": 4,
+        "footnotes_count": 4,
+        "passages_count": 8,
+        "checks": {
+          "has_heading": true,
+          "has_provenance_pages": true,
+          "has_source_pdf_hash": true,
+          "has_canonical_text": true,
+          "has_passages": true,
+          "clean_canonical_text": true,
+          "amendments_reflected": true,
+          "editorial_markers": true
+        },
+        "status": "PASS"
+      },
+      "22": {
+        "section_number": "22",
+        "heading": "Execution of bills of exchange, etc",
+        "source_pages": "p.38-p.38",
+        "enforcement_status": "IN_FORCE",
+        "effective_from": "2015-05-29",
+        "editorial_markers_count": 3,
+        "footnotes_count": 3,
+        "passages_count": 3,
+        "checks": {
+          "has_heading": true,
+          "has_provenance_pages": true,
+          "has_source_pdf_hash": true,
+          "has_canonical_text": true,
+          "has_passages": true,
+          "clean_canonical_text": true,
+          "common_seal_optionality_referenced": true
+        },
+        "status": "PASS"
+      },
+      "48": {
+        "section_number": "48",
+        "heading": "Variation of shareholders’ rights",
+        "source_pages": "p.48-p.48",
+        "enforcement_status": "IN_FORCE",
+        "effective_from": "2015-05-29",
+        "editorial_markers_count": 1,
+        "footnotes_count": 1,
+        "passages_count": 4,
+        "checks": {
+          "has_heading": true,
+          "has_provenance_pages": true,
+          "has_source_pdf_hash": true,
+          "has_canonical_text": true,
+          "has_passages": true,
+          "clean_canonical_text": true
+        },
+        "status": "PASS"
+      },
+      "54": {
+        "section_number": "54",
+        "heading": "Issues of sweat equity shares",
+        "source_pages": "p.49-p.50",
+        "enforcement_status": "IN_FORCE",
+        "effective_from": "2020-12-21",
+        "editorial_markers_count": 1,
+        "footnotes_count": 1,
+        "passages_count": 2,
+        "checks": {
+          "has_heading": true,
+          "has_provenance_pages": true,
+          "has_source_pdf_hash": true,
+          "has_canonical_text": true,
+          "has_passages": true,
+          "clean_canonical_text": true
+        },
+        "status": "PASS"
+      },
+      "76A": {
+        "section_number": "76A",
+        "heading": "Punishment for contravention of section 73 or section 76",
+        "source_pages": "p.63-p.63",
+        "enforcement_status": "IN_FORCE",
+        "effective_from": "2018-08-15",
+        "editorial_markers_count": 3,
+        "footnotes_count": 3,
+        "passages_count": 1,
+        "checks": {
+          "has_heading": true,
+          "has_provenance_pages": true,
+          "has_source_pdf_hash": true,
+          "has_canonical_text": true,
+          "has_passages": true,
+          "clean_canonical_text": true,
+          "inserted_section_verified": true
+        },
+        "status": "PASS"
+      },
+      "117": {
+        "section_number": "117",
+        "heading": "Resolutions and agreements to be filed",
+        "source_pages": "p.78-p.79",
+        "enforcement_status": "IN_FORCE",
+        "effective_from": "2020-12-21",
+        "editorial_markers_count": 8,
+        "footnotes_count": 6,
+        "passages_count": 3,
+        "checks": {
+          "has_heading": true,
+          "has_provenance_pages": true,
+          "has_source_pdf_hash": true,
+          "has_canonical_text": true,
+          "has_passages": true,
+          "clean_canonical_text": true
+        },
+        "status": "PASS"
+      },
+      "135": {
+        "section_number": "135",
+        "heading": "Corporate Social Responsibility",
+        "source_pages": "p.93-p.94",
+        "enforcement_status": "IN_FORCE",
+        "effective_from": "2018-07-31",
+        "editorial_markers_count": 9,
+        "footnotes_count": 6,
+        "passages_count": 7,
+        "checks": {
+          "has_heading": true,
+          "has_provenance_pages": true,
+          "has_source_pdf_hash": true,
+          "has_canonical_text": true,
+          "has_passages": true,
+          "clean_canonical_text": true,
+          "csr_thresholds_intact": true,
+          "multi_amendments": true
+        },
+        "status": "PASS"
+      },
+      "188": {
+        "section_number": "188",
+        "heading": "Related party transactions",
+        "source_pages": "p.128-p.129",
+        "enforcement_status": "IN_FORCE",
+        "effective_from": "2018-05-07",
+        "editorial_markers_count": 8,
+        "footnotes_count": 4,
+        "passages_count": 5,
+        "checks": {
+          "has_heading": true,
+          "has_provenance_pages": true,
+          "has_source_pdf_hash": true,
+          "has_canonical_text": true,
+          "has_passages": true,
+          "clean_canonical_text": true
+        },
+        "status": "PASS"
+      },
+      "267": {
+        "section_number": "267",
+        "heading": "[Omitted.]",
+        "source_pages": "p.169-p.169",
+        "enforcement_status": "OMITTED",
+        "effective_from": "2013-09-12",
+        "editorial_markers_count": 0,
+        "footnotes_count": 0,
+        "passages_count": 1,
+        "checks": {
+          "has_heading": true,
+          "has_provenance_pages": true,
+          "has_source_pdf_hash": true,
+          "has_canonical_text": true,
+          "has_passages": true,
+          "clean_canonical_text": true,
+          "omitted_status_verified": true
+        },
+        "status": "PASS"
+      },
+      "470": {
+        "section_number": "470",
+        "heading": "Power to remove difficulties",
+        "source_pages": "p.252-p.252",
+        "enforcement_status": "IN_FORCE",
+        "effective_from": "2013-09-12",
+        "editorial_markers_count": 0,
+        "footnotes_count": 0,
+        "passages_count": 2,
+        "checks": {
+          "has_heading": true,
+          "has_provenance_pages": true,
+          "has_source_pdf_hash": true,
+          "has_canonical_text": true,
+          "has_passages": true,
+          "clean_canonical_text": true,
+          "difficulty_removal_power_intact": true
+        },
+        "status": "PASS"
+      }
+    }
+  },
+  "edge_cases": {
+    "status": "PASS",
+    "cases": {
+      "A_section_with_letters": {
+        "sample": "76A",
+        "verified": true
+      },
+      "B_omitted_sections": {
+        "sample": "267",
+        "verified": true
+      },
+      "C_multi_page_sections": {
+        "sample": "Sec 2 (p.16-p.30)",
+        "verified": true
+      },
+      "D_amendments_in_existing_text": {
+        "sample": "Sec 12",
+        "verified": true
+      },
+      "E_amendments_replacing_phrase": {
+        "sample": "Sec 188 ordinary resolution",
+        "verified": true
+      },
+      "F_multiple_amendments_same_section": {
+        "sample": "Sec 135",
+        "verified": true
+      },
+      "G_amendment_followed_by_later_amendment": {
+        "sample": "Sec 12 amended 2015 & 2018",
+        "verified": true
+      },
+      "H_delayed_commencement": {
+        "sample": "Footnotes with explicit w.e.f.",
+        "verified": true
+      },
+      "I_provisos": {
+        "sample": "Provided that",
+        "verified": true
+      },
+      "J_explanations": {
+        "sample": "Explanation.-",
+        "verified": true
+      },
+      "K_illustrations": {
+        "sample": "Preserved in text",
+        "verified": true
+      },
+      "L_footnotes": {
+        "sample": "555 cataloged",
+        "verified": true
+      },
+      "M_tables": {
+        "sample": "Schedule I Tables",
+        "verified": true
+      },
+      "N_schedules": {
+        "sample": "Schedules I-VII",
+        "verified": true
+      },
+      "O_financial_formulas": {
+        "sample": "Schedule II & III",
+        "verified": true
+      },
+      "P_cross_references": {
+        "sample": "668 cross-references",
+        "verified": true
+      },
+      "Q_provided_that_preservation": {
+        "sample": "Provisos preserved",
+        "verified": true
+      },
+      "R_notwithstanding_preservation": {
+        "sample": "Notwithstanding preserved",
+        "verified": true
+      },
+      "S_subject_to_preservation": {
+        "sample": "Subject to preserved",
+        "verified": true
+      },
+      "T_multiple_alternatives": {
+        "sample": "or / and parsed",
+        "verified": true
+      },
+      "U_monetary_thresholds": {
+        "sample": "Rupee crore/lakh preserved",
+        "verified": true
+      },
+      "V_dates": {
+        "sample": "Enactment & w.e.f. dates",
+        "verified": true
+      },
+      "W_percentages": {
+        "sample": "per cent preserved",
+        "verified": true
+      },
+      "X_superscript_markers": {
+        "sample": "3[...] mapped to footnotes",
+        "verified": true
+      }
+    }
+  },
+  "human_review_items": [
+    {
+      "review_id": "REV_COMM_ACT_COMPANIES_2013_SEC_9",
+      "severity": "LOW",
+      "category": "COMMENCEMENT_DATE",
+      "document_id": "ACT_COMPANIES_2013",
+      "section_id": "ACT_COMPANIES_2013_SEC_9",
+      "section_number": "9",
+      "source_file": "companies_act_2013_original.pdf",
+      "source_page": 32,
+      "problem": "Provision amended in statute; explicit gazetted w.e.f. date not stated in inline footnote.",
+      "current_value": "enforcement_status=AMENDED, commencement_date=null",
+      "expected_action": "HUMAN_REVIEW_CONFIRMATION"
+    },
+    {
+      "review_id": "REV_COMM_ACT_COMPANIES_2013_SEC_10A",
+      "severity": "LOW",
+      "category": "COMMENCEMENT_DATE",
+      "document_id": "ACT_COMPANIES_2013",
+      "section_id": "ACT_COMPANIES_2013_SEC_10A",
+      "section_number": "10A",
+      "source_file": "companies_act_2013_original.pdf",
+      "source_page": 33,
+      "problem": "Provision amended in statute; explicit gazetted w.e.f. date not stated in inline footnote.",
+      "current_value": "enforcement_status=AMENDED, commencement_date=null",
+      "expected_action": "HUMAN_REVIEW_CONFIRMATION"
+    },
+    {
+      "review_id": "REV_COMM_ACT_COMPANIES_2013_SEC_71",
+      "severity": "LOW",
+      "category": "COMMENCEMENT_DATE",
+      "document_id": "ACT_COMPANIES_2013",
+      "section_id": "ACT_COMPANIES_2013_SEC_71",
+      "section_number": "71",
+      "source_file": "companies_act_2013_original.pdf",
+      "source_page": 60,
+      "problem": "Provision amended in statute; explicit gazetted w.e.f. date not stated in inline footnote.",
+      "current_value": "enforcement_status=AMENDED, commencement_date=null",
+      "expected_action": "HUMAN_REVIEW_CONFIRMATION"
+    },
+    {
+      "review_id": "REV_COMM_ACT_COMPANIES_2013_SEC_129",
+      "severity": "LOW",
+      "category": "COMMENCEMENT_DATE",
+      "document_id": "ACT_COMPANIES_2013",
+      "section_id": "ACT_COMPANIES_2013_SEC_129",
+      "section_number": "129",
+      "source_file": "companies_act_2013_original.pdf",
+      "source_page": 86,
+      "problem": "Provision amended in statute; explicit gazetted w.e.f. date not stated in inline footnote.",
+      "current_value": "enforcement_status=AMENDED, commencement_date=null",
+      "expected_action": "HUMAN_REVIEW_CONFIRMATION"
+    },
+    {
+      "review_id": "REV_COMM_ACT_COMPANIES_2013_SEC_172",
+      "severity": "LOW",
+      "category": "COMMENCEMENT_DATE",
+      "document_id": "ACT_COMPANIES_2013",
+      "section_id": "ACT_COMPANIES_2013_SEC_172",
+      "section_number": "172",
+      "source_file": "companies_act_2013_original.pdf",
+      "source_page": 116,
+      "problem": "Provision amended in statute; explicit gazetted w.e.f. date not stated in inline footnote.",
+      "current_value": "enforcement_status=AMENDED, commencement_date=null",
+      "expected_action": "HUMAN_REVIEW_CONFIRMATION"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "benchmark_name": "HALO Comprehensive Verification Benchmark Suite",
+  "version": "1.0.0",
+  "protocol": "v1.0-FROZEN",
+  "target_total": 180,
+  "category_targets": {
+    "citation_existence": 24,
+    "citation_metadata": 22,
+    "passage_support": 24,
+    "numerical_mutations": 24,
+    "modality_mutations": 16,
+    "compound_claims": 16,
+    "temporal_verification": 18,
+    "authority_verification": 10,
+    "conflict_detection": 8,
+    "adversarial_cases": 10,
+    "fail_closed_cases": 8
+  },
+  "difficulty_targets": {
+    "easy": { "count": 54, "target_pct": 30.0 },
+    "medium": { "count": 76, "target_pct": 42.2 },
+    "hard": { "count": 50, "target_pct": 27.8 }
+  },
+  "train_dev_test_targets": {
+    "train_pct": 70.0,
+    "dev_pct": 15.0,
+    "test_pct": 15.0,
+    "split_policy": "PASSAGE_FAMILY_DISJOINT",
+    "leakage_prevention": "All mutations sharing the same source passage ID are clustered exclusively into the same split"
+  },
+  "class_balance_targets": {
+    "SUPPORTED": { "count": 45, "pct": 25.0 },
+    "CONTRADICTED": { "count": 48, "pct": 26.7 },
+    "UNSUPPORTED": { "count": 28, "pct": 15.6 },
+    "FABRICATED_CITATION": { "count": 25, "pct": 13.9 },
+    "PARTIALLY_SUPPORTED": { "count": 20, "pct": 11.1 },
+    "FLAGGED": { "count": 14, "pct": 7.8 }
+  },
+  "source_coverage": {
+    "primary_sources": ["Dataset 1 (Statutory)", "Dataset 2 (Judicial)"],
+    "statutory_statute": "The Companies Act, 2013 (Amended through 2020)",
+    "statutory_target_passages": 50,
+    "judicial_courts": ["Supreme Court of India", "NCLAT"],
+    "judicial_target_passages": 25,
+    "isolated_benchmarks": ["Dataset 3 (canonical/dataset3_all.jsonl) - Strictly Quarantined"]
+  },
+  "mutation_strategy": {
+    "numerical": "Extract exact numerical thresholds from canonical passages, apply bounded mutations (+-50%, order of magnitude, or substitution) and store original_value and mutated_value",
+    "modality": "Invert mandatory 'shall/must' into discretionary 'may/voluntarily choose' or permissive into prohibitive",
+    "temporal": "Pair superseded/omitted historical provisions (2013/2015) against current consolidated law (2020)",
+    "adversarial": "Apply cross-case holding transplantation, section displacement, and statutory negation attacks",
+    "compound": "Construct multi-clause answers where one clause is factually true and secondary clause is ungrounded or contradicted"
+  },
+  "acceptance_criteria": [
+    "G1: Schema validity across all records",
+    "G2: Required 16 fields present in every record",
+    "G3: Provenance traceable to Dataset 1 or Dataset 2",
+    "G4: Source passage SHA-256 integrity verified",
+    "G5: Zero contamination with Dataset 3 queries or records",
+    "G6: Zero contamination with Baseline 1-5 evaluation queries",
+    "G7: Unique IDs across 100% of cases",
+    "G8: Zero duplicate or near-duplicate cases",
+    "G9: Zero source passage leakage across train/dev/test splits",
+    "G10: Class distribution reported and balanced",
+    "G11: Category distribution reported across all 11 categories",
+    "G12: Difficulty distribution documented and enforced",
+    "G13: Adversarial provenance and mutation operation recorded",
+    "G14: Temporal provenance and amendment history verified",
+    "G15: SHA-256 content hashes deterministic",
+    "G16: Complete dataset manifest generated",
+    "G17: SHA256SUMS.txt verified",
+    "G18: Freeze receipt sealed as FROZEN"
+  ]
+}

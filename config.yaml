@@ -1,0 +1,51 @@
+# HALO Dataset 1 Pipeline Configuration
+# Companies Act, 2013 & Amending Acts (2015, 2020)
+
+input:
+  data_dir: "Data/CompaniesAct"
+  files:
+    original_act: "TCA1.pdf"
+    amendment_2015: "TCA2015.pdf"
+    amendment_2020: "TCA2020.pdf"
+
+output:
+  base_dir: "data/dataset_1"
+  staged_dir: "data/dataset_1/companies_act_2013"
+  raw_dir: "data/dataset_1/raw"
+  extracted_dir: "data/dataset_1/extracted"
+  normalized_dir: "data/dataset_1/normalized"
+  structured_dir: "data/dataset_1/structured"
+  versions_dir: "data/dataset_1/versions"
+  validation_dir: "data/dataset_1/validation"
+  review_queue_dir: "data/dataset_1/review_queue"
+  final_dir: "data/dataset_1/final"
+  reports_dir: "reports"
+
+extraction:
+  min_chars_per_page: 50
+  ocr_fallback_enabled: true
+  ocr_confidence_threshold: 0.85
+
+normalization:
+  unicode_form: "NFC"
+  normalize_quotes: true
+  normalize_dashes: true
+  record_boilerplate_audit: true
+
+parsing:
+  act_id: "ACT_COMPANIES_2013"
+  act_title: "The Companies Act, 2013"
+  act_number: "18 of 2013"
+  enactment_date: "2013-08-29"
+  jurisdiction: "India"
+  table_of_contents_pages: 15
+  enacted_body_start_page: 16
+
+validation:
+  strict_mode: true
+  require_provenance_pages: true
+  require_sha256: true
+  verify_against_consolidation: true
+
+versioning:
+  dataset_version: "1.0.0"

@@ -1,0 +1,119 @@
+{
+  "system_id": "B5_HYBRID_CROSS_ENCODER",
+  "system_name": "Baseline 5 — Hybrid RAG + Cross-Encoder Reranking",
+  "protocol_version": "v1.0-FROZEN",
+  "freeze_status": "FROZEN_VALIDATED",
+  "frozen_timestamp_utc": "2026-09-16T17:00:29.738191+00:00",
+  "total_queries_executed": 232,
+  "dev_queries": 64,
+  "test_queries": 168,
+  "failures": 0,
+  "retrieval_configuration": {
+    "dense": {
+      "model": "BAAI/bge-large-en-v1.5",
+      "dim": 1024,
+      "norm": "L2",
+      "top_k": 5
+    },
+    "sparse": {
+      "algorithm": "BM25Okapi",
+      "k1": 1.5,
+      "b": 0.75,
+      "epsilon": 0.25,
+      "tokenizer": "legal_aware_regex_v1",
+      "top_k": 5
+    },
+    "fusion": {
+      "method": "RRF",
+      "k": 60,
+      "candidate_pool_max": 10,
+      "tie_breaker": "passage_id_ascending"
+    },
+    "cross_encoder": {
+      "model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "final_top_k": 5,
+      "scoring_method": "raw_logits",
+      "tie_breaker": "passage_id_ascending"
+    }
+  },
+  "disallowed_modules_disabled": true,
+  "upstream_invariance_verified": true,
+  "artifact_hashes": {
+    "config": {
+      "path": "experiments\\configs\\b5_reranker_config.json",
+      "sha256": "5ba9bd0e35eb847c782b401dd338c913d8af73868cf14e4fd580d606394b7fda"
+    },
+    "dev_run_output": {
+      "path": "experiments\\runs\\b5_reranker\\dev_run_output.jsonl",
+      "sha256": "23a0974be5d74e454167483e4d26f5f186616d2db4906ad39acb5f9aec325d6a",
+      "record_count": 64
+    },
+    "test_run_output": {
+      "path": "experiments\\runs\\b5_reranker\\test_run_output.jsonl",
+      "sha256": "f1932e6c6d5359654d043d38c77a67c05c4feb331694b7d17c735121f71f8ec1",
+      "record_count": 168
+    },
+    "metrics_json": {
+      "path": "experiments\\metrics\\b5_metrics.json",
+      "sha256": "99a3964b0490bc16c81fde1ea7afb25d4d9f417598fcbf018b5f73ccc28b1860"
+    },
+    "metrics_report": {
+      "path": "experiments\\metrics\\b5_metrics_report.md",
+      "sha256": "940d506e1622f003be0df3a75f4e53250b260a55a05c026320aaaebdc67bdc82"
+    },
+    "diagnostics_json": {
+      "path": "experiments\\metrics\\b5_reranker_diagnostics.json",
+      "sha256": "375a695fe896911325bc821fb750fc65a37ed7b2494ac616acc4be2e47fe34fa"
+    },
+    "diagnostics_report": {
+      "path": "experiments\\metrics\\b5_reranker_analysis.md",
+      "sha256": "3aef6621049694fa221cc823f8035eebc070e9436ce35bd2ed67114d20f3a5c8"
+    },
+    "runner_script": {
+      "path": "scripts/experiments/baseline_5_runner.py",
+      "sha256": "21953deb442fa9d4d7a108b22d29b0a17cc3ef584ce6ed74db0dc382966d12fc"
+    },
+    "evaluator_script": {
+      "path": "scripts/experiments/evaluate_b5.py",
+      "sha256": "081cf61288b9e19ae43245c3e96e6f2699dfaea8b496d6bbdc55476b06a6ef4d"
+    },
+    "diagnostics_script": {
+      "path": "scripts/experiments/analyze_b5_reranker.py",
+      "sha256": "770b510ccb6d434281a350332768b1923b3451bf1499518b67ae1d383e749e61"
+    },
+    "test_suite": {
+      "path": "tests/test_baseline_5.py",
+      "sha256": "332c1e3ad60fd22b0fa53b3d705d55275d420df3a9fd370e2f99d61b0e2df478"
+    },
+    "dense_index": {
+      "path": "experiments\\indices\\dense\\index.pt",
+      "sha256": "3cda2350db5011b074c5f31872bfe0d05f122d7f0936de6139f48187f2f87313"
+    },
+    "bm25_index": {
+      "path": "experiments\\indices\\bm25\\index\\bm25_model.pkl",
+      "sha256": "3cf78cd79d3071c94fbe5f8e46df76514dbbe3bca0e1705117c1b73a1507d507"
+    }
+  },
+  "upstream_hashes": {
+    "dataset_3_canonical": {
+      "path": "data\\dataset3\\canonical\\dataset3_all.jsonl",
+      "sha256": "431a27d8fbc569255ae53fe209b869c6ae0b0bc8090b750500be0176ea54afc4"
+    },
+    "b1_freeze_receipt": {
+      "path": "experiments\\runs\\b1_llm_only\\freeze_receipt.json",
+      "sha256": "a2cd8c159739a6ce20276d49fb602079b5b67154c36ceb0887a873a0d6da575d"
+    },
+    "b2_freeze_receipt": {
+      "path": "experiments\\runs\\b2_dense_rag\\freeze_receipt.json",
+      "sha256": "bc666c8ed1b6f0ce9e5d3abe2910c99cc9694b37a83a815c5bd4c2b6d4a0961f"
+    },
+    "b3_freeze_receipt": {
+      "path": "experiments\\runs\\b3_bm25\\freeze_receipt.json",
+      "sha256": "dfe92e62e3fdb34501c62a5748117420d15d0e84232760ae9bf2fdeea636ffb0"
+    },
+    "b4_freeze_receipt": {
+      "path": "experiments\\runs\\b4_hybrid\\freeze_receipt.json",
+      "sha256": "d8ec36f8d1e8c91c116cfa71d20ad7d8af5bdc19629a449fe623101c90b2024a"
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "dataset": "HALO Dataset 1",
+  "name": "Authoritative Statutory Corpus",
+  "version": "1.0.0",
+  "status": "FROZEN",
+  "release_tag": "v1.0.0-FROZEN",
+  "jurisdiction": "India",
+  "authority": "India Code / Ministry of Corporate Affairs",
+  "statute": "The Companies Act, 2013 (Act No. 18 of 2013)",
+  "freeze_timestamp": "2026-09-05T18:25:00Z",
+  "source_documents": [
+    {
+      "source_document_id": "ACT_COMPANIES_2013",
+      "title": "The Companies Act, 2013 (Consolidated with Amendments up to Act 29 of 2020)",
+      "file": "TCA1.pdf",
+      "sha256": "0b915c8ea8927674b988584a9c8572fcaa526ad6d89a02b4234797087946b4d6",
+      "size_bytes": 5070430,
+      "page_count": 370,
+      "status": "IMMUTABLE_SOURCE"
+    },
+    {
+      "source_document_id": "ACT_COMPANIES_AMENDMENT_2015",
+      "title": "The Companies (Amendment) Act, 2015 (Act No. 21 of 2015)",
+      "file": "TCA2015.pdf",
+      "sha256": "f0f1ff814a6f4fff582e3e542f3de46f0d25a06de39e5cd11aee187fd32e6f24",
+      "size_bytes": 112762,
+      "page_count": 5,
+      "status": "IMMUTABLE_SOURCE"
+    },
+    {
+      "source_document_id": "ACT_COMPANIES_AMENDMENT_2020",
+      "title": "The Companies (Amendment) Act, 2020 (Act No. 29 of 2020)",
+      "file": "TCA2020.pdf",
+      "sha256": "3ed9c6c3d312350d164fc257c040e46b148a8133b1fa54f7f666826a3bc410bb",
+      "size_bytes": 417037,
+      "page_count": 35,
+      "status": "IMMUTABLE_SOURCE"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "companies_act_2013.json",
+      "description": "Full statutory hierarchy (Document -> Chapter -> Section -> Subsection -> Clause -> Subclause) with raw and canonical representations",
+      "sha256": "e937a00d23a09ee833811e598ee12ec9c43abd3b7ebfafb36eac5556d85e8e53",
+      "size_bytes": 7411822
+    },
+    {
+      "file": "companies_act_2013_passages.jsonl",
+      "description": "Retrievable legal passages (1,640 units) with deterministic IDs and complete parent-containment provenance",
+      "sha256": "37c5ced49fc3925342a7eebfc84eb2988f863166b60c0a8cf527aefae0e8c27c",
+      "size_bytes": 4323126,
+      "line_count": 1640
+    },
+    {
+      "file": "companies_act_2013_versions.json",
+      "description": "Point-in-time statutory reconstructions across all temporal states (v2013_original, v2015_amended, v2020_amended)",
+      "sha256": "46c12dca0069b608ba9774ea2a8daef82d5289d8bfe40f0c4b3df8816cefccff",
+      "size_bytes": 21120841,
+      "versions_count": 3
+    },
+    {
+      "file": "companies_act_2013_amendments.json",
+      "description": "Granular legislative amendment actions (87 operations) parsed from 2015 and 2020 Amending Acts",
+      "sha256": "e9157ef759ca327cc403a7bf91765de3363c8570eeb7bb963857e8d10f016472",
+      "size_bytes": 107339,
+      "amendment_count": 87
+    },
+    {
+      "file": "companies_act_2013_provenance.json",
+      "description": "Provenance mapping linking every statutory provision to exact source PDF, page ranges, character offsets, and SHA-256",
+      "sha256": "cf27e26b299237145fe3ab377c7d3d4954ae4029d56ee3cacaeda4175e490aab",
+      "size_bytes": 465450,
+      "records_count": 504
+    },
+    {
+      "file": "companies_act_2013_cross_references.json",
+      "description": "Validated statutory cross-references (668 internal and external citations)",
+      "sha256": "d4844d8c1cd0c9bfe36e916391ecbf7252e92b26efeb34bd8a8294c3b60355c7",
+      "size_bytes": 204981,
+      "reference_count": 668
+    },
+    {
+      "file": "companies_act_2013_definitions.json",
+      "description": "Cataloged legal definitions extracted from Section 2 and Section 378A",
+      "sha256": "61c367132a83a095ad6d25350c9d65d0f173ac5d9cc361ca2cbcc2726a5af08a",
+      "size_bytes": 29089,
+      "definition_count": 84
+    },
+    {
+      "file": "companies_act_2013_validation_report.json",
+      "description": "Automated validation gate results certifying zero structural defects",
+      "sha256": "1a687e517629cd591c6364f4a9d536a6d341ab023cf36e807dd1bb1bda140fb9",
+      "size_bytes": 760
+    }
+  ],
+  "corpus_statistics": {
+    "total_chapters": 29,
+    "total_sections": 504,
+    "total_subsections": 1443,
+    "total_clauses": 860,
+    "total_provisos": 809,
+    "total_explanations": 130,
+    "total_schedules": 7,
+    "total_retrieval_passages": 1640,
+    "total_amendments": 87,
+    "total_definitions": 84,
+    "total_cross_references": 668,
+    "total_versions": 3
+  },
+  "validation": {
+    "schema": "PASS",
+    "hierarchy": "PASS",
+    "provenance": "PASS",
+    "amendments": "PASS",
+    "temporal": "PASS",
+    "cross_references": "PASS",
+    "human_review": "PASS",
+    "automated_tests_passed": true,
+    "critical_issues": 0
+  },
+  "qa_summary": {
+    "automated_qa_report": "qa/dataset_1/automated_qa_report.json",
+    "human_qa_report": "qa/dataset_1/DATASET_1_HUMAN_QA.md",
+    "overall_result": "PASS",
+    "gate_completion_rate": "100%",
+    "unresolved_defects": 0
+  },
+  "downstream_consumption": {
+    "status": "APPROVED_FOR_BENCHMARK_CONSUMPTION",
+    "access_mode": "READ_ONLY",
+    "consumers": [
+      "Dataset 3 (Retrieval Benchmark)",
+      "Dataset 4 (Hard Negatives)",
+      "Dataset 5 (Citation Verification)",
+      "Dataset 6 (Claim-Evidence Verification)",
+      "Dataset 7 (Temporal Reasoning)",
+      "Dataset 8 (Adversarial / Fail Closed)"
+    ]
+  }
+}

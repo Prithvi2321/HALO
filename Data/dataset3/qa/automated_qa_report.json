@@ -1,0 +1,100 @@
+{
+  "overall_status": "ALL_GATES_PASSED",
+  "gates": {
+    "gate_1_schema_integrity": {
+      "status": "PASS",
+      "errors": [],
+      "description": "Validates Pydantic schema typing and required attributes across all 13 sub-families."
+    },
+    "gate_2_evidence_id_existence": {
+      "status": "PASS",
+      "errors": [],
+      "error_count": 0,
+      "description": "Verifies that every referenced evidence ID exists in the read-only frozen legal corpora."
+    },
+    "gate_3_dataset_1_linkage": {
+      "status": "PASS",
+      "errors": [],
+      "error_count": 0,
+      "description": "Confirms canonical Section-level linkage to the Companies Act, 2013."
+    },
+    "gate_4_dataset_2_linkage": {
+      "status": "PASS",
+      "errors": [],
+      "error_count": 0,
+      "description": "Confirms authentic judgment and citation linkage to the Curated Judicial Corpus."
+    },
+    "gate_5_synthetic_perturbations": {
+      "status": "PASS",
+      "errors": [],
+      "error_count": 0,
+      "description": "Verifies that adversarial injections and synthetic perturbations have correct failure types and expected statuses."
+    },
+    "gate_6_deduplication_and_uniqueness": {
+      "status": "PASS",
+      "errors": [],
+      "error_count": 0,
+      "description": "Confirms global ID uniqueness across all 1,000+ benchmark items."
+    },
+    "gate_7_split_isolation_and_zero_leakage": {
+      "status": "PASS",
+      "errors": [],
+      "error_count": 0,
+      "leakage_audit": {
+        "train_sections": 135,
+        "dev_sections": 29,
+        "test_sections": 30,
+        "train_judgments": 41,
+        "dev_judgments": 7,
+        "test_judgments": 9,
+        "train_passages": 264,
+        "dev_passages": 56,
+        "test_passages": 58,
+        "section_leakage_detected": 0,
+        "judgment_leakage_detected": 0,
+        "passage_leakage_detected": 0
+      },
+      "description": "Proves 100% legal-unit isolation between Train (70%), Dev (15%), and Test (15%) with zero overlap."
+    },
+    "gate_8_ground_truth_and_non_triviality": {
+      "status": "PASS",
+      "errors": [],
+      "error_count": 0,
+      "description": "Confirms all ground truth answers possess atomic facts, negative bounds, and substantive length."
+    },
+    "gate_9_robustness_soundness": {
+      "status": "PASS",
+      "errors": [],
+      "error_count": 0,
+      "description": "Verifies fail-closed constraints, temporal metadata, and conflict authority justifications."
+    },
+    "gate_10_human_annotation_audit": {
+      "status": "PASS",
+      "difficulty_distribution": {
+        "easy": 206,
+        "medium": 376,
+        "hard": 300,
+        "adversarial": 150
+      },
+      "description": "Validates diversity across easy, medium, hard, and adversarial tiers."
+    }
+  },
+  "metrics": {
+    "total_records": 1032,
+    "family_counts": {
+      "d3_a": 227,
+      "d3_b": 100,
+      "d3_c": 100,
+      "d3_d": 100,
+      "d3_e": 100,
+      "d3_f": 100,
+      "d3_g": 100,
+      "d3_h": 40,
+      "d3_i": 35,
+      "d3_j": 35,
+      "d3_k": 30,
+      "d3_l": 35,
+      "d3_m": 30
+    }
+  }
+}

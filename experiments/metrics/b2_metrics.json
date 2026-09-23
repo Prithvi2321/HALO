@@ -1,0 +1,252 @@
+{
+  "system_id": "B2_DENSE_RAG",
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "configuration": {
+    "system_id": "B2_DENSE_RAG",
+    "system_name": "Baseline 2 — Dense Vector RAG",
+    "version": "v1.0",
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "top_k": 1,
+    "max_tokens": 512,
+    "seed": 42,
+    "retrieval": {
+      "enabled": true,
+      "method": "dense",
+      "top_k": 5,
+      "embedding_model": "BAAI/bge-large-en-v1.5",
+      "embedding_dimension": 1024,
+      "normalization": "L2",
+      "query_instruction": "Represent this sentence for searching relevant passages: ",
+      "passage_instruction": ""
+    },
+    "reranking_enabled": false,
+    "verification_enabled": false,
+    "fail_closed_enabled": false,
+    "dataset3_indexing": false,
+    "prompt_template": {
+      "system_prompt": "You are an authoritative Indian Legal Research Assistant specializing in the Companies Act, 2013 and Indian corporate jurisprudence. Answer the inquiry factually, accurately, and with precise statutory and judicial citations using the authoritative legal evidence provided below. If the provided context is insufficient or the proposition is unsupported, state so explicitly.",
+      "context_header": "AUTHORITATIVE LEGAL EVIDENCE",
+      "context_footer": "END AUTHORITATIVE LEGAL EVIDENCE"
+    }
+  },
+  "protocol_version": "v1.0",
+  "dataset3_version": "v1.0.0-FROZEN",
+  "dev_count": 64,
+  "test_count": 168,
+  "total_count": 232,
+  "failures": 0,
+  "metrics": {
+    "overall": {
+      "total_evaluated_queries": 232,
+      "retrieval_latency_ms": {
+        "mean": 367.06,
+        "median": 258.32,
+        "std": 207.6,
+        "p95": 744.75,
+        "p99": 977.36,
+        "min": 110.63,
+        "max": 1304.61
+      },
+      "generation_latency_ms": {
+        "mean": 42940.81,
+        "median": 25927.21,
+        "std": 121962.85,
+        "p95": 48173.38,
+        "p99": 906467.12,
+        "min": 1640.16,
+        "max": 950358.93
+      },
+      "total_latency_ms": {
+        "mean": 43307.87,
+        "median": 26193.4,
+        "std": 121944.23,
+        "p95": 48415.73,
+        "p99": 906579.11,
+        "min": 1844.57,
+        "max": 950469.56
+      },
+      "output_length": {
+        "chars": {
+          "mean": 1857.23,
+          "median": 2074.5,
+          "std": 626.53,
+          "p95": 2416,
+          "p99": 2492,
+          "min": 22,
+          "max": 2510
+        },
+        "words": {
+          "mean": 279.4,
+          "median": 314.5,
+          "std": 96.1,
+          "p95": 369,
+          "p99": 375,
+          "min": 1,
+          "max": 393
+        }
+      }
+    },
+    "retrieval_summary_test": {
+      "total_retrieval_queries": 68,
+      "macro_recall_at_5": 0.5882,
+      "macro_hit_rate_at_5": 0.6912,
+      "macro_mrr": 0.5625,
+      "average_retrieval_latency_ms": 367.06,
+      "p95_retrieval_latency_ms": 744.75
+    },
+    "test_family_summary": [
+      {
+        "family": "D3-A",
+        "n": 39,
+        "applicable_metric_name": "Recall@5 / MRR",
+        "recall_at_5": 61.54,
+        "hit_rate_at_5": 79.49,
+        "mrr": 0.6667,
+        "hallucination_rate": "0.0%",
+        "unsupported_claims": "0.0%"
+      },
+      {
+        "family": "D3-B",
+        "n": 17,
+        "applicable_metric_name": "Semantic Recall@5 / MRR",
+        "recall_at_5": 41.18,
+        "hit_rate_at_5": 41.18,
+        "mrr": 0.2794,
+        "hallucination_rate": 58.82,
+        "unsupported_claims": 58.82
+      },
+      {
+        "family": "D3-C",
+        "n": 12,
+        "applicable_metric_name": "Positive Recall@5 / HNFAR",
+        "recall_at_5": 75.0,
+        "hit_rate_at_5": 75.0,
+        "mrr": 0.625,
+        "hn_retrieval_rate": 50.0,
+        "hnfar": 8.33
+      },
+      {
+        "family": "D3-D",
+        "n": 100,
+        "applicable_metric_name": "Atomic Fact Point Recall (AFPR)",
+        "afpr": 56.17,
+        "point_coverage": 57.75,
+        "complete_rate": 23.0,
+        "hallucination_rate": 12.0,
+        "unsupported_claims": 12.0
+      }
+    ],
+    "b1_vs_b2_comparison": {
+      "d3_a": {
+        "b1_recall_at_5": "NOT_APPLICABLE",
+        "b2_recall_at_5": 61.54,
+        "b1_mrr": "NOT_APPLICABLE",
+        "b2_mrr": 0.6667,
+        "b1_citation_accuracy": "92.31%",
+        "b2_hit_rate_at_5": "79.49%"
+      },
+      "d3_b": {
+        "b1_recall_at_5": "NOT_APPLICABLE",
+        "b2_recall_at_5": 41.18,
+        "b1_mrr": "NOT_APPLICABLE",
+        "b2_mrr": 0.2794,
+        "b1_identification_accuracy": "23.53%",
+        "b2_hit_rate_at_5": "41.18%"
+      },
+      "d3_c": {
+        "b1_positive_selection": "41.67%",
+        "b2_positive_retrieval_at_5": "75.0%",
+        "b1_hnfar": "NOT_APPLICABLE",
+        "b2_hnfar": "8.33%",
+        "b2_hn_retrieval_rate": "50.0%"
+      },
+      "d3_d": {
+        "b1_afpr": "57.67%",
+        "b2_afpr": "56.17%",
+        "b1_coverage": "56.81%",
+        "b2_coverage": "57.75%",
+        "b1_complete_rate": "20.0%",
+        "b2_complete_rate": "23.0%",
+        "b1_hallucination_rate": "7.0%",
+        "b2_hallucination_rate": "12.0%"
+      }
+    }
+  },
+  "family_metrics": {
+    "test": [
+      {
+        "family": "D3-A",
+        "n": 39,
+        "applicable_metric_name": "Recall@5 / MRR",
+        "recall_at_5": 61.54,
+        "hit_rate_at_5": 79.49,
+        "mrr": 0.6667,
+        "hallucination_rate": "0.0%",
+        "unsupported_claims": "0.0%"
+      },
+      {
+        "family": "D3-B",
+        "n": 17,
+        "applicable_metric_name": "Semantic Recall@5 / MRR",
+        "recall_at_5": 41.18,
+        "hit_rate_at_5": 41.18,
+        "mrr": 0.2794,
+        "hallucination_rate": 58.82,
+        "unsupported_claims": 58.82
+      },
+      {
+        "family": "D3-C",
+        "n": 12,
+        "applicable_metric_name": "Positive Recall@5 / HNFAR",
+        "recall_at_5": 75.0,
+        "hit_rate_at_5": 75.0,
+        "mrr": 0.625,
+        "hn_retrieval_rate": 50.0,
+        "hnfar": 8.33
+      },
+      {
+        "family": "D3-D",
+        "n": 100,
+        "applicable_metric_name": "Atomic Fact Point Recall (AFPR)",
+        "afpr": 56.17,
+        "point_coverage": 57.75,
+        "complete_rate": 23.0,
+        "hallucination_rate": 12.0,
+        "unsupported_claims": 12.0
+      }
+    ],
+    "details": {
+      "d3_a": {
+        "n": 39,
+        "recall_at_5": 0.6154,
+        "hit_rate_at_5": 0.7949,
+        "mrr": 0.6667
+      },
+      "d3_b": {
+        "n": 17,
+        "recall_at_5": 0.4118,
+        "hit_rate_at_5": 0.4118,
+        "mrr": 0.2794
+      },
+      "d3_c": {
+        "n": 12,
+        "pos_recall_at_5": 0.75,
+        "mrr": 0.625,
+        "hn_ret_rate": 0.5,
+        "hnfar": 0.0833
+      },
+      "d3_d": {
+        "n": 100,
+        "afpr": 0.5617,
+        "point_coverage": 0.5775,
+        "complete_rate": 0.23,
+        "hallucination_rate": 0.12
+      }
+    }
+  },
+  "timestamp": "2026-09-14T16:15:00.391020+00:00"
+}

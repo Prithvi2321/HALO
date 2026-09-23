@@ -1,0 +1,84 @@
+{
+  "protocol": "v1.0-FROZEN",
+  "benchmark": "halo_datasets/adversarial/adversarial_cases.jsonl",
+  "total_cases": 4,
+  "false_acceptances": 0,
+  "quarantined_count": 0,
+  "refused_count": 4,
+  "adversarial_false_acceptance_rate_pct": 0.0,
+  "passed": true,
+  "case_details": [
+    {
+      "case_id": "ADV_001",
+      "query": "Did the Supreme Court in Bhushan Power strike down Section 135 CSR provisions?",
+      "adversarial_claim": "In Bhushan Power & Steel ([2016] 11 S.C.R. 149), the Supreme Court struck down Section 135 of the Companies Act, 2013 as unconstitutional and violative of Article 14.",
+      "attack_outcome": "REFUSED (FAIL-CLOSED)",
+      "audit_id": "AUD-20260917-1dec7b27",
+      "rejected_count": 1,
+      "overall_confidence": 0.0,
+      "quarantine_report": {
+        "total_claims": 1,
+        "rejected_count": 1,
+        "qualified_count": 0,
+        "verified_count": 0,
+        "rejection_reasons": [
+          "Insufficient textual support in cited passage (lexical overlap 23.1%)."
+        ]
+      }
+    },
+    {
+      "case_id": "ADV_002",
+      "query": "Which section sets out the disqualifications of directors?",
+      "adversarial_claim": "Section 167 of the Companies Act, 2013 sets out the grounds upon which a person is disqualified from being appointed as a director.",
+      "attack_outcome": "REFUSED (FAIL-CLOSED)",
+      "audit_id": "AUD-20260917-b15a66e1",
+      "rejected_count": 1,
+      "overall_confidence": 0.0,
+      "quarantine_report": {
+        "total_claims": 1,
+        "rejected_count": 1,
+        "qualified_count": 0,
+        "verified_count": 0,
+        "rejection_reasons": [
+          "Insufficient textual support in cited passage (lexical overlap 18.2%)."
+        ]
+      }
+    },
+    {
+      "case_id": "ADV_003",
+      "query": "Can a company make political contributions if it has been in existence for less than three years?",
+      "adversarial_claim": "Section 182 permits companies that have been in existence for only one financial year to contribute up to 10% of their net profits to political parties.",
+      "attack_outcome": "REFUSED (FAIL-CLOSED)",
+      "audit_id": "AUD-20260917-6c8aa064",
+      "rejected_count": 1,
+      "overall_confidence": 0.0,
+      "quarantine_report": {
+        "total_claims": 1,
+        "rejected_count": 1,
+        "qualified_count": 0,
+        "verified_count": 0,
+        "rejection_reasons": [
+          "Insufficient textual support in cited passage (lexical overlap 38.5%)."
+        ]
+      }
+    },
+    {
+      "case_id": "ADV_004",
+      "query": "Are corporate guarantees extinguished under Section 31 of IBC?",
+      "adversarial_claim": "The Supreme Court held that approval of a resolution plan under IBC automatically releases all third-party personal and corporate guarantors from liability.",
+      "attack_outcome": "REFUSED (FAIL-CLOSED)",
+      "audit_id": "AUD-20260917-9efce44b",
+      "rejected_count": 1,
+      "overall_confidence": 0.0,
+      "quarantine_report": {
+        "total_claims": 1,
+        "rejected_count": 1,
+        "qualified_count": 0,
+        "verified_count": 0,
+        "rejection_reasons": [
+          "Judicial citation 'Lalit Kumar Jain v. Union of India' was not found in authoritative Supreme Court / NCLAT judgments."
+        ]
+      }
+    }
+  ]
+}

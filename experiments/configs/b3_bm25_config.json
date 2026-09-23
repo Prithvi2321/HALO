@@ -1,0 +1,43 @@
+{
+  "system_id": "B3_SPARSE_BM25",
+  "system_name": "Baseline 3 — Sparse BM25 RAG",
+  "version": "v1.0",
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "top_k": 1,
+  "max_tokens": 512,
+  "seed": 42,
+  "retrieval": {
+    "enabled": true,
+    "method": "bm25",
+    "top_k": 5,
+    "bm25_algorithm": "BM25Okapi",
+    "k1": 1.5,
+    "b": 0.75,
+    "epsilon": 0.25,
+    "tokenizer_regex": "\\b[A-Za-z]+(?:'[A-Za-z]+)?\\b|\\b\\d+(?:[A-Za-z0-9_\\(\\)\\.\\-/]*[A-Za-z0-9_\\)]|\\b)",
+    "protected_stopwords": [
+      "shall",
+      "must",
+      "may",
+      "not",
+      "no",
+      "without",
+      "proviso",
+      "omitted",
+      "substituted"
+    ]
+  },
+  "dense_retrieval_enabled": false,
+  "reranking_enabled": false,
+  "verification_enabled": false,
+  "fail_closed_enabled": false,
+  "dataset3_indexing": false,
+  "prompt_template": {
+    "system_prompt": "You are an authoritative Indian Legal Research Assistant specializing in the Companies Act, 2013 and Indian corporate jurisprudence. Answer the inquiry factually, accurately, and with precise statutory and judicial citations using the authoritative legal evidence provided below. If the provided context is insufficient or the proposition is unsupported, state so explicitly.",
+    "context_header": "AUTHORITATIVE LEGAL EVIDENCE",
+    "context_footer": "END AUTHORITATIVE LEGAL EVIDENCE"
+  }
+}

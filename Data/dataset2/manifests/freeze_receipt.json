@@ -1,0 +1,39 @@
+{
+  "dataset_name": "HALO Dataset 2: Curated Judicial Corpus",
+  "version": "1.0.0",
+  "release_tag": "v1.0.0-FROZEN",
+  "status": "FROZEN",
+  "freeze_timestamp": "2026-09-06T18:18:41.870711Z",
+  "lock_level": "FILESYSTEM_READ_ONLY + GIT_TAGGED",
+  "git_commit": "882decbee61b7976ef3cecb7ddbbe65b98e3501a",
+  "git_tag": "dataset2-v1.0.0-frozen",
+  "master_manifest_sha256": "43e7dbff74752bd68939f34ebfa9672d8c90d182d96b3bb4d829cb0056947f19",
+  "corpus_metrics": {
+    "source_documents": 57,
+    "paragraphs": 1256,
+    "passages": 1133,
+    "citations": 552,
+    "statutory_references": 666
+  },
+  "statutory_reconciliation": {
+    "total_statutory_references": 666,
+    "direct_companies_act_2013_matches": 636,
+    "predecessor_1956_continuity_mappings": 7,
+    "cognate_corporate_statute_references": 23,
+    "unresolved_ambiguous": 0,
+    "reconciliation_formula": "636 (Direct 2013) + 7 (Predecessor 1956) + 23 (Cognate Commercial) = 666"
+  },
+  "forum_distribution": {
+    "total_judgments": 57,
+    "supreme_court": 30,
+    "nclat": 12,
+    "high_court": 15
+  },
+  "verification_statement": "100% of defined automated integrity checks passed; human legal spot-checks completed according to the corpus QA protocol.",
+  "dataset_1_link": {
+    "target": "HALO Dataset 1",
+    "release": "v1.0.0-FROZEN",
+    "status": "UNTOUCHED_AND_FROZEN",
+    "read_only": true
+  }
+}

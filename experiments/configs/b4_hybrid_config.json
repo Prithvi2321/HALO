@@ -1,0 +1,70 @@
+{
+  "system_id": "B4_HYBRID_RRF",
+  "system_name": "Baseline 4 — Hybrid RAG (Dense + BM25 via Reciprocal Rank Fusion)",
+  "protocol_version": "v1.0-FROZEN",
+  "created_utc": "2026-09-15T15:52:00Z",
+  "retrieval": {
+    "enabled": true,
+    "method": "hybrid_rrf",
+    "top_k": 5,
+    "dense": {
+      "enabled": true,
+      "model_name": "BAAI/bge-large-en-v1.5",
+      "dimension": 1024,
+      "normalization": "L2",
+      "query_instruction": "Represent this sentence for searching relevant passages: ",
+      "similarity": "cosine",
+      "top_k": 5
+    },
+    "sparse": {
+      "enabled": true,
+      "algorithm": "BM25Okapi",
+      "k1": 1.5,
+      "b": 0.75,
+      "epsilon": 0.25,
+      "tokenizer": "legal_aware_regex_v1",
+      "top_k": 5
+    },
+    "fusion": {
+      "method": "RRF",
+      "k": 60,
+      "top_k": 5,
+      "tie_breaker": "passage_id_ascending"
+    }
+  },
+  "generation": {
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_tokens": 512,
+    "seed": 42
+  },
+  "provider": "groq",
+  "model": "qwen/qwen3.8-27b",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 512,
+  "seed": 42,
+  "prompt_template": {
+    "system_prompt": "You are an authoritative Indian Legal Research Assistant specializing in the Companies Act, 2013 and Indian corporate jurisprudence. Answer the inquiry factually, accurately, and with precise statutory and judicial citations using the authoritative legal evidence provided below. If the provided context is insufficient or the proposition is unsupported, state so explicitly.",
+    "context_header": "AUTHORITATIVE LEGAL EVIDENCE",
+    "context_footer": "END AUTHORITATIVE LEGAL EVIDENCE"
+  },
+  "corpus": {
+    "dataset1": true,
+    "dataset2": true,
+    "dataset3": false,
+    "passage_count": 2773
+  },
+  "disallowed_modules": {
+    "cross_encoder_reranking": false,
+    "legal_verifier": false,
+    "citation_verification": false,
+    "temporal_verification": false,
+    "fail_closed_governor": false,
+    "score_normalization": false,
+    "weighted_fusion": false,
+    "llm_mediated_fusion": false
+  }
+}

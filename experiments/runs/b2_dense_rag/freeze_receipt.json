@@ -1,0 +1,66 @@
+{
+  "system_id": "B2_DENSE_RAG",
+  "system_name": "Baseline 2 — Dense Vector RAG",
+  "status": "FROZEN",
+  "frozen_timestamp_utc": "2026-09-14T16:15:00.577123+00:00",
+  "protocol_version": "v1.0",
+  "dataset3_version": "v1.0.0-FROZEN",
+  "evaluation_summary": {
+    "dev_queries": 64,
+    "test_queries": 168,
+    "total_queries": 232,
+    "execution_failures": 0,
+    "retrieval_model": "BAAI/bge-large-en-v1.5",
+    "top_k": 5,
+    "macro_recall_at_5": 0.5882,
+    "macro_mrr": 0.5625,
+    "integrity_audit": "PASS",
+    "protocol_invariants": "PASS"
+  },
+  "cryptographic_manifest": {
+    "dev_run_output": {
+      "path": "experiments\\runs\\b2_dense_rag\\dev_run_output.jsonl",
+      "sha256": "e02161014c24a4b6b6027b6b7a40c32df78caeceecde10ae559b0d58037db61b"
+    },
+    "test_run_output": {
+      "path": "experiments\\runs\\b2_dense_rag\\test_run_output.jsonl",
+      "sha256": "ffdcd18ab44d7ecc534735afd910141be751cb1507641d31747e35bc7f4436b4"
+    },
+    "b2_config": {
+      "path": "experiments\\configs\\b2_dense_config.json",
+      "sha256": "d245a7f0f4cafa77b29451128bb8bea5ae789d5a09e8b524771bd94023f625cf"
+    },
+    "b2_metrics_json": {
+      "path": "experiments\\metrics\\b2_metrics.json",
+      "sha256": "ebb6e0d12770728cdb91397213df0076253d7d3d6ecf1fe2c07266c99aa78aec"
+    },
+    "b2_metrics_report": {
+      "path": "experiments\\metrics\\b2_metrics_report.md",
+      "sha256": "ffdc966410484eb3d3279a36d4884629fa7a59bb84d4b37cea679ee96b743c78"
+    },
+    "index_tensor": {
+      "path": "experiments/indices/dense/index.pt",
+      "sha256": "3cda2350db5011b074c5f31872bfe0d05f122d7f0936de6139f48187f2f87313"
+    },
+    "index_numpy": {
+      "path": "experiments/indices/dense/index.npy",
+      "sha256": "8557450dc4a7f111f655aea9eae09c5c95ec301731d2264a528470e9526c10bd"
+    },
+    "index_metadata": {
+      "path": "experiments/indices/dense/metadata.jsonl",
+      "sha256": "02155209f447dca55ee985ffdfd19497b7828606f66cc3a838832b0e206de14c"
+    },
+    "index_manifest": {
+      "path": "experiments/indices/dense/index_manifest.json",
+      "sha256": "cf790c239a9e2d4b1c2b2b9006e4c6fae885311d96a8f26d96997759d59364e6"
+    },
+    "dataset3_manifest": {
+      "path": "data\\dataset3\\manifests\\dataset3_manifest.json",
+      "sha256": "c5dad2f1e5b3979a78fb8bc42f0b4811e94c0ebb5e7297fcd8f5ec10bd3462c6"
+    },
+    "experiment_protocol": {
+      "path": "experiments\\protocol\\halo_experiment_protocol_v1_0.md",
+      "sha256": "9721d0d172336bd52b0c157bd54c321d9844c4f5ebe2d0e96dc6c36ef3e2fecd"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "system_id": "B3_SPARSE_BM25",
+  "system_name": "Baseline 3 — Sparse BM25 RAG",
+  "status": "FROZEN",
+  "frozen_timestamp_utc": "2026-09-15T14:52:46.707117+00:00",
+  "protocol_version": "v1.0",
+  "dataset3_version": "v1.0.0-FROZEN",
+  "evaluation_summary": {
+    "dev_queries": 64,
+    "test_queries": 168,
+    "total_queries": 232,
+    "execution_failures": 0,
+    "retrieval_algorithm": "BM25Okapi",
+    "top_k": 5,
+    "macro_recall_at_5": 0.3529,
+    "macro_mrr": 0.3787,
+    "integrity_audit": "PASS",
+    "protocol_invariants": "PASS"
+  },
+  "cryptographic_manifest": {
+    "dev_run_output": {
+      "path": "experiments\\runs\\b3_bm25\\dev_run_output.jsonl",
+      "sha256": "f89173eba259fa0388fb4619ffaf230ab7f5445f075efa03f1c0930b0860de20"
+    },
+    "test_run_output": {
+      "path": "experiments\\runs\\b3_bm25\\test_run_output.jsonl",
+      "sha256": "f81cfacd5242c64af0a49e0bb686f27f80512080852f3a1c86d8e40ca66b5179"
+    },
+    "b3_config": {
+      "path": "experiments\\configs\\b3_bm25_config.json",
+      "sha256": "f6167677fe969153d246f85db61fafd4de785c472a6c8fa4cd5f0f8ff43aed2e"
+    },
+    "b3_metrics_json": {
+      "path": "experiments\\metrics\\b3_metrics.json",
+      "sha256": "223694f1cf6de78a813eff95fdbc6672a173fed23c3453851a5b25094e3288b5"
+    },
+    "b3_metrics_report": {
+      "path": "experiments\\metrics\\b3_metrics_report.md",
+      "sha256": "11ee36a54002a0418296eeff28e036d72f9d7124c12531d4a2fb0f94d959ba12"
+    },
+    "bm25_model": {
+      "path": "experiments/indices/bm25/index/bm25_model.pkl",
+      "sha256": "3cf78cd79d3071c94fbe5f8e46df76514dbbe3bca0e1705117c1b73a1507d507"
+    },
+    "index_metadata": {
+      "path": "experiments/indices/bm25/metadata.jsonl",
+      "sha256": "02155209f447dca55ee985ffdfd19497b7828606f66cc3a838832b0e206de14c"
+    },
+    "index_manifest": {
+      "path": "experiments/indices/bm25/index_manifest.json",
+      "sha256": "9f214ad5fb44be2482c89aa6cc1884670fb9ae511e39ab8e5dcc62584c8e77d9"
+    },
+    "dataset3_manifest": {
+      "path": "data\\dataset3\\manifests\\dataset3_manifest.json",
+      "sha256": "c5dad2f1e5b3979a78fb8bc42f0b4811e94c0ebb5e7297fcd8f5ec10bd3462c6"
+    },
+    "experiment_protocol": {
+      "path": "experiments\\protocol\\halo_experiment_protocol_v1_0.md",
+      "sha256": "9721d0d172336bd52b0c157bd54c321d9844c4f5ebe2d0e96dc6c36ef3e2fecd"
+    }
+  }
+}

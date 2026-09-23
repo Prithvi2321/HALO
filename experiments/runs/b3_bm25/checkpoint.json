@@ -1,0 +1,17 @@
+{
+  "system_id": "B3_SPARSE_BM25",
+  "current_split": "test",
+  "status": "ALL_SPLITS_COMPLETED",
+  "last_saved_utc": "2026-09-15T14:34:21.232688+00:00",
+  "split_progress": {
+    "dev_queries": 64,
+    "dev_completed": 64,
+    "test_queries": 168,
+    "test_completed": 168,
+    "remaining_queries": 0
+  },
+  "output_files": {
+    "dev": "experiments/runs/b3_bm25/dev_run_output.jsonl",
+    "test": "experiments/runs/b3_bm25/test_run_output.jsonl"
+  }
+}

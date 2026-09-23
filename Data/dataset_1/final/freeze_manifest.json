@@ -1,0 +1,24 @@
+{
+  "dataset_name": "HALO_DATASET_1_COMPANIES_ACT_2013",
+  "version": "v1.0.0-candidate-frozen",
+  "status": "CANDIDATE-FROZEN / PENDING FINAL QA",
+  "frozen_at": "2026-09-05T14:21:18.118396+00:00",
+  "source_pdf_hashes": {
+    "ACT_COMPANIES_2013": "0b915c8ea8927674b988584a9c8572fcaa526ad6d89a02b4234797087946b4d6",
+    "ACT_COMPANIES_AMEND_2015": "f0f1ff814a6f4fff582e3e542f3de46f0d25a06de39e5cd11aee187fd32e6f24",
+    "ACT_COMPANIES_AMEND_2020": "3ed9c6c3d312350d164fc257c040e46b148a8133b1fa54f7f666826a3bc410bb"
+  },
+  "raw_pages_sha256": "4f15b9f7b761b6248c3626775c3e5b4a29401d13bf86ccdb20f9fa792c41395d",
+  "normalized_pages_sha256": "56976da3f8032924e599cc3962bdbfbbf9f592b67baf774beb2e2a4c768eb873",
+  "canonical_act_sha256": "e937a00d23a09ee833811e598ee12ec9c43abd3b7ebfafb36eac5556d85e8e53",
+  "passages_jsonl_sha256": "37c5ced49fc3925342a7eebfc84eb2988f863166b60c0a8cf527aefae0e8c27c",
+  "provenance_sha256": "cf27e26b299237145fe3ab377c7d3d4954ae4029d56ee3cacaeda4175e490aab",
+  "amendments_sha256": "e9157ef759ca327cc403a7bf91765de3363c8570eeb7bb963857e8d10f016472",
+  "versions_sha256": "46c12dca0069b608ba9774ea2a8daef82d5289d8bfe40f0c4b3df8816cefccff",
+  "definitions_sha256": "61c367132a83a095ad6d25350c9d65d0f173ac5d9cc361ca2cbcc2726a5af08a",
+  "cross_references_sha256": "d4844d8c1cd0c9bfe36e916391ecbf7252e92b26efeb34bd8a8294c3b60355c7",
+  "validation_report_sha256": "1a687e517629cd591c6364f4a9d536a6d341ab023cf36e807dd1bb1bda140fb9",
+  "total_sections": 504,
+  "total_passages": 1640,
+  "total_amendments": 87
+}

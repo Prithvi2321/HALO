@@ -1,0 +1,17 @@
+{
+  "system_id": "B1_LLM",
+  "current_split": "test",
+  "status": "ALL_SPLITS_COMPLETED",
+  "last_saved_utc": "2026-09-13T12:52:29.376299+00:00",
+  "split_progress": {
+    "total_queries": 168,
+    "completed_queries": 168,
+    "remaining_queries": 0,
+    "last_processed_query_id": "D3_GROUND_000100"
+  },
+  "output_files": {
+    "dev": "experiments\\runs\\b1_llm_only\\dev_run_output.jsonl",
+    "test": "experiments\\runs\\b1_llm_only\\test_run_output.jsonl"
+  },
+  "resume_command": "python -m scripts.experiments.baseline_1_runner test --resume"
+}
