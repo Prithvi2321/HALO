@@ -9,7 +9,7 @@ Never modifies corpora and never performs citation-existence heuristics.
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, Optional, Any
+from typing import Dict, Optional, Any, List
 import hashlib
 import json
 import os
@@ -209,3 +209,58 @@ class EvidenceStore:
     @property
     def d2_passage_count(self) -> int:
         return sum(1 for p in self._passages.values() if p.dataset == "D2")
+
+    def retrieve_passages(self, query: str, top_k: int = 5) -> List[CanonicalPassageRecord]:
+        """Live passage retrieval over canonical corpora using BM25 index."""
+        if not query or not query.strip():
+            return []
+
+        if not hasattr(self, "_bm25_model") or self._bm25_model is None:
+            self._init_live_retriever()
+
+        if self._bm25_model is None:
+            return []
+
+        from scripts.experiments.build_bm25_index import tokenize_legal_text
+        q_tokens = tokenize_legal_text(query)
+        if not q_tokens:
+            return []
+
+        scores = self._bm25_model.get_scores(q_tokens)
+        top_indices = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:top_k]
+
+        results = []
+        for idx in top_indices:
+            pid = self._bm25_passage_ids[idx]
+            if pid in self._passages:
+                results.append(self._passages[pid])
+        return results
+
+    def _init_live_retriever(self):
+        try:
+            bm25_path = self.config.repo_root / "experiments" / "indices" / "bm25" / "index" / "bm25_model.pkl"
+            meta_path = self.config.repo_root / "experiments" / "indices" / "bm25" / "metadata.jsonl"
+            if bm25_path.exists() and meta_path.exists():
+                import pickle
+                with open(bm25_path, "rb") as f:
+                    self._bm25_model = pickle.load(f)
+                self._bm25_passage_ids = []
+                with open(meta_path, "r", encoding="utf-8") as f:
+                    for line in f:
+                        if line.strip():
+                            rec = json.loads(line)
+                            self._bm25_passage_ids.append(rec["passage_id"])
+                return
+        except Exception:
+            pass
+
+        # In-memory fallback
+        try:
+            from rank_bm25 import BM25Okapi
+            from scripts.experiments.build_bm25_index import tokenize_legal_text
+            self._bm25_passage_ids = list(self._passages.keys())
+            tokenized_corpus = [tokenize_legal_text(p.text) for p in self._passages.values()]
+            self._bm25_model = BM25Okapi(tokenized_corpus, k1=1.5, b=0.75, epsilon=0.25)
+        except Exception:
+            self._bm25_model = None
+            self._bm25_passage_ids = []

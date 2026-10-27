@@ -63,6 +63,14 @@ class EvidenceAggregator:
 
         probs = nli_result.probabilities
 
+        # Overwhelming Neural Entailment Shield:
+        # If DeBERTa-v3 cross-encoder produces decisive entailment (entailment >= 0.90, contradiction <= 0.05),
+        # and there is no substantive numerical discrepancy, regex-based modality/negation false positives
+        # (e.g. from statutory non-applicability provisos 'shall not apply' or ceiling quantifiers 'not more than')
+        # must not override verified neural entailment.
+        if probs.entailment >= 0.90 and probs.contradiction <= 0.05 and numerical_result.status != CheckStatus.MISMATCH.value:
+            has_symbolic_mismatch = False
+
         if self.config.enforce_symbolic_overrides and has_symbolic_mismatch:
             # If the passage is completely tangential to the claim (negligible lexical overlap and neutral >= 0.70),
             # disparate topic numbers remain NEUTRAL.
@@ -205,7 +213,34 @@ class EvidenceAggregator:
             reason_str = f"Authoritative passage '{best_contra.passage_id}' contradicts claim: " + " ".join(reasons)
             return EvidenceVerdictStatus.CONTRADICTED.value, reason_str, best_contra.passage_id, summary
 
-        # 3. Strong Support Priority
+        # 3. Compound Claim Resolution (Evaluated before whole-sentence support)
+        if claim_atomicity == ClaimAtomicity.COMPOUND.value and subclaim_verdicts:
+            sub_supp = sum(1 for v in subclaim_verdicts if v == EvidenceVerdictStatus.SUPPORTED.value)
+            sub_contra = sum(1 for v in subclaim_verdicts if v == EvidenceVerdictStatus.CONTRADICTED.value)
+            summary = AggregationSummary(
+                support_count=support_count,
+                contradiction_count=contradiction_count,
+                neutral_count=neutral_count,
+                unresolved_count=unresolved_count,
+                conflict=False,
+            )
+            best_id = evidence_items[0].passage_id if evidence_items else None
+            if sub_supp > 0 and sub_contra > 0:
+                reason_str = (
+                    f"Compound claim partial support: {sub_supp}/{len(subclaim_verdicts)} subclaims supported, "
+                    f"{sub_contra}/{len(subclaim_verdicts)} contradicted by evidence passage."
+                )
+                return EvidenceVerdictStatus.PARTIALLY_SUPPORTED.value, reason_str, best_id, summary
+            elif sub_supp > 0 and sub_supp < len(subclaim_verdicts):
+                reason_str = (
+                    f"Compound claim partial support: {sub_supp}/{len(subclaim_verdicts)} subclaims "
+                    "supported by evidence passage."
+                )
+                return EvidenceVerdictStatus.PARTIALLY_SUPPORTED.value, reason_str, best_id, summary
+            elif sub_contra == len(subclaim_verdicts):
+                return EvidenceVerdictStatus.CONTRADICTED.value, "All subclaims contradicted by authoritative evidence.", best_id, summary
+
+        # 4. Strong Support Priority
         if support_count > 0:
             best_supp = max(support_items, key=lambda it: it.nli.entailment)
             summary = AggregationSummary(
@@ -220,25 +255,6 @@ class EvidenceAggregator:
                 f"(NLI entailment score: {best_supp.nli.entailment:.3f}, contradiction: {best_supp.nli.contradiction:.3f})."
             )
             return EvidenceVerdictStatus.SUPPORTED.value, reason_str, best_supp.passage_id, summary
-
-        # 4. User Correction #6: Strict PARTIALLY_SUPPORTED
-        # Only emitted when upstream representation explicitly declared COMPOUND claim with subclaims
-        if claim_atomicity == ClaimAtomicity.COMPOUND.value and subclaim_verdicts:
-            sub_supp = sum(1 for v in subclaim_verdicts if v == EvidenceVerdictStatus.SUPPORTED.value)
-            if sub_supp > 0 and sub_supp < len(subclaim_verdicts):
-                summary = AggregationSummary(
-                    support_count=support_count,
-                    contradiction_count=contradiction_count,
-                    neutral_count=neutral_count,
-                    unresolved_count=unresolved_count,
-                    conflict=False,
-                )
-                reason_str = (
-                    f"Compound claim partial support: {sub_supp}/{len(subclaim_verdicts)} subclaims "
-                    "supported by evidence passage."
-                )
-                best_id = evidence_items[0].passage_id
-                return EvidenceVerdictStatus.PARTIALLY_SUPPORTED.value, reason_str, best_id, summary
 
         # 5. Tangential / Insufficient Evidence -> NEUTRAL
         summary = AggregationSummary(

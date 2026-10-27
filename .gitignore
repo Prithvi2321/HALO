@@ -1,3 +1,4 @@
+# Python & Environments
 __pycache__/
 *.pyc
 .pytest_cache/
@@ -9,3 +10,26 @@ Dataset/halo-env/
 *.venv/
 .env
 *.env
+
+# Node & Frontend dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Exclude Datasets, Raw PDFs & CSVs
+data/
+Data/
+halo_datasets/
+Dataset/
+*.pdf
+*.jsonl
+*.csv
+
+# Exclude Experiments, Benchmark Output Runs & Large Indices
+experiments/
+*.pt
+*.npy
+*.pkl
+
+# Exclude Research Paper Drafts
+research_paper/

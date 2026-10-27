@@ -30,12 +30,14 @@ class FailClosedGovernor:
     """Enforces fail-closed quarantine and reconstructs trustworthy legal answers."""
 
     FAIL_CLOSED_NOTICE = (
-        "### [FAIL-CLOSED ADVISORY: UNVERIFIED LEGAL ASSERTION]\n"
-        "**Status**: QUARANTINED / REFUSED (Zero Authoritative Evidence)\n"
-        "The HALO Verification System evaluated the query against the authoritative legal corpora "
-        "(Companies Act, 2013 and Supreme Court Judgments) and determined that the asserted proposition "
-        "is unsupported, contradicted, or outside the corpus coverage.\n\n"
-        "To ensure zero ungrounded legal hallucination, this system refuses to endorse uncorroborated conclusions."
+        "### [COULD NOT VERIFY THIS CLAIM]\n"
+        "**Status**: REFUSED / UNVERIFIED\n"
+        "The system could not verify this claim against authoritative legal sources "
+        "(Companies Act, 2013 and Supreme Court Judgments). The proposition is unsupported, "
+        "contradicted by statute, or outside corpus coverage.\n\n"
+        "**Statutory Limitation Notice**: This tool is an automated informatics research aid and does not provide legal advice. "
+        "Statutory provisions are subject to subsequent MCA amendments, rules, circulars, and judicial precedents. "
+        "This output cannot be described as verified legal fact."
     )
 
     def __init__(self):
